@@ -1,0 +1,175 @@
+head	1.5;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.5
+date	2014.03.28.00.46.25;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2014.03.25.02.34.11;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2014.03.25.02.33.38;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2014.03.25.01.59.04;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2014.03.25.01.56.37;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@-
+@
+text
+@<TT>
+<P>
+<BR>Java Platform SE 7
+<BR><A href=
+http://docs.oracle.com/javase/7/docs/api/
+>
+http://docs.oracle.com/javase/7/docs/api/
+</A>
+<P>
+<BR>java.util.regex
+<BR><BIG>Interface MatchResult</BIG>
+<BR><A href=
+http://docs.oracle.com/javase/7/docs/api/java/util/regex/MatchResult.html
+>
+http://docs.oracle.com/javase/7/docs/api/java/util/regex/MatchResult.html
+</A>
+<P>
+<BR>java.util.regex
+<BR><BIG>Class Matcher</BIG>
+<BR><A href=
+http://docs.oracle.com/javase/7/docs/api/java/util/regex/Matcher.html
+>
+http://docs.oracle.com/javase/7/docs/api/java/util/regex/Matcher.html
+</A>
+<P>
+<BR>java.util.regex
+<BR><BIG>Class Pattern</BIG>
+<BR><A href=
+http://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html
+>
+http://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html
+</A>
+<P>
+<BR>java.util.regex
+<BR><BIG>Class PatternSyntaxException</BIG>
+<BR><A href=
+http://docs.oracle.com/javase/7/docs/api/java/util/regex/PatternSyntaxException.html
+>
+http://docs.oracle.com/javase/7/docs/api/java/util/regex/PatternSyntaxException.html
+</A>
+<P>
+<BR>$Id: README.html,v 1.4 2014-03-24 19:34:11-07 - - $
+@
+
+
+1.4
+log
+@-
+@
+text
+@a1 1
+
+a8 1
+
+a16 1
+
+a24 1
+
+a32 1
+
+a40 1
+
+d42 1
+a42 1
+<BR>$Id: README.html,v 1.3 2014-03-24 19:33:38-07 - - $
+@
+
+
+1.3
+log
+@-
+@
+text
+@d48 1
+a48 1
+$Id: README.html,v 1.2 2014-03-24 18:59:04-07 - - $
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+d3 1
+a11 1
+
+d13 1
+a13 1
+<BR>Interface MatchResult
+a20 1
+
+d22 1
+a22 1
+<BR>Class Matcher
+a29 1
+
+d31 1
+a31 1
+<BR>Class Pattern
+d39 7
+d47 2
+a48 1
+$Id: README.html,v 1.1 2014-03-24 18:56:37-07 - - $
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 8
+d11 3
+a13 3
+java.util.regex
+Interface MatchResult
+<A href=
+d21 3
+a23 3
+java.util.regex
+Class Matcher
+<A href=
+d31 3
+a33 3
+java.util.regex
+Class Pattern
+<A href=
+d41 1
+a41 1
+$Id: java.util.regex.html,v 1.1 2014-03-24 18:55:22-07 - - $
+@

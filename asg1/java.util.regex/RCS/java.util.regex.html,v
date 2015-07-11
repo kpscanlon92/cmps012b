@@ -1,0 +1,56 @@
+head	1.1;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.1
+date	2014.03.25.01.55.22;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@-
+@
+text
+@<P>
+
+java.util.regex
+Interface MatchResult
+<A href=
+http://docs.oracle.com/javase/7/docs/api/java/util/regex/MatchResult.html
+>
+http://docs.oracle.com/javase/7/docs/api/java/util/regex/MatchResult.html
+</A>
+
+<P>
+
+java.util.regex
+Class Matcher
+<A href=
+http://docs.oracle.com/javase/7/docs/api/java/util/regex/Matcher.html
+>
+http://docs.oracle.com/javase/7/docs/api/java/util/regex/Matcher.html
+</A>
+
+<P>
+
+java.util.regex
+Class Pattern
+<A href=
+http://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html
+>
+http://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html
+</A>
+
+<P>
+
+$Id$
+@

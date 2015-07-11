@@ -1,0 +1,33 @@
+head	1.1;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.1
+date	2014.03.25.01.34.56;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@-
+@
+text
+@
+menin aeide, thea, Peleiadeo Achileos
+oulomenen, he muri' Achaiois alge' etheke,
+pollas d' iphthimous psuchas Aidi proiapsen
+heroon, autous de heloria teuche kunessin
+oionoisi te pasi, Dios d' eteleieto boule,
+ex hou de ta prota diastetev erisante
+Atreides te anax andron kai dios Achilleus.
+
+$Id: iliad-1-1-7.data,v 1.1 2012-09-26 17:41:39-07 - - $
+@

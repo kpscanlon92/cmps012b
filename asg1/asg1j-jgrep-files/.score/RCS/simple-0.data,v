@@ -1,0 +1,29 @@
+head	1.1;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.1
+date	2014.03.25.01.34.56;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@-
+@
+text
+@
+line 2 has a foobar
+line 3 has a foo
+line 4 has a bar
+
+$Id: simple-0.data,v 1.2 2012-09-26 17:37:57-07 - - $
+@

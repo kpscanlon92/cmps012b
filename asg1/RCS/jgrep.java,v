@@ -1,0 +1,175 @@
+head	1.3;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.3
+date	2014.04.11.19.50.37;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2014.04.03.04.30.12;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2014.03.25.01.45.16;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@-
+@
+text
+@// $Id: jgrep.java,v 1.2 2014-04-02 21:30:12-07 - - $
+
+//
+// This program is a stub showing how to create a pattern from a
+// regular expression.  It does not handle options or files, and
+// has some other bugs which you must discover and fix.
+//
+
+import java.io.*;
+import java.util.Scanner;
+import java.util.regex.*;
+import static java.lang.System.*;
+
+class jgrep {
+
+   static void scanfile (Scanner input, String filename,
+                         Pattern pattern, options opts) {
+      int line_count = 0;
+      while (input.hasNextLine()) {
+         line_count++;
+         String line = input.nextLine();
+         boolean matches = pattern.matcher(line).find();
+         if(opts.reverse_match) {
+            matches = !matches;
+         }
+         if (matches) {
+            if(opts.filename_only) {
+               messages.exit_status = messages.EXIT_SUCCESS;
+               out.printf ("%s%n", filename);
+               break;
+            } else {
+               if(opts.number_lines) {
+                  messages.exit_status = messages.EXIT_SUCCESS;
+                  out.printf ("%s:%s:%s%n", filename, line_count, line);
+               } else {
+                  messages.exit_status = messages.EXIT_SUCCESS;
+                  out.printf ("%s:%s%n", filename, line);
+               }
+            }
+         }
+      }
+   }
+
+   public static void main (String[] args) {
+      options opts = new options (args);
+      try {
+         Pattern pattern;
+         if(opts.insensitive) {
+            pattern = Pattern.compile (opts.regex, 
+                                       Pattern.CASE_INSENSITIVE);
+         } else {
+            pattern = Pattern.compile (opts.regex);
+         }
+         if (opts.filenames.length == 0) {
+            scanfile (new Scanner (in), "<stdin>", pattern, opts);
+         }else {
+            for (int argi = 0; argi < opts.filenames.length; ++argi) {
+               try {
+                  String filename = opts.filenames[argi];
+                  Scanner input = new Scanner (new File (filename));
+                  scanfile (input, filename, pattern, opts);
+                  input.close();
+               } catch (IOException error) {
+                  messages.warn (error.getMessage());
+               }
+            }
+         }
+      } catch (PatternSyntaxException error) {
+         messages.die (error.getMessage());
+      }
+      exit (messages.exit_status);
+   }
+
+}
+
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: jgrep.java,v 1.1 2014-03-24 18:45:16-07 - - $
+d17 2
+a18 1
+                         Pattern pattern) {
+d20 1
+d22 4
+a25 1
+         boolean matches = pattern.matcher (line).find();
+d27 13
+a39 1
+            out.printf ("%s:%s%n", filename, line);
+d47 7
+a53 1
+         Pattern pattern = Pattern.compile (opts.regex);
+d55 1
+a55 1
+            scanfile (new Scanner (in), "<stdin>", pattern);
+d57 1
+a57 1
+            for (int argi = 1; argi < opts.filenames.length; ++argi) {
+d61 1
+a61 1
+                  scanfile (input, filename, pattern);
+d63 1
+a63 1
+               }catch (IOException error) {
+d68 1
+a68 1
+      }catch (PatternSyntaxException error) {
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: jgrep.java,v 1.4 2012-10-08 18:58:27-07 - - $
+a28 5
+      if (args.length == 0) {
+         err.printf ("Usage: %s [-ilnv] regex [filename...]%n",
+                     messages.program_name);
+         exit (messages.EXIT_FAILURE);
+      }
+d30 2
+a31 3
+         String regex = args[0];
+         Pattern pattern = Pattern.compile (regex);
+         if (args.length == 1) {
+d34 1
+a34 1
+            for (int argi = 1; argi < args.length; ++argi) {
+d36 1
+a36 1
+                  String filename = args[argi];
+@

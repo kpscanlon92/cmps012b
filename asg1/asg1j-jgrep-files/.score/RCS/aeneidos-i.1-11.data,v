@@ -1,0 +1,38 @@
+head	1.1;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.1
+date	2014.03.25.01.34.56;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@-
+@
+text
+@
+Arma virumque cano, Troiae qui primus ab oris
+Italiam, fato profugus, Laviniaque venit
+litora, multum ille et terris iactatus et alto
+vi superum saevae memorem Iunonis ob iram;
+multa quoque et bello passus, dum conderet urbem,
+inferretque deos Latio, genus unde Latinum,
+Albanique patres, atque altae moenia Romae.
+
+Musa, mihi causas memora, quo numine laeso,
+quidve dolens, regina deum tot volvere casus
+insignem pietate virum, tot adire labores
+impulerit.  Tantaene animis caelestibus irae? 
+
+$Id: aeneidos-i.1-11.data,v 1.2 2012-09-26 17:37:57-07 - - $
+@

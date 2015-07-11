@@ -1,0 +1,107 @@
+head	1.1;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.1
+date	2014.03.25.01.40.51;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@-
+@
+text
+@$Id: SCORE,v 1.1 2012-09-26 17:44:32-07 - - $
+
+Copy the files form the score/ directory into the student's
+directory, then run mk.build and mk.tests.
+
+*****************************************************************
+
+SOURCE CODE /30 points.
+
+    (3) If checksource complained, deduct:  1 pt if < 5
+	complaints, 2 pts if < 10 complaints, else 3.
+
+    (3) Reasonable identifiers?  Good indentation?
+
+    (3) Created the options class with the various fields.
+
+    (3) options constructor scans args and sets the boolean flags,
+        initializes the regex and filenames.
+
+    (3) Code to implement -i
+
+    (3) Code to implement -l
+
+    (3) Code to implement -n
+
+    (3) Code to implement -v
+
+    (3) Modified auxlib to handle the 3 different exit status
+        codes as per the assignment.
+
+    (3) other general considerations of code quality
+
+subtotal=
+
+
+*****************************************************************
+
+PROGRAM TESTING /30 points.
+
+    If the submitted code did not compile, 0 points for this part.
+
+    (4) gmake worked and correctly created the jar file
+        if not edit mk.tests for this student and change
+        PROG=jgrep to PROG="java jgrep"
+
+    (3) exit status codes were correct as per specs
+
+    (3) error messages went to stderr, output to stdout.
+
+    There are ten specific test cases.  Look at output files.
+
+    (2) runtest 0 $PROG
+
+    (2) runtest 1 $PROG foobar <simple-0.data
+
+    (2) runtest 2 $PROG foobar *.data
+
+    (2) runtest 3 $PROG 'foot|imag|ocean' *.data /dev/null
+
+    (2) runtest 4 $PROG -i FOOBAR *.data
+
+    (2) runtest 5 $PROG -l /no/such/file ' ' *.data
+
+    (2) runtest 6 $PROG -n foobar *.data
+
+    (2) runtest 7 $PROG -v foobar simple-0.data
+
+    (2) runtest 8 $PROG -vin FOOBAR *.data
+
+    (2) runtest 9 $PROG -vin FOOBAR *.data /.bashrc
+
+subtotal=
+
+*****************************************************************
+
+SUBTOTAL=
+min 1, max 60
+
+If pair programming, TOTALSCORE = SUBTOTAL - TOTAL1.
+If not, TOTALSCORE = SUBTOTAL.
+
+TOTALSCORE=
+min 1, max 60
+
+@

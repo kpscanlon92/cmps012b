@@ -1,0 +1,10 @@
+javac jgrep.java
+echo Main-class: jgrep >Manifest
+jar cvfm jgrep Manifest jgrep.class messages.class options.class
+added manifest
+adding: jgrep.class(in = 2274) (out= 1317)(deflated 42%)
+adding: messages.class(in = 1434) (out= 876)(deflated 38%)
+adding: options.class(in = 1372) (out= 881)(deflated 35%)
+rm Manifest
+chmod +x jgrep
+checksource jgrep.java messages.java options.java Makefile README

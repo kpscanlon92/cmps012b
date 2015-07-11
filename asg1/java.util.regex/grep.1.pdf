@@ -1,0 +1,7438 @@
+%PDF-1.4
+5 0 obj
+<</Length 6 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R8 10 Tf
+1 0 0 1 72 744 Tm
+391.06 Tw
+(GREP\(1\) GREP\(1\))Tj
+-0.219 Tc
+/R10 10.95 Tf
+36 TL
+(NA)'
+0 Tc
+15.593 0 Td
+(ME)Tj
+/R8 10 Tf
+20.407 -12 Td
+0 Tw
+[(grep, e)14.9841(grep, fgrep \255 print lines matching a pattern)]TJ
+/R10 10.95 Tf
+-36 -16.8 Td
+(SYNOPSIS)Tj
+/R10 10 Tf
+36 -12 Td
+[(gr)17.9846(ep)]TJ
+/R8 10 Tf
+21.7602 0 Td
+([)Tj
+/R12 10 Tf
+3.23008 0 Td
+(OPTIONS)Tj
+/R8 10 Tf
+41.6898 0 Td
+(])Tj
+-0.9 Tc
+/R12 10 Tf
+5.83008 0 Td
+-1.07 Tw
+(PA T)Tj
+0 Tc
+16.5102 0 Td
+(TERN)Tj
+/R8 10 Tf
+28.05 0 Td
+([)Tj
+/R12 10 Tf
+3.75 0 Td
+(FILE)Tj
+1.666 Tc
+/R8 10 Tf
+21.8398 0 Td
+(...)Tj
+0 Tc
+10.832 0 Td
+(])Tj
+/R10 10 Tf
+-153.492 -12 Td
+[(gr)17.9846(ep)]TJ
+/R8 10 Tf
+21.7602 0 Td
+([)Tj
+/R12 10 Tf
+3.23008 0 Td
+(OPTIONS)Tj
+2.5 Tc
+/R8 10 Tf
+41.6898 0 Td
+(][)Tj
+0 Tc
+/R10 10 Tf
+9.16016 0 Td
+<AD65>Tj
+-0.9 Tc
+/R12 10 Tf
+12.6398 0 Td
+(PA T)Tj
+0 Tc
+16.5102 0 Td
+(TERN)Tj
+/R8 10 Tf
+28.05 0 Td
+(|)Tj
+/R10 10 Tf
+4.5 0 Td
+<AD66>Tj
+/R12 10 Tf
+11.5301 0 Td
+(FILE)Tj
+2.5 Tc
+/R8 10 Tf
+21.8398 0 Td
+(][)Tj
+0 Tc
+/R12 10 Tf
+9.58008 0 Td
+(FILE)Tj
+1.666 Tc
+/R8 10 Tf
+21.8398 0 Td
+(...)Tj
+0 Tc
+10.832 0 Td
+(])Tj
+/R10 10.95 Tf
+-249.162 -16.8 Td
+(DESCRIPTION)Tj
+/R10 10 Tf
+36 -12 Td
+[(gr)17.9846(ep)]TJ
+/R8 10 Tf
+22.2332 0 Td
+0.473 Tw
+(searches the named input)Tj
+/R12 10 Tf
+105.202 0 Td
+(FILE)Tj
+2.973 Tc
+/R8 10 Tf
+21.8398 0 Td
+(s\()Tj
+0 Tc
+10.193 0 Td
+(or standard input if no \214les are named, or if a single h)Tj
+220.316 0 Td
+(yphen-minus)Tj
+-379.784 -12 Td
+<28>Tj
+/R10 10 Tf
+3.33008 0 Td
+<AD>Tj
+3.074 Tc
+/R8 10 Tf
+5.7 0 Td
+[(\)i)307.401(sg)]TJ
+-0.25 Tc
+21.148 0 Td
+-2.15 Tw
+(iv e)Tj
+3.074 Tc
+11.8199 0 Td
+[(na)307.394<738C>]TJ
+0 Tc
+25.0379 0 Td
+0.575 Tw
+(le name\) for lines containing a match to the gi)Tj
+-0.15 Tc
+189.065 0 Td
+(ve)Tj
+0 Tc
+9.28984 0 Td
+(n)Tj
+-0.9 Tc
+/R12 10 Tf
+8.075 0 Td
+-1.07 Tw
+(PA T)Tj
+0 Tc
+16.5102 0 Td
+(TERN)Tj
+5.575 Tc
+/R8 10 Tf
+25.55 0 Td
+(.B)Tj
+3.075 Tc
+14.7449 0 Td
+(yd)Tj
+0 Tc
+13.075 0 Td
+[(ef)10.0098(ault,)]TJ
+/R10 10 Tf
+28.2449 0 Td
+[(gr)17.9834(ep)]TJ
+/R8 10 Tf
+22.3352 0 Td
+0.575 Tw
+(prints the)Tj
+-393.926 -12 Td
+0 Tw
+(matching lines.)Tj
+16.8 TL
+0.721 Tw
+(In addition, tw)'
+3.221 Tc
+59.952 0 Td
+(ov)Tj
+0 Tc
+12.9711 0 Td
+(ariant programs)Tj
+/R10 10 Tf
+66.982 0 Td
+[(egr)18(ep)]TJ
+/R8 10 Tf
+26.9211 0 Td
+(and)Tj
+/R10 10 Tf
+17.6609 0 Td
+[(fgr)18.0151(ep)]TJ
+/R8 10 Tf
+25.8109 0 Td
+(are a)Tj
+-0.25 Tc
+19.6711 0 Td
+(va)Tj
+0 Tc
+9.18984 0 Td
+(ilable.)Tj
+/R10 10 Tf
+30.441 0 Td
+[(egr)18(ep)]TJ
+/R8 10 Tf
+26.9199 0 Td
+0.72 Tw
+(is the same as)Tj
+/R10 10 Tf
+60.65 0 Td
+0 Tw
+[(gr)17.9834(ep \255E)]TJ
+/R8 10 Tf
+34.1301 0 Td
+(.)Tj
+/R10 10 Tf
+8.21992 0 Td
+[(fgr)18.0176(ep)]TJ
+/R8 10 Tf
+25.8098 0 Td
+(is)Tj
+-425.33 -12 Td
+1.212 Tw
+(the same as)Tj
+/R10 10 Tf
+52.2371 0 Td
+0 Tw
+[(gr)17.9846(ep \255F)]TJ
+6.213 Tc
+/R8 10 Tf
+33.5703 0 Td
+(.D)Tj
+0 Tc
+15.9328 0 Td
+1.213 Tw
+(irect in)Tj
+-0.2 Tc
+28.8629 0 Td
+(vo)Tj
+0 Tc
+9.8 0 Td
+(cation as either)Tj
+/R10 10 Tf
+66.6789 0 Td
+[(egr)18(ep)]TJ
+/R8 10 Tf
+27.4129 0 Td
+(or)Tj
+/R10 10 Tf
+12.043 0 Td
+[(fgr)18.0151(ep)]TJ
+/R8 10 Tf
+26.3027 0 Td
+[(is deprecated, b)20.0146(ut is pro)15.0146(vided to allo)]TJ
+151.938 0 Td
+(w)Tj
+-424.779 -12 Td
+0 Tw
+(historical applications that rely on them to run unmodi\214ed.)Tj
+/R10 10.95 Tf
+-36 -16.8 Td
+(OPTIONS)Tj
+/R10 10 Tf
+15 -12 Td
+[(Generic Pr)18(ogram Inf)25(ormation)]TJ
+0.833 Tc
+21 -12 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(help)Tj
+/R8 10 Tf
+23.7672 0 Td
+1.855 Tw
+(Print a usage message brie\215y summarizing these command-line options and the b)Tj
+346.005 0 Td
+(ug-reporting)Tj
+-346.005 -12 Td
+0 Tw
+[(address, then e)15(xit.)]TJ
+/R10 10 Tf
+-36 -16.8 Td
+<AD56>Tj
+/R8 10 Tf
+12.9199 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+-0.1 Tc
+12.2328 0 Td
+(ve)Tj
+0 Tc
+9.33984 0 Td
+(rsion)Tj
+/R8 10 Tf
+-3.49258 -12 Td
+0.971 Tw
+[(Print the v)14.989(ersion number of)]TJ
+/R10 10 Tf
+117.195 0 Td
+[(gr)17.9834(ep)]TJ
+/R8 10 Tf
+22.7312 0 Td
+(to the standard output stream.)Tj
+128.456 0 Td
+0.972 Tw
+[(This v)15.0049(ersion number should be)]TJ
+-268.382 -12 Td
+0 Tw
+[(included in all b)20.0073(ug reports \(see belo)25.0146(w\).)]TJ
+/R10 10 Tf
+-57 -16.8 Td
+(Matcher Selection)Tj
+21 -12 Td
+<AD45>Tj
+/R8 10 Tf
+12.3699 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+[(extended\255r)18.0151(egexp)]TJ
+/R8 10 Tf
+6.39727 -12 Td
+(Interpret)Tj
+-0.9 Tc
+/R12 10 Tf
+38.8199 0 Td
+-1.07 Tw
+(PA T)Tj
+0 Tc
+16.5102 0 Td
+(TERN)Tj
+/R8 10 Tf
+29.9398 0 Td
+1.89 Tw
+[(as an e)15.0146(xtended re)15.0073(gular e)14.9927(xpression \(ERE, see belo)]TJ
+209.7 0 Td
+4.39 Tw
+(w\). \()Tj
+/R10 10 Tf
+23.2699 0 Td
+<AD45>Tj
+/R8 10 Tf
+16.7602 0 Td
+1.89 Tw
+(is speci\214ed by)Tj
+/R8 9 Tf
+-335 -12 Td
+(POSIX)Tj
+/R8 10 Tf
+26.0012 0 Td
+(.\))Tj
+/R10 10 Tf
+-62.0012 -16.8 Td
+<AD46>Tj
+/R8 10 Tf
+11.8102 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(\214xed\255strings)Tj
+/R8 10 Tf
+6.95703 -12 Td
+(Interpret)Tj
+-0.9 Tc
+/R12 10 Tf
+37.034 0 Td
+-1.07 Tw
+(PA T)Tj
+0 Tc
+16.5102 0 Td
+(TERN)Tj
+/R8 10 Tf
+28.1539 0 Td
+0.104 Tw
+[(as a list of \214x)15.0146(ed strings, separated by ne)24.9829(wlines, an)]TJ
+2.604 Tc
+200.636 0 Td
+[(yo)260.41(fw)]TJ
+0 Tc
+25.7578 0 Td
+(hich is to be matched.)Tj
+-308.092 -12 Td
+<28>Tj
+/R10 10 Tf
+3.33008 0 Td
+<AD46>Tj
+/R8 10 Tf
+14.3102 0 Td
+0 Tw
+(is speci\214ed by)Tj
+/R8 9 Tf
+59.7199 0 Td
+(POSIX)Tj
+/R8 10 Tf
+26.0012 0 Td
+(.\))Tj
+/R10 10 Tf
+-139.361 -16.8 Td
+<AD47>Tj
+/R8 10 Tf
+13.4801 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+[(basic\255r)17.9919(egexp)]TJ
+/R8 10 Tf
+5.28711 -12 Td
+(Interpret)Tj
+-0.9 Tc
+/R12 10 Tf
+36.9301 0 Td
+-1.07 Tw
+(PA T)Tj
+0 Tc
+16.5102 0 Td
+(TERN)Tj
+/R8 10 Tf
+28.05 0 Td
+0 Tw
+[(as a basic re)15.0146(gular e)15.0146(xpression \(BRE, see belo)]TJ
+176.63 0 Td
+2.5 Tw
+(w\). This)Tj
+38.3301 0 Td
+0 Tw
+[(is the def)9.98535(ault.)]TJ
+/R10 10 Tf
+-332.45 -16.8 Td
+<AD50>Tj
+/R8 10 Tf
+11.8102 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+[(perl\255r)17.9919(egexp)]TJ
+/R8 10 Tf
+6.95703 -12 Td
+(Interpret)Tj
+-0.9 Tc
+/R12 10 Tf
+38.0051 0 Td
+-1.07 Tw
+(PA T)Tj
+0 Tc
+16.5102 0 Td
+(TERN)Tj
+/R8 10 Tf
+29.125 0 Td
+1.075 Tw
+(as a Perl re)Tj
+47.225 0 Td
+1.074 Tw
+(gular e)Tj
+28.4141 0 Td
+3.574 Tw
+(xpression. This)Tj
+68.2578 0 Td
+1.074 Tw
+[(is highly e)15.0049(xperimental and)]TJ
+/R10 10 Tf
+113.026 0 Td
+(gr)Tj
+9.26016 0 Td
+(ep \255P)Tj
+/R8 10 Tf
+28.9578 0 Td
+(may)Tj
+-0.1 Tc
+-378.781 -12 Td
+(wa)Tj
+0 Tc
+11.5602 0 Td
+0 Tw
+(rn of unimplemented features.)Tj
+/R10 10 Tf
+-68.5602 -16.8 Td
+[(Matching Contr)17.9919(ol)]TJ
+21 -12 Td
+<AD65>Tj
+-0.9 Tc
+/R12 10 Tf
+12.6398 0 Td
+-1.07 Tw
+(PA T)Tj
+0 Tc
+16.5102 0 Td
+(TERN)Tj
+/R8 10 Tf
+25.55 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+-0.18 Tc
+12.2328 0 Td
+(re)Tj
+0 Tc
+8.7 0 Td
+(gexp=)Tj
+-0.9 Tc
+/R12 10 Tf
+25.7 0 Td
+(PA T)Tj
+0 Tc
+16.5102 0 Td
+(TERN)Tj
+/R8 10 Tf
+-86.843 -12 Td
+(Use)Tj
+-0.9 Tc
+/R12 10 Tf
+18.3512 0 Td
+(PA T)Tj
+0 Tc
+16.5102 0 Td
+(TERN)Tj
+/R8 10 Tf
+28.3512 0 Td
+0.301 Tw
+[(as the pattern.)-530.105(This can be used to specify multiple search patterns, or to protect a)]TJ
+-63.2125 -12 Td
+0 Tw
+[(pattern be)14.9841(ginning with a h)4.99268(yphen \()]TJ
+/R10 10 Tf
+135.06 0 Td
+<AD>Tj
+/R8 10 Tf
+5.7 0 Td
+2.5 Tw
+(\). \()Tj
+/R10 10 Tf
+14.1602 0 Td
+<AD65>Tj
+/R8 10 Tf
+12.6398 0 Td
+0 Tw
+(is speci\214ed by)Tj
+/R8 9 Tf
+59.7199 0 Td
+(POSIX)Tj
+/R8 10 Tf
+26.0012 0 Td
+(.\))Tj
+/R10 10 Tf
+-289.281 -16.8 Td
+<AD66>Tj
+/R12 10 Tf
+11.5301 0 Td
+(FILE)Tj
+/R8 10 Tf
+21.8398 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(\214le=)Tj
+/R12 10 Tf
+18.9 0 Td
+(FILE)Tj
+/R8 10 Tf
+-33.5027 -12 Td
+1.613 Tw
+(Obtain patterns from)Tj
+/R12 10 Tf
+90.6578 0 Td
+(FILE)Tj
+4.112 Tc
+/R8 10 Tf
+21.8398 0 Td
+(,o)Tj
+0 Tc
+11.6121 0 Td
+1.612 Tw
+[(ne per line.)-661.208(The empty \214le contains zero patterns, and therefore)]TJ
+-124.11 -12 Td
+0 Tw
+[(matches nothing.)-500<28>]TJ
+/R10 10 Tf
+76.6602 0 Td
+<AD66>Tj
+/R8 10 Tf
+11.5301 0 Td
+(is speci\214ed by)Tj
+/R8 9 Tf
+59.7199 0 Td
+(POSIX)Tj
+/R8 10 Tf
+26.0012 0 Td
+(.\))Tj
+/R10 10 Tf
+-209.911 -16.8 Td
+<AD69>Tj
+/R8 10 Tf
+8.48008 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+[(ignor)18(e\255case)]TJ
+/R8 10 Tf
+10.2871 -12 Td
+(Ignore case distinctions in both the)Tj
+-0.9 Tc
+/R12 10 Tf
+142.21 0 Td
+-1.07 Tw
+(PA T)Tj
+0 Tc
+16.5102 0 Td
+(TERN)Tj
+/R8 10 Tf
+28.05 0 Td
+0 Tw
+[(and the input \214les.)-500<28>]TJ
+/R10 10 Tf
+82.2199 0 Td
+<AD69>Tj
+/R8 10 Tf
+10.9801 0 Td
+(is speci\214ed by)Tj
+/R8 9 Tf
+59.7199 0 Td
+(POSIX)Tj
+/R8 10 Tf
+26.0012 0 Td
+(.\))Tj
+/R10 10 Tf
+-401.691 -16.8 Td
+<AD76>Tj
+/R8 10 Tf
+10.7 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(in)Tj
+-0.1 Tc
+7.93984 0 Td
+(ve)Tj
+0 Tc
+9.33984 0 Td
+(rt\255match)Tj
+/R8 10 Tf
+-9.2125 -12 Td
+(In)Tj
+-0.15 Tc
+7.93008 0 Td
+(ve)Tj
+0 Tc
+9.28984 0 Td
+[(rt the sense of matching, to select non-matching lines.)-500<28>]TJ
+/R10 10 Tf
+223.86 0 Td
+<AD76>Tj
+/R8 10 Tf
+13.2 0 Td
+(is speci\214ed by)Tj
+/R8 9 Tf
+59.7199 0 Td
+(POSIX)Tj
+/R8 10 Tf
+26.0012 0 Td
+(.\))Tj
+/R10 10 Tf
+-376.001 -16.8 Td
+<AD77>Tj
+/R8 10 Tf
+12.9199 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+-0.1 Tc
+12.2328 0 Td
+(wo)Tj
+0 Tc
+12.1199 0 Td
+[(rd\255r)17.9846(egexp)]TJ
+/R8 10 Tf
+-6.27266 -12 Td
+0.834 Tw
+(Select only those lines containing matches that form whole w)Tj
+253.216 0 Td
+3.335 Tw
+(ords. The)Tj
+44.4398 0 Td
+0.835 Tw
+(test is that the matching)Tj
+-297.656 -12 Td
+2.087 Tw
+[(substring must either be at the be)14.9976(ginning of the line, or preceded by a non-w)]TJ
+334.198 0 Td
+2.086 Tw
+(ord constituent)Tj
+-334.198 -12 Td
+(character)Tj
+5.349 Tc
+36.0898 0 Td
+(.S)Tj
+0 Tc
+13.409 0 Td
+(imilarly)Tj
+2.849 Tc
+31.0199 0 Td
+[(,i)284.91(tm)]TJ
+0 Tc
+21.5379 0 Td
+0.349 Tw
+(ust be either at the end of the line or follo)Tj
+168.77 0 Td
+0.35 Tw
+[(wed by a non-w)10(ord constituent)]TJ
+-270.827 -12 Td
+(character)Tj
+5 Tc
+36.0898 0 Td
+(.W)Tj
+0 Tc
+16.1398 0 Td
+0 Tw
+(ord-constituent characters are letters, digits, and the underscore.)Tj
+-124.23 -64.8 Td
+[(User Commands)-13484.5(GNU grep 2.6.3)]TJ
+463 0 Td
+(1)Tj
+ET
+Q
+Q
+endstream
+endobj
+6 0 obj
+9817
+endobj
+17 0 obj
+<</Length 18 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R8 10 Tf
+1 0 0 1 72 744 Tm
+391.06 Tw
+(GREP\(1\) GREP\(1\))Tj
+/R10 10 Tf
+36 -36 Td
+<AD78>Tj
+/R8 10 Tf
+10.7 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+[(line\255r)18.0078(egexp)]TJ
+/R8 10 Tf
+8.06719 -12 Td
+0 Tw
+[(Select only those matches that e)15.0146(xactly match the whole line.)-500<28>]TJ
+/R10 10 Tf
+249.26 0 Td
+<AD78>Tj
+/R8 10 Tf
+13.2 0 Td
+(is speci\214ed by)Tj
+/R8 9 Tf
+59.7199 0 Td
+(POSIX)Tj
+/R8 10 Tf
+26.0012 0 Td
+(.\))Tj
+/R10 10 Tf
+-384.181 -16.8 Td
+<AD79>Tj
+/R8 10 Tf
+36 0 Td
+[(Obsolete synon)15.0146(ym for)]TJ
+/R10 10 Tf
+91.2297 0 Td
+<AD69>Tj
+/R8 10 Tf
+8.48008 0 Td
+(.)Tj
+/R10 10 Tf
+-156.71 -16.8 Td
+[(General Output Contr)17.9919(ol)]TJ
+21 -12 Td
+<AD63>Tj
+/R8 10 Tf
+10.1398 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(count)Tj
+/R8 10 Tf
+8.62734 -12 Td
+0.723 Tw
+(Suppress normal output; instead print a count of matching lines for each input \214le.)Tj
+-0.4 Tc
+344.541 0 Td
+(Wi)Tj
+0 Tc
+11.8199 0 Td
+0.722 Tw
+(th the)Tj
+/R10 10 Tf
+26.4441 0 Td
+<AD76>Tj
+/R8 10 Tf
+10.7 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+-393.505 -12 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(in)Tj
+-0.1 Tc
+7.93984 0 Td
+(ve)Tj
+0 Tc
+9.33984 0 Td
+(rt\255match)Tj
+/R8 10 Tf
+42.6301 0 Td
+0 Tw
+[(option \(see belo)24.9927(w\), count non-matching lines.)-500<28>]TJ
+/R10 10 Tf
+191.67 0 Td
+<AD63>Tj
+/R8 10 Tf
+12.6398 0 Td
+(is speci\214ed by)Tj
+/R8 9 Tf
+59.7199 0 Td
+(POSIX)Tj
+/R8 10 Tf
+26.0012 0 Td
+(.\))Tj
+0.833 Tc
+/R10 10 Tf
+-398.174 -16.8 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(color)Tj
+/R8 10 Tf
+21.6602 0 Td
+([)Tj
+/R10 10 Tf
+3.33008 0 Td
+(=)Tj
+/R12 10 Tf
+5.7 0 Td
+(WHEN)Tj
+/R8 10 Tf
+28.3301 0 Td
+(],)Tj
+0.833 Tc
+/R10 10 Tf
+8.33008 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(colour)Tj
+/R8 10 Tf
+27.2199 0 Td
+([)Tj
+/R10 10 Tf
+3.33008 0 Td
+(=)Tj
+/R12 10 Tf
+5.7 0 Td
+(WHEN)Tj
+/R8 10 Tf
+28.3301 0 Td
+(])Tj
+-120.396 -12 Td
+0.121 Tw
+(Surround the matched \(non-empty\) strings, matching lines, conte)Tj
+260.947 0 Td
+0.122 Tw
+(xt lines, \214le names, line numbers,)Tj
+-260.947 -12 Td
+2.07 Tw
+[(byte of)25.0073(fsets, and separators \(for \214elds and groups of conte)14.9927(xt lines\) with escape sequences to)]TJ
+12 TL
+2.661 Tw
+(display them in color on the terminal.)'
+173.897 0 Td
+2.662 Tw
+[(The colors are de\214ned by the en)40.0146(vironment v)]TJ
+194.894 0 Td
+(ariable)Tj
+/R10 10 Tf
+-368.791 -12 Td
+(GREP_COLORS)Tj
+5.764 Tc
+/R8 10 Tf
+75.0102 0 Td
+(.T)Tj
+0 Tc
+14.3738 0 Td
+0.764 Tw
+(he deprecated en)Tj
+68.318 0 Td
+0.763 Tw
+(vironment v)Tj
+49.123 0 Td
+(ariable)Tj
+/R10 10 Tf
+30.473 0 Td
+(GREP_COLOR)Tj
+/R8 10 Tf
+72.7129 0 Td
+(is still supported, b)Tj
+78.209 0 Td
+(ut)Tj
+-388.22 -12 Td
+0 Tw
+(its setting does not ha)Tj
+-0.15 Tc
+86.4699 0 Td
+0.3 Tw
+(ve p)Tj
+0 Tc
+16.7898 0 Td
+[(riority)65(.)]TJ
+/R12 10 Tf
+31.6398 0 Td
+(WHEN)Tj
+/R8 10 Tf
+31.9301 0 Td
+(is)Tj
+/R10 10 Tf
+9.16992 0 Td
+(ne)Tj
+-0.1 Tc
+9.85 0 Td
+(ve)Tj
+0 Tc
+9.33984 0 Td
+(r)Tj
+/R8 10 Tf
+4.43984 0 Td
+(,)Tj
+/R10 10 Tf
+5 0 Td
+(always)Tj
+2.5 Tc
+/R8 10 Tf
+28.8898 0 Td
+(,o)Tj
+0 Tc
+10 0 Td
+(r)Tj
+/R10 10 Tf
+5.83008 0 Td
+(auto)Tj
+/R8 10 Tf
+18.8898 0 Td
+(.)Tj
+/R10 10 Tf
+-304.239 -16.8 Td
+<AD4C>Tj
+/R8 10 Tf
+12.3699 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(\214les\255without\255match)Tj
+/R8 10 Tf
+6.39727 -12 Td
+1.353 Tw
+(Suppress normal output; instead print the name of each input \214le from which no output w)Tj
+378.225 0 Td
+(ould)Tj
+-378.225 -12 Td
+0 Tw
+(normally ha)Tj
+-0.15 Tc
+47.85 0 Td
+0.3 Tw
+(ve b)Tj
+0 Tc
+16.7898 0 Td
+0 Tw
+[(een printed.)-500(The scanning will stop on the \214rst match.)]TJ
+/R10 10 Tf
+-100.64 -16.8 Td
+<AD6C>Tj
+/R8 10 Tf
+8.48008 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(\214les\255with\255matches)Tj
+/R8 10 Tf
+10.2871 -12 Td
+2.342 Tw
+(Suppress normal output; instead print the name of each input \214le from which output w)Tj
+378.218 0 Td
+(ould)Tj
+-378.218 -12 Td
+0.171 Tw
+(normally ha)Tj
+-0.15 Tc
+48.0211 0 Td
+0.471 Tw
+(ve b)Tj
+0 Tc
+16.9609 0 Td
+0.171 Tw
+[(een printed.)-517.095(The scanning will stop on the \214rst match.)]TJ
+224.47 0 Td
+<28>Tj
+/R10 10 Tf
+3.33008 0 Td
+<AD6C>Tj
+/R8 10 Tf
+11.1512 0 Td
+0.172 Tw
+(is speci\214ed by)Tj
+/R8 9 Tf
+60.2359 0 Td
+(POSIX)Tj
+/R8 10 Tf
+26.0012 0 Td
+(.\))Tj
+/R10 10 Tf
+-426.17 -16.8 Td
+<AD6D>Tj
+/R12 10 Tf
+16.5301 0 Td
+(NUM)Tj
+/R8 10 Tf
+23.1199 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(max\255count=)Tj
+/R12 10 Tf
+54.3199 0 Td
+(NUM)Tj
+/R8 10 Tf
+-75.2027 -12 Td
+0.99 Tw
+(Stop reading a \214le after)Tj
+/R12 10 Tf
+102.02 0 Td
+(NUM)Tj
+/R8 10 Tf
+26.6102 0 Td
+(matching lines.)Tj
+68.0891 0 Td
+0.989 Tw
+[(If the input is standard input from a re)14.9902(gular \214le,)]TJ
+-196.719 -12 Td
+(and)Tj
+/R12 10 Tf
+17.7371 0 Td
+(NUM)Tj
+/R8 10 Tf
+25.7172 0 Td
+0.097 Tw
+(matching lines are output,)Tj
+/R10 10 Tf
+106.768 0 Td
+[(gr)17.9834(ep)]TJ
+/R8 10 Tf
+21.857 0 Td
+0.098 Tw
+(ensures that the standard input is positioned to just after)Tj
+-172.079 -12 Td
+1.64 Tw
+(the last matching line before e)Tj
+128.86 0 Td
+1.639 Tw
+(xiting, re)Tj
+-0.05 Tc
+37.5988 0 Td
+(ga)Tj
+0 Tc
+9.38984 0 Td
+[(rdless of the presence of trailing conte)15.0195(xt lines.)]TJ
+202.372 0 Td
+(This)Tj
+-378.221 -12 Td
+1.68 Tw
+(enables a calling process to resume a search.)Tj
+196.721 0 Td
+(When)Tj
+/R10 10 Tf
+28.0609 0 Td
+[(gr)17.9834(ep)]TJ
+/R8 10 Tf
+23.441 0 Td
+1.681 Tw
+(stops after)Tj
+/R12 10 Tf
+47.9422 0 Td
+(NUM)Tj
+/R8 10 Tf
+27.3012 0 Td
+(matching lines, it)Tj
+-323.466 -12 Td
+1.248 Tw
+(outputs an)Tj
+3.748 Tc
+42.4879 0 Td
+(yt)Tj
+0 Tc
+11.5281 0 Td
+[(railing conte)15.0024(xt lines.)]TJ
+90.534 0 Td
+1.247 Tw
+(When the)Tj
+/R10 10 Tf
+43.5941 0 Td
+<AD63>Tj
+/R8 10 Tf
+13.8871 0 Td
+(or)Tj
+0.833 Tc
+/R10 10 Tf
+12.077 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(count)Tj
+/R8 10 Tf
+27.6371 0 Td
+(option is also used,)Tj
+/R10 10 Tf
+84.1578 0 Td
+[(gr)17.9834(ep)]TJ
+/R8 10 Tf
+23.007 0 Td
+(does not)Tj
+-361.143 -12 Td
+1.331 Tw
+(output a count greater than)Tj
+/R12 10 Tf
+116.356 0 Td
+(NUM)Tj
+6.332 Tc
+/R8 10 Tf
+23.1199 0 Td
+(.W)Tj
+0 Tc
+18.2719 0 Td
+1.332 Tw
+(hen the)Tj
+/R10 10 Tf
+34.3238 0 Td
+<AD76>Tj
+/R8 10 Tf
+14.532 0 Td
+(or)Tj
+0.833 Tc
+/R10 10 Tf
+12.1621 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(in)Tj
+-0.1 Tc
+7.93984 0 Td
+(ve)Tj
+0 Tc
+9.33984 0 Td
+(rt\255match)Tj
+/R8 10 Tf
+43.9621 0 Td
+(option is also used,)Tj
+/R10 10 Tf
+84.498 0 Td
+[(gr)17.9834(ep)]TJ
+/R8 10 Tf
+-376.738 -12 Td
+0 Tw
+(stops after outputting)Tj
+/R12 10 Tf
+88.2 0 Td
+(NUM)Tj
+/R8 10 Tf
+25.6199 0 Td
+(non-matching lines.)Tj
+/R10 10 Tf
+-149.82 -16.8 Td
+<AD6F>Tj
+/R8 10 Tf
+10.7 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(only\255matching)Tj
+/R8 10 Tf
+8.06719 -12 Td
+1.161 Tw
+(Print only the matched \(non-empty\) parts of a matching line, with each such part on a separate)Tj
+0 Tw
+(output line.)'
+/R10 10 Tf
+-36 -16.8 Td
+<AD71>Tj
+/R8 10 Tf
+11.2602 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(quiet)Tj
+/R8 10 Tf
+21.6699 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(silent)Tj
+/R8 10 Tf
+-31.3957 -12 Td
+0.29 Tw
+[(Quiet; do not write an)14.9927(ything to standard output.)]TJ
+197.721 0 Td
+0.291 Tw
+(Exit immediately with zero status if an)Tj
+2.791 Tc
+156.586 0 Td
+(ym)Tj
+0 Tc
+15.5711 0 Td
+(atch is)Tj
+-369.878 -12 Td
+0.4 Tw
+(found, e)Tj
+-0.15 Tc
+32.9199 0 Td
+(ve)Tj
+2.9 Tc
+9.28984 0 Td
+[(ni)289.993(fa)290.007(ne)]TJ
+0 Tc
+33.6898 0 Td
+[(rror w)9.98535(as detected.)-540(Also see the)]TJ
+/R10 10 Tf
+130.04 0 Td
+<AD73>Tj
+/R8 10 Tf
+12.4898 0 Td
+(or)Tj
+0.833 Tc
+/R10 10 Tf
+11.2301 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(no\255messages)Tj
+/R8 10 Tf
+58.0398 0 Td
+2.899 Tw
+(option. \()Tj
+/R10 10 Tf
+36.7891 0 Td
+<AD71>Tj
+/R8 10 Tf
+14.159 0 Td
+0.399 Tw
+(is speci\214ed)Tj
+-350.88 -12 Td
+(by)Tj
+/R8 9 Tf
+12.5 0 Td
+(POSIX)Tj
+/R8 10 Tf
+26.0012 0 Td
+(.\))Tj
+/R10 10 Tf
+-74.5012 -16.8 Td
+<AD73>Tj
+/R8 10 Tf
+9.58984 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(no\255messages)Tj
+/R8 10 Tf
+9.17734 -12 Td
+0.188 Tw
+[(Suppress error messages about none)15.0122(xistent or unreadable \214les.)-518.818(Portability note: unlik)]TJ
+344.93 0 Td
+(e)Tj
+/R8 9 Tf
+7.12812 0 Td
+(GNU)Tj
+/R10 10 Tf
+22.182 0 Td
+[(gr)17.9834(ep)]TJ
+/R8 10 Tf
+19.2602 0 Td
+(,)Tj
+-393.5 -12 Td
+0.577 Tw
+(7th Edition Unix)Tj
+/R10 10 Tf
+71.4609 0 Td
+[(gr)17.9834(ep)]TJ
+/R8 10 Tf
+22.3371 0 Td
+(did not conform to)Tj
+/R8 9 Tf
+79.5281 0 Td
+(POSIX)Tj
+3.077 Tc
+/R8 10 Tf
+26.0012 0 Td
+(,b)Tj
+0 Tc
+10.577 0 Td
+(ecause it lack)Tj
+54.9238 0 Td
+(ed)Tj
+/R10 10 Tf
+12.5172 0 Td
+<AD71>Tj
+/R8 10 Tf
+14.3371 0 Td
+(and its)Tj
+/R10 10 Tf
+30.0441 0 Td
+<AD73>Tj
+/R8 10 Tf
+12.6672 0 Td
+(option beha)Tj
+-0.15 Tc
+47.3172 0 Td
+(ve)Tj
+0 Tc
+9.28984 0 Td
+(d)Tj
+-391.001 -12 Td
+[(lik)9.98413(e)]TJ
+/R8 9 Tf
+18.4281 0 Td
+(GNU)Tj
+/R10 10 Tf
+23.0219 0 Td
+[(gr)17.9846(ep)]TJ
+-0.55 Tc
+/R8 10 Tf
+19.2602 0 Td
+('s)Tj
+0 Tc
+/R10 10 Tf
+10.1988 0 Td
+<AD71>Tj
+/R8 10 Tf
+14.7891 0 Td
+(option.)Tj
+/R8 9 Tf
+34.0891 0 Td
+(USG)Tj
+/R8 10 Tf
+18 0 Td
+(-style)Tj
+/R10 10 Tf
+25.7488 0 Td
+[(gr)17.9834(ep)]TJ
+/R8 10 Tf
+22.7891 0 Td
+1.029 Tw
+(also lack)Tj
+36.1988 0 Td
+(ed)Tj
+/R10 10 Tf
+12.9691 0 Td
+<AD71>Tj
+-0.2 Tc
+/R8 10 Tf
+14.7891 0 Td
+(bu)Tj
+3.529 Tc
+9.8 0 Td
+(ti)Tj
+0 Tc
+9.08906 0 Td
+(ts)Tj
+/R10 10 Tf
+10.1988 0 Td
+<AD73>Tj
+/R8 10 Tf
+13.1191 0 Td
+(option beha)Tj
+-0.15 Tc
+47.7691 0 Td
+(ve)Tj
+3.529 Tc
+9.28984 0 Td
+(dl)Tj
+0 Tc
+11.309 0 Td
+[(ik)9.99023(e)]TJ
+/R8 9 Tf
+15.6492 0 Td
+(GNU)Tj
+/R10 10 Tf
+-376.506 -12 Td
+[(gr)17.9846(ep)]TJ
+5.997 Tc
+/R8 10 Tf
+19.2602 0 Td
+(.P)Tj
+0 Tc
+14.057 0 Td
+0.997 Tw
+(ortable shell scripts should a)Tj
+-0.2 Tc
+117.668 0 Td
+(vo)Tj
+0 Tc
+9.8 0 Td
+(id both)Tj
+/R10 10 Tf
+32.5539 0 Td
+<AD71>Tj
+/R8 10 Tf
+14.757 0 Td
+(and)Tj
+/R10 10 Tf
+17.9371 0 Td
+<AD73>Tj
+/R8 10 Tf
+13.0871 0 Td
+0.996 Tw
+(and should redirect standard and error)Tj
+-239.12 -12 Td
+0 Tw
+(output to)Tj
+/R10 10 Tf
+38.3398 0 Td
+[(/de)14.9927(v/null)]TJ
+/R8 10 Tf
+39.5902 0 Td
+2.5 Tw
+(instead. \()Tj
+/R10 10 Tf
+39.1602 0 Td
+<AD73>Tj
+/R8 10 Tf
+12.0898 0 Td
+0 Tw
+(is speci\214ed by)Tj
+/R8 9 Tf
+59.7199 0 Td
+(POSIX)Tj
+/R8 10 Tf
+26.0012 0 Td
+(.\))Tj
+/R10 10 Tf
+-271.901 -16.8 Td
+[(Output Line Pr)18.0151(e\214x Contr)18.0078(ol)]TJ
+21 -12 Td
+<AD62>Tj
+/R8 10 Tf
+11.2602 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(byte\255offset)Tj
+/R8 10 Tf
+7.50703 -12 Td
+4.65 Tw
+(Print the 0-based byte of)Tj
+116.67 0 Td
+4.651 Tw
+(fset within the input \214le before each line of output.)Tj
+254.82 0 Td
+(If)Tj
+/R10 10 Tf
+13.8109 0 Td
+<AD6F>Tj
+/R8 10 Tf
+-385.301 -12 Td
+<28>Tj
+0.833 Tc
+/R10 10 Tf
+3.33008 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(only\255matching)Tj
+2.5 Tc
+/R8 10 Tf
+64.0398 0 Td
+[(\)i)249.985(ss)]TJ
+0 Tc
+18.8902 0 Td
+0 Tw
+[(peci\214ed, print the of)25(fset of the matching part itself.)]TJ
+/R10 10 Tf
+-134.493 -16.8 Td
+<AD48>Tj
+/R8 10 Tf
+13.4801 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(with\255\214lename)Tj
+/R8 10 Tf
+5.28711 -12 Td
+[(Print the \214le name for each match.)-500(This is the def)10.0146(ault when there is more than one \214le to search.)]TJ
+/R10 10 Tf
+-36 -16.8 Td
+<AD68>Tj
+/R8 10 Tf
+11.2602 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(no\255\214lename)Tj
+/R8 10 Tf
+7.50703 -12 Td
+0.557 Tw
+[(Suppress the pre\214xing of \214le names on output.)-555.701(This is the def)]TJ
+254.627 0 Td
+0.556 Tw
+(ault when there is only one \214le \(or)Tj
+-254.627 -12 Td
+0 Tw
+(only standard input\) to search.)Tj
+-72 -50.4 Td
+[(User Commands)-13484.5(GNU grep 2.6.3)]TJ
+463 0 Td
+(2)Tj
+ET
+Q
+Q
+endstream
+endobj
+18 0 obj
+11258
+endobj
+22 0 obj
+<</Length 23 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R8 10 Tf
+1 0 0 1 72 744 Tm
+391.06 Tw
+(GREP\(1\) GREP\(1\))Tj
+0.833 Tc
+/R10 10 Tf
+36 -36 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(label=)Tj
+/R12 10 Tf
+26.8398 0 Td
+(LABEL)Tj
+/R8 10 Tf
+-3.07266 -12 Td
+1.661 Tw
+(Display input actually coming from standard input as input coming from \214le)Tj
+/R12 10 Tf
+328.252 0 Td
+(LABEL)Tj
+6.661 Tc
+/R8 10 Tf
+29.9801 0 Td
+(.T)Tj
+0 Tc
+15.2711 0 Td
+(his is)Tj
+-373.503 -12 Td
+0.512 Tw
+(especially useful when implementing tools lik)Tj
+186.62 0 Td
+(e)Tj
+/R10 10 Tf
+7.45195 0 Td
+[(zgr)18(ep)]TJ
+3.011 Tc
+/R8 10 Tf
+23.7 0 Td
+(,e)Tj
+0 Tc
+9.95117 0 Td
+(.g.,)Tj
+/R10 10 Tf
+15.5109 0 Td
+0.511 Tw
+[(gzip -cd f)24.9902(oo.gz | gr)18.0127(ep --label=f)25.0049(oo -H)]TJ
+-243.234 -12 Td
+(something)Tj
+5 Tc
+/R8 10 Tf
+43.8898 0 Td
+(.S)Tj
+0 Tc
+13.0602 0 Td
+0 Tw
+(ee also the)Tj
+/R10 10 Tf
+44.7102 0 Td
+<AD48>Tj
+/R8 10 Tf
+15.9801 0 Td
+(option.)Tj
+/R10 10 Tf
+-153.64 -16.8 Td
+<AD6E>Tj
+/R8 10 Tf
+11.2602 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(line\255number)Tj
+/R8 10 Tf
+7.50703 -12 Td
+0.917 Tw
+(Pre\214x each line of output with the 1-based line number within its input \214le.)Tj
+318.938 0 Td
+<28>Tj
+/R10 10 Tf
+3.33008 0 Td
+<AD6E>Tj
+/R8 10 Tf
+14.677 0 Td
+(is speci\214ed by)Tj
+/R8 9 Tf
+-336.945 -12 Td
+(POSIX)Tj
+/R8 10 Tf
+26.0012 0 Td
+(.\))Tj
+/R10 10 Tf
+-62.0012 -16.8 Td
+<AD54>Tj
+/R8 10 Tf
+12.3699 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(initial\255tab)Tj
+/R8 10 Tf
+6.39727 -12 Td
+(Mak)Tj
+2.971 Tc
+18.2301 0 Td
+(es)Tj
+0 Tc
+11.3012 0 Td
+0.471 Tw
+(ure that the \214rst character of actual line content lies on a tab stop, so that the alignment of)Tj
+-29.5312 -12 Td
+0.044 Tw
+[(tabs looks normal.)-504.419(This is useful with options that pre\214x their output to the actual content:)]TJ
+/R10 10 Tf
+366.255 0 Td
+<AD48>Tj
+/R8 10 Tf
+13.4801 0 Td
+(,)Tj
+/R10 10 Tf
+2.5 0 Td
+<AD6E>Tj
+/R8 10 Tf
+11.2602 0 Td
+(,)Tj
+-393.495 -12 Td
+(and)Tj
+/R10 10 Tf
+17.6898 0 Td
+<AD62>Tj
+5.75 Tc
+/R8 10 Tf
+11.2602 0 Td
+(.I)Tj
+3.25 Tc
+11.5801 0 Td
+(no)Tj
+0 Tc
+13.25 0 Td
+0.75 Tw
+(rder to impro)Tj
+-0.15 Tc
+54.1199 0 Td
+1.05 Tw
+(ve t)Tj
+0 Tc
+15.3199 0 Td
+0.749 Tw
+(he probability that lines from a single \214le will all start at the same)Tj
+-123.22 -12 Td
+0.827 Tw
+(column, this also causes the line number and byte of)Tj
+216.613 0 Td
+0.828 Tw
+(fset \(if present\) to be printed in a minimum)Tj
+-216.613 -12 Td
+0 Tw
+(size \214eld width.)Tj
+/R10 10 Tf
+-36 -16.8 Td
+<AD75>Tj
+/R8 10 Tf
+11.2602 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(unix\255byte\255offsets)Tj
+/R8 10 Tf
+7.50703 -12 Td
+0.446 Tw
+(Report Unix-style byte of)Tj
+103.578 0 Td
+2.946 Tw
+(fsets. This)Tj
+47.002 0 Td
+0.446 Tw
+(switch causes)Tj
+/R10 10 Tf
+58.102 0 Td
+[(gr)17.9834(ep)]TJ
+/R8 10 Tf
+22.2063 0 Td
+[(to report byte of)24.9951(fsets as if the \214le were a)]TJ
+-230.888 -12 Td
+1.412 Tw
+[(Unix-style te)15.0049(xt \214le, i.e., with CR characters stripped of)]TJ
+230.316 0 Td
+3.912 Tw
+(f. This)Tj
+33.934 0 Td
+1.412 Tw
+(will produce results identical to)Tj
+-264.25 -12 Td
+(running)Tj
+/R10 10 Tf
+33.6648 0 Td
+[(gr)17.9846(ep)]TJ
+/R8 10 Tf
+21.8152 0 Td
+0.055 Tw
+(on a Unix machine.)Tj
+83.5391 0 Td
+0.054 Tw
+[(This option has no ef)25.0146(fect unless)]TJ
+/R10 10 Tf
+129.504 0 Td
+<AD62>Tj
+/R8 10 Tf
+13.8141 0 Td
+(option is also used; it has no)Tj
+-282.337 -12 Td
+0 Tw
+[(ef)25.0073(fect on platforms other than)]TJ
+/R8 9 Tf
+121.11 0 Td
+(MS-DOS)Tj
+/R8 10 Tf
+36.502 0 Td
+(and)Tj
+/R8 9 Tf
+16.9398 0 Td
+(MS)Tj
+/R8 10 Tf
+13.0051 0 Td
+[(-W)40.0073(indo)24.9927(ws.)]TJ
+/R10 10 Tf
+-223.557 -16.8 Td
+<AD5A>Tj
+/R8 10 Tf
+12.3699 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(null)Tj
+/R8 10 Tf
+6.39727 -12 Td
+0.351 Tw
+(Output a zero byte \(the)Tj
+/R8 9 Tf
+96.4551 0 Td
+(ASCII)Tj
+/R10 10 Tf
+26.35 0 Td
+(NUL)Tj
+/R8 10 Tf
+23.9609 0 Td
+(character\) instead of the character that normally follo)Tj
+215.197 0 Td
+0.352 Tw
+(ws a \214le)Tj
+-361.963 -12 Td
+4.724 Tw
+(name. F)Tj
+36.7941 0 Td
+2.224 Tw
+(or e)Tj
+17.3441 0 Td
+(xample,)Tj
+/R10 10 Tf
+36.6629 0 Td
+(gr)Tj
+9.26016 0 Td
+2.223 Tw
+(ep \255lZ)Tj
+/R8 10 Tf
+34.5961 0 Td
+(outputs a zero byte after each \214le name instead of the usual)Tj
+-134.657 -12 Td
+(ne)Tj
+9.18984 0 Td
+5.885 Tw
+(wline. This)Tj
+56.7699 0 Td
+3.385 Tw
+[(option mak)10.0146(es the output unambiguous, e)]TJ
+-0.15 Tc
+178.795 0 Td
+(ve)Tj
+5.885 Tc
+9.28984 0 Td
+(ni)Tj
+5.886 Tc
+13.6648 0 Td
+(nt)Tj
+0 Tc
+13.666 0 Td
+3.386 Tw
+(he presence of \214le names)Tj
+-281.375 -12 Td
+1.29 Tw
+(containing unusual characters lik)Tj
+3.789 Tc
+135.69 0 Td
+(en)Tj
+-0.25 Tc
+13.2289 0 Td
+(ew)Tj
+0 Tc
+11.4102 0 Td
+3.789 Tw
+(lines. This)Tj
+49.248 0 Td
+1.289 Tw
+(option can be used with commands lik)Tj
+161.514 0 Td
+(e)Tj
+/R10 10 Tf
+8.22891 0 Td
+<8C6E64>Tj
+-379.32 -12 Td
+(\255print0)Tj
+/R8 10 Tf
+32.3699 0 Td
+(,)Tj
+/R10 10 Tf
+5.99805 0 Td
+0.998 Tw
+(perl \2550)Tj
+/R8 10 Tf
+31.418 0 Td
+(,)Tj
+/R10 10 Tf
+5.99805 0 Td
+(sort \255z)Tj
+3.499 Tc
+/R8 10 Tf
+30.298 0 Td
+(,a)Tj
+0 Tc
+10.4391 0 Td
+(nd)Tj
+/R10 10 Tf
+13.4988 0 Td
+(xar)Tj
+14.3398 0 Td
+0.999 Tw
+(gs \2550)Tj
+/R8 10 Tf
+26.5879 0 Td
+(to process arbitrary \214le names, e)Tj
+-0.15 Tc
+134.715 0 Td
+(ve)Tj
+3.499 Tc
+9.28984 0 Td
+(nt)Tj
+0 Tc
+11.2789 0 Td
+(hose that contain)Tj
+-326.231 -12 Td
+0 Tw
+[(ne)25.0159(wline characters.)]TJ
+/R10 10 Tf
+-57 -16.8 Td
+[(Context Line Contr)18(ol)]TJ
+21 -12 Td
+<AD41>Tj
+/R12 10 Tf
+15.4199 0 Td
+(NUM)Tj
+/R8 10 Tf
+23.1199 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(after\255context=)Tj
+/R12 10 Tf
+63.7398 0 Td
+(NUM)Tj
+/R8 10 Tf
+-83.5125 -12 Td
+(Print)Tj
+/R12 10 Tf
+25.359 0 Td
+(NUM)Tj
+/R8 10 Tf
+28.3289 0 Td
+2.709 Tw
+[(lines of trailing conte)15.0122(xt after matching lines.)]TJ
+201.292 0 Td
+2.708 Tw
+(Places a line containing a group)Tj
+-254.98 -12 Td
+0.395 Tw
+(separator \()Tj
+0.833 Tc
+/R10 10 Tf
+42.875 0 Td
+<ADAD>Tj
+2.895 Tc
+/R8 10 Tf
+12.2328 0 Td
+(\)b)Tj
+0 Tc
+11.225 0 Td
+(etween contiguous groups of matches.)Tj
+-0.4 Tc
+160.005 0 Td
+(Wi)Tj
+0 Tc
+11.8199 0 Td
+(th the)Tj
+/R10 10 Tf
+25.791 0 Td
+<AD6F>Tj
+/R8 10 Tf
+13.5961 0 Td
+(or)Tj
+0.833 Tc
+/R10 10 Tf
+11.2262 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(only\255matching)Tj
+/R8 10 Tf
+66.9359 0 Td
+(option,)Tj
+-367.94 -12 Td
+0 Tw
+[(this has no ef)25(fect and a w)10.0146(arning is gi)]TJ
+-0.15 Tc
+146.04 0 Td
+(ve)Tj
+0 Tc
+9.28984 0 Td
+(n.)Tj
+/R10 10 Tf
+-191.33 -16.8 Td
+<AD42>Tj
+/R12 10 Tf
+14.8699 0 Td
+(NUM)Tj
+/R8 10 Tf
+23.1199 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+[(bef)24.9927(or)17.9846(e\255context=)]TJ
+/R12 10 Tf
+69.9801 0 Td
+(NUM)Tj
+/R8 10 Tf
+-89.2027 -12 Td
+(Print)Tj
+/R12 10 Tf
+24.8039 0 Td
+(NUM)Tj
+/R8 10 Tf
+27.7738 0 Td
+2.154 Tw
+[(lines of leading conte)14.9976(xt before matching lines.)]TJ
+205.177 0 Td
+2.153 Tw
+(Places a line containing a group)Tj
+-257.755 -12 Td
+0.395 Tw
+(separator \()Tj
+0.833 Tc
+/R10 10 Tf
+42.875 0 Td
+<ADAD>Tj
+2.895 Tc
+/R8 10 Tf
+12.2328 0 Td
+(\)b)Tj
+0 Tc
+11.225 0 Td
+(etween contiguous groups of matches.)Tj
+-0.4 Tc
+160.005 0 Td
+(Wi)Tj
+0 Tc
+11.8199 0 Td
+(th the)Tj
+/R10 10 Tf
+25.791 0 Td
+<AD6F>Tj
+/R8 10 Tf
+13.5961 0 Td
+(or)Tj
+0.833 Tc
+/R10 10 Tf
+11.2262 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(only\255matching)Tj
+/R8 10 Tf
+66.9359 0 Td
+(option,)Tj
+-367.94 -12 Td
+0 Tw
+[(this has no ef)25(fect and a w)10.0146(arning is gi)]TJ
+-0.15 Tc
+146.04 0 Td
+(ve)Tj
+0 Tc
+9.28984 0 Td
+(n.)Tj
+/R10 10 Tf
+-191.33 -16.8 Td
+<AD43>Tj
+/R12 10 Tf
+15.4199 0 Td
+(NUM)Tj
+/R8 10 Tf
+23.1199 0 Td
+(,)Tj
+/R10 10 Tf
+5 0 Td
+<AD>Tj
+/R12 10 Tf
+6.4 0 Td
+(NUM)Tj
+/R8 10 Tf
+23.1199 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(context=)Tj
+/R12 10 Tf
+37.5 0 Td
+(NUM)Tj
+/R8 10 Tf
+-91.7926 -12 Td
+(Print)Tj
+/R12 10 Tf
+24.566 0 Td
+(NUM)Tj
+/R8 10 Tf
+27.5359 0 Td
+1.916 Tw
+(lines of output conte)Tj
+87.5379 0 Td
+4.416 Tw
+(xt. Places)Tj
+4.415 Tc
+47.1621 0 Td
+(al)Tj
+0 Tc
+11.6352 0 Td
+1.915 Tw
+(ine containing a group separator \()Tj
+0.833 Tc
+/R10 10 Tf
+144.265 0 Td
+<ADAD>Tj
+4.415 Tc
+/R8 10 Tf
+12.2328 0 Td
+(\)b)Tj
+0 Tc
+12.7449 0 Td
+(etween)Tj
+-367.68 -12 Td
+0.462 Tw
+(contiguous groups of matches.)Tj
+-0.4 Tc
+129.058 0 Td
+(Wi)Tj
+0 Tc
+11.8199 0 Td
+(th the)Tj
+/R10 10 Tf
+25.9238 0 Td
+<AD6F>Tj
+/R8 10 Tf
+13.6621 0 Td
+(or)Tj
+0.833 Tc
+/R10 10 Tf
+11.2922 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(only\255matching)Tj
+/R8 10 Tf
+67.0031 0 Td
+0.463 Tw
+[(option, this has no ef)24.9902(fect and a)]TJ
+-0.1 Tc
+-270.992 -12 Td
+(wa)Tj
+0 Tc
+11.5602 0 Td
+0 Tw
+(rning is gi)Tj
+-0.15 Tc
+40.3102 0 Td
+(ve)Tj
+0 Tc
+9.28984 0 Td
+(n.)Tj
+/R10 10 Tf
+-118.16 -16.8 Td
+[(File and Dir)18.0151(ectory Selection)]TJ
+21 -12 Td
+<AD61>Tj
+/R8 10 Tf
+10.7 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(text)Tj
+/R8 10 Tf
+8.06719 -12 Td
+[(Process a binary \214le as if it were te)15.0073(xt; this is equi)]TJ
+-0.25 Tc
+195.97 0 Td
+(va)Tj
+0 Tc
+9.18984 0 Td
+(lent to the)Tj
+0.833 Tc
+/R10 10 Tf
+42.5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(binary\255\214les=text)Tj
+/R8 10 Tf
+75.0102 0 Td
+(option.)Tj
+0.833 Tc
+/R10 10 Tf
+-370.903 -16.8 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(binary\255\214les=)Tj
+/R12 10 Tf
+56.3199 0 Td
+(TYPE)Tj
+/R8 10 Tf
+-32.5527 -12 Td
+0.801 Tw
+(If the \214rst fe)Tj
+3.301 Tc
+51.8629 0 Td
+(wb)Tj
+0 Tc
+15.5211 0 Td
+(ytes of a \214le indicate that the \214le contains binary data, assume that the \214le is of)Tj
+-67.384 -12 Td
+(type)Tj
+/R12 10 Tf
+21.0238 0 Td
+(TYPE)Tj
+6.304 Tc
+/R8 10 Tf
+24.0699 0 Td
+(.B)Tj
+3.804 Tc
+15.4738 0 Td
+(yd)Tj
+0 Tc
+13.8039 0 Td
+[(ef)10.0073(ault,)]TJ
+/R12 10 Tf
+28.884 0 Td
+(TYPE)Tj
+/R8 10 Tf
+27.8738 0 Td
+(is)Tj
+/R10 10 Tf
+10.4738 0 Td
+(binary)Tj
+3.804 Tc
+/R8 10 Tf
+28.3398 0 Td
+(,a)Tj
+0 Tc
+10.7441 0 Td
+(nd)Tj
+/R10 10 Tf
+13.8039 0 Td
+[(gr)17.9834(ep)]TJ
+/R8 10 Tf
+23.0641 0 Td
+1.305 Tw
+(normally outputs either a one-line message)Tj
+-217.555 -12 Td
+0.432 Tw
+(saying that a binary \214le matches, or no message if there is no match.)Tj
+284.618 0 Td
+(If)Tj
+/R12 10 Tf
+9.50195 0 Td
+(TYPE)Tj
+/R8 10 Tf
+27.002 0 Td
+(is)Tj
+/R10 10 Tf
+9.60195 0 Td
+(without-match)Tj
+/R8 10 Tf
+62.7699 0 Td
+(,)Tj
+/R10 10 Tf
+-393.494 -12 Td
+[(gr)17.9846(ep)]TJ
+/R8 10 Tf
+21.8371 0 Td
+0.077 Tw
+(assumes that a binary \214le does not match; this is equi)Tj
+-0.25 Tc
+213.29 0 Td
+(va)Tj
+0 Tc
+9.18984 0 Td
+(lent to the)Tj
+/R10 10 Tf
+42.732 0 Td
+<AD49>Tj
+/R8 10 Tf
+12.168 0 Td
+2.578 Tw
+(option. If)Tj
+/R12 10 Tf
+42.2859 0 Td
+(TYPE)Tj
+/R8 10 Tf
+26.648 0 Td
+(is)Tj
+/R10 10 Tf
+9.24805 0 Td
+(text)Tj
+/R8 10 Tf
+16.1 0 Td
+(,)Tj
+/R10 10 Tf
+-393.499 -12 Td
+[(gr)17.9846(ep)]TJ
+/R8 10 Tf
+22.5043 0 Td
+0.744 Tw
+(processes a binary \214le as if it were te)Tj
+153.542 0 Td
+0.743 Tw
+(xt; this is equi)Tj
+-0.25 Tc
+58.3789 0 Td
+(va)Tj
+0 Tc
+9.18984 0 Td
+(lent to the)Tj
+/R10 10 Tf
+44.7289 0 Td
+<AD61>Tj
+/R8 10 Tf
+13.943 0 Td
+(option.)Tj
+-0.92 Tc
+/R12 10 Tf
+33.8031 0 Td
+(Wa)Tj
+0 Tc
+12.4102 0 Td
+(rning:)Tj
+/R10 10 Tf
+28.243 0 Td
+[(gr)17.9834(ep)]TJ
+0.833 Tc
+-376.743 -12 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(binary\255\214les=text)Tj
+/R8 10 Tf
+75.459 0 Td
+0.449 Tw
+(might output binary g)Tj
+88.2469 0 Td
+0.45 Tw
+(arbage, which can ha)Tj
+-0.15 Tc
+85.5602 0 Td
+0.75 Tw
+(ve n)Tj
+0 Tc
+17.2398 0 Td
+0.45 Tw
+[(asty side ef)25.0146(fects if the output)]TJ
+-278.739 -12 Td
+0 Tw
+(is a terminal and if the terminal dri)Tj
+-0.15 Tc
+138.9 0 Td
+(ve)Tj
+2.5 Tc
+9.28984 0 Td
+(ri)Tj
+0 Tc
+8.61016 0 Td
+(nterprets some of it as commands.)Tj
+-228.8 -64.8 Td
+[(User Commands)-13484.5(GNU grep 2.6.3)]TJ
+463 0 Td
+(3)Tj
+ET
+Q
+Q
+endstream
+endobj
+23 0 obj
+11213
+endobj
+27 0 obj
+<</Length 28 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R8 10 Tf
+1 0 0 1 72 744 Tm
+391.06 Tw
+(GREP\(1\) GREP\(1\))Tj
+/R10 10 Tf
+36 -36 Td
+<AD44>Tj
+-0.3 Tc
+/R12 10 Tf
+15.4199 0 Td
+(AC)Tj
+0 Tc
+12.4801 0 Td
+(TION)Tj
+/R8 10 Tf
+23.8801 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+[(de)15(vices=)]TJ
+-0.3 Tc
+/R12 10 Tf
+36.1 0 Td
+(AC)Tj
+0 Tc
+12.4801 0 Td
+(TION)Tj
+/R8 10 Tf
+-81.593 -12 Td
+1.181 Tw
+[(If an input \214le is a de)24.9829(vice, FIFO or sock)10.0195(et, use)]TJ
+-0.3 Tc
+/R12 10 Tf
+200.671 0 Td
+(AC)Tj
+0 Tc
+12.4801 0 Td
+(TION)Tj
+/R8 10 Tf
+27.5609 0 Td
+[(to process it.)-618.105(By def)]TJ
+87.3941 0 Td
+(ault,)Tj
+-0.3 Tc
+/R12 10 Tf
+21.1809 0 Td
+(AC)Tj
+0 Tc
+12.4801 0 Td
+(TION)Tj
+/R8 10 Tf
+27.5609 0 Td
+(is)Tj
+-0.18 Tc
+/R10 10 Tf
+-389.328 -12 Td
+(re)Tj
+0 Tc
+8.7 0 Td
+(ad)Tj
+3.48 Tc
+/R8 10 Tf
+10.5602 0 Td
+(,w)Tj
+0 Tc
+13.2 0 Td
+0.98 Tw
+[(hich means that de)25(vices are read just as if the)]TJ
+3.481 Tc
+189.21 0 Td
+(yw)Tj
+0 Tc
+15.7012 0 Td
+0.981 Tw
+(ere ordinary \214les.)Tj
+78.2031 0 Td
+(If)Tj
+-0.3 Tc
+/R12 10 Tf
+10.141 0 Td
+(AC)Tj
+0 Tc
+12.4801 0 Td
+(TION)Tj
+/R8 10 Tf
+27.3609 0 Td
+(is)Tj
+/R10 10 Tf
+10.1512 0 Td
+(skip)Tj
+/R8 10 Tf
+17.7898 0 Td
+(,)Tj
+-393.498 -12 Td
+0 Tw
+[(de)25.0159(vices are silently skipped.)]TJ
+/R10 10 Tf
+-36 -16.8 Td
+<AD64>Tj
+-0.3 Tc
+/R12 10 Tf
+13.7602 0 Td
+(AC)Tj
+0 Tc
+12.4801 0 Td
+(TION)Tj
+/R8 10 Tf
+23.8801 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+[(dir)18(ectories=)]TJ
+-0.3 Tc
+/R12 10 Tf
+51.0602 0 Td
+(AC)Tj
+0 Tc
+12.4801 0 Td
+(TION)Tj
+/R8 10 Tf
+-94.8934 -12 Td
+1.524 Tw
+(If an input \214le is a directory)Tj
+4.024 Tc
+120.144 0 Td
+(,u)Tj
+0 Tc
+11.5238 0 Td
+(se)Tj
+-0.3 Tc
+/R12 10 Tf
+12.3539 0 Td
+(AC)Tj
+0 Tc
+12.4801 0 Td
+(TION)Tj
+/R8 10 Tf
+27.9039 0 Td
+[(to process it.)-652.395(By def)]TJ
+88.766 0 Td
+(ault,)Tj
+-0.3 Tc
+/R12 10 Tf
+21.5238 0 Td
+(AC)Tj
+0 Tc
+12.4801 0 Td
+(TION)Tj
+/R8 10 Tf
+27.9039 0 Td
+(is)Tj
+-0.18 Tc
+/R10 10 Tf
+10.6941 0 Td
+(re)Tj
+0 Tc
+8.7 0 Td
+(ad)Tj
+4.024 Tc
+/R8 10 Tf
+10.5602 0 Td
+(,w)Tj
+0 Tc
+13.7441 0 Td
+(hich)Tj
+-378.778 -12 Td
+0.668 Tw
+(means that directories are read just as if the)Tj
+3.168 Tc
+178.484 0 Td
+(yw)Tj
+0 Tc
+15.3879 0 Td
+(ere ordinary \214les.)Tj
+77.2641 0 Td
+(If)Tj
+-0.3 Tc
+/R12 10 Tf
+9.82812 0 Td
+(AC)Tj
+0 Tc
+12.4801 0 Td
+(TION)Tj
+/R8 10 Tf
+27.048 0 Td
+(is)Tj
+/R10 10 Tf
+9.83906 0 Td
+(skip)Tj
+3.169 Tc
+/R8 10 Tf
+17.7898 0 Td
+(,d)Tj
+0 Tc
+10.6691 0 Td
+(irectories)Tj
+-358.79 -12 Td
+0.478 Tw
+(are silently skipped.)Tj
+86.7039 0 Td
+(If)Tj
+-0.3 Tc
+/R12 10 Tf
+9.63789 0 Td
+(AC)Tj
+0 Tc
+12.4801 0 Td
+(TION)Tj
+/R8 10 Tf
+26.8578 0 Td
+(is)Tj
+-0.18 Tc
+/R10 10 Tf
+9.64805 0 Td
+(re)Tj
+0 Tc
+8.7 0 Td
+(curse)Tj
+/R8 10 Tf
+22.7699 0 Td
+(,)Tj
+/R10 10 Tf
+5.47813 0 Td
+[(gr)17.9834(ep)]TJ
+/R8 10 Tf
+22.2383 0 Td
+(reads all \214les under each directory)Tj
+2.977 Tc
+139.2 0 Td
+(,r)Tj
+0 Tc
+8.80703 0 Td
+(ecursi)Tj
+-0.15 Tc
+23.6301 0 Td
+(ve)Tj
+0 Tc
+9.28984 0 Td
+(ly;)Tj
+-385.441 -12 Td
+0 Tw
+(this is equi)Tj
+-0.25 Tc
+43.0898 0 Td
+(va)Tj
+0 Tc
+9.18984 0 Td
+(lent to the)Tj
+/R10 10 Tf
+42.5 0 Td
+<AD72>Tj
+/R8 10 Tf
+12.6398 0 Td
+(option.)Tj
+0.833 Tc
+/R10 10 Tf
+-143.42 -16.8 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(exclude=)Tj
+/R12 10 Tf
+37.9 0 Td
+(GLOB)Tj
+/R8 10 Tf
+-14.1328 -12 Td
+0.454 Tw
+(Skip \214les whose base name matches)Tj
+/R12 10 Tf
+150.464 0 Td
+(GLOB)Tj
+/R8 10 Tf
+29.334 0 Td
+(\(using wildcard matching\).)Tj
+2.955 Tc
+114.402 0 Td
+<418C>Tj
+0 Tc
+15.7352 0 Td
+0.455 Tw
+(le-name glob can use)Tj
+/R10 10 Tf
+-309.935 -12 Td
+(*)Tj
+/R8 10 Tf
+5 0 Td
+(,)Tj
+/R10 10 Tf
+5 0 Td
+(?)Tj
+2.5 Tc
+/R8 10 Tf
+5 0 Td
+(,a)Tj
+0 Tc
+9.43984 0 Td
+(nd)Tj
+/R10 10 Tf
+12.5 0 Td
+([)Tj
+/R8 10 Tf
+3.33008 0 Td
+(...)Tj
+/R10 10 Tf
+7.5 0 Td
+(])Tj
+/R8 10 Tf
+8.33008 0 Td
+0 Tw
+(as wildcards, and)Tj
+/R10 10 Tf
+71.65 0 Td
+<5C>Tj
+/R8 10 Tf
+5.28008 0 Td
+[(to quote a wildcard or backslash character literally)65.0146(.)]TJ
+0.833 Tc
+/R10 10 Tf
+-169.03 -16.8 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+[(exclude-fr)18.0151(om=)]TJ
+/R12 10 Tf
+62.5898 0 Td
+(FILE)Tj
+/R8 10 Tf
+-38.8227 -12 Td
+0.838 Tw
+(Skip \214les whose base name matches an)Tj
+3.337 Tc
+162.078 0 Td
+[(yo)333.689(ft)]TJ
+0 Tc
+22.784 0 Td
+0.837 Tw
+(he \214le-name globs read from)Tj
+/R12 10 Tf
+122.635 0 Td
+(FILE)Tj
+/R8 10 Tf
+25.177 0 Td
+(\(using wildcard)Tj
+-332.674 -12 Td
+0 Tw
+(matching as described under)Tj
+0.833 Tc
+/R10 10 Tf
+116.64 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(exclude)Tj
+/R8 10 Tf
+32.2199 0 Td
+(\).)Tj
+0.833 Tc
+/R10 10 Tf
+-197.093 -16.8 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(exclude-dir=)Tj
+/R12 10 Tf
+54.6102 0 Td
+(DIR)Tj
+/R8 10 Tf
+-30.843 -12 Td
+(Exclude directories matching the pattern)Tj
+/R12 10 Tf
+165.27 0 Td
+(DIR)Tj
+/R8 10 Tf
+19.4301 0 Td
+(from recursi)Tj
+-0.15 Tc
+48.9 0 Td
+0.3 Tw
+(ve s)Tj
+0 Tc
+15.6801 0 Td
+(earches.)Tj
+/R10 10 Tf
+-285.28 -16.8 Td
+<AD49>Tj
+/R8 10 Tf
+36 0 Td
+4.296 Tw
+(Process a binary \214le as if it did not contain matching data; this is equi)Tj
+-0.25 Tc
+338.214 0 Td
+(va)Tj
+0 Tc
+9.18984 0 Td
+4.297 Tw
+(lent to the)Tj
+0.833 Tc
+/R10 10 Tf
+-347.404 -12 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(binary\255\214les=without-match)Tj
+/R8 10 Tf
+121.68 0 Td
+(option.)Tj
+0.833 Tc
+/R10 10 Tf
+-169.913 -16.8 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(include=)Tj
+/R12 10 Tf
+36.8 0 Td
+(GLOB)Tj
+/R8 10 Tf
+-13.0328 -12 Td
+0.854 Tw
+(Search only \214les whose base name matches)Tj
+/R12 10 Tf
+182.868 0 Td
+(GLOB)Tj
+/R8 10 Tf
+29.734 0 Td
+(\(using wildcard matching as described under)Tj
+0.833 Tc
+/R10 10 Tf
+-212.602 -12 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(exclude)Tj
+/R8 10 Tf
+32.2199 0 Td
+(\).)Tj
+/R10 10 Tf
+-80.4527 -16.8 Td
+<AD52>Tj
+/R8 10 Tf
+12.9199 0 Td
+(,)Tj
+/R10 10 Tf
+5 0 Td
+<AD72>Tj
+/R8 10 Tf
+10.1398 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+-0.18 Tc
+12.2328 0 Td
+(re)Tj
+0 Tc
+8.7 0 Td
+(cursi)Tj
+-0.1 Tc
+21.0102 0 Td
+(ve)Tj
+0 Tc
+/R8 10 Tf
+-39.0027 -12 Td
+0 Tw
+(Read all \214les under each directory)Tj
+2.5 Tc
+136.26 0 Td
+(,r)Tj
+0 Tc
+8.33008 0 Td
+(ecursi)Tj
+-0.15 Tc
+23.6301 0 Td
+(ve)Tj
+0 Tc
+9.28984 0 Td
+(ly; this is equi)Tj
+-0.25 Tc
+56.15 0 Td
+(va)Tj
+0 Tc
+9.18984 0 Td
+(lent to the)Tj
+/R10 10 Tf
+42.5 0 Td
+[(\255d r)18.0078(ecurse)]TJ
+/R8 10 Tf
+47.7301 0 Td
+(option.)Tj
+/R10 10 Tf
+-390.08 -16.8 Td
+(Other Options)Tj
+0.833 Tc
+21 -12 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+[(line\255b)20.0073(uffer)18.0078(ed)]TJ
+/R8 10 Tf
+23.7672 -12 Td
+[(Use line b)20(uf)24.9927(fering on output.)-500(This can cause a performance penalty)64.9902(.)]TJ
+0.833 Tc
+/R10 10 Tf
+-36 -16.8 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(mmap)Tj
+/R8 10 Tf
+23.7672 -12 Td
+0.448 Tw
+(If possible, use the)Tj
+/R10 10 Tf
+79.282 0 Td
+(mmap)Tj
+/R8 10 Tf
+27.2199 0 Td
+(\(2\) system call to read input, instead of the def)Tj
+190.012 0 Td
+(ault)Tj
+-0.18 Tc
+/R10 10 Tf
+17.948 0 Td
+(re)Tj
+0 Tc
+8.7 0 Td
+(ad)Tj
+/R8 10 Tf
+10.5602 0 Td
+0.449 Tw
+(\(2\) system call.)Tj
+-333.722 -12 Td
+0.318 Tw
+(In some situations,)Tj
+0.833 Tc
+/R10 10 Tf
+78.734 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(mmap)Tj
+/R8 10 Tf
+30.0379 0 Td
+(yields better performance.)Tj
+110.644 0 Td
+[(Ho)25.0073(we)]TJ
+-0.15 Tc
+23.3801 0 Td
+(ve)Tj
+-0.4 Tc
+9.28984 0 Td
+(r,)Tj
+0.833 Tc
+/R10 10 Tf
+8.24687 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(mmap)Tj
+/R8 10 Tf
+30.0371 0 Td
+0.317 Tw
+(can cause unde\214ned)Tj
+-314.836 -12 Td
+(beha)Tj
+18.6801 0 Td
+0.444 Tw
+(vior \(including core dumps\) if an input \214le shrinks while)Tj
+/R10 10 Tf
+233.87 0 Td
+[(gr)17.9834(ep)]TJ
+/R8 10 Tf
+22.2043 0 Td
+(is operating, or if an I/O error)Tj
+-274.754 -12 Td
+(occurs.)Tj
+/R10 10 Tf
+-36 -16.8 Td
+<AD55>Tj
+/R8 10 Tf
+12.9199 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(binary)Tj
+-0.35 Tc
+/R8 10 Tf
+5.84727 -12 Td
+(Tr)Tj
+0 Tc
+9.08984 0 Td
+0.159 Tw
+(eat the \214le\(s\) as binary)Tj
+5.158 Tc
+91.0762 0 Td
+(.B)Tj
+2.658 Tc
+14.3281 0 Td
+(yd)Tj
+0 Tc
+12.6578 0 Td
+(ef)Tj
+7.66992 0 Td
+0.158 Tw
+(ault, under)Tj
+/R8 9 Tf
+45.5859 0 Td
+(MS-DOS)Tj
+/R8 10 Tf
+36.6602 0 Td
+(and)Tj
+/R8 9 Tf
+17.098 0 Td
+(MS)Tj
+/R8 10 Tf
+13.0051 0 Td
+[(-W)40.0073(indo)24.9902(ws,)]TJ
+/R10 10 Tf
+46.168 0 Td
+[(gr)17.9834(ep)]TJ
+/R8 10 Tf
+21.918 0 Td
+(guesses the \214le type)Tj
+-315.257 -12 Td
+0.065 Tw
+(by looking at the contents of the \214rst 32KB read from the \214le.)Tj
+253.325 0 Td
+(If)Tj
+/R10 10 Tf
+9.225 0 Td
+[(gr)17.9834(ep)]TJ
+/R8 10 Tf
+21.825 0 Td
+0.066 Tw
+[(decides the \214le is a te)15(xt \214le,)]TJ
+-284.375 -12 Td
+0.2 Tw
+(it strips the CR characters from the original \214le contents \(to mak)Tj
+2.7 Tc
+260.13 0 Td
+(er)Tj
+-0.15 Tc
+10.4699 0 Td
+(eg)Tj
+0 Tc
+9.28984 0 Td
+[(ular e)15.0146(xpressions with)]TJ
+/R10 10 Tf
+87.9398 0 Td
+(^)Tj
+/R8 10 Tf
+6.03008 0 Td
+(and)Tj
+/R10 10 Tf
+17.1398 0 Td
+($)Tj
+-0.1 Tc
+/R8 10 Tf
+-391 -12 Td
+(wo)Tj
+0 Tc
+12.1199 0 Td
+0.058 Tw
+(rk correctly\).)Tj
+57.316 0 Td
+(Specifying)Tj
+/R10 10 Tf
+45.8879 0 Td
+<AD55>Tj
+-0.15 Tc
+/R8 10 Tf
+15.4781 0 Td
+(ove)Tj
+0 Tc
+14.1398 0 Td
+[(rrules this guessw)9.98291(ork, causing all \214les to be read and passed to)]TJ
+-144.942 -12 Td
+0.129 Tw
+[(the matching mechanism v)15.0049(erbatim; if the \214le is a te)]TJ
+206.121 0 Td
+0.128 Tw
+(xt \214le with CR/LF pairs at the end of each line,)Tj
+-206.121 -12 Td
+0.418 Tw
+(this will cause some re)Tj
+92.6219 0 Td
+0.419 Tw
+[(gular e)15.0024(xpressions to f)]TJ
+86.827 0 Td
+2.919 Tw
+(ail. This)Tj
+38.618 0 Td
+0.419 Tw
+[(option has no ef)24.9805(fect on platforms other than)]TJ
+/R8 9 Tf
+-218.067 -12 Td
+(MS-DOS)Tj
+/R8 10 Tf
+36.502 0 Td
+(and)Tj
+/R8 9 Tf
+16.9398 0 Td
+(MS)Tj
+/R8 10 Tf
+13.0051 0 Td
+[(-W)40.0073(indo)24.9927(ws.)]TJ
+/R10 10 Tf
+-102.447 -16.8 Td
+<AD7A>Tj
+/R8 10 Tf
+10.1398 0 Td
+(,)Tj
+0.833 Tc
+/R10 10 Tf
+5 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(null\255data)Tj
+-0.35 Tc
+/R8 10 Tf
+8.62734 -12 Td
+(Tr)Tj
+0 Tc
+9.08984 0 Td
+0.303 Tw
+(eat the input as a set of lines, each terminated by a zero byte \(the)Tj
+/R8 9 Tf
+265.595 0 Td
+(ASCII)Tj
+/R10 10 Tf
+26.3012 0 Td
+(NUL)Tj
+/R8 10 Tf
+23.9121 0 Td
+0.302 Tw
+(character\) instead)Tj
+-324.898 -12 Td
+0.194 Tw
+(of a ne)Tj
+27.348 0 Td
+2.694 Tw
+(wline. Lik)Tj
+2.694 Tc
+43.7039 0 Td
+(et)Tj
+0 Tc
+9.91406 0 Td
+(he)Tj
+/R10 10 Tf
+12.134 0 Td
+(-Z)Tj
+/R8 10 Tf
+12.6941 0 Td
+(or)Tj
+0.833 Tc
+/R10 10 Tf
+11.0238 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(null)Tj
+/R8 10 Tf
+19.3738 0 Td
+0.194 Tw
+(option, this option can be used with commands lik)Tj
+202.842 0 Td
+(e)Tj
+/R10 10 Tf
+7.13398 0 Td
+(sort -z)Tj
+/R8 10 Tf
+29.8191 0 Td
+(to)Tj
+-388.22 -12 Td
+0 Tw
+(process arbitrary \214le names.)Tj
+/R10 10.95 Tf
+-72 -16.8 Td
+(REGULAR EXPRESSIONS)Tj
+4.735 Tc
+/R8 10 Tf
+36 -12 Td
+(Ar)Tj
+-0.15 Tc
+15.2852 0 Td
+(eg)Tj
+0 Tc
+9.28984 0 Td
+2.235 Tw
+[(ular e)15(xpression is a pattern that describes a set of strings.)]TJ
+256.894 0 Td
+(Re)Tj
+10.9602 0 Td
+2.234 Tw
+[(gular e)15.0195(xpressions are constructed)]TJ
+-292.429 -12 Td
+0 Tw
+[(analogously to arithmetic e)15(xpressions, by using v)25.0146(arious operators to combine smaller e)15(xpressions.)]TJ
+/R10 10 Tf
+16.8 TL
+T*[(gr)17.9846(ep)]TJ
+/R8 10 Tf
+22.6863 0 Td
+0.927 Tw
+[(understands three dif)25.0171(ferent v)15.0122(ersions of re)15.0024(gular e)14.9805(xpression syntax: \231basic,)]TJ
+3.427 Tc
+297.336 0 Td
+<9A99>Tj
+-0.15 Tc
+12.307 0 Td
+(ex)Tj
+0 Tc
+9.28984 0 Td
+(tended\232 and \231perl.)Tj
+3.427 Tc
+74.184 0 Td
+<9A49>Tj
+0 Tc
+11.1969 0 Td
+(n)Tj
+/R8 9 Tf
+-427 -12 Td
+(GNU)Tj
+/R10 10 Tf
+21.9941 0 Td
+[(gr)17.9846(ep)]TJ
+3.167 Tc
+/R8 10 Tf
+19.2602 0 Td
+(,t)Tj
+0 Tc
+8.44688 0 Td
+0.667 Tw
+[(here is no dif)24.9976(ference in a)]TJ
+-0.25 Tc
+102.015 0 Td
+(va)Tj
+0 Tc
+9.18984 0 Td
+[(ilable functionality between basic and e)15.0146(xtended syntax)]TJ
+222.552 0 Td
+3.166 Tw
+(es. In)Tj
+27.9922 0 Td
+(other)Tj
+-447.45 -45.6 Td
+0 Tw
+[(User Commands)-13484.5(GNU grep 2.6.3)]TJ
+463 0 Td
+(4)Tj
+ET
+Q
+Q
+endstream
+endobj
+28 0 obj
+11332
+endobj
+32 0 obj
+<</Length 33 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R8 10 Tf
+1 0 0 1 72 744 Tm
+391.06 Tw
+(GREP\(1\) GREP\(1\))Tj
+36 -36 Td
+3.39 Tw
+(implementations, basic re)Tj
+109.12 0 Td
+3.391 Tw
+[(gular e)15.0146(xpressions are less po)]TJ
+127.584 0 Td
+5.891 Tw
+(werful. The)Tj
+58.432 0 Td
+(follo)Tj
+18.6398 0 Td
+3.391 Tw
+(wing description applies to)Tj
+-0.15 Tc
+-313.776 -12 Td
+(ex)Tj
+0 Tc
+9.28984 0 Td
+1.43 Tw
+[(tended re)14.9841(gular e)15.0073(xpressions; dif)25.0146(ferences for basic re)14.9927(gular e)15.0073(xpressions are summarized afterw)]TJ
+381.01 0 Td
+3.93 Tw
+(ards. Perl)Tj
+-390.3 -12 Td
+(re)Tj
+7.61992 0 Td
+0.742 Tw
+[(gular e)14.9963(xpressions gi)]TJ
+-0.15 Tc
+81.0742 0 Td
+1.042 Tw
+(ve a)Tj
+0 Tc
+16.9719 0 Td
+0.743 Tw
+(dditional functionality)Tj
+3.243 Tc
+89.2629 0 Td
+(,a)Tj
+0 Tc
+10.1828 0 Td
+(nd are documented in pcresyntax\(3\) and pcrepattern\(3\),)Tj
+-0.2 Tc
+-205.112 -12 Td
+(bu)Tj
+2.5 Tc
+9.8 0 Td
+(tm)Tj
+0 Tc
+13.0602 0 Td
+0 Tw
+(ay not be a)Tj
+-0.25 Tc
+43.4 0 Td
+(va)Tj
+0 Tc
+9.18984 0 Td
+(ilable on e)Tj
+-0.15 Tc
+41.4102 0 Td
+(ve)Tj
+0 Tc
+9.28984 0 Td
+(ry system.)Tj
+-126.15 -16.8 Td
+0.047 Tw
+[(The fundamental b)20.0012(uilding blocks are the re)]TJ
+172.122 0 Td
+0.046 Tw
+[(gular e)15.0073(xpressions that match a single character)]TJ
+5.046 Tc
+186.196 0 Td
+(.M)Tj
+0 Tc
+16.4359 0 Td
+(ost characters,)Tj
+-374.754 -12 Td
+1.402 Tw
+[(including all letters and digits, are re)14.9976(gular e)14.9805(xpressions that match themselv)]TJ
+312.7 0 Td
+3.903 Tw
+(es. An)Tj
+3.903 Tc
+29.3031 0 Td
+(ym)Tj
+0 Tc
+16.6828 0 Td
+1.403 Tw
+(eta-character with)Tj
+-358.686 -12 Td
+0 Tw
+(special meaning may be quoted by preceding it with a backslash.)Tj
+16.8 TL
+(The period)'
+/R10 10 Tf
+46.1 0 Td
+(.)Tj
+/R8 10 Tf
+5 0 Td
+(matches an)Tj
+2.5 Tc
+44.5602 0 Td
+(ys)Tj
+0 Tc
+11.3898 0 Td
+[(ingle character)55.0146(.)]TJ
+/R10 10 Tf
+-128.05 -16.8 Td
+[(Character Classes and Brack)9.98535(et Expr)17.9834(essions)]TJ
+/R8 10 Tf
+21 -12 Td
+(A)Tj
+/R12 10 Tf
+10.3781 0 Td
+[(br)15.0159(ac)]TJ
+-0.1 Tc
+17.9797 0 Td
+(ke)Tj
+2.888 Tc
+8.78008 0 Td
+(te)Tj
+0 Tc
+9.90781 0 Td
+[(xpr)36.9849(ession)]TJ
+/R8 10 Tf
+41.0883 0 Td
+0.388 Tw
+(is a list of characters enclosed by)Tj
+/R10 10 Tf
+137.406 0 Td
+([)Tj
+/R8 10 Tf
+6.21719 0 Td
+(and)Tj
+/R10 10 Tf
+17.327 0 Td
+(])Tj
+5.387 Tc
+/R8 10 Tf
+3.33008 0 Td
+(.I)Tj
+2.887 Tc
+11.2172 0 Td
+(tm)Tj
+0 Tc
+13.4469 0 Td
+0.387 Tw
+(atches an)Tj
+2.887 Tc
+37.1672 0 Td
+(ys)Tj
+0 Tc
+11.777 0 Td
+(ingle character in that list;)Tj
+-326.022 -12 Td
+0.56 Tw
+(if the \214rst character of the list is the caret)Tj
+/R10 10 Tf
+172.23 0 Td
+(^)Tj
+/R8 10 Tf
+6.38984 0 Td
+(then it matches an)Tj
+3.06 Tc
+74.0199 0 Td
+(yc)Tj
+0 Tc
+12.5 0 Td
+(haracter)Tj
+/R12 10 Tf
+35.6199 0 Td
+(not)Tj
+/R8 10 Tf
+16.5199 0 Td
+(in the list.)Tj
+-0.15 Tc
+46.4102 0 Td
+(Fo)Tj
+3.06 Tc
+10.4102 0 Td
+(re)Tj
+0 Tc
+10.6801 0 Td
+(xample, the)Tj
+-384.78 -12 Td
+0 Tw
+[(re)15.0073(gular e)15.0159(xpression)]TJ
+/R10 10 Tf
+75.7898 0 Td
+([0123456789])Tj
+/R8 10 Tf
+59.1602 0 Td
+(matches an)Tj
+2.5 Tc
+44.5602 0 Td
+(ys)Tj
+0 Tc
+11.3898 0 Td
+(ingle digit.)Tj
+-0.4 Tc
+-190.9 -16.8 Td
+(Wi)Tj
+0 Tc
+11.8199 0 Td
+2.01 Tw
+[(thin a brack)9.99268(et e)15.0073(xpression, a)]TJ
+-0.15 Tc
+/R12 10 Tf
+121.44 0 Td
+(ra)Tj
+0 Tc
+8.73984 0 Td
+(ng)Tj
+4.509 Tc
+9.9 0 Td
+(ee)Tj
+0 Tc
+13.1891 0 Td
+[(xpr)36.9849(ession)]TJ
+/R8 10 Tf
+42.709 0 Td
+2.009 Tw
+(consists of tw)Tj
+4.509 Tc
+58.918 0 Td
+(oc)Tj
+0 Tc
+13.9488 0 Td
+(haracters separated by a h)Tj
+111.276 0 Td
+4.509 Tw
+(yphen. It)Tj
+-391.941 -12 Td
+1.028 Tw
+(matches an)Tj
+3.528 Tc
+45.5879 0 Td
+(ys)Tj
+0 Tc
+12.418 0 Td
+(ingle character that sorts between the tw)Tj
+3.529 Tc
+167.138 0 Td
+(oc)Tj
+0 Tc
+12.9691 0 Td
+1.029 Tw
+(haracters, inclusi)Tj
+-0.15 Tc
+68.5391 0 Td
+(ve)Tj
+3.529 Tc
+9.28984 0 Td
+(,u)Tj
+0 Tc
+11.0289 0 Td
+(sing the locale')Tj
+3.529 Tc
+62.6078 0 Td
+(sc)Tj
+0 Tc
+11.859 0 Td
+(ollating)Tj
+-401.438 -12 Td
+1.472 Tw
+(sequence and character set.)Tj
+-0.15 Tc
+119.728 0 Td
+(Fo)Tj
+3.971 Tc
+10.4102 0 Td
+(re)Tj
+0 Tc
+11.591 0 Td
+1.471 Tw
+[(xample, in the def)9.99512(ault C locale,)]TJ
+/R10 10 Tf
+136.486 0 Td
+([a\255d])Tj
+/R8 10 Tf
+26.891 0 Td
+(is equi)Tj
+-0.25 Tc
+27.6109 0 Td
+(va)Tj
+0 Tc
+9.18984 0 Td
+(lent to)Tj
+/R10 10 Tf
+30.7219 0 Td
+([abcd])Tj
+6.471 Tc
+/R8 10 Tf
+27.2199 0 Td
+(.M)Tj
+0 Tc
+17.8609 0 Td
+[(an)15.0146(y)]TJ
+-417.71 -12 Td
+0.133 Tw
+(locales sort characters in dictionary order)Tj
+2.633 Tc
+165.495 0 Td
+(,a)Tj
+0 Tc
+9.57305 0 Td
+(nd in these locales)Tj
+/R10 10 Tf
+76.632 0 Td
+([a\255d])Tj
+/R8 10 Tf
+25.5531 0 Td
+(is typically not equi)Tj
+-0.25 Tc
+79.3191 0 Td
+(va)Tj
+0 Tc
+9.18984 0 Td
+(lent to)Tj
+/R10 10 Tf
+28.0461 0 Td
+([abcd])Tj
+2.633 Tc
+/R8 10 Tf
+27.2199 0 Td
+(;i)Tj
+0 Tc
+8.19297 0 Td
+(t)Tj
+-429.221 -12 Td
+2.799 Tw
+(might be equi)Tj
+-0.25 Tc
+60.348 0 Td
+(va)Tj
+0 Tc
+9.18984 0 Td
+(lent to)Tj
+/R10 10 Tf
+33.3781 0 Td
+([aBbCcDd])Tj
+5.299 Tc
+/R8 10 Tf
+48.3301 0 Td
+(,f)Tj
+0 Tc
+11.1289 0 Td
+(or e)Tj
+17.9191 0 Td
+5.298 Tw
+(xample. T)Tj
+5.298 Tc
+45.048 0 Td
+(oo)Tj
+0 Tc
+15.298 0 Td
+2.798 Tw
+(btain the traditional interpretation of brack)Tj
+184.14 0 Td
+(et)Tj
+-0.15 Tc
+-424.78 -12 Td
+(ex)Tj
+0 Tc
+9.28984 0 Td
+0 Tw
+(pressions, you can use the C locale by setting the)Tj
+/R10 10 Tf
+198.59 0 Td
+(LC_ALL)Tj
+/R8 10 Tf
+41.95 0 Td
+[(en)40.0146(vironment v)24.9854(ariable to the v)24.9854(alue)]TJ
+/R10 10 Tf
+136.02 0 Td
+(C)Tj
+/R8 10 Tf
+7.21992 0 Td
+(.)Tj
+-393.07 -16.8 Td
+(Finally)Tj
+3.711 Tc
+27.6898 0 Td
+(,c)Tj
+0 Tc
+10.6512 0 Td
+1.211 Tw
+(ertain named classes of characters are prede\214ned within brack)Tj
+257.838 0 Td
+1.212 Tw
+[(et e)15.0146(xpressions, as follo)]TJ
+94.3359 0 Td
+3.712 Tw
+(ws. Their)Tj
+-390.515 -12 Td
+1.815 Tw
+(names are self e)Tj
+69.4352 0 Td
+(xplanatory)Tj
+4.315 Tc
+42.1199 0 Td
+(,a)Tj
+0 Tc
+11.2551 0 Td
+(nd the)Tj
+4.315 Tc
+26.3852 0 Td
+(ya)Tj
+0 Tc
+13.7551 0 Td
+(re)Tj
+/R10 10 Tf
+12.0852 0 Td
+([:alnum:])Tj
+/R8 10 Tf
+40.55 0 Td
+(,)Tj
+/R10 10 Tf
+6.81484 0 Td
+([:alpha:])Tj
+/R8 10 Tf
+37.2199 0 Td
+(,)Tj
+/R10 10 Tf
+6.81484 0 Td
+([:cntrl:])Tj
+/R8 10 Tf
+33.8699 0 Td
+(,)Tj
+/R10 10 Tf
+6.81484 0 Td
+([:digit:])Tj
+/R8 10 Tf
+32.7699 0 Td
+(,)Tj
+/R10 10 Tf
+6.81484 0 Td
+([:graph:])Tj
+/R8 10 Tf
+38.8801 0 Td
+(,)Tj
+/R10 10 Tf
+6.81484 0 Td
+[([:lo)10.0146(wer:])]TJ
+/R8 10 Tf
+37.1 0 Td
+(,)Tj
+/R10 10 Tf
+-429.5 -12 Td
+([:print:])Tj
+/R8 10 Tf
+34.9898 0 Td
+(,)Tj
+/R10 10 Tf
+5.91797 0 Td
+([:punct:])Tj
+/R8 10 Tf
+37.7699 0 Td
+(,)Tj
+/R10 10 Tf
+5.91797 0 Td
+([:space:])Tj
+/R8 10 Tf
+36.65 0 Td
+(,)Tj
+/R10 10 Tf
+5.91797 0 Td
+([:upper:])Tj
+3.418 Tc
+/R8 10 Tf
+38.8801 0 Td
+(,a)Tj
+0 Tc
+10.3578 0 Td
+(nd)Tj
+/R10 10 Tf
+13.418 0 Td
+([:xdigit:].)Tj
+-0.15 Tc
+/R8 10 Tf
+46.1879 0 Td
+(Fo)Tj
+3.418 Tc
+10.4102 0 Td
+(re)Tj
+0 Tc
+11.0379 0 Td
+(xample,)Tj
+/R10 10 Tf
+35.3578 0 Td
+([[:alnum:]])Tj
+/R8 10 Tf
+50.6281 0 Td
+(means)Tj
+/R10 10 Tf
+28.968 0 Td
+([0\2559A\255Za\255z])Tj
+/R8 10 Tf
+57.0898 0 Td
+(,)Tj
+-0.15 Tc
+-429.499 -12 Td
+(ex)Tj
+0 Tc
+9.28984 0 Td
+0.646 Tw
+(cept the latter form depends upon the C locale and the)Tj
+/R8 9 Tf
+225.676 0 Td
+(ASCII)Tj
+/R8 10 Tf
+26.6449 0 Td
+(character encoding, whereas the former is)Tj
+-261.611 -12 Td
+2.14 Tw
+[(independent of locale and character set.)-713.992(\(Note that the brack)10.0073(ets in these class names are part of the)]TJ
+12 TL
+0.27 Tw
+T*[(symbolic names, and must be included in addition to the brack)9.98535(ets delimiting the brack)10.0098(et e)]TJ
+362.01 0 Td
+2.77 Tw
+(xpression.\) Most)Tj
+-362.01 -12 Td
+0.404 Tw
+[(meta-characters lose their special meaning inside brack)10.0171(et e)]TJ
+237.788 0 Td
+2.904 Tw
+(xpressions. T)Tj
+2.904 Tc
+55.434 0 Td
+(oi)Tj
+0 Tc
+10.684 0 Td
+0.404 Tw
+(nclude a literal)Tj
+/R10 10 Tf
+63.143 0 Td
+(])Tj
+/R8 10 Tf
+6.23516 0 Td
+0.405 Tw
+(place it \214rst in)Tj
+-373.284 -12 Td
+0.01 Tw
+(the list.)Tj
+34.4699 0 Td
+(Similarly)Tj
+2.51 Tc
+36.5801 0 Td
+[(,t)251.016(oi)]TJ
+0 Tc
+18.0797 0 Td
+(nclude a literal)Tj
+/R10 10 Tf
+61.9602 0 Td
+(^)Tj
+/R8 10 Tf
+5.83984 0 Td
+[(place it an)15.0073(ywhere b)]TJ
+77.7098 0 Td
+0.009 Tw
+(ut \214rst.)Tj
+33.3578 0 Td
+(Finally)Tj
+2.509 Tc
+27.6898 0 Td
+[(,t)250.894(oi)]TJ
+0 Tc
+18.0781 0 Td
+(nclude a literal)Tj
+/R10 10 Tf
+61.957 0 Td
+<AD>Tj
+/R8 10 Tf
+8.20898 0 Td
+(place it last.)Tj
+/R10 10 Tf
+-404.931 -16.8 Td
+(Anchoring)Tj
+/R8 10 Tf
+21 -12 Td
+2.189 Tw
+(The caret)Tj
+/R10 10 Tf
+44.3578 0 Td
+(^)Tj
+/R8 10 Tf
+8.01914 0 Td
+(and the dollar sign)Tj
+/R10 10 Tf
+85.416 0 Td
+($)Tj
+/R8 10 Tf
+9.68906 0 Td
+(are meta-characters that respecti)Tj
+-0.15 Tc
+135.427 0 Td
+(ve)Tj
+0 Tc
+9.28984 0 Td
+2.19 Tw
+(ly match the empty string at the)Tj
+-292.199 -12 Td
+0 Tw
+[(be)15.0159(ginning and end of a line.)]TJ
+/R10 10 Tf
+-21 -16.8 Td
+[(The Backslash Character and Special Expr)18(essions)]TJ
+/R8 10 Tf
+21 -12 Td
+0.025 Tw
+(The symbols)Tj
+/R10 10 Tf
+53.9398 0 Td
+(\\<)Tj
+/R8 10 Tf
+11.0051 0 Td
+(and)Tj
+/R10 10 Tf
+16.9648 0 Td
+(\\>)Tj
+/R8 10 Tf
+11.0039 0 Td
+(respecti)Tj
+-0.15 Tc
+30.85 0 Td
+(ve)Tj
+0 Tc
+9.28984 0 Td
+0.024 Tw
+[(ly match the empty string at the be)15.0024(ginning and end of a w)]TJ
+230.568 0 Td
+2.524 Tw
+(ord. The)Tj
+38.9281 0 Td
+(symbol)Tj
+/R10 10 Tf
+-402.55 -12 Td
+(\\b)Tj
+/R8 10 Tf
+11.1629 0 Td
+0.324 Tw
+[(matches the empty string at the edge of a w)9.99023(ord, and)]TJ
+/R10 10 Tf
+212.314 0 Td
+(\\B)Tj
+/R8 10 Tf
+12.2738 0 Td
+[(matches the empty string pro)14.9902(vided it')]TJ
+150.63 0 Td
+(s)Tj
+/R12 10 Tf
+7.07383 0 Td
+(not)Tj
+/R8 10 Tf
+16.284 0 Td
+(at the)Tj
+-409.739 -12 Td
+0 Tw
+(edge of a w)Tj
+46.2699 0 Td
+2.5 Tw
+(ord. The)Tj
+38.8801 0 Td
+(symbol)Tj
+/R10 10 Tf
+31.95 0 Td
+(\\w)Tj
+/R8 10 Tf
+12.5 0 Td
+0 Tw
+[(is a synon)15(ym for)]TJ
+/R10 10 Tf
+69.2898 0 Td
+([[:alnum:]])Tj
+/R8 10 Tf
+49.7102 0 Td
+(and)Tj
+/R10 10 Tf
+16.9398 0 Td
+(\\W)Tj
+/R8 10 Tf
+15.2801 0 Td
+[(is a synon)15(ym for)]TJ
+/R10 10 Tf
+69.2898 0 Td
+([^[:alnum:]])Tj
+/R8 10 Tf
+50.5398 0 Td
+(.)Tj
+/R10 10 Tf
+-421.65 -16.8 Td
+(Repetition)Tj
+2.5 Tc
+/R8 10 Tf
+21 -12 Td
+(Ar)Tj
+-0.15 Tc
+13.05 0 Td
+(eg)Tj
+0 Tc
+9.28984 0 Td
+[(ular e)15.0159(xpression may be follo)24.9927(wed by one of se)]TJ
+-0.15 Tc
+180.98 0 Td
+(ve)Tj
+0 Tc
+9.28984 0 Td
+(ral repetition operators:)Tj
+/R10 10 Tf
+-212.61 -12 Td
+(?)Tj
+/R8 10 Tf
+36 0 Td
+(The preceding item is optional and matched at most once.)Tj
+/R10 10 Tf
+-36 -12 Td
+(*)Tj
+/R8 10 Tf
+36 0 Td
+(The preceding item will be matched zero or more times.)Tj
+/R10 10 Tf
+-36 -12 Td
+(+)Tj
+/R8 10 Tf
+36 0 Td
+(The preceding item will be matched one or more times.)Tj
+/R10 10 Tf
+-36 -12 Td
+({)Tj
+/R12 10 Tf
+4.3 0 Td
+(n)Tj
+/R10 10 Tf
+5.23984 0 Td
+(})Tj
+/R8 10 Tf
+26.4602 0 Td
+[(The preceding item is matched e)15(xactly)]TJ
+/R12 10 Tf
+157.4 0 Td
+(n)Tj
+/R8 10 Tf
+7.73984 0 Td
+(times.)Tj
+/R10 10 Tf
+-201.14 -12 Td
+({)Tj
+/R12 10 Tf
+4.3 0 Td
+(n)Tj
+/R10 10 Tf
+5.23984 0 Td
+(,})Tj
+/R8 10 Tf
+26.4602 0 Td
+(The preceding item is matched)Tj
+/R12 10 Tf
+126.17 0 Td
+(n)Tj
+/R8 10 Tf
+7.73984 0 Td
+(or more times.)Tj
+/R10 10 Tf
+-169.91 -12 Td
+({,)Tj
+/R12 10 Tf
+6.81992 0 Td
+(m)Tj
+/R10 10 Tf
+7.53984 0 Td
+(})Tj
+/R8 10 Tf
+21.6398 0 Td
+(The preceding item is matched at most)Tj
+/R12 10 Tf
+157.86 0 Td
+(m)Tj
+/R8 10 Tf
+10.0398 0 Td
+(times.)Tj
+/R10 10 Tf
+-203.9 -12 Td
+({)Tj
+/R12 10 Tf
+4.3 0 Td
+(n)Tj
+/R10 10 Tf
+5.23984 0 Td
+(,)Tj
+/R12 10 Tf
+2.88008 0 Td
+(m)Tj
+/R10 10 Tf
+7.53984 0 Td
+(})Tj
+/R8 10 Tf
+16.0398 0 Td
+(The preceding item is matched at least)Tj
+/R12 10 Tf
+156.72 0 Td
+(n)Tj
+/R8 10 Tf
+7.73984 0 Td
+[(times, b)20.0073(ut not more than)]TJ
+/R12 10 Tf
+100.18 0 Td
+(m)Tj
+/R8 10 Tf
+10.0398 0 Td
+(times.)Tj
+/R10 10 Tf
+-331.679 -16.8 Td
+(Concatenation)Tj
+-0.8 Tc
+/R8 10 Tf
+21 -12 Td
+-1 Tw
+(Tw o)Tj
+0 Tc
+20.6238 0 Td
+(re)Tj
+7.61992 0 Td
+0.694 Tw
+[(gular e)15.0012(xpressions may be concatenated; the resulting re)14.9927(gular e)15.0024(xpression matches an)]TJ
+3.193 Tc
+340.71 0 Td
+(ys)Tj
+0 Tc
+12.0828 0 Td
+0.693 Tw
+(tring formed)Tj
+-381.037 -12 Td
+0 Tw
+(by concatenating tw)Tj
+2.5 Tc
+80.4398 0 Td
+(os)Tj
+0 Tc
+11.3898 0 Td
+(ubstrings that respecti)Tj
+-0.15 Tc
+87.5199 0 Td
+(ve)Tj
+0 Tc
+9.28984 0 Td
+[(ly match the concatenated e)14.9927(xpressions.)]TJ
+/R10 10 Tf
+-209.639 -16.8 Td
+[(Alter)14.9841(nation)]TJ
+-0.8 Tc
+/R8 10 Tf
+21 -12 Td
+-1 Tw
+(Tw o)Tj
+0 Tc
+20.198 0 Td
+(re)Tj
+7.61992 0 Td
+0.268 Tw
+(gular e)Tj
+27.6078 0 Td
+0.269 Tw
+(xpressions may be joined by the in\214x operator)Tj
+/R10 10 Tf
+189.912 0 Td
+(|)Tj
+2.769 Tc
+/R8 10 Tf
+2.2 0 Td
+(;t)Tj
+0 Tc
+8.32891 0 Td
+[(he resulting re)14.9951(gular e)15(xpression matches an)]TJ
+171.135 0 Td
+(y)Tj
+-427.002 -12 Td
+0 Tw
+[(string matching either alternate e)15.0146(xpression.)]TJ
+-36 -72 Td
+[(User Commands)-13484.5(GNU grep 2.6.3)]TJ
+463 0 Td
+(5)Tj
+ET
+Q
+Q
+endstream
+endobj
+33 0 obj
+12244
+endobj
+37 0 obj
+<</Length 38 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R8 10 Tf
+1 0 0 1 72 744 Tm
+391.06 Tw
+(GREP\(1\) GREP\(1\))Tj
+/R10 10 Tf
+15 -36 Td
+[(Pr)18.0078(ecedence)]TJ
+/R8 10 Tf
+21 -12 Td
+0.481 Tw
+[(Repetition tak)9.99023(es precedence o)]TJ
+-0.15 Tc
+120.883 0 Td
+(ve)Tj
+2.981 Tc
+9.28984 0 Td
+(rc)Tj
+0 Tc
+10.7512 0 Td
+[(oncatenation, which in turn tak)10.0171(es precedence o)]TJ
+-0.15 Tc
+190.086 0 Td
+(ve)Tj
+2.98 Tc
+9.28984 0 Td
+(ra)Tj
+0 Tc
+10.75 0 Td
+2.98 Tw
+(lternation. A)Tj
+56.5102 0 Td
+(whole)Tj
+-0.15 Tc
+-407.56 -12 Td
+(ex)Tj
+0 Tc
+9.28984 0 Td
+0 Tw
+(pression may be enclosed in parentheses to o)Tj
+-0.15 Tc
+179.54 0 Td
+(ve)Tj
+0 Tc
+9.28984 0 Td
+[(rride these precedence rules and form a sube)15.0146(xpression.)]TJ
+/R10 10 Tf
+-219.12 -16.8 Td
+[(Back Refer)17.9846(ences and Subexpr)17.9932(essions)]TJ
+/R8 10 Tf
+21 -12 Td
+1.736 Tw
+(The back-reference)Tj
+/R10 10 Tf
+83.4219 0 Td
+<5C>Tj
+/R12 10 Tf
+3.13984 0 Td
+(n)Tj
+4.237 Tc
+/R8 10 Tf
+5 0 Td
+(,w)Tj
+0 Tc
+13.957 0 Td
+(here)Tj
+/R12 10 Tf
+21.807 0 Td
+(n)Tj
+/R8 10 Tf
+9.47695 0 Td
+1.737 Tw
+[(is a single digit, matches the substring pre)25.0098(viously matched by the)]TJ
+/R12 10 Tf
+282.177 0 Td
+(n)Tj
+/R8 10 Tf
+5.23984 0 Td
+(th)Tj
+-424.22 -12 Td
+0 Tw
+[(parenthesized sube)14.9841(xpression of the re)15(gular e)15.0146(xpression.)]TJ
+/R10 10 Tf
+-21 -16.8 Td
+[(Basic vs Extended Regular Expr)17.9834(essions)]TJ
+/R8 10 Tf
+21 -12 Td
+0.088 Tw
+[(In basic re)14.9829(gular e)14.9878(xpressions the meta-characters)]TJ
+/R10 10 Tf
+194.608 0 Td
+(?)Tj
+/R8 10 Tf
+5 0 Td
+(,)Tj
+/R10 10 Tf
+5.08789 0 Td
+(+)Tj
+/R8 10 Tf
+5.7 0 Td
+(,)Tj
+/R10 10 Tf
+5.08789 0 Td
+({)Tj
+/R8 10 Tf
+3.93984 0 Td
+(,)Tj
+/R10 10 Tf
+5.08789 0 Td
+(|)Tj
+/R8 10 Tf
+2.2 0 Td
+(,)Tj
+/R10 10 Tf
+5.08789 0 Td
+<28>Tj
+2.588 Tc
+/R8 10 Tf
+3.33008 0 Td
+(,a)Tj
+0 Tc
+9.52812 0 Td
+(nd)Tj
+/R10 10 Tf
+12.5879 0 Td
+<29>Tj
+/R8 10 Tf
+5.91797 0 Td
+(lose their special meaning; instead use the)Tj
+-263.164 -12 Td
+0 Tw
+[(backslashed v)15.0073(ersions)]TJ
+/R10 10 Tf
+86.5 0 Td
+(\\?)Tj
+/R8 10 Tf
+7.78008 0 Td
+(,)Tj
+/R10 10 Tf
+5 0 Td
+(\\+)Tj
+/R8 10 Tf
+8.48008 0 Td
+(,)Tj
+/R10 10 Tf
+5 0 Td
+(\\{)Tj
+/R8 10 Tf
+6.71992 0 Td
+(,)Tj
+/R10 10 Tf
+5 0 Td
+(\\|)Tj
+/R8 10 Tf
+4.98008 0 Td
+(,)Tj
+/R10 10 Tf
+5 0 Td
+<5C28>Tj
+2.5 Tc
+/R8 10 Tf
+6.11016 0 Td
+(,a)Tj
+0 Tc
+9.43984 0 Td
+(nd)Tj
+/R10 10 Tf
+12.5 0 Td
+<5C29>Tj
+/R8 10 Tf
+6.11016 0 Td
+(.)Tj
+-0.35 Tc
+-168.62 -16.8 Td
+(Tr)Tj
+0 Tc
+9.08984 0 Td
+(aditional)Tj
+/R10 10 Tf
+37.6789 0 Td
+[(egr)18(ep)]TJ
+/R8 10 Tf
+26.3789 0 Td
+0.179 Tw
+(did not support the)Tj
+/R10 10 Tf
+78.4961 0 Td
+({)Tj
+/R8 10 Tf
+6.61914 0 Td
+(meta-character)Tj
+2.679 Tc
+59.0102 0 Td
+(,a)Tj
+0 Tc
+9.61914 0 Td
+(nd some)Tj
+/R10 10 Tf
+36.468 0 Td
+[(egr)18(ep)]TJ
+/R8 10 Tf
+26.3801 0 Td
+0.18 Tw
+(implementations support)Tj
+/R10 10 Tf
+102.03 0 Td
+(\\{)Tj
+/R8 10 Tf
+9.4 0 Td
+(instead,)Tj
+-401.17 -12 Td
+0 Tw
+(so portable scripts should a)Tj
+-0.2 Tc
+108.68 0 Td
+(vo)Tj
+0 Tc
+9.8 0 Td
+(id)Tj
+/R10 10 Tf
+10.2801 0 Td
+({)Tj
+/R8 10 Tf
+6.43984 0 Td
+(in)Tj
+/R10 10 Tf
+10.2801 0 Td
+[(gr)17.9834(ep \255E)]TJ
+/R8 10 Tf
+36.6301 0 Td
+(patterns and should use)Tj
+/R10 10 Tf
+96.1 0 Td
+([{])Tj
+/R8 10 Tf
+13.1 0 Td
+(to match a literal)Tj
+/R10 10 Tf
+69.9898 0 Td
+({)Tj
+/R8 10 Tf
+3.93984 0 Td
+(.)Tj
+/R8 9 Tf
+-365.24 -16.8 Td
+(GNU)Tj
+/R10 10 Tf
+22.307 0 Td
+[(gr)17.9846(ep \255E)]TJ
+/R8 10 Tf
+36.943 0 Td
+0.313 Tw
+(attempts to support traditional usage by assuming that)Tj
+/R10 10 Tf
+220.833 0 Td
+({)Tj
+/R8 10 Tf
+6.75195 0 Td
+0.312 Tw
+[(is not special if it w)10.0098(ould be the start)]TJ
+-286.835 -12 Td
+0.174 Tw
+(of an in)Tj
+-0.25 Tc
+30.498 0 Td
+(va)Tj
+0 Tc
+9.18984 0 Td
+[(lid interv)24.9939(al speci\214cation.)]TJ
+-0.15 Tc
+104.432 0 Td
+(Fo)Tj
+2.675 Tc
+10.4102 0 Td
+(re)Tj
+0 Tc
+10.2949 0 Td
+0.175 Tw
+(xample, the command)Tj
+/R10 10 Tf
+91.625 0 Td
+0 Tw
+[(gr)17.9834(ep \255E '{1')]TJ
+/R8 10 Tf
+54.9051 0 Td
+0.175 Tw
+(searches for the tw)Tj
+75.675 0 Td
+(o-character)Tj
+-387.03 -12 Td
+(string)Tj
+/R10 10 Tf
+26.0488 0 Td
+({1)Tj
+/R8 10 Tf
+12.209 0 Td
+0.769 Tw
+[(instead of reporting a syntax error in the re)15.0122(gular e)]TJ
+205.181 0 Td
+(xpression.)Tj
+/R8 9 Tf
+46.5988 0 Td
+(POSIX.2)Tj
+/R8 10 Tf
+36.0199 0 Td
+(allo)Tj
+14.75 0 Td
+0.768 Tw
+[(ws this beha)19.9805(vior as an)]TJ
+-0.15 Tc
+-340.807 -12 Td
+(ex)Tj
+0 Tc
+9.28984 0 Td
+0 Tw
+[(tension, b)20.0159(ut portable scripts should a)]TJ
+-0.2 Tc
+146.26 0 Td
+(vo)Tj
+0 Tc
+9.8 0 Td
+(id it.)Tj
+/R10 10.95 Tf
+-201.35 -16.8 Td
+[(ENVIR)30.0404(ONMENT V)134.992(ARIABLES)]TJ
+/R8 10 Tf
+36 -12 Td
+[(The beha)19.9927(vior of)]TJ
+/R10 10 Tf
+66.1699 0 Td
+[(gr)17.9846(ep)]TJ
+/R8 10 Tf
+21.7602 0 Td
+[(is af)25.0146(fected by the follo)25.0146(wing en)40.0146(vironment v)24.9854(ariables.)]TJ
+-87.9301 -16.8 Td
+2.003 Tw
+(The locale for cate)Tj
+80.5488 0 Td
+(gory)Tj
+/R10 10 Tf
+22.8328 0 Td
+(LC_)Tj
+/R12 10 Tf
+20.8602 0 Td
+(foo)Tj
+/R8 10 Tf
+17.2828 0 Td
+[(is speci\214ed by e)14.9854(xamining the three en)39.9951(vironment v)]TJ
+212.921 0 Td
+(ariables)Tj
+/R10 10 Tf
+35.6039 0 Td
+(LC_ALL)Tj
+/R8 10 Tf
+39.45 0 Td
+(,)Tj
+/R10 10 Tf
+-429.5 -12 Td
+(LC_)Tj
+/R12 10 Tf
+18.8898 0 Td
+(foo)Tj
+/R8 10 Tf
+12.7801 0 Td
+(,)Tj
+/R10 10 Tf
+5.71484 0 Td
+(LANG)Tj
+3.215 Tc
+/R8 10 Tf
+28.8898 0 Td
+[(,i)321.508(nt)]TJ
+0 Tc
+19.4898 0 Td
+0.715 Tw
+(hat order)Tj
+5.715 Tc
+35.9852 0 Td
+(.T)Tj
+0 Tc
+14.325 0 Td
+[(he \214rst of these v)25.0146(ariables that is set speci\214es the locale.)]TJ
+-0.15 Tc
+233.415 0 Td
+(Fo)Tj
+3.215 Tc
+10.4102 0 Td
+(re)Tj
+0 Tc
+10.8352 0 Td
+(xample, if)Tj
+/R10 10 Tf
+-390.735 -12 Td
+(LC_ALL)Tj
+/R8 10 Tf
+42.225 0 Td
+0.276 Tw
+(is not set, b)Tj
+46.1879 0 Td
+(ut)Tj
+/R10 10 Tf
+10.5559 0 Td
+[(LC_MESSA)55.0146(GES)]TJ
+/R8 10 Tf
+75.5758 0 Td
+(is set to)Tj
+/R10 10 Tf
+33.8879 0 Td
+(pt_BR)Tj
+2.776 Tc
+/R8 10 Tf
+27.7801 0 Td
+(,t)Tj
+0 Tc
+8.05586 0 Td
+(hen the Brazilian Portuguese locale is used for)Tj
+-244.268 -12 Td
+(the)Tj
+/R10 10 Tf
+15.3191 0 Td
+[(LC_MESSA)55.0159(GES)]TJ
+/R8 10 Tf
+75.8988 0 Td
+[(cate)15(gory)]TJ
+5.599 Tc
+33.6301 0 Td
+(.T)Tj
+0 Tc
+14.209 0 Td
+0.598 Tw
+[(he C locale is used if none of these en)39.9805(vironment v)25.0195(ariables are set, if the)]TJ
+-139.057 -12 Td
+0 Tw
+(locale catalog is not installed, or if)Tj
+/R10 10 Tf
+140.54 0 Td
+[(gr)17.9834(ep)]TJ
+-0.1 Tc
+/R8 10 Tf
+21.7602 0 Td
+(wa)Tj
+2.5 Tc
+11.5602 0 Td
+(sn)Tj
+0 Tc
+11.3898 0 Td
+(ot compiled with national language support \()Tj
+/R8 9 Tf
+179.43 0 Td
+(NLS)Tj
+/R8 10 Tf
+17.0012 0 Td
+(\).)Tj
+/R10 10 Tf
+-381.681 -16.8 Td
+(GREP_OPTIONS)Tj
+/R8 10 Tf
+36 -12 Td
+0.072 Tw
+[(This v)25.0049(ariable speci\214es def)9.99268(ault options to be placed in front of an)]TJ
+2.573 Tc
+257.752 0 Td
+(ye)Tj
+0 Tc
+11.8629 0 Td
+0.073 Tw
+(xplicit options.)Tj
+-0.15 Tc
+65.1559 0 Td
+(Fo)Tj
+2.573 Tc
+10.4102 0 Td
+(re)Tj
+0 Tc
+10.193 0 Td
+(xample, if)Tj
+/R10 10 Tf
+-355.374 -12 Td
+(GREP_OPTIONS)Tj
+/R8 10 Tf
+81.6039 0 Td
+(is)Tj
+/R10 10 Tf
+10.484 0 Td
+-1.667 Tw
+('\255 \255binary-\214les=without-match)Tj
+0.833 Tc
+136.187 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+[(dir)18(ectories=skip')]TJ
+/R8 10 Tf
+72.1801 0 Td
+(,)Tj
+/R10 10 Tf
+6.31289 0 Td
+[(gr)17.9834(ep)]TJ
+/R8 10 Tf
+23.073 0 Td
+(beha)Tj
+-0.15 Tc
+18.6801 0 Td
+(ve)Tj
+3.813 Tc
+9.28984 0 Td
+[(sa)381.304(si)]TJ
+0 Tc
+22.6258 0 Td
+(f)Tj
+-392.67 -12 Td
+2.953 Tw
+(the tw)Tj
+5.453 Tc
+27.573 0 Td
+(oo)Tj
+0 Tc
+15.4531 0 Td
+(ptions)Tj
+0.833 Tc
+/R10 10 Tf
+29.9031 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(binary\255\214les=without-match)Tj
+/R8 10 Tf
+124.633 0 Td
+(and)Tj
+0.833 Tc
+/R10 10 Tf
+19.893 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+[(dir)18(ectories=skip)]TJ
+/R8 10 Tf
+74.3031 0 Td
+(had been speci\214ed)Tj
+-316.224 -12 Td
+2.423 Tw
+(before an)Tj
+4.923 Tc
+39.7531 0 Td
+(ye)Tj
+0 Tc
+14.2129 0 Td
+[(xplicit options.)-742.285(Option speci\214cations are separated by whitespace.)]TJ
+4.922 Tc
+291.013 0 Td
+(Ab)Tj
+0 Tc
+17.1422 0 Td
+(ackslash)Tj
+-362.121 -12 Td
+1.89 Tw
+[(escapes the ne)14.9927(xt character)]TJ
+4.39 Tc
+109.24 0 Td
+[(,s)438.992(oi)439.009(tc)]TJ
+0 Tc
+34.5602 0 Td
+1.891 Tw
+(an be used to specify an option containing whitespace or a)Tj
+-143.8 -12 Td
+(backslash.)Tj
+/R10 10 Tf
+-36 -16.8 Td
+(GREP_COLOR)Tj
+/R8 10 Tf
+36 -12 Td
+1.017 Tw
+[(This v)25.0122(ariable speci\214es the color used to highlight matched \(non-empty\) te)]TJ
+305.29 0 Td
+3.516 Tw
+(xt. It)Tj
+25.9219 0 Td
+1.016 Tw
+(is deprecated in)Tj
+-0.1 Tc
+-331.212 -12 Td
+(fa)Tj
+-0.2 Tc
+7.46992 0 Td
+(vo)Tj
+7.667 Tc
+9.8 0 Td
+(ro)Tj
+0 Tc
+15.9969 0 Td
+(f)Tj
+/R10 10 Tf
+10.9969 0 Td
+(GREP_COLORS)Tj
+7.667 Tc
+/R8 10 Tf
+75.0102 0 Td
+(,b)Tj
+0 Tc
+14.9672 0 Td
+5.167 Tw
+(ut still supported.)Tj
+90.2309 0 Td
+(The)Tj
+/R10 10 Tf
+23.218 0 Td
+(mt)Tj
+/R8 10 Tf
+11.6602 0 Td
+(,)Tj
+/R10 10 Tf
+10.168 0 Td
+(ms)Tj
+7.668 Tc
+/R8 10 Tf
+12.2199 0 Td
+(,a)Tj
+0 Tc
+14.6078 0 Td
+(nd)Tj
+/R10 10 Tf
+17.668 0 Td
+(mc)Tj
+/R8 10 Tf
+20.4379 0 Td
+5.168 Tw
+(capabilities of)Tj
+/R10 10 Tf
+-334.452 -12 Td
+(GREP_COLORS)Tj
+/R8 10 Tf
+80.05 0 Td
+(ha)Tj
+-0.15 Tc
+9.23984 0 Td
+2.84 Tw
+(ve p)Tj
+0 Tc
+19.3301 0 Td
+2.54 Tw
+(riority o)Tj
+-0.15 Tc
+34.8898 0 Td
+(ve)Tj
+5.04 Tc
+9.28984 0 Td
+(ri)Tj
+0 Tc
+11.15 0 Td
+5.04 Tw
+(t. It)Tj
+23.9699 0 Td
+2.54 Tw
+(can only specify the color used to highlight the)Tj
+-187.92 -12 Td
+0.108 Tw
+[(matching non-empty te)15.0073(xt in an)]TJ
+2.608 Tc
+122.902 0 Td
+(ym)Tj
+0 Tc
+15.3879 0 Td
+(atching line \(a selected line when the)Tj
+/R10 10 Tf
+151.556 0 Td
+(-v)Tj
+/R8 10 Tf
+10.9379 0 Td
+(command-line option is)Tj
+-300.784 -12 Td
+1.303 Tw
+[(omitted, or a conte)15.0171(xt line when)]TJ
+/R10 10 Tf
+134.598 0 Td
+(-v)Tj
+/R8 10 Tf
+12.132 0 Td
+1.302 Tw
+[(is speci\214ed\).)-630.19(The def)10.0122(ault is)]TJ
+/R10 10 Tf
+119.45 0 Td
+(01;31)Tj
+3.802 Tc
+/R8 10 Tf
+23.3301 0 Td
+(,w)Tj
+0 Tc
+13.5219 0 Td
+(hich means a bold red)Tj
+-303.031 -12 Td
+0 Tw
+[(fore)15(ground te)15(xt on the terminal')]TJ
+2.5 Tc
+127.46 0 Td
+(sd)Tj
+0 Tc
+11.3898 0 Td
+[(ef)10.0073(ault background.)]TJ
+/R10 10 Tf
+-174.85 -16.8 Td
+(GREP_COLORS)Tj
+/R8 10 Tf
+36 -12 Td
+0.248 Tw
+(Speci\214es the colors and other attrib)Tj
+142.41 0 Td
+0.249 Tw
+[(utes used to highlight v)25.0073(arious parts of the output.)-524.917(Its v)25.0195(alue is a)]TJ
+-142.41 -12 Td
+32.873 Tw
+[(colon-separated list of capabilities that def)9.99512(aults to)]TJ
+/R10 10 Tf
+12 TL
+(ms=01;31:mc=01;31:sl=:cx=:fn=35:ln=32:bn=32:se=36)'
+/R8 10 Tf
+236.444 0 Td
+0.594 Tw
+(with the)Tj
+-0.1 Tc
+/R10 10 Tf
+36.1879 0 Td
+(rv)Tj
+0 Tc
+/R8 10 Tf
+12.434 0 Td
+(and)Tj
+/R10 10 Tf
+17.534 0 Td
+(ne)Tj
+/R8 10 Tf
+13.0949 0 Td
+0.595 Tw
+(boolean capabilities)Tj
+-315.695 -12 Td
+0 Tw
+(omitted \(i.e., f)Tj
+56.8398 0 Td
+2.5 Tw
+(alse\). Supported)Tj
+69.9898 0 Td
+0 Tw
+[(capabilities are as follo)24.9927(ws.)]TJ
+/R10 10 Tf
+-126.83 -16.8 Td
+(sl=)Tj
+/R8 10 Tf
+36 0 Td
+0.848 Tw
+(SGR substring for whole selected lines \(i.e., matching lines when the)Tj
+/R10 10 Tf
+288.187 0 Td
+<AD76>Tj
+/R8 10 Tf
+14.0469 0 Td
+(command-line)Tj
+-302.234 -12 Td
+0.026 Tw
+(option is omitted, or non-matching lines when)Tj
+/R10 10 Tf
+187.402 0 Td
+<AD76>Tj
+/R8 10 Tf
+13.2262 0 Td
+0.027 Tw
+[(is speci\214ed\).)-502.69(If ho)]TJ
+74.541 0 Td
+(we)Tj
+-0.15 Tc
+11.4102 0 Td
+(ve)Tj
+2.527 Tc
+9.28984 0 Td
+(rt)Tj
+0 Tc
+8.63711 0 Td
+(he boolean)Tj
+-0.1 Tc
+/R10 10 Tf
+46.1539 0 Td
+(rv)Tj
+0 Tc
+/R8 10 Tf
+-350.66 -12 Td
+2.573 Tw
+(capability and the)Tj
+/R10 10 Tf
+81.3191 0 Td
+<AD76>Tj
+/R8 10 Tf
+15.773 0 Td
+2.572 Tw
+(command-line option are both speci\214ed, it applies to conte)Tj
+255.126 0 Td
+(xt)Tj
+-352.218 -12 Td
+0 Tw
+[(matching lines instead.)-500(The def)10.0073(ault is empty \(i.e., the terminal')]TJ
+2.5 Tc
+253.21 0 Td
+(sd)Tj
+0 Tc
+11.3898 0 Td
+[(ef)10.0098(ault color pair\).)]TJ
+/R10 10 Tf
+-300.6 -16.8 Td
+(cx=)Tj
+/R8 10 Tf
+36 0 Td
+0.813 Tw
+[(SGR substring for whole conte)14.9976(xt lines \(i.e., non-matching lines when the)]TJ
+/R10 10 Tf
+303.214 0 Td
+<AD76>Tj
+/R8 10 Tf
+14.0141 0 Td
+(command-)Tj
+-317.228 -12 Td
+0.08 Tw
+(line option is omitted, or matching lines when)Tj
+/R10 10 Tf
+187.03 0 Td
+<AD76>Tj
+/R8 10 Tf
+13.2801 0 Td
+[(is speci\214ed\).)-508.018(If ho)]TJ
+74.7 0 Td
+(we)Tj
+-0.15 Tc
+11.4102 0 Td
+(ve)Tj
+2.58 Tc
+9.28984 0 Td
+(rt)Tj
+0 Tc
+8.68984 0 Td
+(he boolean)Tj
+-0.1 Tc
+/R10 10 Tf
+46.2602 0 Td
+(rv)Tj
+0 Tc
+/R8 10 Tf
+-350.66 -12 Td
+0.547 Tw
+(capability and the)Tj
+/R10 10 Tf
+75.241 0 Td
+<AD76>Tj
+/R8 10 Tf
+13.7469 0 Td
+0.548 Tw
+(command-line option are both speci\214ed, it applies to selected non-)Tj
+-88.9879 -12 Td
+0 Tw
+[(matching lines instead.)-500(The def)10.0073(ault is empty \(i.e., the terminal')]TJ
+2.5 Tc
+253.21 0 Td
+(sd)Tj
+0 Tc
+11.3898 0 Td
+[(ef)10.0098(ault color pair\).)]TJ
+-372.6 -55.2 Td
+[(User Commands)-13484.5(GNU grep 2.6.3)]TJ
+463 0 Td
+(6)Tj
+ET
+Q
+Q
+endstream
+endobj
+38 0 obj
+12276
+endobj
+42 0 obj
+<</Length 43 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R8 10 Tf
+1 0 0 1 72 744 Tm
+391.06 Tw
+(GREP\(1\) GREP\(1\))Tj
+-0.1 Tc
+/R10 10 Tf
+72 -36 Td
+(rv)Tj
+0 Tc
+/R8 10 Tf
+36 0 Td
+1.088 Tw
+[(Boolean v)25.0024(alue that re)]TJ
+-0.15 Tc
+88.0238 0 Td
+(ve)Tj
+0 Tc
+9.28984 0 Td
+[(rses \(sw)9.98779(aps\) the meanings of the)]TJ
+/R10 10 Tf
+139.178 0 Td
+(sl=)Tj
+/R8 10 Tf
+15.957 0 Td
+(and)Tj
+/R10 10 Tf
+18.027 0 Td
+(cx=)Tj
+/R8 10 Tf
+18.727 0 Td
+1.087 Tw
+(capabilities when)Tj
+-289.203 -12 Td
+(the)Tj
+/R10 10 Tf
+16.9488 0 Td
+<AD76>Tj
+/R8 10 Tf
+15.4289 0 Td
+2.229 Tw
+[(command-line option is speci\214ed.)-722.9(The def)10.0171(ault is f)]TJ
+216.773 0 Td
+2.23 Tw
+(alse \(i.e., the capability is)Tj
+-249.15 -12 Td
+(omitted\).)Tj
+/R10 10 Tf
+-36 -16.8 Td
+(mt=01;31)Tj
+/R8 10 Tf
+36 -12 Td
+1.564 Tw
+[(SGR substring for matching non-empty te)15.0073(xt in an)]TJ
+4.064 Tc
+208.698 0 Td
+(ym)Tj
+0 Tc
+16.8441 0 Td
+(atching line \(i.e., a selected line)Tj
+-225.542 -12 Td
+1.42 Tw
+(when the)Tj
+/R10 10 Tf
+41.7199 0 Td
+<AD76>Tj
+/R8 10 Tf
+14.6199 0 Td
+1.421 Tw
+[(command-line option is omitted, or a conte)15(xt line when)]TJ
+/R10 10 Tf
+237.069 0 Td
+<AD76>Tj
+/R8 10 Tf
+14.6211 0 Td
+(is speci\214ed\).)Tj
+-308.03 -12 Td
+1.107 Tw
+(Setting this is equi)Tj
+-0.25 Tc
+77.2512 0 Td
+(va)Tj
+0 Tc
+9.18984 0 Td
+(lent to setting both)Tj
+/R10 10 Tf
+81.6578 0 Td
+(ms=)Tj
+/R8 10 Tf
+21.527 0 Td
+(and)Tj
+/R10 10 Tf
+18.0469 0 Td
+(mc=)Tj
+/R8 10 Tf
+22.077 0 Td
+(at once to the same v)Tj
+89.4352 0 Td
+3.606 Tw
+(alue. The)Tj
+-319.185 -12 Td
+0 Tw
+[(def)10.0073(ault is a bold red te)14.9927(xt fore)14.9927(ground o)]TJ
+-0.15 Tc
+150.81 0 Td
+(ve)Tj
+2.5 Tc
+9.28984 0 Td
+(rt)Tj
+0 Tc
+8.61016 0 Td
+(he current line background.)Tj
+/R10 10 Tf
+-204.71 -16.8 Td
+(ms=01;31)Tj
+/R8 10 Tf
+36 -12 Td
+0.845 Tw
+(SGR substring for matching non-empty te)Tj
+172.125 0 Td
+0.846 Tw
+[(xt in a selected line.)-584.585(\(This is only used when)]TJ
+-172.125 -12 Td
+(the)Tj
+/R10 10 Tf
+15.7 0 Td
+<AD76>Tj
+/R8 10 Tf
+14.1801 0 Td
+0.98 Tw
+(command-line option is omitted.\))Tj
+142.809 0 Td
+0.979 Tw
+[(The ef)25.0171(fect of the)]TJ
+/R10 10 Tf
+72.5258 0 Td
+(sl=)Tj
+/R8 10 Tf
+15.8488 0 Td
+(\(or)Tj
+/R10 10 Tf
+15.1391 0 Td
+(cx=)Tj
+/R8 10 Tf
+18.6191 0 Td
+(if)Tj
+-0.1 Tc
+/R10 10 Tf
+9.58906 0 Td
+(rv)Tj
+3.479 Tc
+/R8 10 Tf
+9.33984 0 Td
+(\)c)Tj
+0 Tc
+11.2488 0 Td
+(apability)Tj
+-325 -12 Td
+1.577 Tw
+(remains acti)Tj
+-0.15 Tc
+49.927 0 Td
+1.877 Tw
+(ve w)Tj
+0 Tc
+20.5871 0 Td
+1.577 Tw
+[(hen this kicks in.)-657.688(The def)10.0122(ault is a bold red te)]TJ
+195.5 0 Td
+1.578 Tw
+[(xt fore)15.0195(ground o)]TJ
+-0.15 Tc
+65.0656 0 Td
+(ve)Tj
+4.078 Tc
+9.28984 0 Td
+(rt)Tj
+0 Tc
+10.1879 0 Td
+(he)Tj
+-350.557 -12 Td
+0 Tw
+(current line background.)Tj
+/R10 10 Tf
+-36 -16.8 Td
+(mc=01;31)Tj
+/R8 10 Tf
+36 -12 Td
+0.003 Tw
+[(SGR substring for matching non-empty te)15.0146(xt in a conte)14.9854(xt line.)]TJ
+249.72 0 Td
+0.002 Tw
+(\(This is only used when the)Tj
+/R10 10 Tf
+-249.72 -12 Td
+<AD76>Tj
+/R8 10 Tf
+14.9441 0 Td
+1.744 Tw
+[(command-line option is speci\214ed.\))-674.385(The ef)24.9927(fect of the)]TJ
+/R10 10 Tf
+226.442 0 Td
+(cx=)Tj
+/R8 10 Tf
+19.384 0 Td
+(\(or)Tj
+/R10 10 Tf
+15.9051 0 Td
+(sl=)Tj
+/R8 10 Tf
+16.6148 0 Td
+(if)Tj
+-0.1 Tc
+/R10 10 Tf
+10.3551 0 Td
+(rv)Tj
+4.245 Tc
+/R8 10 Tf
+9.33984 0 Td
+(\)c)Tj
+0 Tc
+12.0148 0 Td
+(apability)Tj
+-325 -12 Td
+1.578 Tw
+(remains acti)Tj
+-0.15 Tc
+49.9281 0 Td
+1.878 Tw
+(ve w)Tj
+0 Tc
+20.5879 0 Td
+1.578 Tw
+(hen this kicks in.)Tj
+79.091 0 Td
+1.577 Tw
+[(The def)10.0122(ault is a bold red te)15.0146(xt fore)14.9951(ground o)]TJ
+-0.15 Tc
+181.476 0 Td
+(ve)Tj
+4.077 Tc
+9.28984 0 Td
+(rt)Tj
+0 Tc
+10.1871 0 Td
+(he)Tj
+-350.56 -12 Td
+0 Tw
+(current line background.)Tj
+/R10 10 Tf
+-36 -16.8 Td
+(fn=35)Tj
+/R8 10 Tf
+36 0 Td
+1.142 Tw
+(SGR substring for \214le names pre\214xing an)Tj
+3.642 Tc
+173.362 0 Td
+(yc)Tj
+0 Tc
+13.082 0 Td
+[(ontent line.)-614.199(The def)9.99023(ault is a magenta te)]TJ
+165.774 0 Td
+(xt)Tj
+-352.218 -12 Td
+0 Tw
+[(fore)15(ground o)]TJ
+-0.15 Tc
+51.6301 0 Td
+(ve)Tj
+2.5 Tc
+9.28984 0 Td
+(rt)Tj
+0 Tc
+8.61016 0 Td
+(he terminal')Tj
+2.5 Tc
+48.05 0 Td
+(sd)Tj
+0 Tc
+11.3898 0 Td
+[(ef)10.0073(ault background.)]TJ
+/R10 10 Tf
+-164.97 -16.8 Td
+(ln=32)Tj
+/R8 10 Tf
+36 0 Td
+1.182 Tw
+(SGR substring for line numbers pre\214xing an)Tj
+3.682 Tc
+184.712 0 Td
+(yc)Tj
+0 Tc
+13.1219 0 Td
+[(ontent line.)-618.208(The def)10.0049(ault is a green te)]TJ
+154.384 0 Td
+(xt)Tj
+-352.218 -12 Td
+0 Tw
+[(fore)15(ground o)]TJ
+-0.15 Tc
+51.6301 0 Td
+(ve)Tj
+2.5 Tc
+9.28984 0 Td
+(rt)Tj
+0 Tc
+8.61016 0 Td
+(he terminal')Tj
+2.5 Tc
+48.05 0 Td
+(sd)Tj
+0 Tc
+11.3898 0 Td
+[(ef)10.0073(ault background.)]TJ
+/R10 10 Tf
+-164.97 -16.8 Td
+(bn=32)Tj
+/R8 10 Tf
+36 0 Td
+1.597 Tw
+[(SGR substring for byte of)25.0024(fsets pre\214xing an)]TJ
+4.097 Tc
+181.392 0 Td
+(yc)Tj
+0 Tc
+13.5371 0 Td
+[(ontent line.)-659.712(The def)9.98047(ault is a green te)]TJ
+157.289 0 Td
+(xt)Tj
+-352.218 -12 Td
+0 Tw
+[(fore)15(ground o)]TJ
+-0.15 Tc
+51.6301 0 Td
+(ve)Tj
+2.5 Tc
+9.28984 0 Td
+(rt)Tj
+0 Tc
+8.61016 0 Td
+(he terminal')Tj
+2.5 Tc
+48.05 0 Td
+(sd)Tj
+0 Tc
+11.3898 0 Td
+[(ef)10.0073(ault background.)]TJ
+/R10 10 Tf
+-164.97 -16.8 Td
+(se=36)Tj
+/R8 10 Tf
+36 0 Td
+1.233 Tw
+(SGR substring for separators that are inserted between selected line \214elds \()Tj
+/R10 10 Tf
+313.783 0 Td
+(:)Tj
+/R8 10 Tf
+3.33008 0 Td
+(\), between)Tj
+-317.113 -12 Td
+(conte)Tj
+21.5102 0 Td
+1.448 Tw
+(xt line \214elds, \()Tj
+/R10 10 Tf
+62.1238 0 Td
+<AD>Tj
+/R8 10 Tf
+5.7 0 Td
+1.449 Tw
+[(\), and between groups of adjacent lines when nonzero conte)14.9902(xt is)]TJ
+-89.334 -12 Td
+3.418 Tw
+(speci\214ed \()Tj
+0.833 Tc
+/R10 10 Tf
+44.798 0 Td
+<ADAD>Tj
+0 Tc
+/R8 10 Tf
+12.2328 0 Td
+5.918 Tw
+(\). The)Tj
+35.716 0 Td
+(def)Tj
+12.6699 0 Td
+3.417 Tw
+[(ault is a c)14.9829(yan te)15.0049(xt fore)15.0122(ground o)]TJ
+-0.15 Tc
+144.322 0 Td
+(ve)Tj
+5.917 Tc
+9.28984 0 Td
+(rt)Tj
+0 Tc
+12.027 0 Td
+(he terminal')Tj
+5.917 Tc
+51.4672 0 Td
+(sd)Tj
+0 Tc
+14.807 0 Td
+[(ef)10.0098(ault)]TJ
+-337.33 -12 Td
+(background.)Tj
+/R10 10 Tf
+-36 -16.8 Td
+(ne)Tj
+/R8 10 Tf
+36 0 Td
+0.495 Tw
+[(Boolean v)25(alue that pre)]TJ
+-0.15 Tc
+91.2449 0 Td
+(ve)Tj
+0 Tc
+9.28984 0 Td
+(nts clearing to the end of line using Erase in Line \(EL\) to Right)Tj
+-100.535 -12 Td
+<28>Tj
+/R10 10 Tf
+3.33008 0 Td
+(\\33[K)Tj
+2.781 Tc
+/R8 10 Tf
+23.8898 0 Td
+(\)e)Tj
+0 Tc
+10.5512 0 Td
+0.281 Tw
+(ach time a colorized item ends.)Tj
+131.106 0 Td
+0.28 Tw
+(This is needed on terminals on which EL is not)Tj
+-168.877 -12 Td
+4.399 Tw
+(supported. It)Tj
+59.348 0 Td
+1.899 Tw
+(is otherwise useful on terminals for which the)Tj
+/R10 10 Tf
+200.722 0 Td
+(back_color_erase)Tj
+/R8 10 Tf
+78.8301 0 Td
+<28>Tj
+/R10 10 Tf
+3.33008 0 Td
+(bce)Tj
+/R8 10 Tf
+14.4398 0 Td
+<29>Tj
+-356.67 -12 Td
+2.024 Tw
+(boolean terminfo capability does not apply)Tj
+4.524 Tc
+180.84 0 Td
+(,w)Tj
+0 Tc
+14.2441 0 Td
+(hen the chosen highlight colors do not)Tj
+-195.084 -12 Td
+(af)Tj
+7.51992 0 Td
+0.377 Tw
+(fect the background, or when EL is too slo)Tj
+2.878 Tc
+173.016 0 Td
+[(wo)287.795(rc)]TJ
+0 Tc
+25.7461 0 Td
+0.378 Tw
+(auses too much \215ick)Tj
+82.9738 0 Td
+(er)Tj
+5.378 Tc
+7.21992 0 Td
+(.T)Tj
+0 Tc
+13.9879 0 Td
+[(he def)10.0098(ault is)]TJ
+-0.1 Tc
+-310.464 -12 Td
+(fa)Tj
+0 Tc
+7.66992 0 Td
+0 Tw
+(lse \(i.e., the capability is omitted\).)Tj
+-43.6699 -16.8 Td
+1.776 Tw
+(Note that boolean capabilities ha)Tj
+-0.15 Tc
+137.994 0 Td
+2.076 Tw
+(ve n)Tj
+0 Tc
+18.566 0 Td
+(o)Tj
+/R10 10 Tf
+9.275 0 Td
+(=)Tj
+/R8 10 Tf
+5.7 0 Td
+4.275 Tw
+(... part. The)Tj
+4.275 Tc
+54.5 0 Td
+(ya)Tj
+0 Tc
+13.7148 0 Td
+1.775 Tw
+[(re omitted \(i.e., f)9.98535(alse\) by def)10(ault and)]TJ
+-239.75 -12 Td
+0 Tw
+(become true when speci\214ed.)Tj
+16.8 TL
+0.764 Tw
+T*[(See the Select Graphic Rendition \(SGR\) section in the documentation of the te)14.9854(xt terminal that is)]TJ
+12 TL
+1.356 Tw
+(used for permitted v)'
+84.6379 0 Td
+1.355 Tw
+(alues and their meaning as character attrib)Tj
+176.77 0 Td
+3.855 Tw
+(utes. These)Tj
+52.7 0 Td
+1.355 Tw
+[(substring v)25(alues are)]TJ
+-314.108 -12 Td
+(inte)Tj
+14.85 0 Td
+1.036 Tw
+(gers in decimal representation and can be concatenated with semicolons.)Tj
+/R10 10 Tf
+305.85 0 Td
+[(gr)17.9834(ep)]TJ
+/R8 10 Tf
+22.7961 0 Td
+(tak)Tj
+12.1199 0 Td
+1.037 Tw
+(es care of)Tj
+-355.616 -12 Td
+1.058 Tw
+(assembling the result into a complete SGR sequence \()Tj
+/R10 10 Tf
+223.994 0 Td
+(\\33[)Tj
+/R8 10 Tf
+16.1102 0 Td
+(...)Tj
+/R10 10 Tf
+7.5 0 Td
+(m)Tj
+/R8 10 Tf
+8.33008 0 Td
+3.557 Tw
+(\). Common)Tj
+-0.25 Tc
+52.6738 0 Td
+(va)Tj
+0 Tc
+9.18984 0 Td
+1.057 Tw
+(lues to concatenate)Tj
+-317.798 -12 Td
+(include)Tj
+/R10 10 Tf
+32.1469 0 Td
+(1)Tj
+/R8 10 Tf
+7.70703 0 Td
+0.207 Tw
+(for bold,)Tj
+/R10 10 Tf
+37.3539 0 Td
+(4)Tj
+/R8 10 Tf
+7.70703 0 Td
+(for underline,)Tj
+/R10 10 Tf
+57.3441 0 Td
+(5)Tj
+/R8 10 Tf
+7.70703 0 Td
+(for blink,)Tj
+/R10 10 Tf
+40.134 0 Td
+(7)Tj
+/R8 10 Tf
+7.70703 0 Td
+(for in)Tj
+-0.15 Tc
+21.7469 0 Td
+(ve)Tj
+0 Tc
+9.28984 0 Td
+(rse,)Tj
+/R10 10 Tf
+16.868 0 Td
+(39)Tj
+/R8 10 Tf
+12.7078 0 Td
+0.208 Tw
+[(for def)10.0098(ault fore)15.0195(ground color)]TJ
+111.884 0 Td
+(,)Tj
+/R10 10 Tf
+5.20781 0 Td
+(30)Tj
+/R8 10 Tf
+12.7078 0 Td
+(to)Tj
+/R10 10 Tf
+-388.219 -12 Td
+(37)Tj
+/R8 10 Tf
+13.5738 0 Td
+1.074 Tw
+[(for fore)15.0012(ground colors,)]TJ
+/R10 10 Tf
+93.602 0 Td
+(90)Tj
+/R8 10 Tf
+13.5738 0 Td
+(to)Tj
+/R10 10 Tf
+11.3531 0 Td
+(97)Tj
+/R8 10 Tf
+13.573 0 Td
+1.073 Tw
+[(for 16-color mode fore)15.0098(ground colors,)]TJ
+/R10 10 Tf
+156.845 0 Td
+(38;5;0)Tj
+/R8 10 Tf
+30.2328 0 Td
+(to)Tj
+/R10 10 Tf
+11.3531 0 Td
+(38;5;255)Tj
+/R8 10 Tf
+40.2328 0 Td
+(for)Tj
+-384.339 -12 Td
+1.274 Tw
+[(88-color and 256-color modes fore)15.0146(ground colors,)]TJ
+/R10 10 Tf
+207.174 0 Td
+(49)Tj
+/R8 10 Tf
+13.7738 0 Td
+[(for def)10.0098(ault background color)]TJ
+118.012 0 Td
+(,)Tj
+/R10 10 Tf
+6.275 0 Td
+(40)Tj
+/R8 10 Tf
+13.775 0 Td
+(to)Tj
+/R10 10 Tf
+11.5551 0 Td
+(47)Tj
+/R8 10 Tf
+13.775 0 Td
+(for)Tj
+-384.339 -12 Td
+0.712 Tw
+(background colors,)Tj
+/R10 10 Tf
+80.5738 0 Td
+(100)Tj
+/R8 10 Tf
+18.2121 0 Td
+(to)Tj
+/R10 10 Tf
+10.9922 0 Td
+(107)Tj
+/R8 10 Tf
+18.2121 0 Td
+0.711 Tw
+(for 16-color mode background colors, and)Tj
+/R10 10 Tf
+175.616 0 Td
+(48;5;0)Tj
+/R8 10 Tf
+29.8711 0 Td
+(to)Tj
+/R10 10 Tf
+10.991 0 Td
+(48;5;255)Tj
+/R8 10 Tf
+39.8711 0 Td
+(for)Tj
+-384.339 -12 Td
+0 Tw
+(88-color and 256-color modes background colors.)Tj
+/R10 10 Tf
+-36 -16.8 Td
+(LC_ALL)Tj
+/R8 10 Tf
+39.45 0 Td
+(,)Tj
+/R10 10 Tf
+5 0 Td
+[(LC_COLLA)95(TE)]TJ
+/R8 10 Tf
+66.8398 0 Td
+(,)Tj
+/R10 10 Tf
+5 0 Td
+(LANG)Tj
+/R8 10 Tf
+-80.2898 -12 Td
+3.309 Tw
+[(These v)24.9939(ariables specify the locale for the)]TJ
+/R10 10 Tf
+189.253 0 Td
+[(LC_COLLA)95(TE)]TJ
+/R8 10 Tf
+72.6488 0 Td
+[(cate)15(gory)]TJ
+5.809 Tc
+33.6301 0 Td
+(,w)Tj
+0 Tc
+15.5289 0 Td
+(hich determines the)Tj
+-311.061 -12 Td
+0 Tw
+[(collating sequence used to interpret range e)15.0146(xpressions lik)9.99268(e)]TJ
+/R10 10 Tf
+235.26 0 Td
+([a\255z])Tj
+/R8 10 Tf
+21.8 0 Td
+(.)Tj
+-329.06 -67.2 Td
+[(User Commands)-13484.5(GNU grep 2.6.3)]TJ
+463 0 Td
+(7)Tj
+ET
+Q
+Q
+endstream
+endobj
+43 0 obj
+10685
+endobj
+47 0 obj
+<</Length 48 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R8 10 Tf
+1 0 0 1 72 744 Tm
+391.06 Tw
+(GREP\(1\) GREP\(1\))Tj
+/R10 10 Tf
+36 -36 Td
+(LC_ALL)Tj
+/R8 10 Tf
+39.45 0 Td
+(,)Tj
+/R10 10 Tf
+5 0 Td
+(LC_CTYPE)Tj
+/R8 10 Tf
+52.7801 0 Td
+(,)Tj
+/R10 10 Tf
+5 0 Td
+(LANG)Tj
+/R8 10 Tf
+-66.2301 -12 Td
+1.532 Tw
+[(These v)24.989(ariables specify the locale for the)]TJ
+/R10 10 Tf
+176.814 0 Td
+(LC_CTYPE)Tj
+/R8 10 Tf
+56.8109 0 Td
+[(cate)15(gory)]TJ
+4.031 Tc
+33.6301 0 Td
+(,w)Tj
+0 Tc
+13.7512 0 Td
+1.531 Tw
+(hich determines the type of)Tj
+-281.006 -12 Td
+0 Tw
+(characters, e.g., which characters are whitespace.)Tj
+/R10 10 Tf
+-36 -16.8 Td
+(LC_ALL)Tj
+/R8 10 Tf
+39.45 0 Td
+(,)Tj
+/R10 10 Tf
+5 0 Td
+[(LC_MESSA)55.0146(GES)]TJ
+/R8 10 Tf
+72.8 0 Td
+(,)Tj
+/R10 10 Tf
+5 0 Td
+(LANG)Tj
+/R8 10 Tf
+-86.25 -12 Td
+2.767 Tw
+[(These v)25.0122(ariables specify the locale for the)]TJ
+/R10 10 Tf
+185.459 0 Td
+[(LC_MESSA)55.0146(GES)]TJ
+/R8 10 Tf
+78.0668 0 Td
+[(cate)15(gory)]TJ
+5.268 Tc
+33.6301 0 Td
+(,w)Tj
+0 Tc
+14.9879 0 Td
+2.768 Tw
+(hich determines the)Tj
+-312.144 -12 Td
+0 Tw
+(language that)Tj
+/R10 10 Tf
+56.1 0 Td
+[(gr)17.9834(ep)]TJ
+/R8 10 Tf
+21.7602 0 Td
+[(uses for messages.)-500(The def)10.0073(ault C locale uses American English messages.)]TJ
+/R10 10 Tf
+-113.86 -16.8 Td
+[(POSIXL)91.9849(Y_CORRECT)]TJ
+/R8 10 Tf
+36 -12 Td
+0.377 Tw
+(If set,)Tj
+/R10 10 Tf
+26.0238 0 Td
+[(gr)17.9846(ep)]TJ
+/R8 10 Tf
+22.1371 0 Td
+(beha)Tj
+-0.15 Tc
+18.6801 0 Td
+(ve)Tj
+2.877 Tc
+9.28984 0 Td
+(sa)Tj
+0 Tc
+11.207 0 Td
+(s)Tj
+/R8 9 Tf
+6.76719 0 Td
+(POSIX.2)Tj
+/R8 10 Tf
+35.6281 0 Td
+(requires; otherwise,)Tj
+/R10 10 Tf
+82.1238 0 Td
+[(gr)17.9834(ep)]TJ
+/R8 10 Tf
+22.1371 0 Td
+(beha)Tj
+-0.15 Tc
+18.6801 0 Td
+(ve)Tj
+2.877 Tc
+9.28984 0 Td
+(sm)Tj
+0 Tc
+14.5469 0 Td
+(ore lik)Tj
+2.876 Tc
+26.107 0 Td
+(eo)Tj
+0 Tc
+12.316 0 Td
+(ther)Tj
+/R8 9 Tf
+18.4262 0 Td
+(GNU)Tj
+/R8 10 Tf
+22.3699 0 Td
+(programs.)Tj
+/R8 9 Tf
+-355.73 -12 Td
+(POSIX.2)Tj
+/R8 10 Tf
+35.4602 0 Td
+0.21 Tw
+(requires that options that follo)Tj
+2.71 Tc
+121.14 0 Td
+<778C>Tj
+0 Tc
+15.4898 0 Td
+[(le names must be treated as \214le names; by def)10.0098(ault, such)]TJ
+-172.09 -12 Td
+1.335 Tw
+(options are permuted to the front of the operand list and are treated as options.)Tj
+338.025 0 Td
+(Also,)Tj
+/R8 9 Tf
+25.2238 0 Td
+(POSIX.2)Tj
+/R8 10 Tf
+-363.249 -12 Td
+0.695 Tw
+(requires that unrecognized options be diagnosed as \231ille)Tj
+-0.05 Tc
+228.285 0 Td
+(ga)Tj
+0 Tc
+9.38984 0 Td
+[(l\232, b)20.0146(ut since the)]TJ
+3.195 Tc
+64.5047 0 Td
+(ya)Tj
+0 Tc
+12.6352 0 Td
+(re not really ag)Tj
+62.2949 0 Td
+(ainst)Tj
+-377.11 -12 Td
+2.784 Tw
+(the la)Tj
+5.284 Tc
+24.5738 0 Td
+(wt)Tj
+0 Tc
+15.284 0 Td
+(he def)Tj
+27.3941 0 Td
+2.783 Tw
+(ault is to diagnose them as \231in)Tj
+-0.25 Tc
+136.848 0 Td
+(va)Tj
+0 Tc
+9.18984 0 Td
+(lid\232.)Tj
+/R10 10 Tf
+25.2828 0 Td
+[(POSIXL)91.9824(Y_CORRECT)]TJ
+/R8 10 Tf
+103.813 0 Td
+(also disables)Tj
+/R10 10 Tf
+-342.386 -12 Td
+(_)Tj
+/R12 10 Tf
+5 0 Td
+(N)Tj
+/R10 10 Tf
+6.66992 0 Td
+[(_GNU_nonoption_ar)9.98535(gv_\215ags_)]TJ
+2.5 Tc
+/R8 10 Tf
+129.36 0 Td
+(,d)Tj
+0 Tc
+10 0 Td
+0 Tw
+(escribed belo)Tj
+-0.65 Tc
+52.7898 0 Td
+(w.)Tj
+0 Tc
+/R10 10 Tf
+-239.82 -16.8 Td
+(_)Tj
+/R12 10 Tf
+5 0 Td
+(N)Tj
+/R10 10 Tf
+6.66992 0 Td
+[(_GNU_nonoption_ar)9.98535(gv_\215ags_)]TJ
+/R8 10 Tf
+24.3301 -12 Td
+(\(Here)Tj
+/R12 10 Tf
+26.2379 0 Td
+(N)Tj
+/R8 10 Tf
+10.548 0 Td
+(is)Tj
+/R10 10 Tf
+9.44805 0 Td
+[(gr)17.9846(ep)]TJ
+-0.55 Tc
+/R8 10 Tf
+19.2602 0 Td
+1.378 Tw
+('s n)Tj
+0 Tc
+14.448 0 Td
+0.278 Tw
+[(umeric process ID.\))-527.783(If the)]TJ
+/R12 10 Tf
+109.41 0 Td
+(i)Tj
+/R8 10 Tf
+3.13984 0 Td
+[(th character of this en)40.0049(vironment v)]TJ
+135.99 0 Td
+(ariable')Tj
+2.779 Tc
+29.9898 0 Td
+(sv)Tj
+0 Tc
+11.4191 0 Td
+0.279 Tw
+(alue is)Tj
+/R10 10 Tf
+-369.891 -12 Td
+(1)Tj
+2.584 Tc
+/R8 10 Tf
+5 0 Td
+[(,d)258.402(on)]TJ
+0 Tc
+22.668 0 Td
+0.084 Tw
+(ot consider the)Tj
+/R12 10 Tf
+61.632 0 Td
+(i)Tj
+/R8 10 Tf
+3.13984 0 Td
+(th operand of)Tj
+/R10 10 Tf
+56.0719 0 Td
+[(gr)17.9834(ep)]TJ
+/R8 10 Tf
+21.8441 0 Td
+(to be an option, e)Tj
+-0.15 Tc
+69.2461 0 Td
+(ve)Tj
+2.584 Tc
+9.28984 0 Td
+(ni)Tj
+2.583 Tc
+10.3641 0 Td
+[(fi)258.301(ta)]TJ
+0 Tc
+18.4961 0 Td
+0.083 Tw
+(ppears to be one.)Tj
+2.583 Tc
+73.0922 0 Td
+(As)Tj
+0 Tc
+13.693 0 Td
+(hell can)Tj
+-364.537 -12 Td
+0.522 Tw
+[(put this v)25.0171(ariable in the en)39.9976(vironment for each command it runs, specifying which operands are the)]TJ
+12 TL
+2.11 Tw
+T*[(results of \214le name wildcard e)14.9854(xpansion and therefore should not be treated as options.)]TJ
+378.22 0 Td
+(This)Tj
+-378.22 -12 Td
+(beha)Tj
+18.6801 0 Td
+0.684 Tw
+(vior is a)Tj
+-0.25 Tc
+33.3879 0 Td
+(va)Tj
+0 Tc
+9.18984 0 Td
+(ilable only with the)Tj
+/R8 9 Tf
+82.7359 0 Td
+(GNU)Tj
+3.184 Tc
+/R8 10 Tf
+22.6781 0 Td
+(Cl)Tj
+0 Tc
+12.634 0 Td
+(ibrary)Tj
+3.184 Tc
+23.2301 0 Td
+(,a)Tj
+0 Tc
+10.1238 0 Td
+(nd only when)Tj
+/R10 10 Tf
+58.9922 0 Td
+[(POSIXL)91.9824(Y_CORRECT)]TJ
+/R8 10 Tf
+101.714 0 Td
+(is not)Tj
+-373.366 -12 Td
+(set.)Tj
+/R10 10.95 Tf
+-72 -16.8 Td
+0 Tw
+(EXIT ST)Tj
+-1.04 Tc
+41.916 0 Td
+(AT)Tj
+0 Tc
+14.1695 0 Td
+(US)Tj
+/R8 10 Tf
+-20.0855 -12 Td
+(Normally)Tj
+2.877 Tc
+37.6801 0 Td
+(,t)Tj
+0 Tc
+8.15703 0 Td
+0.377 Tw
+[(he e)14.9963(xit status is 0 if selected lines are found and 1 otherwise.)]TJ
+252.21 0 Td
+0.376 Tw
+[(But the e)14.9902(xit status is 2 if an error)]TJ
+-298.047 -12 Td
+0.333 Tw
+(occurred, unless the)Tj
+/R10 10 Tf
+83.1988 0 Td
+<AD71>Tj
+/R8 10 Tf
+14.093 0 Td
+(or)Tj
+0.833 Tc
+/R10 10 Tf
+11.1629 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(quiet)Tj
+/R8 10 Tf
+24.5031 0 Td
+(or)Tj
+0.833 Tc
+/R10 10 Tf
+11.1629 0 Td
+<ADAD>Tj
+0 Tc
+12.2328 0 Td
+(silent)Tj
+/R8 10 Tf
+25.6129 0 Td
+[(option is used and a selected line is found.)-533.286(Note, ho)]TJ
+211.67 0 Td
+(we)Tj
+-0.15 Tc
+11.4102 0 Td
+(ve)Tj
+-0.4 Tc
+9.28984 0 Td
+(r,)Tj
+0 Tc
+-426.569 -12 Td
+(that)Tj
+/R8 9 Tf
+17.7648 0 Td
+(POSIX)Tj
+/R8 10 Tf
+28.766 0 Td
+0.265 Tw
+(only mandates, for programs such as)Tj
+/R10 10 Tf
+150.73 0 Td
+[(gr)17.9834(ep)]TJ
+/R8 10 Tf
+19.2602 0 Td
+(,)Tj
+/R10 10 Tf
+5.26484 0 Td
+(cmp)Tj
+2.764 Tc
+/R8 10 Tf
+18.3301 0 Td
+(,a)Tj
+0 Tc
+9.70391 0 Td
+(nd)Tj
+/R10 10 Tf
+12.7641 0 Td
+(diff)Tj
+2.764 Tc
+/R8 10 Tf
+15 0 Td
+(,t)Tj
+0 Tc
+8.04414 0 Td
+0.264 Tw
+[(hat the e)15.0195(xit status in case of error be)]TJ
+-285.628 -12 Td
+1.069 Tw
+(greater than 1; it is therefore advisable, for the sak)Tj
+3.569 Tc
+210.581 0 Td
+(eo)Tj
+3.57 Tc
+13.009 0 Td
+(fp)Tj
+0 Tc
+11.9 0 Td
+(ortability)Tj
+3.57 Tc
+36.0199 0 Td
+[(,t)357(ou)]TJ
+0 Tc
+22.4199 0 Td
+1.07 Tw
+(se logic that tests for this general)Tj
+-293.93 -12 Td
+0 Tw
+(condition instead of strict equality with 2.)Tj
+/R10 10.95 Tf
+-36 -16.8 Td
+(COPYRIGHT)Tj
+/R8 10 Tf
+36 -12 Td
+[(Cop)10.0073(yright 1998-2000, 2002, 2005-2010 Free Softw)9.98535(are F)15.0073(oundation, Inc.)]TJ
+16.8 TL
+2.987 Tw
+T*[(This is free softw)9.99023(are; see the source for cop)10.0146(ying conditions.)-798.682(There is NO w)10.0049(arranty; not e)]TJ
+-0.15 Tc
+400.565 0 Td
+(ve)Tj
+5.486 Tc
+9.28984 0 Td
+(nf)Tj
+0 Tc
+13.816 0 Td
+(or)Tj
+-423.671 -12 Td
+0 Tw
+[(MERCHANT)92.9919(ABILITY or FITNESS FOR A P)91.9922(AR)60.0146(TICULAR PURPOSE.)]TJ
+-0.11 Tc
+/R10 10.95 Tf
+-36 -16.8 Td
+(BU)Tj
+0 Tc
+15.0996 0 Td
+(GS)Tj
+/R10 10 Tf
+-0.0996094 -12 Td
+(Reporting Bugs)Tj
+/R8 10 Tf
+21 -12 Td
+10.759 Tw
+[(Email b)20.0171(ug reports to <)]TJ
+-0.2 Tc
+/R10 10 Tf
+132.916 0 Td
+(bu)Tj
+0 Tc
+10.9199 0 Td
+[(g\255gr)17.9834(ep@gnu.or)9.98535(g)]TJ
+/R8 10 Tf
+72.2203 0 Td
+(>, a mailing list whose web page is)Tj
+-216.056 -12 Td
+(<)Tj
+/R10 10 Tf
+5.63984 0 Td
+[(http://lists.gnu.or)10(g/mailman/listinf)25.0146(o/b)20.0146(ug\255gr)18.0078(ep)]TJ
+/R8 10 Tf
+195 0 Td
+(>.)Tj
+/R10 10 Tf
+20.802 0 Td
+[(gr)17.9834(ep)]TJ
+-0.55 Tc
+/R8 10 Tf
+19.2602 0 Td
+8.762 Tw
+('s S)Tj
+-0.2 Tc
+22.3922 0 Td
+(av)Tj
+0 Tc
+8.98984 0 Td
+7.662 Tw
+(annah b)Tj
+38.8422 0 Td
+7.661 Tw
+[(ug track)9.98047(er is located at)]TJ
+-310.926 -12 Td
+(<)Tj
+/R10 10 Tf
+5.63984 0 Td
+(http://sa)Tj
+-0.1 Tc
+35.3102 0 Td
+(va)Tj
+0 Tc
+9.9 0 Td
+[(nnah.gnu.or)10.0146(g/b)20.0146(ugs/?gr)18.0151(oup=gr)17.9932(ep)]TJ
+/R8 10 Tf
+137.85 0 Td
+(>.)Tj
+/R10 10 Tf
+-209.7 -16.8 Td
+0 Tw
+[(Kno)10.0159(wn Bugs)]TJ
+/R8 10 Tf
+21 -12 Td
+(Lar)Tj
+13.7 0 Td
+0.604 Tw
+(ge repetition counts in the)Tj
+/R10 10 Tf
+109.4 0 Td
+({)Tj
+/R12 10 Tf
+4.3 0 Td
+(n)Tj
+/R10 10 Tf
+5.23984 0 Td
+(,)Tj
+/R12 10 Tf
+2.88008 0 Td
+(m)Tj
+/R10 10 Tf
+7.53984 0 Td
+(})Tj
+/R8 10 Tf
+7.04492 0 Td
+0.605 Tw
+(construct may cause)Tj
+/R10 10 Tf
+85.4051 0 Td
+[(gr)17.9834(ep)]TJ
+/R8 10 Tf
+22.3652 0 Td
+(to use lots of memory)Tj
+5.605 Tc
+88.9898 0 Td
+(.I)Tj
+3.105 Tc
+11.4352 0 Td
+(na)Tj
+0 Tc
+12.5449 0 Td
+(ddition, certain)Tj
+-370.845 -12 Td
+1.16 Tw
+[(other obscure re)15.0159(gular e)15(xpressions require e)15(xponential time and space, and may cause)]TJ
+/R10 10 Tf
+355.88 0 Td
+[(gr)17.9834(ep)]TJ
+/R8 10 Tf
+22.9203 0 Td
+(to run out of)Tj
+-378.8 -12 Td
+[(memory)64.9927(.)]TJ
+0 Tw
+T*[(Back-references are v)15.0073(ery slo)]TJ
+-0.65 Tc
+113.71 0 Td
+1.3 Tw
+(w, a)Tj
+0 Tc
+16.0102 0 Td
+0 Tw
+[(nd may require e)14.9927(xponential time.)]TJ
+/R10 10.95 Tf
+-165.72 -16.8 Td
+(SEE ALSO)Tj
+/R10 10 Tf
+15 -12 Td
+[(Regular Manual P)10.0159(ages)]TJ
+-0.15 Tc
+/R8 10 Tf
+21 -12 Td
+(aw)Tj
+0 Tc
+11.5102 0 Td
+2.19 Tw
+(k\(1\), cmp\(1\), dif)Tj
+70.7801 0 Td
+2.191 Tw
+[(f\(1\), \214nd\(1\), gzip\(1\), perl\(1\), sed\(1\), sort\(1\), xar)18.0054(gs\(1\), zgrep\(1\), mmap\(2\), read\(2\),)]TJ
+-82.2902 -12 Td
+0 Tw
+[(pcre\(3\), pcresyntax\(3\), pcrepattern\(3\), terminfo\(5\), glob\(7\), re)15(ge)15.0146(x\(7\).)]TJ
+/R10 9 Tf
+-21 -16.8 Td
+(POSIX)Tj
+/R10 10 Tf
+30.0039 0 Td
+[(Pr)18.0078(ogrammer')]TJ
+2.5 Tc
+58.3098 0 Td
+(sM)Tj
+0 Tc
+15.8301 0 Td
+[(anual P)9.98535(age)]TJ
+/R8 10 Tf
+-83.1437 -12 Td
+(grep\(1p\).)Tj
+/R10 9 Tf
+-21 -16.8 Td
+(T)Tj
+4.50312 -1.8 Td
+(E)Tj
+4.87812 1.8 Td
+(X)Tj
+/R10 10 Tf
+6.49805 0 Td
+(inf)Tj
+2.5 Tc
+11.4199 0 Td
+(oD)Tj
+0 Tc
+14.7199 0 Td
+(ocumentation)Tj
+/R8 10 Tf
+-21.0191 -12 Td
+1.26 Tw
+(The full documentation for)Tj
+/R10 10 Tf
+115.58 0 Td
+[(gr)17.9834(ep)]TJ
+/R8 10 Tf
+23.0203 0 Td
+(is maintained as a)Tj
+/R8 9 Tf
+78.9199 0 Td
+(T)Tj
+3.99883 -1.8 Td
+(E)Tj
+4.37383 1.8 Td
+(X)Tj
+/R8 10 Tf
+6.49805 0 Td
+[(info manual.)-625.991(If the)]TJ
+/R10 10 Tf
+84.4699 0 Td
+[(inf)25.0098(o)]TJ
+/R8 10 Tf
+20.1801 0 Td
+(and)Tj
+/R10 10 Tf
+18.2 0 Td
+[(gr)17.9834(ep)]TJ
+/R8 10 Tf
+23.0203 0 Td
+1.259 Tw
+(programs are)Tj
+-378.261 -12 Td
+0 Tw
+(properly installed at your site, the command)Tj
+-36 -50.4 Td
+[(User Commands)-13484.5(GNU grep 2.6.3)]TJ
+463 0 Td
+(8)Tj
+ET
+Q
+Q
+endstream
+endobj
+48 0 obj
+10195
+endobj
+52 0 obj
+<</Length 53 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R8 10 Tf
+1 0 0 1 72 744 Tm
+391.06 Tw
+(GREP\(1\) GREP\(1\))Tj
+/R10 10 Tf
+72 -36 Td
+(inf)Tj
+2.5 Tc
+11.4199 0 Td
+(og)Tj
+-0.18 Tc
+12.5 0 Td
+(re)Tj
+0 Tc
+8.7 0 Td
+(p)Tj
+/R8 10 Tf
+-68.6199 -16.8 Td
+0 Tw
+(should gi)Tj
+-0.15 Tc
+36.7 0 Td
+0.3 Tw
+(ve y)Tj
+0 Tc
+16.7898 0 Td
+0 Tw
+(ou access to the complete manual.)Tj
+/R10 10.95 Tf
+-89.4898 -16.8 Td
+[(NO)39.99(TES)]TJ
+/R8 9 Tf
+36 -12 Td
+(GNU)Tj
+-0.55 Tc
+/R8 10 Tf
+19.4941 0 Td
+1.1 Tw
+('s n)Tj
+0 Tc
+14.1699 0 Td
+0 Tw
+[(ot Unix, b)19.9927(ut Unix is a beast; its plural form is Unix)14.9854(en.)]TJ
+-69.6641 -638.4 Td
+[(User Commands)-13484.5(GNU grep 2.6.3)]TJ
+463 0 Td
+(9)Tj
+ET
+Q
+Q
+endstream
+endobj
+53 0 obj
+680
+endobj
+4 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 14 0 R
+/Font 15 0 R
+>>
+/Contents 5 0 R
+>>
+endobj
+16 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 19 0 R
+/Font 20 0 R
+>>
+/Contents 17 0 R
+>>
+endobj
+21 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 24 0 R
+/Font 25 0 R
+>>
+/Contents 22 0 R
+>>
+endobj
+26 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 29 0 R
+/Font 30 0 R
+>>
+/Contents 27 0 R
+>>
+endobj
+31 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 34 0 R
+/Font 35 0 R
+>>
+/Contents 32 0 R
+>>
+endobj
+36 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 39 0 R
+/Font 40 0 R
+>>
+/Contents 37 0 R
+>>
+endobj
+41 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 44 0 R
+/Font 45 0 R
+>>
+/Contents 42 0 R
+>>
+endobj
+46 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 49 0 R
+/Font 50 0 R
+>>
+/Contents 47 0 R
+>>
+endobj
+51 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 54 0 R
+/Font 55 0 R
+>>
+/Contents 52 0 R
+>>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [
+4 0 R
+16 0 R
+21 0 R
+26 0 R
+31 0 R
+36 0 R
+41 0 R
+46 0 R
+51 0 R
+] /Count 9
+>>
+endobj
+1 0 obj
+<</Type /Catalog /Pages 3 0 R
+/Metadata 61 0 R
+>>
+endobj
+7 0 obj
+<</Type/ExtGState
+/OPM 1>>endobj
+14 0 obj
+<</R7
+7 0 R>>
+endobj
+15 0 obj
+<</R12
+12 0 R/R10
+10 0 R/R8
+8 0 R>>
+endobj
+19 0 obj
+<</R7
+7 0 R>>
+endobj
+20 0 obj
+<</R12
+12 0 R/R10
+10 0 R/R8
+8 0 R>>
+endobj
+24 0 obj
+<</R7
+7 0 R>>
+endobj
+25 0 obj
+<</R12
+12 0 R/R10
+10 0 R/R8
+8 0 R>>
+endobj
+29 0 obj
+<</R7
+7 0 R>>
+endobj
+30 0 obj
+<</R12
+12 0 R/R10
+10 0 R/R8
+8 0 R>>
+endobj
+34 0 obj
+<</R7
+7 0 R>>
+endobj
+35 0 obj
+<</R12
+12 0 R/R10
+10 0 R/R8
+8 0 R>>
+endobj
+39 0 obj
+<</R7
+7 0 R>>
+endobj
+40 0 obj
+<</R12
+12 0 R/R10
+10 0 R/R8
+8 0 R>>
+endobj
+44 0 obj
+<</R7
+7 0 R>>
+endobj
+45 0 obj
+<</R10
+10 0 R/R8
+8 0 R>>
+endobj
+49 0 obj
+<</R7
+7 0 R>>
+endobj
+50 0 obj
+<</R12
+12 0 R/R10
+10 0 R/R8
+8 0 R>>
+endobj
+54 0 obj
+<</R7
+7 0 R>>
+endobj
+55 0 obj
+<</R10
+10 0 R/R8
+8 0 R>>
+endobj
+12 0 obj
+<</BaseFont/JPDZZJ+Times-Italic/FontDescriptor 13 0 R/Type/Font
+/FirstChar 32/LastChar 120/Widths[
+250 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 333 0 0 0 0 0
+0 611 611 667 722 611 611 722 722 333 0 0 556 833 667 722
+611 0 611 500 556 722 0 833 0 556 0 0 0 0 0 0
+0 500 500 444 0 444 278 500 0 278 0 444 0 722 500 500
+500 0 389 389 278 0 0 0 444]
+/Encoding/WinAnsiEncoding/Subtype/Type1>>
+endobj
+10 0 obj
+<</BaseFont/EUBPUP+Times-Bold/FontDescriptor 11 0 R/Type/Font
+/FirstChar 32/LastChar 173/Widths[
+250 0 0 0 500 0 0 333 333 333 500 570 250 333 250 278
+500 500 500 500 500 500 500 500 500 500 333 333 570 570 570 500
+930 722 667 722 722 667 611 778 778 389 0 778 667 944 722 778
+611 0 722 556 667 722 722 1000 722 722 667 333 278 333 333 500
+0 500 556 444 556 444 333 500 556 278 0 556 278 833 556 500
+556 556 444 389 333 556 500 722 500 500 444 394 220 394 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 556 556 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 570]
+/Encoding 59 0 R/Subtype/Type1>>
+endobj
+59 0 obj
+<</Type/Encoding/BaseEncoding/WinAnsiEncoding/Differences[
+39/quoteright
+94/circumflex
+140/fi/fl
+173/minus]>>
+endobj
+8 0 obj
+<</BaseFont/ETNDJJ+Times-Roman/FontDescriptor 9 0 R/Type/Font
+/FirstChar 32/LastChar 173/Widths[
+250 0 0 0 0 0 0 333 333 333 0 0 250 333 250 278
+500 500 500 500 500 500 500 500 500 500 278 278 564 0 564 0
+0 722 667 667 722 611 556 722 722 333 0 722 611 889 722 722
+556 722 667 556 611 722 0 944 722 722 0 333 0 333 0 0
+0 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500
+500 500 333 389 278 500 500 722 500 500 444 0 200 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 556 556 0 0
+0 0 0 0 0 0 0 0 0 444 444 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 564]
+/Encoding 60 0 R/Subtype/Type1>>
+endobj
+60 0 obj
+<</Type/Encoding/BaseEncoding/WinAnsiEncoding/Differences[
+39/quoteright
+140/fi/fl
+153/quotedblleft/quotedblright
+173/minus]>>
+endobj
+13 0 obj
+<</Type/FontDescriptor/FontName/JPDZZJ+Times-Italic/FontBBox[-147 -207 906 683]/Flags 32
+/Ascent 683
+/CapHeight 668
+/Descent -207
+/ItalicAngle 0
+/StemV 135
+/MissingWidth 500
+/XHeight 442
+/CharSet(/A/B/C/D/E/F/G/H/I/L/M/N/O/P/R/S/T/U/W/Y/a/b/c/colon/e/f/g/i/k/m/n/o/p/r/s/space/t/x)/FontFile3 56 0 R>>
+endobj
+56 0 obj
+<</Filter[/ASCII85Decode
+/FlateDecode]
+/Subtype/Type1C/Length 5954>>stream
+GarVPH!""s^-+1t3EjC&DG&@Nk0Vl6Yn#:;X*2"ueeq;S&<RhU5Tk`AS</$Q8]V#;&kG9"O?l;L
+_$Q4WC2IgYg>6SPeIM>cmIRdBLMkuGhMLrS\*nYsIjF2=g#q_Z?@/gI>FU1<SqJg8N9NEFnhS,k
+2AW1rF4.oa(/W=5W#$dXIqGG...&t0pto2'`jXAlR1?)K_6h=8(]Ld`-8k$*fJ`odT>m6,7VR"c
+RKAVQ-mpOW3-n=dr9h,ekJ-l^4#+pF098knrQd^UCGWmh=o$IOk_kT4@=]g[,JX#ukV`!G+^IBU
+Q;ApN(.Y9uVe;f\+5<&)bfGcMT-MPlM$ckLkH('jrS$8M0am3KV;$%];C1>dpk$/Cr9.u$bG2O7
+a(JpSKIK@;:Y,,e#@JB,CK:B!K"YqfCY'<'(N1^NG@O6ZlB\fZgG63M`b*3Qm+@_qOLI;t"busZ
+gQ&t#`F:@%Qa&O:'l4Yo".P;;`9(G6fN`56[MmnYXhbc\CU&TG,&BEN(u'S[@..PtYYEd9fMZMn
+p'.r7>D=l:kHW\sf[s^c'Dn3VB0;V.RWO1]@\Uu0PCI/+m)eSo#No',5/Y?<?CXnVji=>>VgeQn
+4&:R-Z)0OYF/M6].#dq0L1SAk:T$DT__Xeq/t)OT9F59jTHFNWe8FR)+G5!dc]*,e4N^G9;"*u_
+g$$A-q(9P:W7,j9&oRGbp,I1icj8nVhS>6caPoJt4,BVI>+6;kp`Q>*]@h^ud)qd7_\t.t#CZQl
+a,6P6g&_!?R@3Qs%I4g-Oa!dWE!j(M0L&K*Q3"]pkOH%_W#d9T?n*\t,A3sf^A>BX;.KIb/_e\=
+0+0ssq.=u*]#=5%aX9)]X?H`J!e]$229n^QGW47Wn25-4s4+B0B81^4?K5&/</*b$+d%_LZQeif
+pR',\cXg(>SL9mn%mL\[f@rcCdl(,0"n4XmG5i6kq315LfYrS"&GnPZg8!qre.^77C";YJCOt':
+NYXbJgQo`77ufb,rS"T6.mT@Fqi\3R#7?!u<2:>*)&(bLZ8fO+LB`h;#[61emUaaX$L3Yp)j<Ph
+Nj)M&;+-;;VR`_lFMm8Chapn%mgL95h@1=[]'?>$7fiU7:X5tbEUlCMOX!TM`rMV69c]rDL)A0Z
+@+-,C]M38)U3UD^>(g@N%OXBKnj2$O-unA>Z+Jourajm+)Zj"GpI%Ydr9?YUP;a)A]/#6R!dqbe
+qni$Wqh*LVUVhLs-c3&M#D1HMORZ`V)=F`S@1MY:L$Es<:prJP6>eX-gYCuTOL?p6_3SslX.VC5
+jDI&,gYoQPD<7lanR)B6kW%^E[oN%u.$!@f=Y$W9elK+Q#NS.7[-8kn4X5f]l8SU]F%'H8:Oj@&
+\B6\k_Ym$GM&9SF4%]D'c+!g&1WQ8i$uQSLA<jBAUrFM\3hWdF3"Juc\T._2E_lg06:GPg`"3+h
+4Sl_jkALWOFj-#Y]]F[)R%&"\/puq@S::>Ciq21+/Q]_TE$h7[@?7+_ULJh6PqWBq^L7UNF1;Zq
+!:7L5o=:;^JHBMkcsO'j:Gc;RW]jd\Uf8AAd_&;RiTunX6e-bB_<XLaZI[M*E&\4XKQ"[Q\!%'J
+DG&,Y&P'5-kjSX][9;mEMi@mV<Y574kb"P_0;4(4(A-';@Ata[EF<;UdXtb&@M=I-!F?nNWB\f?
+UKXi7bu[C?LWk"]GiiKc12&.8acOVtcdKFGaZrct6rQa[0DZp$8Ef'K.H&hO>JpKN2?G6,LuWFl
+@fMD<$W&o(DN:R8<9$.H7_k+k6Tgad]EPqO&=.npDqGW5I7<!c!)G)HD"9UP"(O`$#+a87:50Jj
+R,\e=06/EK1p*CoXYs]/AWQ#?a6WBV\Z'Vp-27]/ftY)%n=Z#<.Gpe$$1JtpMSk^E"-*$]?ba(V
+U:8=oDQNt1D(UK7NRMRmdZfhtPX\6kaL_coZLWr5["cOH^'`q)Z`R;:):);i=[#N3*7Lb>Y-][[
+E[#%frIRgdoT^O$:4MsgHm`mmeBQ:tQM(;t!N4&=n]3l5+M_1`[I*@XTn6a96<$LOVPM1oBk:G[
+F"kpV?`hg]<ic"9c=*UQ\,fq)e&]Z3+?'i^cq2eua.rX]aVa2rQYe#$QOQq!OT.g.Dq>rfFYr/S
+5:=`"Ws!:Tj/?tJ?\2`nO/:]:%up_#eSD24\WsN>OVX3J(bkMu6D_nO+NA4dDcul-qHUjOf5\T]
+DfmS>)M$58,ch2X[AlP/*kb*U:_od3D(#k=KT&]&h2I5uFi.?e.9aUZZTWc(ZN=*X>#We(7geq^
+!OMh%4(IGlp6P@>+!iZHaEGphGD8FiBA53!Xq:B]OY6h\_(&s\b&jL9TEcB^WKVeZ;l$X]c`^)+
+phk!5?s`tTFAF"ujPpL9Eg(\SO+0q4BG/I6W:;*kZZ$NsJ9B*+4lc.DMK670XsjL$%8]&1m_/UP
+SlAmX=_K2:O$jpjf*ru<BD-^&\d.YU:[2hg(kgXhraC<,j`4PgF^\MD=is%.frkE3+>FR$<_:l0
+FXiYEP+ap%^PKMu3fJYH#%?S*GDMFbQ^Y+.bM[uN/]hA`/o`5iRX#LL>s/IClX7LoC*iUKG0;,"
+4Y1$Ug[$U4bZ:9#OM5AnhHXo[:2^,I?j.=8)8FI'K3Bg0X4aT9C\)Z$5_i!!AFleGQ>bXs.,Fd/
+O<b/->(``q7_=5(\.?>`h-l(m(k`_&?u:u[m\*4'!6H;4=+r6?bZ(Ys8j^^GW0_oRm]JS!<&[iQ
+HX@H.H*!>0-R8W";QYDnG)t>d>(PGjZ+I2)1Cs2b2^(&h>H6>OVd6aQce7Y7o7.TQ@<:*bO@Mle
+JPhJDU]QU-?Tmpm\gs3Im!-"n71ZH*=*Zmc$u.l-G17NRk,4-ur3==-Q4Wc*_8IJ(-oa#%#O_CE
+.e4jM%OZ62$A23Zb7c?_>(GoI/pFN1rbVY<,TIOW]A9N3n@%T+Ap'iN-U2^7[TOYTLc2$[f(Gnh
+nF;?1q"/u$qR0N5`-C@7r$k^iZ,X?[f*.:#oHsKhHc/f8#2.q<HdU@9X2L_PGs9$MMd&uJmsT<;
+&oh`0T]6mVGuUkk'L!@G:pV:.X4%sr>#fR68tum.Z;9@enQ9't8't,t;kU#f<d0$FXa6&=_H<XY
+><Dlr<S)mjEkaRo,:e('TtX?H<?2bS^'*M1[n5*s?Fcf^la;'?^Cdu_e_=<U%,Q"]7@GThW<(lV
+1_,L<kuKlf!&%>#UkM+?XhDmSh@S)i&Sg_QD*ucs^-+Zc"8%2B_kZ*OL9Z;UHB:G_mP<asnL3fo
+MouMS5\jC<,Sn'^D`(_j4S6LDKk96XhoZmmoAL%d#0)&'Ds6#"]2R+Q[=Wm*4JQu$2TtTmNXsT9
+LjPlld&r@TU1:YFR2H6&kVb"l<&T]CrM/gBd=:Imn*)3:\srPV:1U]KCi&t(RK#LS;(g-Bg`U`N
+Y7]kC9DI32<5\#%s'(V`amD4WX<YTHq44m$m(4\j`+]#TC-H(C8&'"e`hlE&!B`R/`3m3_?OpKh
+>2,(fdWqX^7]/"FN$^-M='G5]Mi2An%QB/p9rAJCD5VGG1n'+6^Nt@l\(<:?h]/CcjSBP4NrNb%
+hDa-OlNtg29#Et78bS8AYSn2XSOm7O=\NG88RXJ\9if`$'0&e_P!Z`AS/M(KiNc]l("P`tP;<3:
+;X8Sr9q5Spf[P"X'QGK1Oh:TESII3R$abP:h</X)U5:V&o:hT>W/DA+ELa0V2dAisaW<251a!1)
+/1S=i4>!eO1@[13V,J]V>"Z(*9Hdta3dPOM.5(f%8Z-lNqN#D@Xe]b&3J+CFA5b"':d-VLWb')7
+.F81-jf\?Y+2`AeqGRKkr>mN'_M#Zi#'WeCOJFfl5-t-6NP3?\6*uloH(eS_K!4rtGtiY5b:!QH
+8+TcOhf8PIXlCL0'VKi`LjS4KlaP/ma\<NY9=':s6tUUsChZI#+NQUCs6=-RrCj?iR7ZM$0BE*I
+`2()WHIfr8'EQPp*(<)Z"!_5849.0G8Ys33?_%!DH4Jle6ep"BiYEYQ5FSuo!O;6uXm,-Orn!t?
++SOV&S3(nT)#iO.hG7jg_02%YU-@mnV=b6Rqa5,98'ES8RemP@ai#r+oV%g)J?RD3]agOLi?ZQO
+[W:<C6aAsK#q7CMkn<Z=rUE,2QK*Qmi28-I@(SI%#\1?\R%A)8BD6\2HF).22A.@=`<c)mO3%0P
+]%["Pba*\SdO"ds"F97[UqHNu,5.4a88f#$d`.r]O-jl%SVBW+eQPd?o=dV<!)9#/qqnO/iob.J
+)BI`AW3TK(FJ"0l]LG8PjZ*#spb6Z]IAj(:!k='dYjrc[6%Ecf\2KB5$<=W@kgnRj$'mHj.eCH)
+Yc0T2\PO\Mf57A%MU!Ou%r35_f#.A.\EdgNrCkOkcJ*=;fV-Wc,6*Q6;KKD'fOeNulWg1<6PUJ\
+.q?T3ZXA!*hFJe%RjO=#0i30qF_,VPdFUtbqC;f"Jhuk#]_?kas/V-2jN9eRW536fRXB9?YW;n.
+9=<:XnAnrXI.tTs^H#s5&ju$,hp<tIJ8571X53'F<g`j*?Ol`Cd'$)u97,jHrOj9mFp7ed!ahV(
+dh@0IcCpimp=+rnB<.1gEsP@;:m(qM$q\XX_i`7u'2J\UO#3k7RRA7m\]G=qT_.S;B]7bSFB3U0
+FLKVd5Dam%l3r!!`en=$)4]7b]uT>7d@F9K'^J1`4=?Hg*%d/`g!A@6d5sWAW,VOE?,J@KGM*77
+TN`s,LQ/=4LG[LEG6bpu4J&fmcK7:R),b<%(DGc)5!X+?0HnLS]YT7iONeO'l?+#Q>cr>,P&qah
+KqlXn7f\=^D>2t3Nm3"phD!\sPtK<cB)2LPNWt0^>WOZTO=$]E4>P2)"B%A205Wf$dro@l:dU`8
+MPS4:\TK4#9aqO`Xi4!Y)?[=IMjii<Vlcopn<nW#Ois\>.[tdD5(OESb=]-2$(tAc./)S]\%Il/
+VssMK<ir!`:m4,PRIFs>AV&:`dV=J?2mCV0#S,iEGJpUi[cQ6;*h144(.dgQ85/o5]:lMS8E[E"
+;j6p>]\1Y,LKi';H]WB\ph7kR,3FHb)@YWopDps$e#jC?"SG3T*;db5O(I3m0ug,H,AAYi"YHf5
+SV($7!%tMFdE<2_j=W0td7E$L#sUpt;qMO%c(X^V_:7YHnfE>bA`R-)J'q3$K?hj[3=uP[kZIL\
+#5&mO98Z'(:o.1mIL.Fe9`Mrm;fp3D_V$WC4ZMAmPJh(]cY9K3X/11;/R1r5WDskI$;R@Zkf+@<
+bg=DY[`^[JX4,fq/TSNqR:Id'X"?AjQA6Y3UoYO%e*u2-%Y&NJ[b<9]a-PH-<cAI(24hJPfYNSH
+^BPSUnI9Qpot)SqQn'^f\dF)%$n)-Zpdu`VgS?[JNMWpTMDRn"qUPcmD,nd=:Odbf*DZVGP(_Xc
++$Z<iO8[U1h>$$soqA'7*8+>(dNm_(G4P28VVDU.nG*UH6[FO&]E[Ql$bh;-^$s]qk9\i`a"t+*
+n6]fGnCLn6NR+!PleiJ[7]"S$9a+ZGEWo0#UT;77mWTZuY/53`\XcJ:r9g<AS5Q=m+VsFf9helR
+-8jY])$+l)=)h`q[WNP:.uOP*0Z._aTdhcK;t.mu:6SJW:_te16BO\+EjJ6G#7mT9Uo*=rg#9PQ
+_aeB5FDFHb/t0KX.>]#1@rQF,kfgHNX$cif!3c$0e4,A=-mR`5>aoFW"WDhr2;'h5hg,0j_!,IY
+NE-f7Ik&P79b7MM/'0tnXOP]*OOP!o$dn[)ah0HFQF.VNYP+N2dP4`pB1,CHhS%7ISqg@@T9?1!
+<[W;BZLbn03r+HV<0NhIPLo0O<iO88Wto!0W92X8@1fo.j^\lrlsg4PE1$L7q+QLO[u)7.*HXJF
+6RJ$bk0,!iUbAJen,Dl&='/EMb\o%Im:\W;em?jj7mqgu:\Yr3-n`Ze4"P7WhsMn-'G;#++LO*5
+PCi.UWOJL7n4oI-@K-etT*2J~>
+endstream
+endobj
+11 0 obj
+<</Type/FontDescriptor/FontName/EUBPUP+Times-Bold/FontBBox[-25 -206 981 750]/Flags 34
+/Ascent 750
+/CapHeight 692
+/Descent -206
+/ItalicAngle 0
+/StemV 169
+/MissingWidth 500
+/XHeight 473
+/CharSet(/A/B/C/D/E/F/G/H/I/K/L/M/N/O/P/R/S/T/U/V/W/X/Y/Z/a/asterisk/at/b/backslash/bar/braceleft/braceright/bracketleft/bracketright/c/circumflex/colon/comma/d/dollar/e/eight/equal/f/fi/five/fl/four/g/greater/h/hyphen/i/k/l/less/m/minus/n/nine/o/one/p/parenleft/parenright/period/plus/q/question/quoteright/r/s/semicolon/seven/six/slash/space/t/three/two/u/underscore/v/w/x/y/z/zero)/FontFile3 57 0 R>>
+endobj
+57 0 obj
+<</Filter[/ASCII85Decode
+/FlateDecode]
+/Subtype/Type1C/Length 10038>>stream
+GasJ4H!F;"p@!i/cDauHdSk`b6EL@@\QXb<C)uSqU/DS7L+n9@@0dF-0F'LWJ,hk:,_.Wpb+og9
+<c+C2XnR"Gg1kD9Hga";F+:s6&(Gspqn;m`qh(!km-N&)COOh/qd!DkN?:Xs"G2Ku@?E>,U.s#I
+62\cWgiNQU@iRGV7Y([@#THOJSOr34CAT3DA:l4gDj^'0M*4oo'gA)qku/uLJO!4Efc2#rU^.>7
+NH9,hB>;Lb"Uc+Fl^MI$euWiu8:(9RBo>Y&()#^cQb5nO77>0ab+dnH3c-4E,9ju+SO+N`@R?>T
+r]riU+T?!Yr?Gk3:2bnVKZ1kt-TF,)T'u=Jd\Y,&OdA$#KLH*`/"QB(8,>_9m>500[+i]&().N+
+q0tT$.-f/`;27%uHZ"j(]Hqa%ibdec\F&fJ&eb.eW<.5j"hH#cm?-cFFpeW4+*PF_r1/XrOWI".
+jEiI0n6WKSGKJ9tAa7lGQ`kXDV:2HpCYkSpG+F];]_0Phg?3C%NM:#^H`8mPX-=Rr-8h:H8$/WM
+;#@6&e,a;*j\@g7mniVTK@F\$#BbjV6nP2sWQip:l7fW">"fs1[Sfbs\#H4R2JO,;S_?@]Vfkrg
+W&L[2e4RlK>".hP<`A=_8Q6ts6G5oY;<oYmC,32ZRR0`F]I8-LRhAR^e4UKK]hCF_!_Q-H;U_T/
+PV"bFRRq3A$,o_=l35=eC8*%OY>>l]:JuCO4;C.F&7g`h3,\c+pMJL7>Sp7tO!"CUXbUbSE2N+Q
+/Z!mZHd$4oakV9[rIs\eW$^4oN1;jaa`UM+M_D`QmDX-i1[R#BG:0ScgbqSbjg1rWWFtT/g=M0n
+MXj2'00-];5.dFeZh5uTH[5Y7AI_HF3unAB1_)qa:#b\PRCGt=c>ekS[c;j5gG[;3h-p/el'nU.
+R^$^aHKO:V0f'2M[`j+p1/9St,*tETr(ZJ9,]rmOe(Y<:,:dRm!D5-f0FNWE>1jm(&5&qnKF(c&
+22J#]=>A5W>HCgH8U"-aYEa8]MQ9"%W7#(U4(!D&%.V2X(Lm`.7gYWkd+iH5a\0li'QBZcd=[JX
+%W[$73OX+d3Fq+8DhM6Zmt)6!+E\7g6R_-DiWDe]?Y3FZnn7G7NVkT\IF8uZA6J-S@Vn!f@_b[4
+U=/W'1.HB#U#'6pR,1[RF$PVhBb[X?$-OKM[2(g%0[5DK0i18&3-\lV?LMR:?jRpFH$BZ&CWl3^
+()JHRAU+JZR+IO;9Lh^>TM+e.Q&uguXpBFb?5%+u\])XGlAUJC!qI\Q.\F!*T+lCF^+uh0#7fcX
+1#@k!,D27"cRb6:67]aI,dA=l;8'O5ma'_XMLWGmNN+`[dQ+&_jRggS*2Ld,jH3\0Z-m(VlH1=n
+iLS=ErY0/i_PG3*];:O2_b6(kdE;E->[b$i"tO(1XMGP%kTH%XaH8pA$MmduD$i>BN2UE38?L^4
+_2..Z\4;/ZN5#V+rMl'T/^i#+@F\S_),UMjmCal3RJ,Cp96dRL%t;;8(Q.:gSUCa(HS*&):#G$#
+4t2g_^9bEAKL?Mo]@CiI/9s(DXI%X\qU?;+V+"dGH*@_>fg$,ca^UD(/3F$LqYb5L!;>Y5;E1QX
+cS-loO'jWm]&V=cEMCK;\&<K!/o3O/FB(AZVW!AD!OTX7S)M&.emfE2)qd(d-jlqO6PTXS#.oc_
+,Z*Y=AsX\%QtjmF5SZt@[Gdq"RVuu\%i'25DPP>o#.sA+@Q]]@Rrl5!)'k,)>Nn#"ZuU8TJ_`.&
+JEt_p[2&)J,`0@;e&*iG$-p=eS)HB3OEGUR<utC2C#rLFBF!8I&N(8F0(gI]1BW3[@2qrZlqNZ9
+8pZ+.j;f0V.qiCFWM)AD$Deti;1,pDj[d?&`8Dkb5$j3HDue,"F!:%uQ("i`dan8@F8oBti#2FD
+-!6DiYIVGC\3t:aO/-D73'2r)r>Vo_H!HEkdO64_r<TCYX%I'$7A`+l:LUOHh-f.UqQs>!V@PC8
+rmPN<%+:-m@iMn=\:"redI[KY(6t2RN0WQ%#%Kf*L+I\V".g.m[U1*+d&iW)nECc*&:iM$()nc_
+=VM\9,nEqW;(k2Y>=*5uYcY$AUlJ3c!Og7idie$n!U!]tIX?NFreUM;CrIjYI<r86M@T&W42Khc
+,_U3jj<2VFiEI)n.MDL;&m-U@((Cj0S+LP?"CNUEMGp>GZ;<AF6!qs<<?lE'HRg&f#.*j<8+4UX
+DO31#XP/>.TnS>AK_pFJ+,Sa/(`uI`^N;;P(8Vc&4O;8d[;RG>=illDDYX2g(:e%Qn'j+e1C>g?
+B^`8!1=X3\O4CV\JO@*_<M%8D^V"(m.Efq2(4]es_pia*H?"=9YTb5!0s2*1&=?42]m[#\.K#!D
+XL24kBHM)nPn'NbmMc5KOh3qWjo<n4*iZ`[881C*guibi"PH6P,ISshLI?Cm];KI1bUun,Y8"9V
+&>54Q7a*QGn857'NJ0YAR*'&,9m9[)%Df&#@G&sWYmTkX2aVZ1//`'s0DNV+5njibI7dpd<eU_]
+Nm_/tRa*jE0NYB1hG^5P6rt8Y7h7KO[Md4C;^s'#1"GNJM!8Yj4s:Xmm14"(ns%+0pQF0KJ?7Nj
+rY^k<pF.34FePaL1aFsLppZ>!0OglF'I=XE"U7lh?ZWi2X2t+=n?#$EKS?+no+6D!O]tmuq7D]k
+,_rg!l4k$g<P'+VM8D!TSQjnsB_iSl:Mo"rr0;srnT:'X.pIq;:g-.WZ+M9`-lt*9GIXg0ERO_#
+5O$G6Ad&NSJg+]Q[X.[tSKNd/CTPC1\rtJs</_6rjZ-&hF1Pu%I!b8G2g9k"SPMhd*K.A#G,DCp
+g>1DW9;n3,,uu9kq_E?4[ApZDELWU/[_`S,[2I8@*Ypt?#TmSYld.`;/G`1Br:\tG[CpU;n&9qb
+#UV8K]*:1_iW*]]5"VrZ+mf6dh>sFckMk/+r#5nmh:JJGU<uIG`d7p0%N]<P^`RuVO$IF^QUqW&
+JVuk)kD_a!SaK1q&ACs/lj^UMUZ_F8-RFY-6s3,s!cj7NeauDkr-+s=C5K6f++tE1i,8bY=bIBt
+&s>\R9V]MIWLGZ_KOJq)8gQO9E275]c)-uL7!,"KkhFeQ']dBo5b&"/UJGe!:VK]Q2mSIDaV2D2
+LXhiql"$-!XRmi,EY[72P%i?PW?4MbE"\*-#LAZ9"]%!lDmcG*K@6fsiWe,GJ3^9(JJ%7NUsJ0?
+[E+EFS[>>&/l0h_:Cg9khj)&gm&$RSAf/sAAM0jHTCqtgW5E`N1'+'n@<nPH!4F."Y^OY<c_T'M
+RH,X.=m6C7W[]h^)UD6Nl#%Y)okt36U[1$!BfB@2bhP+_J4nmK@KG_M>[o,.@U2`$B$t;(;nNTf
+1M_&):l-Es/haUJ'HfcW+eQ$t67(H\0@?,^(ZZ+P1BkQ>Hq)m>KGC"UD4eYk;TR%sf\XLer8,nf
+_QKDd$l"K(Rc'!ElCa(=D-5L`]eSJ`iiUF:</+*.`SH5YB8r'<OcuD=];%b?hM*s;YG]u`en.uD
+7c2e)U.V`8cs/u).?npaG#;;h%WEJW+LVPa.U;ic?aFS\_@gaHWQS[_,[*#?@&pu+&=X\2n4]56
++SpeM][!CNl1OncCa+.mAL8j*d9gcNL[D>5L-lm^/;fWSc'J('X@fTdP$Y:=nM>=4V@JIHalUO0
+4jm%]SeuK-0j*BN8Z9pqfe_i5rR-5llifu"TmG6,e;IL(h'X)f0A,:t)\\@4<?`bFTrI5GWDfG?
+8OoI6>-Jff=Y@1hML8^7VA`h(m)7fd#<T%P(eC2m.Hm55Wk@?(cJ6PNP_`5C1En#^,`WLiS47_&
+9m:jkI`jOldH=1j4NZ`E0b"&<A2lt9=^`[QXAp%6o3OtORP!]N+\Lk0cm+-=4Yh(o#RFBF2PiC>
+.'it:K1c%Lf[i$K.p@fN/U3hL-=/:-&2iMdZB-!(dupKDZa/(1F[B,C:5Q\5r)@Jc.?:[5V!Us"
+2!1$5Rj6l<lm[r%Nfg6;*dB1i3B3@eXG_cB.7c$ZeYp(L<;/XD@B#s-m*oomK=kHCZq-[T'u;QH
+)XX(rDU*O[B&U?C<q/p5KQf-UQ,8+EZ?3t?,L;>@?S;llFJbQsNo9]n)9`?-qPW!.88rTGY]Tp?
+RU3>"%5Cpg[M,d/7./jl+4G9,\Ju&W<r:d"k)L=fLI=$m.!J7A#Rq:M5*3,m0me/Ei?DrWYH%0Z
+,*M8!(%fb@UONW9W#-Q'kVf7n+u][LO&%"o^Vi8h$VW8%L5YpN%@*ESY1SKb`LF\$nQgg0_%BZb
+bH(lEI.=s/;^(Fu?fOqNl*NG7@'XE]GT:`tcS1UFUOrD1Bmt&N0e-Xm.Eu;;0sNM&*r2Z+A&c)@
+8R6tZVrKk+cb1O*3E9DB;Fik'/bK>2a?.IECq-;a@"\Df;ZdT;_Yn8;nQY=e+]EN<Y!bl)JWPB\
+iM1BuLcO"!3H93=l/d00]N=T=/G[:'VVJr=EqclhmZ/r0OT#+lf*k;gL>V(k`f?;1kWl.kP\Ik;
+dOsWq($H.Fm3.Eo?2ZL=c!hT<NC7/-0#ABj."i[TR5@$$UM7):UNPO8WZ`^p6rclR,U]L`GiW)`
+VGY<MjVAFnY(d[-ZnOX*,:Oo^gfLX]MjPn9Ui>pA)b4R&'@3t$'O&7i1kARHer2SH'qAqO1`,0k
+\-WrXCe3GF'A*lA<Pr;U4&BWC^05j55WIB-:fBpi'^d1cY,#uHQXpfYKQkgm"-FpKU.41o38lkq
+;&c+sM=^3!g.Z,a-2R@<Pa.Q9eKi-\k_RM*<4iG[@%4<(DJN+lWd)"DABs;CAH/`lgYBj@Hnl5`
+&;AJiC=K0U1F#aRg949-`2c;#Q!Rg`<6Joj/tmUZ^rT+%B't3]?)k"(TU[8\>X@8lXA(ra(jqb6
+lhM.Zm=H')!cBVaAHNH5,l+,V'Ql7+,H3Pq/a!lO`PS]0eUui:ne9klG7qjD<R,hAT)8<bR.Apu
+egDP1EA_Q?$XqK2Shm;_eYX0-MH'i-"c!pPrD/"5+9MReinV)4_qS9E,HC*hK5_qfh=HHW,l^G*
+"2PMoLBZ=7RO;`Vgi`N==lSn-a'fn8Y/Jcc5f>NfhutQ,D;r9Ap;)k,_&X`TGITS6r.%7c3j!Ta
+C%<#I]sU+@6m"+%j6ODo?q4S&Y4">ROf?UQB4du3da^?=Pf?*J.bhS:eugN@-Wb0Z;#81&i^5L(
+cl:2X?f@@Y)sJIllt7O/Dt;rB+fL-R/54B.0C1ds=\IZLkWT*m_@Oa*L@5F;rC#&>W`%2EAqZi-
+<KlX3V+5713dsp)g.JP!-VjDG7WaGZ*T'\'D#9sO(K7rRZIh-n1/XXR"nBHd"'UPU9_u=,,0m$o
+fJc$"#;\XSdt@\c+L7oT"E#!%%_k\q^8FZ=d3X@mn\eEh(5>i3)ks2%b$*%tijtLB)=g#n8!C*r
+0qob3]@5l!J8+oKKn2D"q/GPqqlU$B,Wg]q'2+gU2qRdpqst#S[A;XF.(W.G2`@0g2\#FnO%2,b
+lUMGjU5sH[)jBC?m]k'\]c6h58h6>LUnS%B,;,N-XHbADX:"JYP19<g]@sDRl1=/3kLEdHVSi[j
+Gc84F]NUbT!go+us6&lYh`rN<`;HO\5GV+Sc&_l"USIk*i5C$bUSIj]7N$lT8@r8^KBW<=YE_gK
+RZb$Mlj_e1/%*sNB'Z]K;\//+J9JY]G<N.\h<ZUKg,rQ@9ke;oI/eTk:W@rQ9f*"4%rK-i-os2j
+Mu/&o,t6@<,phZM@Okn/GPTM;V%*i.ON&W&AT#R6<jH:Y,e+(Pm,*FAA==bHnH=GgasJ"ij-:ou
+CbEfQnCE`+1+[N\Z*k!^'2@B,rLNTh%JBI0PP=aX\+TEKFnkJU-1*Lj7:ipr!s*D.'-0KA3>E@T
+6=_@4)4QbN9`2&r0]'U$m[Ll+94ZNAN7I7!rUQZ<0QFl"7ef?#9.]XQI/C.oqL+sd1GVNq=)(t1
+D'fUbA&8kZU!//uW'Xj`GrE2`Z^4>mc9Hd^p@l5gm:qpGGosfS'5p=;*Nu("^=e!.(#16P%lHeD
+G;>p[2gP^*_Rm\uG_&;%l#^k5UciOj=-Vpkd3f?8Tj_ueOEV/*a;blUK"(-g%miGQ[QPt=JVc_r
+0VsRC7EmMr&_n^PiQCt,alA$h\`J*jGntfs-?0aaBh:?+IL3b7ju2859"J;8Q&K7K=:.qRan9/3
+oIA*<6%]ROkm#?*GZp*$</WLOH/4P,,:bSd>)0BkduF,Fe;8\S^%(;Dir4^c<G.$i<l'j$*:ELQ
+%,5aQ=ELC^FIf>P(^9l)/9<#h`)@t*54CJ%3611hb`KWl2!QNhYHBXHRu0rWN7k&^R77Vd'.2&f
+f,]=tpN5WlUlWo/FM#8rX1u::'D,fD+ag@Mpso`/>@YEGfV(5MU#==;Js-kcrX;;gT2J>Ei_fOo
+SjiSF5(7dE6?jli3YR4B'YQEX%u]r?@SG(BlH_2ZC.HcM?-uqSN%4G"q0T56$MnRN=bbHIb!qt[
+RtRHo^9h.IWZ:$eV!^F]Wk1(<X(+N8)$kV=XcZVWI?%CbfGpC&j&O.[Q1*?<;f-)+,PoV`=&W9Y
+rBte`hU.o(ctS+)@gNYt,4.P%\<pW.?UIj<VRp$r2S.CFVj6dFdk,Z<J^2=I.q:MbqdjcZ4=$'@
+67ogsDWDf_gWS7JTiRYn*G.9E(Ancak@1>UG[=aJL*D^+=.Pn>a5a(,9YmL2espJSk(kS=AUT79
+A0`bcF7Fg55+-1]Y>BBn&E=)lI6<@]Z;%k6IcW:ofar)?"r6d0XRc"P_[nm"PIOa$Ham210G7%6
+"*efM<VA9![?2%(*oQj2_Zan/)p`?Y4D*6R_LV:L?Kn[WIC[4>;0&cJC]8;e1dj]K+>`A2836L=
+%I)`U/.Phn6!3glA.\AE#D$^%E/Z]3Q?aL#?4&e8-96lA#UZkN9\=%"Lm?s-1^_`H6CtMl!F`ke
+L7:I^:&!%j,3BU`qRri&\uE!LTn<&;dI5+->'4/C5#3iVf&c1YQ3hJgn*Y)!G$NbPJ]DUgO;&<Y
+#n0d[jh=L>mLgiV_(SOGPsr.-+kmh!.a\PDY:B/5l_M]k<:"*<ed`e1>qE@8_CTa@/@UB\2]Y;8
+Qgf/6QlB[&6k>Yh!J>_^j`4.RW6Y9bG].R.atJm5r:3Ds$DplAdP\<as,A)JItm=C-FiYP.=U55
+r"4oTFNMr,N'-WDSD&?ZJbCMWFQEFuU:hc,)ZgH:+NGMD,;Dk-*hr2P0E&YXSdZbbl!q!ZWpnWO
+[Mt4'$r'K7Q9J61V9@+KR4+n*D9QGf<D?Tkbbc-$B0e>$'5Q[\KGQ/GqkX7rVgUALr?Z5Ng^dcp
+0S2L0Z%3tqSg"CqOMg6K6W,`UQEoAQ+J0mL_1SYt]*8IN-bT4)=$6/WJ:D.VNp&XjJ#2c=0ga':
+=SIlo[bhW-kV^W&Nm.V5]FHaUFW2_KhSS\K4+%,gLV(S[6E:tDn/_$kNkdh)Z\UPb]geM)/%IYQ
+bTaM)Qh2,#<(^mF@Q[Xl^f_"91b>T=I/8fT(!e,2]EE.2%Y%t&!;jA;Y[K(DCm6lt+-5e^q_=-d
+dd'R]/VL<9"-(#o2D-b7B=9Xk01S6Vdb+,)%9`7J?=7Ai6<HQH0QLgq2B$Fh=0>6l.\U0?X<^$s
+=h)Jk7jP6#i+rM)am!e"(>-XTAVGlU_LeY*CM>)(X;183dLhd7CD)i%#q^33/bIJCjD&/"\/Q\R
+0k8?$n=e*^.e_ij@D4ns#TPj+&.7>8bcp%?&AfoN;4FsrF,1]>_!D!Z^Y\:dJNe)Oqta)Bj`r++
+,ZGBjPSb1LO_GT>>jZ8iO8;\BW]n@g@#.9laB.IEIe]!tW'@Pl9:7bW"oW?G>!We.,)AZ,@O'GN
+1KsWPISXZn?$i-AMn`UDESmb)Hr[Y]0&FHl"S2@T8nV73G[4/1Z@&tUY:33)BHr.$k#PVo^Iqh%
+W/)V9j)5@OE]64hLJF5K&VLXgY:am.[ep$3L*=K?3t\uL7qh,'880jX79!K3B,Dl)eIm#SkK($T
+1@MnK<CNrn&p,>G'T!Z0N&'ajpHp">>%.kn0R#e<)q?*+YTt.iO#!H5Y+MXUG%KB[4n$[9hWQuS
+>r"Hq_\B?6QC7-V%!1p=n1&ohYnRTt[rj:i[[no5g)Wi[/p,%?OH4&'`3[[=g"4#/L]^u'1*PVV
+ZaOD:N;'kV&.,i_raJ6,_>tEUKY8M6-!ojor8[O>-aWYI*?R_BgQ-M3#CLq1`5NRS#>4nt,:d79
+',%>O4a9!Z&ZgO"IYLpqmJ7M)>,8H]LnZcGHu_&<n6c-Eb^sG/8dJk!%4C<NjJ[*Yhr'(+YBRnE
+&U%^S>E?lLSRBUL5ERRDERS:!0K_Nh'.N0tH!bq'F,r+:%A.$H1q;T-G_.jEE*Q:dD43;l/a['?
+"C3Ui<*F)dW@Fnl<Z;CdDCA14;o$BCpT#ft^0"fZ("Q^#e6O1l-r<ISbYHp]8"6i-pn_Koc0unu
+#:p0JMB-sqp&s6,qs8c3S0h8K's3cF?Y7SbgW9:>II\gAnU=Q1DG!;=5AfjLH%"DA%2\P&4T4rT
+ZQu7mBOd,#:MpS7qN5(6l[8e>A-P+W#;<O^\9MT'aaGK,M5l)6P9h3^`GCkG]X'!HgnP5l/Nm21
+JniM[qVf2X"HBXI,\sARMhVB_o1eOXY5EVGr8/*B(jKg&fO?3jFdY%WM'm\`('NHQ`DoVF5J6L1
+Fa/'D""eJUc-t`blZ4kg<B4g4\Ahg*A\].DT<Zu2i[UbSdH+T[()2rOY4pmh;?JO^9QLf-=m/((
+*S_S%/X,uMmL29Bf\K99lQ0WPA)BM^p]SUiE#Z?4(1*]JR_pU[.[a)f?"i]npoK9^p[Euk7,qW=
+lNYhH1Ur6iX"(><*2nMl0j[J%*bNO*Wb7hTr'Z$@IA3UHV6./&+'h:4e\/6.6@0p$YFT5ISA(38
+m<`XjK-`L2rR@`#)81[X,3?GEbQ2T%]=0Dm%1SuZNK)O`HlSp@7E/%<qp3+?+H`nTTDsOs`Khh"
+Ue4&Oo^[_Fj)fq#=C<Wd/JXQjdW@dM,'JH\!\90(%l)tgRKZroQ@2AdYi*B\5?m]e(b9H)dCb4@
+E)u[q&5S$4[S);+%WAVc."q+TOqt\"pP6OH'QEHpX6`CVE\:^TRIOd*a:GgkYZq/L2f4!DmXH;P
+n<%2mrPcagg_T#cYsh??+\aHpomb0FcP*^"=frU+[U52mOFIXONl<UqjNj-.4hT2o(][bZ\2(^\
+Fd5HE"9kl3if,<0bbCrbf2$<%f\@G@UDqZUn*a44-M0f79mqt.-3?ch0?rt9oiW3jlPXPL!g*L>
+m-_6qoN`WM`5$a*dI1U,87BodL8o#:^:edh,eCtm]_4]T$'0/\]?9kMpk`m(A%+JQQs;/h<pE=S
+3Ff=_3mY2R=lYV[.X..+]eeYE1a;(q+Hd="0l:I7K*_1^8C"iY"p\Zd]_Mh!`odeAlpHphqTk72
+'8`[pY@FcE2:luCI.2@\-6d[@4]X[+nqm*2IQd;+0[]Nh@&p$IkI><X@YAA:/4lBO]f4>?&\Bu`
+R*Lts!FWK*#/O]%4X]TIH41JUF-?hL7'!i<>VI,SX"FoK^;s(b0)';q?Uss8k=O!@]r.>)3[CFQ
+I7h*qcVFN5CVnS]Yb('f"5])knQNR,HfIK_-=-g`GL'7ur#jO3X9nUMDF]_31S-o=HP>b$8S%NB
+bm'2Q17nH%X7HgTVP^18^GN]-qB8hlD@qcgD$ad7j]3mQK5uC'pETm[qaDuj8;+phSND>nh=b`#
+F'H90R`j;pGWA>d_N55C?OY[iB.W="Yb89'A$NSg<0*%pN=&<P]J^uY;%ah<OVSq%;(/TDOgV^-
+VRa"+YT-Y!D2Ir5On%tha[KoDZ'%.NTe>4e;_OHeAX+Zi'&(kN0o1Za,t<TUZpQk%JK.T`:D/j_
+LW?=WrH"A/;6&R<qY93ab-Deh[-<7[d+qrq/^Et59hPoD`p;)N$56GZGO/F[__Iq#9NNT5m)c6P
+mOp.-+&a+6c-`YK9q!EI1tU8:\#HCa.?aNAWJa)X(qW0lkALP8Z`n9J3)+4)RktGA)CE-g;?%$k
+[8SX~>
+endstream
+endobj
+9 0 obj
+<</Type/FontDescriptor/FontName/ETNDJJ+Times-Roman/FontBBox[-70 -218 932 688]/Flags 34
+/Ascent 688
+/CapHeight 676
+/Descent -218
+/ItalicAngle 0
+/StemV 111
+/MissingWidth 500
+/XHeight 461
+/CharSet(/A/B/C/D/E/F/G/H/I/K/L/M/N/O/P/Q/R/S/T/U/W/X/Y/a/b/bar/bracketleft/bracketright/c/colon/comma/d/e/eight/f/fi/five/fl/four/g/greater/h/hyphen/i/j/k/l/less/m/minus/n/nine/o/one/p/parenleft/parenright/period/q/quotedblleft/quotedblright/quoteright/r/s/semicolon/seven/six/slash/space/t/three/two/u/v/w/x/y/z/zero)/FontFile3 58 0 R>>
+endobj
+58 0 obj
+<</Filter[/ASCII85Decode
+/FlateDecode]
+/Subtype/Type1C/Length 9586>>stream
+Gat%%G?@dVh``b?kHn6*M5c>F6<gS#eu]\]hP_uf+Yo9F_BoSW,[ihI+KQ+s@IH@u]l:?]]!Xom
+[[X^DT>UQqIb4<6I/CYHotC=e].O]fS=K0ip[>ibhZJe@RmaJ_XN@%G0d2A]ga+[@Z-9u?UE*M0
+bXqFXp,3W^GNZ65S6:M<'mg:TbQa9uWb9'9gjr4H%GmQ]orf!E(/&DBh]do@,t*E?-TTF5i-t0d
+q=EM@p\udI[;(t*YjB[d:0U'u,Jmo\hSqdUKLAJm@R=Ofei7N_G=P.n*,u=DQGnP*3X$Ne)KM)<
+Qrd++8<hTsM!0Z)3(]"V]IiS3/R?#6aTDClML?'k_9%O/'9PBDPH8eFEH2Qr99'KSq!T^961!JC
+lb-H\ZR'L)r3h:GM*$lD-LXPu%GE$9G**fu.mLTuA:LOnQs7(IKL_hNe:HhNK7:B"jnUQ3\7kCF
+`R8>@='4='>3W\7opW:0bLb)+G_[Eu,k_nPLpmXk@Pom0E$OKVm_mk5#;MS7,j#[DLj'+Xia(Od
+iD",8hBRE(/]7_-Qe4n],lEI8`$/YPZ'a00/0T0L98Qrm11E2ISCg31+C'`sM7phk_O4M!`"5k'
+=COF%:J<'@-!hf9#_.Fr9I'>NlU33WSR<$26:f<C*/U*%/:o&i#Vki^d7CoD\Dm2pG!lW+J/("W
+g8)MUGM0U]fBfs#S`]:u1im$eG*$K2)o\^1W,jW*q9lO7I:%I&9&_?[-dSAh5C%WK`0>HBq=YU$
+Z)PiDDnim\[5VFXFdV@=bBoN+1MtFE"TD&A)1V/Kd+:dc4&-lfreI.?E)ppZn?\3,$kr=A0?okE
+UOL3]7pj;p1RH@6IqJ2oDe=:?b+A:6aA0*;e11;[4B:_n%\^5qa$P=dHM>m,fN;Wi<rQO&[Ntbl
+b+l-H;Ru#T\9\[3>FjoC/X/S//*WC8DCRH.(RW1Zn0JROE;Sgb`L5_:;@!or3j0Mq$B)uF'eJ<2
+&iN#_20&!I/7>/aS7d9J"E&Y)Y+X\5(E,qe9**RBXRHt">S=P^Phqgm!esoMmsIPAkb;GiH/_q#
+=Z`9Oej]$?UC\'JW8p.d9h-e2Dh5J.S>;g:Hld68PCKrecOS?4;P3,&MpQ^G#q&UhRtUBQ)1.^2
+d\Y`?fbJgp";DbWC`).SOW`l9^8Hg?TLK3'QD4*.VHeZeSX5MkZDnU'+u*W%jT;dl*E`/-7](AV
+:0hQ[h=>,GTGCW\p"dOT'f]"Y*HGohXbm)c+crO7,B>Pj-:c<[i09N!.TDW8NZ_-M."H6Rh:E_$
+b!+%iJLpq(BfH!t>AA;2S5GY.\f-a\H'+@O:7amH5055%J5+P'.g\,5<6eV\02`-A-Qdooe_M6O
+D73s4";m<p75r7D`g,qo3+K*DWN2n@dIfA_mf"*NDWqG\,[,o9jSo471V+:qiti@JO1<C6#?$R'
+8W&Z7lZN<O='=<*LAc;*I+>*'MeIpiMh^:-^SU8/!Z$T3]<k<)dO&#d=0VTQ2Dij5I.[9pq+-/Y
+^O7%^5_nh.#"<M-U@6GcYtDl_EbR_+KfFj3CciV>f9[\IS4WS`gnqeIIeC.*BnUVfD.CDOU[0]G
+VAU!qpIn>Y%O;*mL,rUkhEiXm1_1pH.L_T8<!]MHMqdgn5m\saV6$V$8tO*V=8n08JCBXY!,X(!
+EijM)-8+j8/%IK4=U#pDd#3SK@*4`f)JW#Ce6"_!s4YN1k[TYcZkkqIVJoGCL6ON;.S'dOUS?,E
+_PcT/=9Y4ipNg`3)mU$J8RPuMMUV![GCL:s'7_(le*rVu-s>)tXh/&4J^=RFfE-C^:I]g;+Idtp
+^4e5V3>^#;*9e-E79Lneh%["1MQ)hAa^C(9NOHUgE;p5<IQ!a`;,#<q([%5P0q^R$g-aliE"X/?
+BNtu\mqk)/+F/aCaGma1;Xa\jQ]Rc#FkQj]_3_ofG&Rq=Fk`8OH3>K5#S93G%=&1V_H!1J+aeJY
+^Z@f6n@b#)&;AcN)n-f-mqR,FlT_ZIgF1=#XQdCQh]Rgf[]!1F1,)=rYa^:[pq?XkKkm$d^B?cO
+Y@8PuT&4MqZ+A:55bV@6Dl/bHX=m>h+QPtP[e!]rMu'&O98bbQH?>g0"[E2U0*e[cIE4M$9t_NC
+8(8AJ'=jG[/"uhTg7cW^mMS]F17b=nj7GCHIq)1B;>fM,js)rE)`_/1qL%@O_hfNk_@ZI'.CS6G
+:<K9-SFeA]'nHCCr_>gu7\B3:@\ubu99r&IUHp_m.nR-;25a[]f5YZQhKsRV20,V9Sq]qYE3LE"
+pY_is)P,/HU7]>GHjSC0&V5f&/O79pI6g\\hNVHm/d7LS"E5O[.Bobpc;ZAp,]WLnR0npO-(!g*
+i@l(b"E%.H@A=)hE\Ro9'U;=iH>XLGM_j5.jlK+VHNpehCmu9gD+_cZ*;rneh+cV@B:.`1fiScV
+YYF`uI^u^C[gZ++`G#?^A0c_e?GB!i\P$iaG8TEWE05aoAD?%A`kp^DD5jI#=_]VmWm4Mqe=L--
+#`;@1l7;jgbfKBJ%TBo1L%b.A@"h\],L:<i&Z5)<!i1.%9X+eW5)0HXJ-gYd?\JFJhk=s5J[:(3
+KG:k!an>JPEc?ecZ#C3K$)ggfXi=HYC2;<WHD+&5j)FiE>kQKdhL"`=]YVpI1H?@kG':G\#IBuJ
+!47$?!fC&^Pan6cn$ps)H](DKOf*ZfOiYhtb!Zdm%#C'k7mrh^UnX+MoNKd6.LdsfF%mtVH+5mt
+QXWd_?&L)(da6L2=loGJ_i^!T-+<:2&gQC'8VNl[1^a+`Rt`T)6nGHO!3Y[`s6*t#5q_Qs"+/5s
+rkV)n1@AON=]Us9P$XLY!\*b*)7;,8$X,P,EoFaq9j\F%'FgVGg3=99!%4VV@4dY"\GCVQ/QW1p
+36>EX<2N=i>**?\R1<I!M[nc>*l=^0(BqP%\FG0Opr<$r6f96Z%)CIUq`6/C5_;X?k)f_f*k#h0
+d$*3(bV0.d`INFFM_NiRDS6K.DFol9+O[/,de2<*cTo7P9T&RDUGqBmAq6u<Ch#BB]6+m[j0!2)
+]QCHWmS(5`<LT'nf-UT.W1rea1$g33:Oh=uN&3XW"M:e;5=XUc;)Si6Ll_?AgaOh'BYjo*.O?2%
+9/U,#6sj#1ea&U:[T^e4KdnmU@2KD+TS%`:Km*EqV][XU&V(I;)nig\=mg8+$/CP^X/$D)nM@]S
+RaPV!r#RF9H0oYCC0$`<peXLU!_J,EWJO9.<lY4*BN3$&QraS9UUQNLM6(_$n>B(`\b:^Nh<s-W
+`^\A6+NKo2\`@CqZ?;G(/f-:\@i_n^Z64u[,T4VUW)BhCHD..8N+qD3mR4R/bKWiREO_pBjO4o3
+M.9Q>kd<;a*KOus`!UBdQ:21W5b"n#eBUEmJiU'f:nCYsMQsOQRQ?Fm"aMW>SnsU6GW)(Nq?2'J
+UY_q"PSNHj5p7qM/_t@a]I.C,=_MP);@Mbq]\k,cJV*78Qfru?-k(s$\0WOhYS&;)LB.Be+fHhI
+*B2rt#:R[]bVG1FJ4XL=(<RC;5J]HaSlq4^!_S-=\u_hT+5aJ)6.TWaBktAT,Pk/3(/q"["9kI>
+>h4Fn?SD0mC!&g7%>@&\!X6OXI9:K=&l];W$Z,SQ\4*RSMs_gsT[)N5B5l]Tds9!tIFn:8V)gsE
+W$HfeO;QuST?1bIe0T;B>$V0:@$@ceOtF)MY1cp?T2Uh]&n`$D'EJltfN-IFZ8)''BHN'HmZm)>
+6]tB5&Km7rH+OIg>T)h15''021ES0H9'LQd_!uXBi(I_qVWd6&oFuGB;NdUQW,P>KTK"#(7t2>F
+1.8fPI\s$HNj@mqA(16b3@,diZt,Nf5Uo<"MXg=.gX$9.%)REE/cDIVpU+3t4u/A%^t(_AC+TP@
+:+Nl8nU#I/\=[T9rnEnQ2P/Y1&qrTMe4Xg;J-J]7Xq<100NVD_p]mUJ7KIUdXuEOa'\t;O=qO];
+/7>6>=]hp$Fm*c&7YB3JkTMblH4)ohPHBfr'lCKJ$X0PQ>I$m15RGs*jFl_*K3G-E<S@S=!EfX]
+K6";t,o?=DLn^8Q!>VWc6dO.r!TKhR0u7%AA<p$mk?(93]"hQaZC#Lga)L=qa=6#.B)i/&&bVQS
+faM>p6$VJneu^;Roa<Z_0Xd"6OVagLdiD<m@s+:uZ7n3ZQiPZ<S/rpsY99U47XbaLUMpin$VoOI
+I-s2-0],ilQX0(MXtu,6X[Df<mC-`Y_8E\RrtNCXqNi!:&P%<R2tQ,Sas;['r2?O;),NE*RoP05
+@QK5H\')r:(Z;$3rhl^b$N?8I="2rsSq*:Jqi5-Xcr]]B8=199`%tGVSsGdSaO6"(7EpXAKnf.l
+o7VCqQj3/$JV'.t6Y<0l8.N0Y7pshL@[_Zo_AK&L890j5.-$Mf8mhY`H.i>!8Y.TUQq^:LN,2-(
+\8gL0S:+-@(Xhc?gIb-(N'[a7GA'`-X8X93IM4?rqeZ^6F9g=T4Wd&^fCQI9kq[$@9>lP+7?T-'
+2%V[q=DKR+420.p4#JQklk:Mp!S104ou@F`qcI2oCR;!)%eoi5AcMKRs$S8NLp"VgoR6Q\rjWKY
+Sb`NXYW-MQ^uG-@.W:g$pDAkcOXPZ@&#I[!*98X3I[X\GK?_p@]-NcGPWBcQkL>Hhb%ngH'Kqe9
+q;]LUj]n;YBVB(GYithT,@?b?oeE8Aj?f\*,2F1gNee'Yk]]!%oJ;nh?KP4,Msjh#Qa%&8EKPDA
+*KG`C1-s)r5R%+,'<CX@9RXd45A9k3mMSb'.Efg;=b$k.@<SM4`4!KX*j4<D(T*<`\V6[^:u0+E
+?nkhYL:"pb*l7:i(ZHb)9f28:E]E;MO6q1IGRpZW4.t3+[2N1_Ji4B@cCQ,qWK;2lhLi-^%sa$%
+5\k3#9Yh^9Jh7pN3/?)Skun^)0'Tg5b=g"LHPgp,9?Ed,nk;]f9j&G?p/:*)Eh#ou3G=&03s`uO
+I>=ck]d1r$Y6m1OjI,7\\7A:bDo('a89V9%pRj>"DaRq!*oIM0Rq"+oHM$UX="&<IX1P6G:2#RM
+nuk4_I)$n.8Aq4[\?0-R0'SoAOSnPG,tJH#cm/<,^[tAnpD%WNe4Im--YU2OrgtfD#PJer+dWZ<
+1$6\M*bZlYWW!:Z(8#X]O19R_oF'FV+#jop63!QdT6afZ]A-TC2'81=DAWf*\t[LG[OqRD(#Z+G
+SpE(R6(X1&'HV^*jot\!iMuCuK>Whdi/Ibr2Z5=KSE_+W=`YW\0>-<"2Ajr^qA$L0.Pk('Z"Y&[
+[e<[eCLaD5(%Gkh8jLp1X(o6J)YWXmMXulF`s:hFEn4'fU-;")\6uX4]nP-obndCBRSn*sJiB>c
+q8+T3oYFJM)Y!>H9OlY(BQt@(nJebaEuMh=E3<`UmW)O`'lY0%.!ssBNsmUY>(BIIalQN31=2;"
+s0NG#m0<NI8Q]b-0Ik;)VGlh"9r:DDGkKGMG?oV.RB"KU9+jt'`'q2[#,g(jaPMLq<msPmm9sK<
+RuX9Jr8.*W.c.g9:!#hU\<=@RGX*k9Zt6L8A'"=6YuE'6)_rUI<N0(<;TdMfWETnQ7=n@YlVYHA
+pE)7$S.YG$<jmQ#E:qSn-6qLd$G>pBMEqEM[<FME($Cs)N51m!c7&nPT[2'?f\U0'"K+M+7]itU
+6Mg3ir-&%ZL6I/a\m6'5[c&Xo/9>SJW\p1L:5KA:\,8lnS\qQ=nsBb]<Hsor3(eJ7LAUEM](S;I
+3QJ#q)^T!3BGhn3NGF8Ls*iGP<B8iYms<=3'0DmPRL*V:!53nZ^cO-K0's8D#.:;a:-@qn\@EAM
+$&$KP"n."eYq>%2YJs',K4%g8)1Bf6D*C3)0J@Up&c^59K1VZM%g5jd[<WdRqAI)8_"Z)<p(-m.
+*NpLbe;M3Ya)e>o:Z+DFSgElQrkNJGAM9]OeV@uT,@;)Md&Pk002>FUPSf:n/IM?:^B^<6m2D5!
+hd6L>Or;7FFb7m`9c1nV:4B>X>7YJQ8/EZqO2?g7+l,kJ59F_ch$UQ$q"#0^(A+d=UddkJMLj9p
+Z+3naLbZ:_[K?]N6GX+P93HUO>D%%u*!_+rmeGq+Icgn><m=n+0e%BT=/,LhfX:"(bhT\c\M(a)
+'Q5'WjFo^`Nim?Z$80YOglHp(D^m@(K<L7;0(;F=$BpAFj22>tZPhASo7+a-BnK>R*?L3SO3QqX
+E!p_VZ,i-(^k>dTB?i(5_RbTS90n.]>0V5&:p_!Y=+RN-GoJ#SZo:\;a!E$',W/.fc*]FR9hDat
+G`t:klq4_6W'A/]E;LMPr\C$'PP2fAOM]79dV.]d;o!ER7.K!S6UQd+*!8KW4>JfW=r%5NJi,n:
+d*D;ZaI1u_OCD3U$:pt9qY4u8l>ds"qhUEF/L[,f_r\F2F3D]XNd)Mf[-I1F'KplU5"A.mq=rQ;
+4g-$FD=O)?5ssQMFag"HlELA(=Jr)TW]\#4'sD[<I2(EjAiGkN2\Xko$P1V`r!]?9;M`IqL,m!k
+f90dg/HN`B@QA>i<"a#g9$j@PZq?l%."KkoYEm]gMpnoob2gZAI7`V[Ue;6VRpt5-hI@N(W[QM"
+cp&#ETF'@odhonCcQ^4&)N?PJP/jdocW?PQLL,(_KNq=uX$r5N3j&LdkDWd,)UNe**OcNaC9>kN
+:]*7X=J+SAH&U"g]u$I@m3O5HnTYBI%VB9h@2<F>KhT`SP(uW,;[?Z"k_/XK1\7pCZA_r',-B5m
+18sheK3BO#^fUt'^_gnt3fOn?00s[>mH[i/Ru;rcr:2toTg]_2W9![7P\+B+Vb:)@eS#`((XUH<
+AmU9S<p,bqN6uV^4W'p6XK:;KiBN(L1o/=i@'m#pdh43F$HAB4,_NWA_IBuA+-IBQkI2gb,M3?N
+lf*rJg@X4Fl-8%@IHk<STB_T&Nt$?+g.\2U,hhn4._$P*mW[OS("Ea-%tfWj@*JK;$/:>Q:rk65
+/^)*gh,^74,T`!o_#^CT,m.47@j,.KeKs-976ei_*gDFn\''L!@ocjP=_Cj_Sj4+S&)0^kaYt/s
+Qo!9Ii\WkS.V,-EnArGl8?e1^H&>MH9>O@9j;!rI9_GfGQ(<FDWX6_!JZYT#7cVdQ8<S[KcW*qr
+Wt[*->6`i_L&lG%.aD1U_FWUfe%+`59bIgOT,3]hWWKk#(ehf5O'Z/]jrNo65U<rYd<GWo!/].W
+Kt:(Fo=Un3)Gc(6rpO&K[]q8>f&*$d'0toQ:1mO?5TE<L`+p[_2=uk.$/kFAK(PKOUG0C8?j3C"
+Y.!C2Erp$=Or&13dQ?$eY7`gg:,JH3XKTd:3%D!Y2k;kd>I(*dkmWKOHN?5_hBB+BZ$BRVQ]J?/
+=L_.8GtAZ[_;j*&V8[(?)!sbMlc4nK=^O:!__YseIg%bdXg1kf[[_.kS(g><eYB?u>_6Bh7S#-'
+g[//`oW<?4km?.+BC/kQ]n1_I4lCoT)O3fNY""q8oZ1+!isrn$T98"IA9j#/,m0>&]c$j_>bEg(
+%k2085n0d;4%o,#b;=6aL\(VP=[sIZP!L];1:@rtQ4N\t*!8pNWiCu]`gI_CYI7E]%/;Z]hr#:=
+)^^ROeq=sm:tm]2(_*p\h]1S6hW_\gcd3X/)st\KJBQHAnD;(AM+J:'??K5L[&_Q<Rp.<#"m23Q
+aE9$`2!CYZTa*p'02f[lAB)=L7Yb?B5ZaK0%rLt9r*/AG(E>=Y.+>SMD0Bah5;?$6/-Ed(r!'a,
+cUm&q83=nc,mqgg^:"07U$*T&kLAU,1=ZT&1gQN3%PiRcW$n<`LIrktKo(hFJ:F<SBM>)mB]_'b
+.i1C!*P%d#r`4G^W2<6)=!cip9<@:J>"97IcRUF=O"S7k&(ho49*m:glk0XuGXf,CaMZ!s=AD=9
+<RE"<,P:h_eI-HN]s*1Y!cpOJEHO)r(4>L^IS<(UFDQ@lF)+-kF)-.jN#5?]dP`Gh=8O\Jn)P\G
+5IPWNEg]:JL,"Gf<o*Msr&mDec?rD!,S(?.o*@W-5VE/VC.BotpZN)HSN$[GK>G^5cB7]]O90A.
+"bRT.2pcYD<]pE(1$kr.:e6,cMA6/A^nWU](h>iE^EC4rjgXcL,G)1!&E>Wl0'4S(Z@^O&r4FLX
+ANhHWl=*2HR+X_KF\-<3MKEE1&2V,H(3480=p[1)eCblaHBH((lg,Q_rq3P`]9rB0"1n1I$\&&5
+9hXCq^8`=*?'TjU#a(,Tf>=XsIbX`"4;.Y+qVbYM#Et4%MP;:/;=^j>)1oRE]@q-'lH)KhQ0\>a
+Y$<GGgQ<FF:![5@%;_0A^?bjg4:\nXSTbGoJ=l?bJ_KJ%oW-*ImU/,adXCke\5ZC4W$nN8DIU%6
+Keas%0_qK!NuRqVMi[TkN.;l*FP?9;f$kUP=b)ds4hZ!N^AH]E:\J$qj:`Ys$5:Cs.H6Qc>;?B\
+GE9.]!2s\R!aNSV@0m8"Ql(Zh8)f22f\kNql#elhGjNiSLKO-2BUHf36b<M@d>`-)c5tVher[OO
+*l9e0>dX)i514MG*e)H%Y0(YYiaW`DqhP]*d3%tR2n&j@b\6;;;NPcoUhDP^E0Wc"LkW3\Mol(R
+_MnDoU:*8!Wa>nNd'J)84DOl0NU'L(VOA?!<,GN)$D:jnl@b8ZM>*XtBfpf94FF7,,'X+U8;DUg
+"UqrnU6hp#e?8GGhcTC@??i-0I?EC[IqLU<7b[fM5YZNK4L%`]CHeFXqZ"'pag$]2)eO5?$hM,B
+e*^]bYsm3S8N1u@@_F;O!]1!1Dd53adh?[QnL@jY?@DMf'Z"LQ5=&gFME\sIg^*(14%R.5%29.=
+^&2N@[U<.-FEHEKAI"gE7Al'4C_h#57;HljZb74G)g+(8mQD>6!;$"GQg9Ok<pBm-<gh89+cPA(
+hskVFf=3M^m*1@s1l^0I3F$g5m2hMInpGti,93LNr_I/g#Ja(!dk-pL,1c%MMg&B8IpXJ\I>Nb[
+ajE1^]_cpYjM8kJYQ$*34Tl9?:801E;6nmQ]*IZ=J-WLZnDW1B]LP0cY\%;(\EN!@rmHq5@;pc9
+3S+5Hc,"qtmZPKU+ejoH!&Ckt#XRi#D:c^@q1a;HR1J]/kH-[=rq>7WHken:$EdP8?UB/4b0mb]
+,I5(j)A;3<.f.JKK$d3/G!bZ:;t(D>j+Gk*FA9=l0iSklW""4Mi@>]p/lsuf.rFsUc%,ZgfF#!O
++W1`"_d(8p_3oD\J$T\QG(7J)%&Li]aEI=]ZIP>p_uINjI]HuJo"SRoN/9\Jnm=rGL&YLhn"Cin
+H#`l_E;GIC`hM4qr&`uL1\@@1(C0tBJE35+bc`WGOLh3RrO9Oll+_?$5CaP!$(Cpd/%t=/pkk%g
+3!"'0L`t<i_u%5ub.BIj=D(oV7pD-6bb3;(0o5JT!)FE-1DCV42g(\W(;iQ+s5WM`3AbIGF9.VI
+Y2eI1[k/lmN',,M(C+S-2VZ54J_B]!%V(]09RNf=f&bk3-eOp?rQZ4#qY_=qcU=$u#hFAGl&<6H
+GXM'&r!\$5J(f.Tl"WlCSIpgE.kpBPMf+5gr9NCR'=D8?$N6R$HdF\M]b;t,h8?]dn!mM'i3^iQ
+QAl*@Lp&hkVG7ePm*Za-['=L]klrgX]VTY/gF$ut$/=H/fr*P;0,sPjEEcauqFXE.jN12u-;Pe@
+rro!AJiW~>
+endstream
+endobj
+61 0 obj
+<</Type/Metadata
+/Subtype/XML/Length 1324>>stream
+<?xpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'?>
+<?adobe-xap-filters esc="CRLF"?>
+<x:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='XMP toolkit 2.9.1-13, framework 1.6'>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:iX='http://ns.adobe.com/iX/1.0/'>
+<rdf:Description rdf:about='d93050a6-ebe4-11ee-0000-87069194ddff' xmlns:pdf='http://ns.adobe.com/pdf/1.3/' pdf:Producer='GPL Ghostscript 8.70'/>
+<rdf:Description rdf:about='d93050a6-ebe4-11ee-0000-87069194ddff' xmlns:xmp='http://ns.adobe.com/xap/1.0/'><xmp:ModifyDate>2014-03-24T19:51:01-07:00</xmp:ModifyDate>
+<xmp:CreateDate>2014-03-24T19:51:01-07:00</xmp:CreateDate>
+<xmp:CreatorTool>groff version 1.18.1.4</xmp:CreatorTool></rdf:Description>
+<rdf:Description rdf:about='d93050a6-ebe4-11ee-0000-87069194ddff' xmlns:xapMM='http://ns.adobe.com/xap/1.0/mm/' xapMM:DocumentID='d93050a6-ebe4-11ee-0000-87069194ddff'/>
+<rdf:Description rdf:about='d93050a6-ebe4-11ee-0000-87069194ddff' xmlns:dc='http://purl.org/dc/elements/1.1/' dc:format='application/pdf'><dc:title><rdf:Alt><rdf:li xml:lang='x-default'>grep.1.ps</rdf:li></rdf:Alt></dc:title></rdf:Description>
+</rdf:RDF>
+</x:xmpmeta>
+                                                                        
+                                                                        
+<?xpacket end='w'?>
+endstream
+endobj
+2 0 obj
+<</Producer(GPL Ghostscript 8.70)
+/CreationDate(D:20140324195101-07'00')
+/ModDate(D:20140324195101-07'00')
+/Creator(groff version 1.18.1.4)
+/Title(grep.1.ps)>>endobj
+xref
+0 62
+0000000000 65535 f 
+0000091859 00000 n 
+0000123304 00000 n 
+0000091744 00000 n 
+0000090369 00000 n 
+0000000009 00000 n 
+0000009876 00000 n 
+0000091924 00000 n 
+0000093827 00000 n 
+0000111676 00000 n 
+0000093093 00000 n 
+0000100931 00000 n 
+0000092681 00000 n 
+0000094558 00000 n 
+0000091965 00000 n 
+0000091995 00000 n 
+0000090520 00000 n 
+0000009896 00000 n 
+0000021206 00000 n 
+0000092047 00000 n 
+0000092077 00000 n 
+0000090673 00000 n 
+0000021228 00000 n 
+0000032493 00000 n 
+0000092129 00000 n 
+0000092159 00000 n 
+0000090826 00000 n 
+0000032515 00000 n 
+0000043899 00000 n 
+0000092211 00000 n 
+0000092241 00000 n 
+0000090979 00000 n 
+0000043921 00000 n 
+0000056217 00000 n 
+0000092293 00000 n 
+0000092323 00000 n 
+0000091132 00000 n 
+0000056239 00000 n 
+0000068567 00000 n 
+0000092375 00000 n 
+0000092405 00000 n 
+0000091285 00000 n 
+0000068589 00000 n 
+0000079326 00000 n 
+0000092457 00000 n 
+0000092487 00000 n 
+0000091438 00000 n 
+0000079348 00000 n 
+0000089595 00000 n 
+0000092528 00000 n 
+0000092558 00000 n 
+0000091591 00000 n 
+0000089617 00000 n 
+0000090349 00000 n 
+0000092610 00000 n 
+0000092640 00000 n 
+0000094875 00000 n 
+0000101535 00000 n 
+0000112215 00000 n 
+0000093701 00000 n 
+0000094415 00000 n 
+0000121903 00000 n 
+trailer
+<< /Size 62 /Root 1 0 R /Info 2 0 R
+/ID [<9FEB59D2BC53A2FC716512CD82EA746E><9FEB59D2BC53A2FC716512CD82EA746E>]
+>>
+startxref
+123478
+%%EOF

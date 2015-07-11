@@ -1,0 +1,132 @@
+head	1.3;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.3
+date	2014.04.11.19.50.37;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2014.04.03.04.30.12;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2014.03.25.01.45.16;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@-
+@
+text
+@// $Id: options.java,v 1.2 2014-04-02 21:30:12-07 - - $
+
+import static java.lang.System.*;
+
+class options {
+   boolean insensitive;
+   boolean filename_only;
+   boolean number_lines;
+   boolean reverse_match;
+   String regex;
+   String[] filenames;
+
+   options (String[] args) {
+      if (args.length == 0) { 
+         err.printf ("Usage: %s [-ilnv] regex [filename...]%n",
+                     messages.program_name);
+         exit (messages.EXIT_FAILURE);
+      }
+      //Originally set options flags to 0
+      insensitive = false;
+      filename_only = false;
+      number_lines = false;
+      reverse_match = false;
+
+      char flag;
+      String arg;
+      arg = args[0];
+      if(arg.startsWith("-")) {
+         //System.out.println("Options Used");
+         for(int j = 1; j < arg.length(); j++) {
+            flag = arg.charAt(j);
+            switch(flag) {
+               case 'i':
+                  insensitive = true;
+                  //System.out.println("Insensitive");
+                  break;
+               case 'l':
+                  filename_only = true;
+                  //System.out.println("Filename Only");
+                  break;
+               case 'n':
+                  number_lines = true;
+                  //System.out.println("Number Lines");
+                  break;
+               case 'v':
+                  reverse_match = true;
+                  //System.out.println("Reverse Match");
+                  break;
+               default:
+                  err.printf ("Usage: %s [-ilnv] regex [filename...]%n",
+                              messages.program_name);
+                  break;
+            }
+         }
+         regex = args[1];
+         filenames = new String[args.length - 2];
+         for(int argi = 2; argi < args.length; argi++) {
+            filenames[argi - 2] = args[argi];
+         }
+      } else {
+         //System.out.println("No options used.");
+         regex = args[0];
+         filenames = new String[args.length - 1];
+         for (int argi = 1; argi < args.length; ++argi) {
+            filenames[argi - 1] = args[argi];
+         }
+      }
+   }
+}
+
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: options.java,v 1.1 2014-03-24 18:45:16-07 - - $
+d19 48
+a66 4
+      regex = args[0];
+      filenames = new String[args.length - 1];
+      for (int argi = 1; argi < args.length; ++argi) {
+         filenames[argi - 1] = args[argi];
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 3
+a3 1
+// $Id: options.java,v 1.2 2012-10-08 18:58:00-07 - - $
+d14 10
+@

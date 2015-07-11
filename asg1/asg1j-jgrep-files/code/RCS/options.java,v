@@ -1,0 +1,66 @@
+head	1.2;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.2
+date	2014.04.03.04.30.12;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2014.03.25.01.45.16;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@-
+@
+text
+@// $Id: options.java,v 1.1 2014-03-24 18:45:16-07 - - $
+
+import static java.lang.System.*;
+
+class options {
+   boolean insensitive;
+   boolean filename_only;
+   boolean number_lines;
+   boolean reverse_match;
+   String regex;
+   String[] filenames;
+
+   options (String[] args) {
+      if (args.length == 0) { 
+         err.printf ("Usage: %s [-ilnv] regex [filename...]%n",
+                     messages.program_name);
+         exit (messages.EXIT_FAILURE);
+      }
+      regex = args[0];
+      filenames = new String[args.length - 1];
+      for (int argi = 1; argi < args.length; ++argi) {
+         filenames[argi - 1] = args[argi];
+      }
+   }
+}
+
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 3
+a3 1
+// $Id: options.java,v 1.2 2012-10-08 18:58:00-07 - - $
+d14 10
+@
