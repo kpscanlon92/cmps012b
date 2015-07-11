@@ -1,0 +1,23 @@
+6 lines read 
+edfile: *
+     0 This is an input test file.
+     1 Its name is used on the command line.
+     2 It should be read in at the beginning
+     3 of execution
+     4 when its name appears on the command line.
+     5 $Id: input.test,v 1.1 2013-04-11 18:53:26-07 - - $
+edfile: 0
+     0 This is an input test file.
+edfile: >
+     1 Its name is used on the command line.
+edfile: >
+     2 It should be read in at the beginning
+edfile: $
+     5 $Id: input.test,v 1.1 2013-04-11 18:53:26-07 - - $
+edfile: <
+     4 when its name appears on the command line.
+edfile: <
+     3 of execution
+edfile: # Testing navigational commands
+edfile: # $Id: test2.edf,v 1.1 2013-04-11 18:53:26-07 - - $
+edfile: ^D

@@ -1,0 +1,31 @@
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+err.c
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+     1	// $Id: err.c,v 1.5 2014-04-23 21:19:13-07 - - $
+     2	
+     3	#include <stdio.h>
+     4	void foo() {
+     5	   int x = 20;
+     6	   int *p = &x;
+     7	}
+     8	void bar() {
+     9	   int a;
+    10	   int *p;
+    11	   printf ("%d %p\n", a, p);
+    12	}
+    13	int main() {
+    14	   foo();
+    15	   bar();
+    16	}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Errors: gcc -g -O0 -Wall -Wextra -std=gnu99 err.c -o err
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+err.c: In function ‘foo’:
+err.c:6:9: warning: unused variable ‘p’ [-Wunused-variable]
+    int *p = &x;
+         ^
+err.c: In function ‘bar’:
+err.c:11:11: warning: ‘a’ is used uninitialized in this function [-Wuninitialized]
+    printf ("%d %p\n", a, p);
+           ^
+err.c:11:11: warning: ‘p’ is used uninitialized in this function [-Wuninitialized]

@@ -1,0 +1,33 @@
+lsort: 0xf2c200-> node {
+    string= 0xf2c1c0->"!@#$%^&*()_+| and special characters are first",
+    link= 0xf2c330}
+lsort: 0xf2c330-> node {
+    string= 0xf2c2e0->"$Id: data.lsort.good.in,v 1.1 2012-10-30 17:09:23-07 - - $",
+    link= 0xf2c140}
+lsort: 0xf2c140-> node {
+    string= 0xf2c110->"(i.e., not in alphabetic order)",
+    link= 0xf2c0f0}
+lsort: 0xf2c0f0-> node {
+    string= 0xf2c0d0->"IN LEXICOGRAPHIC ORDER",
+    link= 0xf2c1a0}
+lsort: 0xf2c1a0-> node {
+    string= 0xf2c160->"SO THAT UPPER LINES COME BEFORE LOWER LINES",
+    link= 0xf2c240}
+lsort: 0xf2c240-> node {
+    string= 0xf2c220->"[except for brackets]",
+    link= 0xf2c070}
+lsort: 0xf2c070-> node {
+    string= 0xf2c050->"of some data",
+    link= 0xf2c2c0}
+lsort: 0xf2c2c0-> node {
+    string= 0xf2c2a0->"or just run sort",
+    link= 0xf2c280}
+lsort: 0xf2c280-> node {
+    string= 0xf2c260->"see an ASCII table",
+    link= 0xf2c0b0}
+lsort: 0xf2c0b0-> node {
+    string= 0xf2c090->"strings should sort",
+    link= 0xf2c030}
+lsort: 0xf2c030-> node {
+    string= 0xf2c010->"this is a test",
+    link= (nil)}

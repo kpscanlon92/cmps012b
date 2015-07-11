@@ -1,0 +1,32 @@
+head	1.1;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.1
+date	2013.04.12.01.53.26;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@-
+@
+text
+@*
+0
+>
+>
+$
+<
+<
+# Testing navigational commands
+# $Id: test2.edf,v 1.2 2010-10-05 15:35:49-07 - - $
+@

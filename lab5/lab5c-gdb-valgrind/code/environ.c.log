@@ -1,0 +1,25 @@
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+environ.c
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+     1	// Name: Kelly Scanlon
+     2	// User: kpscanlo
+     3	
+     4	
+     5	#include <stdio.h>
+     6	
+     7	extern char **environ;
+     8	
+     9	int main (int argc, char **argv) {
+    10	   (void) argc;
+    11	   (void) argv;
+    12	
+    13	   int i = 0;
+    14	   while (environ[i]) {
+    15	      printf("%s\n", environ[i++]);
+    16	   }
+    17	   return 0;
+    18	}
+    19	
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Errors: gcc -g -O0 -Wall -Wextra -std=gnu99 environ.c -o environ
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

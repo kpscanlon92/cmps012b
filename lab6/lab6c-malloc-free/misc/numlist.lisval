@@ -1,0 +1,28 @@
+==17182== Memcheck, a memory error detector
+==17182== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==17182== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==17182== Command: ./numlist
+==17182== Parent PID: 17181
+==17182== 
+==17182== 
+==17182== HEAP SUMMARY:
+==17182==     in use at exit: 5,120 bytes in 5 blocks
+==17182==   total heap usage: 15 allocs, 10 frees, 5,280 bytes allocated
+==17182== 
+==17182== 1,024 bytes in 4 blocks are definitely lost in loss record 1 of 2
+==17182==    at 0x4A06A2E: malloc (in /opt/rh/devtoolset-2/root/usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==17182==    by 0x40087E: main (numlist.c:81)
+==17182== 
+==17182== 4,096 bytes in 1 blocks are definitely lost in loss record 2 of 2
+==17182==    at 0x4A06A2E: malloc (in /opt/rh/devtoolset-2/root/usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==17182==    by 0x400892: main (numlist.c:82)
+==17182== 
+==17182== LEAK SUMMARY:
+==17182==    definitely lost: 5,120 bytes in 5 blocks
+==17182==    indirectly lost: 0 bytes in 0 blocks
+==17182==      possibly lost: 0 bytes in 0 blocks
+==17182==    still reachable: 0 bytes in 0 blocks
+==17182==         suppressed: 0 bytes in 0 blocks
+==17182== 
+==17182== For counts of detected and suppressed errors, rerun with: -v
+==17182== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 6 from 6)

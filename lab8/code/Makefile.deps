@@ -1,0 +1,4 @@
+# Makefile.deps created 'date'
+inssort.o: inssort.c inssort.h
+linesort.o: linesort.c inssort.h
+numsort.o: numsort.c inssort.h

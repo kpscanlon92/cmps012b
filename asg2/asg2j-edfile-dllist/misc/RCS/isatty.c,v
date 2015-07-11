@@ -1,0 +1,68 @@
+head	1.2;
+access;
+symbols;
+locks;
+comment	@ * @;
+
+
+1.2
+date	2013.04.29.19.53.52;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2013.04.29.19.52.31;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@-
+@
+text
+@// $Id: isatty.c,v 1.1 2013-04-29 12:52:31-07 - - $
+
+#include <libgen.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+#define CHECK(STD) check (#STD, STD)
+
+void check (char *stdname, int fileno) {
+   printf ("%s (%d) is%s a tty.\n",
+           stdname, fileno, isatty (fileno) ? "" : " not");
+}
+
+int main (int argc, char **argv) {
+   CHECK (STDIN_FILENO);
+   CHECK (STDOUT_FILENO);
+   CHECK (STDERR_FILENO);
+   return EXIT_SUCCESS;
+}
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id$
+d10 3
+a12 2
+void check (char *stdname, FILE *file) {
+   printf ("%s is%s a tty.\n", stdname, isatty (file) ? "" : " not");
+d16 3
+a18 3
+   CHECK (stdin);
+   CHECK (stdout);
+   CHECK (stderr);
+@

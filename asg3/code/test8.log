@@ -1,0 +1,13 @@
+Script  : /afs/cats.ucsc.edu/courses/cmps012b-wm/bin/runprogram.perl
+limit c :    0 max core file size (KB)
+limit f : 4194303 max output file size (KB)
+limit t : 4294967295 max CPU time (sec)
+stdin   : /dev/null
+stdout  : test8.out
+stderr  : test8.err
+log     : test8.log
+base    : test8
+Command : ./jxref /no/such/file /afs/cats.ucsc.edu/class/cmps012b-wm.f07/.denied
+starting: pid 23785: 18:02:04.00
+finished: pid 23785: 18:02:04.00, real 0.00, user 0.06, sys 0.01
+pstatus: 0x0100 EXIT STATUS = 1

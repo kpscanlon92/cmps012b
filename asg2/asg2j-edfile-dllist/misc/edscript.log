@@ -1,0 +1,40 @@
+edfile.perl: # $Id: edscript,v 1.1 2013-04-11 18:53:54-07 - - $
+edfile.perl: rtest.in
+5 lines read from test.in
+edfile.perl: *
+     0  # $Id: test.in,v 1.1 2013-04-11 18:53:50-07 - - $
+     1  This is an input test file.
+     2  It contains a few lines of data.
+     3  It will be written out again.
+     4  Look at the typescript logs for an example.
+edfile.perl: aanother line
+     5  another line
+edfile.perl: ianother line
+     5  another line
+edfile.perl: *
+     0  # $Id: test.in,v 1.1 2013-04-11 18:53:50-07 - - $
+     1  This is an input test file.
+     2  It contains a few lines of data.
+     3  It will be written out again.
+     4  Look at the typescript logs for an example.
+     5  another line
+     6  another line
+edfile.perl: <
+     5  another line
+edfile.perl: <
+     4  Look at the typescript logs for an example.
+edfile.perl: d
+     4  another line
+edfile.perl: <
+     3  It will be written out again.
+edfile.perl: d
+     3  another line
+edfile.perl: *
+     0  # $Id: test.in,v 1.1 2013-04-11 18:53:50-07 - - $
+     1  This is an input test file.
+     2  It contains a few lines of data.
+     3  another line
+     4  another line
+edfile.perl: wscript.out
+5 lines written to script.out
+edfile.perl: ^D

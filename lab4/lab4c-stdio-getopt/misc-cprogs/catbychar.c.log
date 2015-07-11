@@ -1,0 +1,5 @@
+* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: starting catbychar.c
+* catbychar.c: $Id: catbychar.c,v 1.5 2014-01-28 17:59:24-08 - - $
+* gcc -g -O0 -Wall -Wextra -std=gnu99 catbychar.c -o catbychar -lm
+* rm -f catbychar.o
+* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: finished catbychar.c

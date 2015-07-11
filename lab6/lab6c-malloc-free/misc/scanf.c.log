@@ -1,0 +1,6 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: starting scanf.c
+scanf.c:
+     $Id: scanf.c,v 1.2 2013-02-11 17:49:47-08 - - $
+gcc -g -O0 -Wall -Wextra -std=gnu99 scanf.c -o scanf -lm
+rm -f scanf.o
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: finished scanf.c

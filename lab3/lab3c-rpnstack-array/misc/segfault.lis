@@ -1,0 +1,39 @@
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+log: segfault.log
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+     1	Script  : /afs/cats.ucsc.edu/courses/cmps012b-wm/bin/runprog
+     2	limit c :    0 max core file size (KB)
+     3	limit f : 4194303 max output file size (KB)
+     4	limit t : 4294967295 max CPU time (sec)
+     5	stdin   : /dev/null
+     6	stdout  : segfault.out
+     7	stderr  : segfault.err
+     8	log     : segfault.log
+     9	listing : segfault.lis
+    10	Command : ./segfault
+    11	starting: pid 16231: 16:04:00.00
+    12	finished: pid 16231: 16:04:00.00, real 0.00, user 0.00, sys 0.00
+    13	pstatus: 0x008B TERMINATED 11: Segmentation fault (core dumped)
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+stdin: /dev/null
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+stdout: segfault.out
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+     1	argv[0]="./segfault"
+     2	argv[1]="(null)"
+     3	argv[2]="FOO=value1"
+     4	argv[3]="BAR=value2"
+     5	argv[4]="PATH=/bin:/afs/cats.ucsc.edu/courses/cmps012b-wm/bin"
+     6	argv[5]="(null)"
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+stderr: segfault.err
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+

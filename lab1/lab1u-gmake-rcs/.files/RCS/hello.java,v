@@ -1,0 +1,356 @@
+head	1.12;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.12
+date	2014.03.25.00.32.36;	author -;	state -;
+branches;
+next	1.11;
+
+1.11
+date	2014.03.25.00.28.51;	author -;	state -;
+branches;
+next	1.10;
+
+1.10
+date	2014.03.25.00.11.34;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2014.03.25.00.11.17;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2014.03.24.23.57.07;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2014.03.24.23.56.02;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2014.01.04.01.54.49;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2014.01.04.01.51.20;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2013.03.27.19.35.02;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2013.03.27.01.11.25;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2013.01.04.03.38.16;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2013.01.02.23.47.52;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.12
+log
+@-
+@
+text
+@// $Id: hello.java,v 1.11 2014-03-24 17:28:51-07 - - $
+//
+// NAME
+//    hello - a Java version of the classical "Hello World" program.
+//
+// DESCRIPTION
+//    Introduces itself and its environment.
+//
+
+import java.util.ArrayList;
+import java.util.List;
+import static java.lang.System.*;
+class hello {
+   static String[] properties = {
+      "java.class.path",
+      "sun.arch.data.model",
+      "sun.cpu.endian",
+      "os.arch",
+      "os.name",
+      "os.version",
+      "java.runtime.name",
+      "java.runtime.version",
+      "java.vm.name",
+      "java.vm.version",
+      "java.home",
+      "java.version",
+   };
+   public static void main (String[] args) {
+      out.printf ("Hello, Java World!%n");
+      for (String property: properties) {
+         String property_value = getProperty (property);
+         out.printf ("%s = %s%n", property, property_value);
+      }
+      long free_memory = Runtime.getRuntime().freeMemory();
+      out.printf ("free memory = %d bytes = %.4f megabytes%n",
+                  free_memory, free_memory / (double)(1<<20));
+      long now = currentTimeMillis();
+      out.printf ("current time = %.3f sec = %tc%n",
+                  now / 1e3, now);
+   }
+}
+@
+
+
+1.11
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hello.java,v 1.10 2014-03-24 17:11:34-07 - - $
+d4 1
+a4 4
+//    hello - a verbose version of the classical "Hello World" program.
+//
+// SYNOPSIS
+//    hello
+@
+
+
+1.10
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hello.java,v 1.9 2014-03-24 17:11:17-07 - - $
+d41 1
+a41 1
+      out.printf ("current time = %.3f seconds = %tc%n",
+@
+
+
+1.9
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hello.java,v 1.8 2014-03-24 16:57:07-07 - - $
+d39 1
+a39 1
+                  memory, memory / (double)(1<<20));
+@
+
+
+1.8
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hello.java,v 1.7 2014-03-24 16:56:02-07 - - $
+d17 16
+a32 2
+   static void printprop (String format, String... properties) {
+      List<Object> property_values = new ArrayList<Object>();
+d34 2
+a35 1
+         property_values.add (getProperty (property));
+d37 3
+a39 4
+      out.printf (format, property_values.toArray());
+   }
+   public static void main (String[] args) {
+      double memory = Runtime.getRuntime().freeMemory();
+d41 2
+a42 13
+      out.printf ("Hello, World!%n");
+      printprop ("Class path: %s%n", "java.class.path");
+      printprop ("Operating system: %s-bit %s-endian %s %s %s%n",
+                 "sun.arch.data.model", "sun.cpu.endian",
+                 "os.arch", "os.name", "os.version");
+      printprop ("Runtime: %s (%s)%n",
+                 "java.runtime.name", "java.runtime.version");
+      printprop ("Virtual machine: %s (%s)%n",
+                 "java.vm.name", "java.vm.version");
+      printprop ("Home: %s (%s)%n", "java.home", "java.version");
+      out.printf ("There are %.0f bytes = %.4f Mbytes free memory%n",
+                  memory, memory / (1<<20));
+      out.printf ("Time now: %.3f seconds = %tc%n", now / 1e3, now);
+@
+
+
+1.7
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hello.java,v 1.6 2014-01-03 17:54:49-08 - - $
+d28 1
+a28 1
+      printprop ("Class path is%n%s%n", "java.class.path");
+@
+
+
+1.6
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hello.java,v 1.5 2014-01-03 17:51:20-08 - - $
+d29 1
+a29 1
+      printprop ("Operating system is %s-bit %s-endian %s %s %s%n",
+d32 1
+a32 1
+      printprop ("Runtime is %s (%s)%n",
+d34 1
+a34 1
+      printprop ("Virtual machine is %s (%s)%n",
+d36 1
+a36 1
+      printprop ("Home is %s (%s)%n", "java.home", "java.version");
+d39 1
+a39 1
+      out.printf ("Time is now %.3f seconds = %tc%n", now / 1e3, now);
+@
+
+
+1.5
+log
+@-
+@
+text
+@d1 1
+a1 2
+// $Id: hello.java,v 1.4 2013-03-27 12:35:02-07 - - $
+
+a15 1
+
+a41 1
+
+@
+
+
+1.4
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hello.java,v 1.3 2013-03-26 18:11:25-07 - - $
+d11 1
+a11 2
+//    Prints the message "Hello World" to stdout, and otherwise
+//    introduces itself and its environment.
+a18 1
+
+a25 1
+
+d39 2
+a40 3
+      out.printf ("There are %.0f bytes = %.2f Kbytes = %.4f Mbytes"
+                + " of free memory%n",
+                  memory, memory / (1<<10), memory / (1<<20));
+a42 1
+
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hello.java,v 1.2 2013-01-03 19:38:16-08 - - $
+d11 1
+a11 1
+//    Prints the message `Hello World' to stdout, and otherwise
+d21 6
+a26 4
+   static void printprop (String format, String... props) {
+      List<Object> propvals = new ArrayList<Object>();
+      for (String prop: props) propvals.add (getProperty (prop));
+      out.printf (format, propvals.toArray());
+d30 1
+a30 1
+      double freemem = Runtime.getRuntime().freeMemory();
+d44 1
+a44 1
+                  freemem, freemem / (1<<10), freemem / (1<<20));
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 2
+a2 1
+// $Id: hello.java,v 1.1 2013-01-02 15:47:52-08 - - $
+d5 1
+a5 1
+//    hello - a verbose version of the classical `Hello World' program.
+d16 1
+d21 3
+a23 3
+   static void printfprop (String format, String... props) {
+      ArrayList<Object> propvals = new ArrayList<Object>();
+      for (String prop : props) propvals.add (getProperty (prop));
+d31 9
+a39 9
+      printfprop ("Class path is%n%s%n", "java.class.path");
+      printfprop ("Operating system is %s-bit %s-endian %s %s %s%n",
+                  "sun.arch.data.model", "sun.cpu.endian",
+                  "os.arch", "os.name", "os.version");
+      printfprop ("Runtime is %s (%s)%n",
+                  "java.runtime.name", "java.runtime.version");
+      printfprop ("Virtual machine is %s (%s)%n",
+                  "java.vm.name", "java.vm.version");
+      printfprop ("Home is %s (%s)%n", "java.home", "java.version");
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hello.java,v 1.1 2012-09-28 13:25:13-07 - - $
+d29 1
+a29 1
+      printfprop ("Class path is %s%n", "java.class.path");
+@

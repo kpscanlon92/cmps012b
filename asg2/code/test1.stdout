@@ -1,0 +1,19 @@
+6 lines read 
+edfile: r/foo/bar
+0 lines read from /foo/bar
+edfile: w/no/such/file
+edfile: # Should print error messages
+edfile: insert this line into the buffer
+     5 nsert this line into the buffer
+edfile: *
+     0 This is an input test file.
+     1 Its name is used on the command line.
+     2 It should be read in at the beginning
+     3 of execution
+     4 when its name appears on the command line.
+     5 nsert this line into the buffer
+     6 $Id: input.test,v 1.1 2013-04-11 18:53:26-07 - - $
+edfile: wtest1.output
+7 lines written to test1.output
+edfile: # $Id: test1.edf,v 1.1 2013-04-11 18:53:26-07 - - $
+edfile: ^D

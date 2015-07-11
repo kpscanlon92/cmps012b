@@ -1,0 +1,8 @@
+#!/bin/sh
+# $Id$
+
+# Name: Kelly Scanlon
+# User: kpscanlo
+
+gcc -g -O0 -Wall -Wextra -std=gnu99 cmatch.c -o cmatch
+

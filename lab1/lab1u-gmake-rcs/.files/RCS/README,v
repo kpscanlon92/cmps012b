@@ -1,0 +1,31 @@
+head	1.1;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.1
+date	2013.01.02.23.47.52;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@-
+@
+text
+@
+Yes, it is OK if you copy these files for this trivial
+assignment.  Not everyone will notice this hidden directory.  It
+does not show up from a browser or with ls without the -a
+option.  Just another advantange of using the Unix command line
+directly without wasting time with that pointy clicky nonsense.
+
+$Id: README,v 1.1 2012-10-03 13:14:01-07 - - $
+@

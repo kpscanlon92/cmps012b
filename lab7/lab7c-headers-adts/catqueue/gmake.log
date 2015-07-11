@@ -1,0 +1,5 @@
+cid + main.c
+gcc -g -O0 -Wall -Wextra -std=gnu99 -c main.c
+cid + queue.c
+gcc -g -O0 -Wall -Wextra -std=gnu99 -c queue.c
+gcc -g -O0 -Wall -Wextra -std=gnu99 -o catqueue main.o queue.o

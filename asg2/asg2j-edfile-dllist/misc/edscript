@@ -1,0 +1,13 @@
+# $Id: edscript,v 1.1 2013-04-11 18:53:54-07 - - $
+rtest.in
+*
+aanother line
+ianother line
+*
+<
+<
+d
+<
+d
+*
+wscript.out

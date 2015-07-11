@@ -1,0 +1,52 @@
+head	1.2;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.2
+date	2014.04.04.00.16.42;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2014.04.02.23.19.58;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@-
+@
+text
+@
+Name: Kelly Scanlon
+username: kpscanlo
+host: unix2.lt.ucsc.edu
+
+Source Code: hello.java and Makefile found by path /afs/cats.ucsc.edu/courses/cmps012b-wm/Labs-cmps012m/lab1u-gmake-rcs/.files
+@
+
+
+1.1
+log
+@-
+@
+text
+@d2 3
+a4 5
+Yes, it is OK if you copy these files for this trivial
+assignment.  Not everyone will notice this hidden directory.  It
+does not show up from a browser or with ls without the -a
+option.  Just another advantange of using the Unix command line
+directly without wasting time with that pointy clicky nonsense.
+d6 1
+a6 1
+$Id: README,v 1.1 2013-01-02 15:47:52-08 - - $
+@

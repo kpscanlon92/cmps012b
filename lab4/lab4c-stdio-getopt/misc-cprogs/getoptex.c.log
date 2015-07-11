@@ -1,0 +1,5 @@
+* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: starting getoptex.c
+* getoptex.c: $Id: getoptex.c,v 1.8 2013-04-24 21:03:46-07 - - $
+* gcc -g -O0 -Wall -Wextra -std=gnu99 getoptex.c -o getoptex -lm
+* rm -f getoptex.o
+* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: finished getoptex.c

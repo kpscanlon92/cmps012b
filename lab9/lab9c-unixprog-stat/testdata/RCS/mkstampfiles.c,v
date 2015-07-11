@@ -1,0 +1,302 @@
+head	1.13;
+access;
+symbols;
+locks;
+comment	@ * @;
+
+
+1.13
+date	2014.02.20.23.30.10;	author -;	state -;
+branches;
+next	1.12;
+
+1.12
+date	2013.05.18.00.53.22;	author -;	state -;
+branches;
+next	1.11;
+
+1.11
+date	2013.05.18.00.52.44;	author -;	state -;
+branches;
+next	1.10;
+
+1.10
+date	2013.05.18.00.51.35;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2013.05.18.00.50.41;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2013.05.18.00.49.26;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2013.05.18.00.48.54;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2013.05.18.00.47.53;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2013.05.18.00.46.48;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2013.05.18.00.45.42;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2012.11.15.05.11.26;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2012.11.15.05.11.00;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2012.02.29.01.27.55;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.13
+log
+@-
+@
+text
+@// $Id: mkstampfiles.c,v 1.12 2013-05-17 17:53:22-07 - - $
+
+//
+// Open several files and write into them.  Then use utime(2)
+// to force a time stamp onto them.
+
+#include <errno.h>
+#include <libgen.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/types.h>
+#include <time.h>
+#include <utime.h>
+
+char *execname = NULL;
+int exit_status = EXIT_SUCCESS;
+
+void maketimefile (time_t when) {
+   char filename[64];
+   sprintf (filename, "timestamp.%016lX", when);
+   FILE *file = fopen (filename, "w");
+   if (file == NULL) {
+      fprintf (stderr, "%s: %s: %s\n",
+               execname, filename, strerror (errno));
+      exit_status = EXIT_FAILURE;
+      return;
+   }
+   printf ("fopen (%s): OK\n", filename);
+   char buffer[64];
+   strftime (buffer, sizeof buffer, "%c %Z", localtime (&when));
+   fprintf (file, "%s\n", buffer);
+   strftime (buffer, sizeof buffer, "%c %Z", gmtime (&when));
+   fprintf (file, "%s\n", buffer);
+   fclose (file);
+   struct utimbuf utimbuf;
+   utimbuf.actime = when;
+   utimbuf.modtime = when;
+   utime (filename, &utimbuf);
+}
+
+int main (int argc, char **argv) {
+   (void) argc; // warning: unused parameter 'argc'
+   execname = basename (argv[0]);
+   time_t now = time (NULL);
+   const time_t DAYS = 24 * 60 * 60;
+   maketimefile (-0x80000000L);
+   maketimefile (0);
+   maketimefile (now - 200 * DAYS);
+   maketimefile (now);
+   maketimefile (now + 200 * DAYS);
+   maketimefile (0x7FFFFFFF);
+   maketimefile (0xFFFFFFFFL);
+   maketimefile (0xFFFFFFFFFFL);
+   return exit_status;
+}
+
+
+//TEST// rm ./timestamp.* >mkstampfiles.lis 2>&1
+//TEST// ./mkstampfiles >>mkstampfiles.lis 2>&1
+//TEST// ls -goatr timestamp.* >>mkstampfiles.lis 2>&1
+//TEST// grep . timestamp.* >>mkstampfiles.lis 2>&1
+//TEST// l8stat.perl *.perl *.c timestamp.* >>mkstampfiles.lis 2>&1
+//TEST// mkpspdf mkstampfiles.ps mkstampfiles.c* *.perl mkstampfiles.lis
+
+@
+
+
+1.12
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: mkstampfiles.c,v 1.11 2013-05-17 17:52:44-07 - - $
+d57 1
+@
+
+
+1.11
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: mkstampfiles.c,v 1.10 2013-05-17 17:51:35-07 - - $
+d43 1
+@
+
+
+1.10
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: mkstampfiles.c,v 1.9 2013-05-17 17:50:41-07 - - $
+d62 1
+a62 1
+//TEST// mkpspdf mkstampfiles.ps mkstampfiles.c* mkstampfiles.lis
+@
+
+
+1.9
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: mkstampfiles.c,v 1.8 2013-05-17 17:49:26-07 - - $
+d61 1
+@
+
+
+1.8
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: mkstampfiles.c,v 1.7 2013-05-17 17:48:54-07 - - $
+d60 1
+@
+
+
+1.7
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: mkstampfiles.c,v 1.6 2013-05-17 17:47:53-07 - - $
+d53 1
+@
+
+
+1.6
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: mkstampfiles.c,v 1.5 2013-05-17 17:46:48-07 - - $
+d52 1
+@
+
+
+1.5
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: mkstampfiles.c,v 1.4 2013-05-17 17:45:42-07 - - $
+d55 3
+a57 3
+//TEST// rm ./timestamp.*
+//TEST// ./mkstampfiles >mkstampfiles.lis
+//TEST// ls -goatr stamp* >>mkstampfiles.lis
+@
+
+
+1.4
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: mkstampfiles.c,v 1.3 2012-11-14 21:11:26-08 - - $
+d55 3
+a57 2
+//TEST// ./mkstampfiles
+//TEST// ls -goatr stamp* >mkstampfiles.lis
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: mkstampfiles.c,v 1.2 2012-11-14 21:11:00-08 - - $
+d55 4
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: mkstampfiles.c,v 1.1 2012-02-28 17:27:55-08 - - $
+a51 1
+   maketimefile (0x7FFFFFFFFFFFFFFF);
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: mkstampfiles.c,v 1.13 2012-02-28 17:27:04-08 - - $
+d52 1
+@

@@ -1,0 +1,153 @@
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+data1.in
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+C queue@4990d0d2 3 3
+Do queue@1ed1817d 2
+Id queue@4c8c4559 12
+Or queue@d1cfd52 3
+S queue@6a3b1937 3
+This queue@4df4a05d 1
+U queue@774c61a6 3
+a queue@379f167a 1
+abbreviations queue@2d7cc01d 3
+bar queue@5928c73f 4 5 6 7 8 9
+baz queue@43126d4 4 5 6 7 8 9
+cross queue@36ec2a72 1
+data1 queue@4ad6be89 12
+foo queue@58773ac1 4 5 6 7 8 9
+hyphenated queue@7bb28246 2
+in queue@487011c 12
+is queue@3b59d796 1
+like queue@758d74b 3
+of queue@599e80b1 1
+program queue@3513126e 1
+properly queue@771f0efa 2
+reference queue@18107c2f 1
+test queue@6248fe00 1
+the queue@261be469 1 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 11
+v queue@7130bd0a 12
+words queue@36cb1594 2
+work queue@4ef5c3a6 2
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+data2.in
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Alban queue@68ffefc9 20
+Albanique queue@7ad7aaf9 8
+And queue@651a0070 13 16 19 21
+Arma queue@e12eceb 2
+Arms queue@7c803f84 12
+Dryden queue@47ca32f7 23
+Expell queue@2bd81af3 14
+From queue@78d15e01 20
+His queue@7972d19e 18
+I queue@61201a5c 12
+Id queue@2a2bfd5 25
+Italiam queue@ae03a4d 3
+Iunonis queue@7139acf 5
+John queue@18188faa 23
+Juno queue@747fee41 13
+Latian queue@7af32927 17
+Latinum queue@7212fe80 7
+Latio queue@3d02c002 7
+Lauiniaque queue@7f8be298 3
+Long queue@38c9aa93 15
+Maro queue@3fddb605 10
+Publius queue@74d92304 10
+Romae queue@5b8a178a 8
+Rome queue@470f93f9 21
+The queue@4fbbe4e1 17
+Troiae queue@38af98ac 2
+Trojan queue@10506147 14
+Uergilius queue@d2284af 10
+ab queue@553503e5 2
+altae queue@b92db17 8
+alto queue@566dc8f0 4
+and queue@41a330e4 12 14 15 17
+atque queue@40deea66 8
+banish queue@6aeeefcf 18
+before queue@6cc235e1 16
+bello queue@425f7e8f 6
+bore queue@b6e0054 15
+both queue@62d790a8 15
+built queue@365a384a 17
+by queue@5d259e26 12 15
+cano queue@50b20090 2
+come queue@56431753 20
+conderet queue@4eb07663 6
+d queue@232c85f1 12 14 14 17 18 18
+data2 queue@400da341 25
+deos queue@3f592141 7
+destin queue@749652e4 17
+divine queue@391c3288 18
+doubtful queue@6a399c02 16
+dum queue@6c317dc9 6
+et queue@25394e9d 4 4 6
+exil queue@55583882 14
+fate queue@12e60a94 12
+fathers queue@3cc0843d 20
+fato queue@329dff4 3
+forc queue@322e0dcb 12
+genus queue@6d8ba429 7
+glories queue@6ac6b7ee 21
+gods queue@1c55a106 18
+hate queue@39be9f72 13
+haughty queue@11d612fc 13
+he queue@7d786789 15 16
+his queue@6bd593b9 19
+iactatus queue@12d58dfe 4
+ille queue@25d285b 4
+in queue@32046f93 16 19 25
+inferretque queue@4139358c 7
+iram queue@12ea9bc8 5
+labors queue@6899712b 15
+land queue@31d4f3b3 15
+left queue@13cb8654 14
+line queue@16dffef3 19
+litora queue@4bdb0f40 4
+long queue@1ac659a8 21
+majestic queue@54283253 21
+man queue@1b00124f 12
+memorem queue@21b20e62 5
+moenia queue@30ce5536 8
+multa queue@3a3c6542 6
+multum queue@531bedec 4
+ob queue@4ea14b94 5
+of queue@3f6909e0 20 21
+oris queue@90771a6 2
+passus queue@47b64deb 6
+patres queue@11b5a415 8
+primus queue@2c2767c8 2
+profugus queue@4f0e921d 3
+qui queue@459ad677 2
+quoque queue@38764254 6
+race queue@5bfcb5c1 20
+realm queue@2c00c115 17
+restor queue@65846044 18
+rites queue@55cc446d 18
+s queue@55a07c1c 13
+saeuae queue@1b343e2f 5
+sea queue@2de8d9d 15
+settled queue@61233fe3 19
+shore queue@513781e7 14
+sing queue@13318e59 12
+succession queue@1a787ee7 19
+superum queue@5cd37d44 5
+sure queue@40c52af8 19
+terris queue@50882100 4
+the queue@192eb04e 12 14 16 17 20 21
+to queue@4838ddcc 18
+town queue@d69a11f 17
+uenit queue@11d1011a 3
+ui queue@309f5b19 5
+uirumque queue@2e15df3f 2
+unde queue@1df3b8bc 7
+unrelenting queue@6be54e00 13
+urbem queue@1b641957 6
+v queue@48bbaccd 25
+war queue@194dec09 16
+whence queue@4ac34fd9 20
+who queue@5caf55e7 12
+won queue@7b30e03a 16
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+/dev/null
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

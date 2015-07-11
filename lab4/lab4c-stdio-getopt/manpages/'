@@ -1,0 +1,11 @@
+#!/bin/sh -x
+# $Id: mk,v 1.6 2014-01-28 17:44:34-08 - - $
+for manpage in getopt strcmp strstr fopen fclose
+do
+   section=3
+   manpsname=$manpage.$section.ps
+   man -t -s $section $manpage >$manpsname
+   gv $manpsname &
+   mkpdf $manpsname
+done
+ls -la

@@ -1,0 +1,77 @@
+head	1.1;
+access;
+symbols;
+locks;
+comment	@ * @;
+
+
+1.1
+date	2014.05.16.03.35.11;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@-
+@
+text
+@// $Id$
+
+//
+// Example of using genericlib to process strings.
+// Array of strings with two processing functions.
+//
+
+#include <ctype.h>
+#include <stdio.h>
+#include <string.h>
+
+#include "genericlib.h"
+
+char *strings[] = {
+   "hello", "world", "foo", "bar", "baz", "qux",
+   "this", "is", "a", "test", 
+};
+
+void strdupthem (void *string) {
+   char **chars = (char**) string; 
+   *chars = strdup (*chars);
+}
+
+void capitalize (void *string) {
+   for (char *chars = *(char**) string; *chars != '\0'; ++chars) {
+      *chars = toupper (*chars);
+   }
+}
+
+void printstr (void *string) {
+   (void) printf (" %s", *(char**) string);
+}
+
+void freestr (void *string) {
+   char *str = *(char**) string; 
+   free (str);
+   str = NULL; 
+}
+
+int main (void) {
+
+   size_t stringdim = sizeof strings / sizeof *strings;
+   process (strings, stringdim, sizeof *strings, printstr);
+   (void) printf ("\n");
+   process (strings, stringdim, sizeof *strings, strdupthem);
+   process (strings, stringdim, sizeof *strings, capitalize);
+   process (strings, stringdim, sizeof *strings, printstr);
+   process (strings, stringdim, sizeof *strings, freestr);
+   (void) printf ("\n");
+
+   return 0;
+}
+
+
+@

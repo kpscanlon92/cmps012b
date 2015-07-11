@@ -1,0 +1,16 @@
+Hello, Java World!
+java.class.path = /afs/cats.ucsc.edu/courses/cmps012b-wm/Labs-cmps012m/lab1u-gmake-rcs/.files/hello
+sun.arch.data.model = 64
+sun.cpu.endian = little
+os.arch = amd64
+os.name = Linux
+os.version = 2.6.32-358.23.2.el6.x86_64
+java.runtime.name = OpenJDK Runtime Environment
+java.runtime.version = 1.7.0_45-mockbuild_2013_10_23_08_18-b00
+java.vm.name = OpenJDK 64-Bit Server VM
+java.vm.version = 24.45-b08
+java.home = /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre
+java.version = 1.7.0_45
+free memory = 123081744 bytes = 117.3799 megabytes
+current time = 1395967782.787 sec = Thu Mar 27 17:49:42 PDT 2014
+EXIT STATUS = 0

@@ -1,0 +1,39 @@
+6 lines read 
+edfile: iinput line
+     5 input line
+edfile: $
+     6 $Id: input.test,v 1.1 2013-04-11 18:53:26-07 - - $
+edfile: append line
+     7 ppend line
+edfile: input line
+     7 nput line
+edfile: *
+     0 This is an input test file.
+     1 Its name is used on the command line.
+     2 It should be read in at the beginning
+     3 of execution
+     4 when its name appears on the command line.
+     5 input line
+     6 $Id: input.test,v 1.1 2013-04-11 18:53:26-07 - - $
+     7 nput line
+     8 ppend line
+edfile: >
+     8 ppend line
+edfile: >
+     8 ppend line
+edfile: d
+     7 nput line
+edfile: d
+     6 $Id: input.test,v 1.1 2013-04-11 18:53:26-07 - - $
+edfile: *
+     0 This is an input test file.
+     1 Its name is used on the command line.
+     2 It should be read in at the beginning
+     3 of execution
+     4 when its name appears on the command line.
+     5 input line
+     6 $Id: input.test,v 1.1 2013-04-11 18:53:26-07 - - $
+edfile: wfinal.write.test
+7 lines written to final.write.test
+edfile: # $Id: test4.edf,v 1.1 2013-04-11 18:53:26-07 - - $
+edfile: ^D

@@ -1,0 +1,57 @@
+head	1.2;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.2
+date	2014.01.09.23.55.01;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2014.01.09.23.51.18;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@-
+@
+text
+@<P STYLE="width: 40em">
+<A HREF=HP15C-Calculator/>
+A Free 15C RPN Scientific Calculator Simulator
+is available in the directory HP15C-Calculator/.&nbsp
+The Java Swing and Javascript versions have
+been downloaded.&nbsp
+If you want the W*nd*w$ or Mac-OS-X versions,
+you may get them from the original site.&nbsp
+</A>
+<P
+$Id$
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+d4 1
+a4 1
+is available in the directory HP15C-Calculator/.
+d6 3
+a8 3
+been downloaded.  If you want the W*nd*w$ or
+Mac-OS-X versions, you may get them from the
+oroginal site.
+d10 2
+@

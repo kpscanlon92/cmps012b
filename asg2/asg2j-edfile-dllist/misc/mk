@@ -1,0 +1,6 @@
+#!/bin/sh -x
+# $Id: mk,v 1.2 2014-04-15 19:25:40-07 - - $
+FILES="edfile.perl edscript mk test.in"
+cid + $FILES
+edfile.perl <edscript 2>&1 | tee edscript.log
+mkpspdf Listing.test.ps $FILES *.out *.log

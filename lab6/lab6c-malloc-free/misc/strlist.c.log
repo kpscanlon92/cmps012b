@@ -1,0 +1,6 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: starting strlist.c
+strlist.c:
+     $Id: strlist.c,v 1.11 2014-02-07 17:13:35-08 - - $
+gcc -g -O0 -Wall -Wextra -std=gnu99 strlist.c -o strlist -lm
+rm -f strlist.o
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: finished strlist.c

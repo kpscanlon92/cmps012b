@@ -1,0 +1,6 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: starting mktimestamp.c
+mktimestamp.c:
+     $Id: mktimestamp.c,v 1.2 2014-02-20 15:32:43-08 - - $
+gcc -g -O0 -Wall -Wextra -std=gnu11 mktimestamp.c -o mktimestamp -lglut -lGLU -lGL -lX11 -lm
+rm -f mktimestamp.o
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: finished mktimestamp.c

@@ -1,0 +1,5 @@
+* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: starting cecho.c
+* cecho.c: $Id: cecho.c,v 1.2 2013-09-25 14:21:04-07 - - $
+* gcc -g -O0 -Wall -Wextra -std=gnu99 cecho.c -o cecho -lm
+* rm -f cecho.o
+* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: finished cecho.c

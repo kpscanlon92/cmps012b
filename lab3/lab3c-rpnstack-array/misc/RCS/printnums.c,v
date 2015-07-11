@@ -1,0 +1,55 @@
+head	1.2;
+access;
+symbols;
+locks;
+comment	@ * @;
+
+
+1.2
+date	2013.04.22.21.00.54;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2013.04.22.21.00.43;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@-
+@
+text
+@// $Id: printnums.c,v 1.1 2013-04-22 14:00:43-07 - - $
+
+// Illustrate %.15g format.
+
+#include <stdio.h>
+
+int main (int argc, char **argv) {
+   for (;;) {
+      double number;
+      int rc = scanf ("%lg", &number);
+      if (rc != 1) break;
+      printf ("%.15g\n", number);
+   }
+   return 0;
+}
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id$
+d5 2
+@

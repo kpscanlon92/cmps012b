@@ -1,0 +1,48 @@
+head	1.2;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.2
+date	2014.04.16.02.25.40;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2013.04.12.01.53.50;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@-
+@
+text
+@#!/bin/sh -x
+# $Id: mk,v 1.1 2013-04-11 18:53:50-07 - - $
+FILES="edfile.perl edscript mk test.in"
+cid + $FILES
+edfile.perl <edscript 2>&1 | tee edscript.log
+mkpspdf Listing.test.ps $FILES *.out *.log
+@
+
+
+1.1
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: mk,v 1.2 2010-10-05 15:50:51-07 - - $
+d6 1
+a6 1
+mkpspdf ../asg2j-edfile.test.ps $FILES *.out *.log
+@

@@ -1,0 +1,286 @@
+head	1.13;
+access;
+symbols;
+locks;
+comment	@ * @;
+
+
+1.13
+date	2014.05.05.03.07.50;	author -;	state -;
+branches;
+next	1.12;
+
+1.12
+date	2014.05.05.03.02.12;	author -;	state -;
+branches;
+next	1.11;
+
+1.11
+date	2014.05.05.02.58.30;	author -;	state -;
+branches;
+next	1.10;
+
+1.10
+date	2014.05.05.02.54.21;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2014.05.05.02.49.59;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2014.05.05.02.47.55;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2014.05.05.02.29.30;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2014.05.05.02.22.02;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2014.05.05.02.19.21;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2014.05.05.02.19.00;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2014.05.05.02.16.58;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2014.05.05.02.07.57;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2014.05.05.02.05.01;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.13
+log
+@-
+@
+text
+@// $Id: list3.c,v 1.12 2014-05-04 20:02:12-07 - - $
+
+#include <assert.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct node node;
+struct node {
+   char *word;
+   node *link;
+};
+
+int main (int argc, char **argv) {
+   node *head = NULL;
+   for (int argi = 1; argi < argc; ++argi) {
+      node *node = malloc (sizeof (struct node));
+      assert (node != NULL);
+      node->word = argv[argi];
+      node->link = head;
+      head = node;
+   }
+   for (node *curr = head; curr != NULL; curr = curr->link) {
+      printf ("%p->node {word=%p->[%s], link=%p}\n",
+              curr, curr->word, curr->word, curr->link);
+   }
+   return 9;
+}
+@
+
+
+1.12
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list3.c,v 1.11 2014-05-04 19:58:30-07 - - $
+d15 1
+a15 1
+   for (int argi = 1; argi < argc; argi++) {
+d22 1
+a22 1
+   for (node *curr = head; curr->link != NULL; curr = curr->link) {
+@
+
+
+1.11
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list3.c,v 1.10 2014-05-04 19:54:21-07 - - $
+d14 1
+a14 1
+   node *head;
+@
+
+
+1.10
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list3.c,v 1.9 2014-05-04 19:49:59-07 - - $
+d15 1
+a15 1
+   for (int argi = 1; argi < argc; ++argi) {
+@
+
+
+1.9
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list3.c,v 1.8 2014-05-04 19:47:55-07 - - $
+d15 1
+a15 1
+   for (int argi = 0; argi < argc; ++argi) {
+@
+
+
+1.8
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list3.c,v 1.7 2014-05-04 19:29:30-07 - - $
+d22 1
+a22 1
+   for (node *curr = head; curr != NULL; curr = curr->link) {
+@
+
+
+1.7
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list3.c,v 1.6 2014-05-04 19:22:02-07 - - $
+d22 1
+a22 1
+   for (node *curr = head; curr->link != NULL; curr = curr->link) {
+@
+
+
+1.6
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list2.c,v 1.2 2014-05-04 18:29:20-07 - - $
+a13 1
+   (void) argc; // Fix unused variable warning
+d15 1
+a15 1
+   for (int argi = 0; argi < 5; ++argi) {
+@
+
+
+1.5
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list3.c,v 1.4 2014-05-04 19:19:00-07 - - $
+a26 7
+   node *curr = head;
+   while (curr != NULL) {
+      node *tmp = curr;
+      curr = curr->link;
+      free (tmp);
+   }
+   head = NULL;
+@
+
+
+1.4
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list3.c,v 1.3 2014-05-04 19:16:58-07 - - $
+d33 1
+a33 1
+   head = null;
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list3.c,v 1.2 2014-05-04 19:07:57-07 - - $
+d28 1
+a28 1
+   while (curr != null) {
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list3.c,v 1.1 2014-05-04 19:05:01-07 - - $
+a25 1
+      free (curr);
+d27 7
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list2.c,v 1.2 2014-05-04 18:29:20-07 - - $
+d26 1
+@

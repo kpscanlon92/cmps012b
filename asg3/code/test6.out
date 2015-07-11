@@ -1,0 +1,30 @@
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+data1.in
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+  2 C queue@cd9dbd1
+ 1 Do queue@32ee7cee
+   3 Id queue@474c0761
+  2 Or queue@507895d8
+   3 S queue@1cb5c12e
+0 This queue@609dc1bb
+   3 U queue@151a0d8b
+  2 a queue@616f2b7f
+    4 abbreviations queue@4990d0d2
+     5 bar queue@427db0b9
+      6 baz queue@49dd63c9
+   3 cross queue@65c24701
+      6 data1 queue@35c3c6d8
+     5 foo queue@4833aa7b
+    4 hyphenated queue@37fd9645
+     5 in queue@6994a8ba
+ 1 is queue@1ed1817d
+    4 like queue@4c8c4559
+   3 of queue@d1cfd52
+     5 program queue@6a3b1937
+      6 properly queue@4df4a05d
+    4 reference queue@774c61a6
+  2 test queue@379f167a
+   3 the queue@2d7cc01d
+     5 v queue@5928c73f
+    4 words queue@43126d4
+     5 work queue@36ec2a72

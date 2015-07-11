@@ -1,0 +1,145 @@
+
+
+class dllist {
+    
+    public enum position {FIRST, PREVIOUS, FOLLOWING, LAST};
+
+    private class node {
+        String item;
+        node prev;
+        node next;
+    }
+
+
+    private node first = null;
+    private node current = null;
+    private node last = null;
+    private int currentposition = 0;
+
+    public void setposition (position pos) {
+        switch(pos) {
+            case FIRST:
+                current = first;
+                break;
+            case PREVIOUS:
+                if(current == first) break;
+                current = current.prev;
+                break;
+            case FOLLOWING:
+                if(current == last) break;
+                current = current.next;
+                break;
+            case LAST:
+                current = last;
+                break;
+        }
+    }
+
+    public boolean isempty () {
+        if(first == null) return true;
+        return false;
+    }
+
+    public String getitem() {
+        if(isempty()) throw new java.util.NoSuchElementException();
+        return current.item;
+    }
+
+    public int getposition () {
+        if(isempty()) throw new java.util.NoSuchElementException();
+        node tmp = first;
+        int count = 0;
+        while(tmp != null) {
+            if(tmp == current) break;
+            tmp = tmp.next;
+            count++;
+        }
+
+        currentposition = count;
+        return currentposition;
+    }
+    
+    public void delete () {
+        if(isempty()) {
+            throw new java.util.NoSuchElementException();
+        } else if (first == last) {
+            first = null;
+            current = null;
+            last = null;
+        } else if(current == first) {
+            first = current.next;
+            current = current.next;
+            current.prev = null;
+        } else if(current == last) {
+            last = current.prev;
+            current = last;
+            current.next = null;
+        } else {
+            node old_prev = current.prev;
+            node old_next = current.next;
+            current = current.next;
+            current.prev = old_prev;
+            old_prev.next = old_next;
+        }
+    }
+
+    public void insert (String item, position pos) {
+        node tmp = new node();
+        tmp.item = item;
+        tmp.prev = null;
+        tmp.next = null;
+            
+        if(first == null) {
+            first = tmp;
+            current = tmp;
+            last = tmp;
+            return;
+        }    
+
+        switch(pos) {
+            case FIRST:
+                tmp.next = first;
+                first.prev = tmp;
+                first = tmp;
+                current = tmp;
+                break;
+            case PREVIOUS:
+                if(first == current) {
+                    tmp.next = first;
+                    first.prev = tmp;
+                    first = tmp;
+                    current = tmp;
+                } else {    
+                    tmp.next = current;
+                    tmp.prev = current.prev;
+                    current.prev.next = tmp;
+                    current.prev = tmp;
+                    current = tmp;
+                }
+                break;
+            case FOLLOWING:
+                if(current == last) {
+                    current.next = tmp;
+                    tmp.prev = current;
+                    current = tmp;
+                    last = tmp;
+                } else {
+                    tmp.prev = current;
+                    tmp.next = current.next;
+                    current.next.prev = tmp;
+                    current.next = tmp;
+                    current = tmp;
+                }
+                break;
+            case LAST:
+                tmp.prev = last;
+                last.next = tmp;
+                last = tmp;
+                current = tmp;
+                break;
+            default:
+                throw new IllegalArgumentException();
+        }
+    }
+
+}

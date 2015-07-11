@@ -1,0 +1,6 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: starting prthexaddr.c
+prthexaddr.c:
+     $Id: prthexaddr.c,v 1.6 2014-02-07 17:12:18-08 - - $
+gcc -g -O0 -Wall -Wextra -std=gnu99 prthexaddr.c -o prthexaddr -lm
+rm -f prthexaddr.o
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: finished prthexaddr.c

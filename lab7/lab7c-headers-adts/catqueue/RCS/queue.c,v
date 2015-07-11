@@ -1,0 +1,450 @@
+head	1.16;
+access;
+symbols;
+locks;
+comment	@ * @;
+
+
+1.16
+date	2014.05.19.01.52.26;	author -;	state -;
+branches;
+next	1.15;
+
+1.15
+date	2014.05.19.01.47.43;	author -;	state -;
+branches;
+next	1.14;
+
+1.14
+date	2014.05.19.01.44.45;	author -;	state -;
+branches;
+next	1.13;
+
+1.13
+date	2014.05.19.01.05.53;	author -;	state -;
+branches;
+next	1.12;
+
+1.12
+date	2014.05.19.01.04.30;	author -;	state -;
+branches;
+next	1.11;
+
+1.11
+date	2014.05.19.01.02.13;	author -;	state -;
+branches;
+next	1.10;
+
+1.10
+date	2014.02.27.20.12.24;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2013.05.01.20.22.44;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2013.02.16.01.17.42;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2013.02.12.03.17.45;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2013.02.12.03.17.19;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2013.02.12.03.15.55;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2013.02.12.03.12.42;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2012.11.02.02.34.52;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2012.02.21.22.57.52;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2012.02.15.04.32.33;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.16
+log
+@-
+@
+text
+@// Name: Kelly Scanlon
+// User: kpscanlo
+
+// $Id: queue.c,v 1.15 2014-05-18 18:47:43-07 - - $
+
+#include <assert.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "queue.h"
+
+#define STUBPRINTF(...) fprintf (stderr, __VA_ARGS__);
+
+typedef struct queue_node queue_node;
+struct queue_node {
+   queue_item_t item;
+   queue_node *link;
+};
+
+struct queue {
+   queue_node *front;
+   queue_node *rear;
+};
+
+queue *new_queue (void) {
+   queue *new = malloc (sizeof(struct queue));
+   assert (new != NULL);
+   new->front = NULL;
+   new->rear = NULL;
+   return new;
+}
+
+void free_queue (queue *this) {
+   assert (isempty_queue (this));
+   free (this);
+}
+
+void insert_queue (queue *this, queue_item_t item) {
+   queue_node *new = malloc (sizeof(struct queue_node));
+   assert (new != NULL);
+   new->item = item;
+   new->link = NULL;
+   if (this->front == NULL) {
+      this->front = new;
+   } else {
+      this->rear->link = new;
+   }
+   this->rear = new;
+}
+
+queue_item_t remove_queue (queue *this) {
+   assert (!isempty_queue (this));
+   queue_item_t tmp_item = this->front->item;
+   queue_node *tmp_node = this->front;
+   this->front = this->front->link;
+   free(tmp_node);
+   return tmp_item;
+}
+
+bool isempty_queue (queue *this) {
+   return this->front == NULL;
+}
+
+@
+
+
+1.15
+log
+@-
+@
+text
+@d4 1
+a4 1
+// $Id: queue.c,v 1.14 2014-05-18 18:44:45-07 - - $
+a56 1
+   free(tmp_node->item);
+@
+
+
+1.14
+log
+@-
+@
+text
+@d4 1
+a4 1
+// $Id: queue.c,v 1.13 2014-05-18 18:05:53-07 - - $
+d57 1
+@
+
+
+1.13
+log
+@-
+@
+text
+@d4 1
+a4 1
+// $Id: queue.c,v 1.11 2014-05-18 18:02:13-07 - - $
+d53 1
+a53 1
+   assert (! isempty_queue (this));
+@
+
+
+1.12
+log
+@-
+@
+text
+@d40 1
+a40 1
+   queue_node *new = malloc (sizeof(struct(queue_node)));
+d55 1
+a55 1
+   queue_node tmp_node = this->fron;
+@
+
+
+1.11
+log
+@-
+@
+text
+@d4 1
+a4 1
+// $Id: queue.c,v 1.10 2014-02-27 12:12:24-08 - - $
+d27 1
+a27 1
+   queue new = malloc (sizeof(struct(queue)));
+d40 1
+a40 1
+   queue_node new = malloc (sizeof(struct(queue_node)));
+@
+
+
+1.10
+log
+@-
+@
+text
+@d1 4
+a4 1
+// $Id: queue.c,v 1.9 2013-05-01 13:22:44-07 - - $
+d27 5
+a31 2
+   STUBPRINTF ("return NULL\n");
+   return NULL;
+d40 10
+a49 1
+   STUBPRINTF ("item = \"%s\"\n", item);
+d54 5
+a58 2
+   STUBPRINTF ("return NULL\n");
+   return NULL;
+@
+
+
+1.9
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: queue.c,v 1.8 2013-02-15 17:17:42-08 - - $
+d34 1
+a34 1
+   STUBPRINTF ("item =\n\t\"%s\"\n", item);
+@
+
+
+1.8
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: queue.c,v 1.7 2013-02-11 19:17:45-08 - - $
+a11 3
+static char *queue_tag = "struct queue";
+static char *queue_node_tag = "struct queue_node";
+
+a13 1
+   char *tag;
+a18 1
+   char *tag;
+a28 1
+   assert (is_queue (this));
+a29 1
+   memset (this, 0, sizeof (queue));
+a33 1
+   assert (is_queue (this));
+a37 1
+   assert (is_queue (this));
+a43 1
+   assert (is_queue (this));
+a46 4
+bool is_queue (queue *this) {
+   return this != NULL && this->tag == queue_tag;
+}
+
+@
+
+
+1.7
+log
+@-
+@
+text
+@d1 1
+a1 1
+/* $Id: queue.c,v 1.6 2013-02-11 19:17:19-08 - - $ */
+@
+
+
+1.6
+log
+@-
+@
+text
+@d1 1
+a1 1
+/* $Id: queue.c,v 1.5 2013-02-11 19:15:55-08 - - $ */
+d36 1
+a36 1
+   memset (queue, 0, sizeof (struct queue));
+@
+
+
+1.5
+log
+@-
+@
+text
+@d1 1
+a1 1
+/* $Id: queue.c,v 1.4 2013-02-11 19:12:42-08 - - $ */
+d13 1
+a13 1
+static char *queuenode_tag = "struct queuenode";
+d15 2
+a16 3
+typedef struct queuenode queuenode;
+
+struct queuenode {
+d19 1
+a19 1
+   queuenode_ref link;
+d24 2
+a25 2
+   queuenode_ref front;
+   queuenode_ref rear;
+@
+
+
+1.4
+log
+@-
+@
+text
+@d1 1
+a1 1
+/* $Id: queue.c,v 1.3 2012-11-01 19:34:52-07 - - $ */
+d15 1
+a15 1
+typedef struct queuenode *queuenode_ref;
+d34 3
+a36 3
+void free_queue (queue *queue) {
+   assert (is_queue (queue));
+   assert (isempty_queue (queue));
+d38 1
+a38 1
+   free (queue);
+d41 2
+a42 2
+void insert_queue (queue *queue, queue_item_t item) {
+   assert (is_queue (queue));
+d46 3
+a48 3
+queue_item_t remove_queue (queue *queue) {
+   assert (is_queue (queue));
+   assert (! isempty_queue (queue));
+d53 3
+a55 3
+bool isempty_queue (queue *queue) {
+   assert (is_queue (queue));
+   return queue->front == NULL;
+d58 2
+a59 2
+bool is_queue (queue *queue) {
+   return queue != NULL && queue->tag == queue_tag;
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 1
+a1 1
+/* $Id: queue.c,v 1.2 2012-02-21 14:57:52-08 - - $ */
+d29 1
+a29 1
+queue_ref new_queue (void) {
+d34 1
+a34 1
+void free_queue (queue_ref queue) {
+d41 1
+a41 1
+void insert_queue (queue_ref queue, queue_item_t item) {
+d46 1
+a46 1
+queue_item_t remove_queue (queue_ref queue) {
+d53 1
+a53 1
+bool isempty_queue (queue_ref queue) {
+d58 1
+a58 1
+bool is_queue (queue_ref queue) {
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+/* $Id: queue.c,v 1.1 2012-02-14 20:32:33-08 - - $ */
+a54 1
+   // LINTED (assignment of 32-bit integer to 8-bit integer)
+a58 1
+   // LINTED (assignment of 32-bit integer to 8-bit integer)
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+/* $Id: queue.c,v 1.2 2012-02-14 20:32:06-08 - - $ */
+d55 1
+d60 1
+@

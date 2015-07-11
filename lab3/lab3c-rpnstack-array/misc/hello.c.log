@@ -1,0 +1,5 @@
+* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: starting hello.c
+* hello.c: $Id: hello.c,v 1.5 2013-09-25 14:19:56-07 - - $
+* gcc -g -O0 -Wall -Wextra -std=gnu99 hello.c -o hello -lm
+* rm -f hello.o
+* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: finished hello.c

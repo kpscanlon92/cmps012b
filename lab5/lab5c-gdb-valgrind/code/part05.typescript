@@ -1,0 +1,265 @@
+Script started on Sun 04 May 2014 06:19:43 PM PDT
+You are currently using 27% (132.0 MiB) of your 488.3 MiB quota.
+]0;kpscanlo@unix1:code[kpscanlo@unix1 code]$ mk list1.c
+CSOURCE=err2.c EXECBIN=err2
++ cid + err2.c
++ checksource err2.c
++ catnv err2.c
++ for arg in '$*'
++ '[' err2.c = -f ']'
++ label err2.c
++ echo ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
++ echo err2.c
++ echo ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
++ cat -nv err2.c
++ label 'Errors: gcc -g -O0 -Wall -Wextra -std=gnu99 err2.c -o err2'
++ echo ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
++ echo 'Errors: gcc -g -O0 -Wall -Wextra -std=gnu99 err2.c -o err2'
++ echo ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
++ gcc -g -O0 -Wall -Wextra -std=gnu99 err2.c -o err2 -lm
++ cat err2.c.log
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+err2.c
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+     1	// $Id: err2.c,v 1.5 2014-04-23 21:19:13-07 - - $
+     2	
+     3	#include <stdio.h>
+     4	#include <string.h>
+     5	int main (void) {
+     6	   char *p = 20;
+     7	   int c = strcmp (p, "foo");
+     8	   printf ("%d\n", c);
+     9	   return 0;
+    10	}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Errors: gcc -g -O0 -Wall -Wextra -std=gnu99 err2.c -o err2
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+err2.c: In function ‘main’:
+err2.c:6:14: warning: initialization makes pointer from integer without a cast [enabled by default]
+    char *p = 20;
+              ^
++ set +x
+============================================================
+CSOURCE=err.c EXECBIN=err
++ cid + err.c
++ checksource err.c
++ catnv err.c
++ for arg in '$*'
++ '[' err.c = -f ']'
++ label err.c
++ echo ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
++ echo err.c
++ echo ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
++ cat -nv err.c
++ label 'Errors: gcc -g -O0 -Wall -Wextra -std=gnu99 err.c -o err'
++ echo ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
++ echo 'Errors: gcc -g -O0 -Wall -Wextra -std=gnu99 err.c -o err'
++ echo ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
++ gcc -g -O0 -Wall -Wextra -std=gnu99 err.c -o err -lm
++ cat err.c.log
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+err.c
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+     1	// $Id: err.c,v 1.5 2014-04-23 21:19:13-07 - - $
+     2	
+     3	#include <stdio.h>
+     4	void foo() {
+     5	   int x = 20;
+     6	   int *p = &x;
+     7	}
+     8	void bar() {
+     9	   int a;
+    10	   int *p;
+    11	   printf ("%d %p\n", a, p);
+    12	}
+    13	int main() {
+    14	   foo();
+    15	   bar();
+    16	}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Errors: gcc -g -O0 -Wall -Wextra -std=gnu99 err.c -o err
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+err.c: In function ‘foo’:
+err.c:6:9: warning: unused variable ‘p’ [-Wunused-variable]
+    int *p = &x;
+         ^
+err.c: In function ‘bar’:
+err.c:11:11: warning: ‘a’ is used uninitialized in this function [-Wuninitialized]
+    printf ("%d %p\n", a, p);
+           ^
+err.c:11:11: warning: ‘p’ is used uninitialized in this function [-Wuninitialized]
++ set +x
+============================================================
+CSOURCE=list1.c EXECBIN=list1
++ cid + list1.c
++ checksource list1.c
++ catnv list1.c
++ for arg in '$*'
++ '[' list1.c = -f ']'
++ label list1.c
++ echo ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
++ echo list1.c
++ echo ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
++ cat -nv list1.c
++ label 'Errors: gcc -g -O0 -Wall -Wextra -std=gnu99 list1.c -o list1'
++ echo ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
++ echo 'Errors: gcc -g -O0 -Wall -Wextra -std=gnu99 list1.c -o list1'
++ echo ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
++ gcc -g -O0 -Wall -Wextra -std=gnu99 list1.c -o list1 -lm
++ cat list1.c.log
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+list1.c
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+     1	// $Id: list1.c,v 1.3 2013-02-08 18:00:41-08 - - $
+     2	
+     3	#include <assert.h>
+     4	#include <stdio.h>
+     5	
+     6	typedef struct node node;
+     7	struct node {
+     8	   char *word;
+     9	   node *link;
+    10	};
+    11	
+    12	int main (int argc, char **argv) {
+    13	   node *head;
+    14	   for (int argi = 0; argi < 5; ++argi) {
+    15	      node *node = malloc (sizeof (struct node));
+    16	      assert (node != NULL);
+    17	      node->word = argv[argi];
+    18	      node->link = head;
+    19	      head = node;
+    20	   }
+    21	   for (node *curr = head; curr->link != NULL; curr = curr->link) {
+    22	      printf ("%p->node {word=%p->[%s], link=%p}\n",
+    23	              curr, curr->word, curr->word, curr->link);
+    24	   }
+    25	   return 9;
+    26	}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Errors: gcc -g -O0 -Wall -Wextra -std=gnu99 list1.c -o list1
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+list1.c: In function ‘main’:
+list1.c:15:7: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+       node *node = malloc (sizeof (struct node));
+       ^
+list1.c:15:20: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+       node *node = malloc (sizeof (struct node));
+                    ^
+list1.c:12:15: warning: unused parameter ‘argc’ [-Wunused-parameter]
+ int main (int argc, char **argv) {
+               ^
++ set +x
+============================================================
+CSOURCE=malloc.c EXECBIN=malloc
++ cid + malloc.c
++ checksource malloc.c
++ catnv malloc.c
++ for arg in '$*'
++ '[' malloc.c = -f ']'
++ label malloc.c
++ echo ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
++ echo malloc.c
++ echo ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
++ cat -nv malloc.c
++ label 'Errors: gcc -g -O0 -Wall -Wextra -std=gnu99 malloc.c -o malloc'
++ echo ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
++ echo 'Errors: gcc -g -O0 -Wall -Wextra -std=gnu99 malloc.c -o malloc'
++ echo ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
++ gcc -g -O0 -Wall -Wextra -std=gnu99 malloc.c -o malloc -lm
++ cat malloc.c.log
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+malloc.c
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+     1	// $Id: malloc.c,v 1.2 2013-02-08 18:01:12-08 - - $
+     2	
+     3	#include <stdio.h>
+     4	#include <stdlib.h>
+     5	
+     6	typedef struct node node;
+     7	struct node {
+     8	   int value;
+     9	   node *link;
+    10	};
+    11	
+    12	int main (int argc, char **argv) {
+    13	   node *ptr = malloc (sizeof (struct node));
+    14	   ptr = malloc (sizeof (node));
+    15	   ptr->value = 6;
+    16	   ptr->link = NULL;
+    17	   printf ("%p-> {%d, %p}\n", ptr, ptr->value, ptr->link);
+    18	   free (ptr);
+    19	   return EXIT_SUCCESS;
+    20	}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Errors: gcc -g -O0 -Wall -Wextra -std=gnu99 malloc.c -o malloc
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+malloc.c: In function ‘main’:
+malloc.c:12:15: warning: unused parameter ‘argc’ [-Wunused-parameter]
+ int main (int argc, char **argv) {
+               ^
+malloc.c:12:28: warning: unused parameter ‘argv’ [-Wunused-parameter]
+ int main (int argc, char **argv) {
+                            ^
++ set +x
+============================================================
+CSOURCE=uninit.c EXECBIN=uninit
++ cid + uninit.c
++ checksource uninit.c
++ catnv uninit.c
++ for arg in '$*'
++ '[' uninit.c = -f ']'
++ label uninit.c
++ echo ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
++ echo uninit.c
++ echo ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
++ cat -nv uninit.c
++ label 'Errors: gcc -g -O0 -Wall -Wextra -std=gnu99 uninit.c -o uninit'
++ echo ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
++ echo 'Errors: gcc -g -O0 -Wall -Wextra -std=gnu99 uninit.c -o uninit'
++ echo ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
++ gcc -g -O0 -Wall -Wextra -std=gnu99 uninit.c -o uninit -lm
++ cat uninit.c.log
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+uninit.c
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+     1	// $Id: uninit.c,v 1.3 2014-02-18 15:08:14-08 - - $
+     2	
+     3	#include <stdio.h>
+     4	#include <stdlib.h>
+     5	
+     6	int main (int argc, char **argv) {
+     7	   int *pointer;
+     8	   printf ("pointer=%p\n", pointer);
+     9	   printf ("*pointer=%d\n", *pointer);
+    10	   int foo;
+    11	   printf ("foo=%d\n", foo);
+    12	}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Errors: gcc -g -O0 -Wall -Wextra -std=gnu99 uninit.c -o uninit
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+uninit.c: In function ‘main’:
+uninit.c:6:15: warning: unused parameter ‘argc’ [-Wunused-parameter]
+ int main (int argc, char **argv) {
+               ^
+uninit.c:6:28: warning: unused parameter ‘argv’ [-Wunused-parameter]
+ int main (int argc, char **argv) {
+                            ^
+uninit.c:8:11: warning: ‘pointer’ is used uninitialized in this function [-Wuninitialized]
+    printf ("pointer=%p\n", pointer);
+           ^
+uninit.c:11:11: warning: ‘foo’ is used uninitialized in this function [-Wuninitialized]
+    printf ("foo=%d\n", foo);
+           ^
++ set +x
+============================================================
+[ 6 pages * 1 copy ] left in ./Listing.ps
+14 lines were wrapped
+3 non-printable characters
+30765
+30760
+gv: Unable to open the display.
+]0;kpscanlo@unix1:code[kpscanlo@unix1 code]$ exit
+exit
+
+Script done on Sun 04 May 2014 06:21:26 PM PDT

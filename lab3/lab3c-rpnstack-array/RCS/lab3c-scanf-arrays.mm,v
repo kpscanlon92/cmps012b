@@ -1,0 +1,695 @@
+head	1.20;
+access;
+symbols;
+locks;
+comment	@.\" @;
+
+
+1.20
+date	2013.04.11.23.43.16;	author -;	state -;
+branches;
+next	1.19;
+
+1.19
+date	2013.04.10.03.57.49;	author -;	state -;
+branches;
+next	1.18;
+
+1.18
+date	2013.04.10.03.23.15;	author -;	state -;
+branches;
+next	1.17;
+
+1.17
+date	2013.01.23.02.30.44;	author -;	state -;
+branches;
+next	1.16;
+
+1.16
+date	2013.01.23.01.53.37;	author -;	state -;
+branches;
+next	1.15;
+
+1.15
+date	2013.01.18.02.53.51;	author -;	state -;
+branches;
+next	1.14;
+
+1.14
+date	2013.01.18.02.52.53;	author -;	state -;
+branches;
+next	1.13;
+
+1.13
+date	2013.01.18.02.44.23;	author -;	state -;
+branches;
+next	1.12;
+
+1.12
+date	2013.01.18.02.39.38;	author -;	state -;
+branches;
+next	1.11;
+
+1.11
+date	2013.01.18.02.37.24;	author -;	state -;
+branches;
+next	1.10;
+
+1.10
+date	2013.01.18.02.36.40;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2013.01.18.02.32.45;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2013.01.18.02.31.32;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2013.01.18.02.31.15;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2013.01.18.02.30.55;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2013.01.18.02.23.34;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2013.01.18.02.22.53;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2013.01.18.02.22.33;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2013.01.18.02.21.30;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2013.01.18.02.08.45;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.20
+log
+@-
+@
+text
+@.so Tmac.mm-etc
+.if t .Newcentury-fonts
+.INITR* \n[.F]
+.TITLE CMPS-012M Spring\~2013 Lab\~3 "RPN, Stacks, and ANSI C"
+.RCS "$Id: lab3c-scanf-arrays.mm,v 1.19 2013-04-09 20:57:49-07 - - $"
+.PWD
+.URL
+In this lab,
+you will be introduced to ANSI C99 and make use of a stack data
+structure implemented as an array.
+Input will be read using
+.V= scanf (1)
+and output printed with
+.V= printf (1).
+The program will implement a Reverse Polish notation calculator.
+.H 1 "Reverse Polish notation"
+Reverse Polish notation [1] (RPN)
+was invented by the Polish logician
+Jan \[/L]ukasiewicz [2]
+and places all operators after their operands,
+which makes it much easier to parse than infix notation,
+and does not need parentheses to override operator precedence.
+For example, the infix expression
+.V= "3 * 4 + 5 * 6"
+is represented as
+.V= "3 4 * 5 6 * +"
+in RPN.
+.P
+[1]
+.V= http://en.wikipedia.org/wiki/Reverse_Polish_notation
+.br
+[2]
+.V= http://en.wikipedia.org/wiki/Jan_%C5%81ukasiewicz
+.H 1 "Program input"
+Input to the program will consist of double precision IEEE-754
+floating point numbers and calculator operators.
+You have been provided with a reference implementation
+.V= jrpn.java
+which you are to translate into
+.V= crpn.c ,
+for which a skeleton outline has been provided.
+.ALX a ()
+.LI
+Any word on input that looks like a number when scanned using
+.V= \[Dq]%lg\[Dq]
+format will be pushed onto a stack.
+.LI
+If an input word consists of one of the operators
+.V= '+' ,
+.V= '-' ,
+.V= '*' ,
+or
+.V= '/' ,
+two numbers will be popped off the stack,
+the right operand being popped first and the left operand next,
+then the result is pushed back onto the stack.
+.LI
+The operator
+.V= ';'
+cause all numbers on the stack to be printed,
+from bottom to top using the format
+.V= \[Dq]%.15g\[rs]n\[Dq] .
+.LI
+The operator
+.V= '@@'
+causes the stack to be emptied.
+.LI
+Any input word beginning with the character
+.V= '#'
+causes the rest of the line to be ignored as a comment.
+.LI
+Anything else on input is an error.
+.LE
+.H 1 "Outline of the functions"
+The following functions are to be implemented.
+See the Java version for detailed implementation requirements.
+.ALX a ()
+.LI
+.V= "void bad_operator (char *oper)"
+.br
+takes an invalid operator and prints an error message.
+.LI
+.V= "void push (stack_t *stack, double number)"
+.br
+pushes the number onto the stack if there is space but prints
+an error message if not.
+.LI
+.V= "void do_binop (stack_t *stack, char operator)"
+.br
+accepts a binary operator,
+pops the right operand then the left operand,
+computes the answer then pushes the result on the stack.
+An error message is printed if there are not at least two numbers
+on the stack.
+.LI
+.V= "void do_print (stack_t *stack)"
+.br
+prints the stack bottom to top, one number per line,
+or indicates that the stack is empty.
+.LI
+.V= "void do_clear (stack_t *stack)"
+.br
+causes the stack to be emptied.
+.LI
+.V= "void do_operator (stack_t *stack, char *operator)"
+.br
+accepts any operator and dispatches the appropriate function
+to perform the operation.
+.LI
+.V= "int main (int argc, char **argv)"
+.br
+loops reading input and calls other functions to perform appropriate
+operations.
+.LE
+.H 1 "The \f[CB]code/\f[P] and \f[CB]misc/\f[P] subdirectories"
+The
+.V= code/
+subdirectory contains two programs\(::
+.V= jrpn.java
+contains the implementation of your lab in Java.
+.V= crpn.c
+contains a partial implementation of your lab in C.
+The 
+.V= main
+function is complete,
+and you have to fill in the bodies of the rest of the functions
+to that they do exactly the same thing as the Java version.
+The exact format of the numbers printed will be slighly different
+because of the way the languages format numbers differently.
+.P
+The
+.V= misc/
+subdirectory contains various sample programs illustration some
+facets of ANSI C99.
+.H 1 "Compiling your code"
+Do not type
+.V= gcc
+in at the terminal directly,
+since it is properly used with multiple options,
+which would normally be put in a 
+.V= Makefile .
+This time, you will write a simple shell script called
+.V= mk
+to perform the compilation.
+The script should contain the following lines\(::
+.DS
+.VTCODE* 1 "#!/bin/sh"
+.VTCODE* 1 "# \[Do]Id\[Do]"
+.VTCODE* 1 "gcc -g -O0 -Wall -Wextra -std=gnu99 crpn.c -o crpn"
+.DE
+Add your name after the RCS Id comment line in another comment.
+Use
+.V= chmod\~+x
+to make it executable.
+When you have created the file,
+check it into an RCS subdirectory using
+.V= cid .
+Also do this with your program
+.V= crpn.c .
+Note\(::
+The hash-bang line (starting with
+.V= #! )
+may not have any spaces.
+.H 1 "What to submit"
+Submit the script
+.V= mk
+and the program
+.V= crpn.c ,
+and if you are doing pair programming, also the
+.V= PARTNER
+file.
+.FINISH
+@
+
+
+1.19
+log
+@-
+@
+text
+@d5 1
+a5 1
+.RCS "$Id: lab3c-scanf-arrays.mm,v 1.18 2013-04-09 20:23:15-07 - - $"
+d79 1
+a79 1
+.V= "void err_operator (char *err_oper)"
+d83 1
+a83 1
+.V= "void push (stack *stack, double number)"
+d88 1
+a88 1
+.V= "void do_binop (stack *stack, char operator)"
+d94 1
+a94 1
+on the stackc.
+d96 1
+a96 1
+.V= "void do_print (stack *stack)"
+d101 1
+a101 1
+.V= "void do_clear (stack *stack)"
+d105 1
+a105 1
+.V= "void do_operator (stack *stack, char *operator)"
+@
+
+
+1.18
+log
+@-
+@
+text
+@d5 1
+a5 1
+.RCS "$Id: lab3c-scanf-arrays.mm,v 1.17 2013-01-22 18:30:44-08 - - $"
+d79 2
+a80 2
+.V= "err_operator (operator)"
+\[em]
+d83 2
+a84 2
+.V= "push (stack, number)"
+\[em]
+d88 2
+a89 2
+.V= "do_binop (stack, operator)"
+\[em]
+d96 2
+a97 2
+.V= "do_print (stack)"
+\[em]
+d101 2
+a102 2
+.V= "do_clear (stack)"
+\[em]
+d105 2
+a106 2
+.V= "do_operator (stack, operator)"
+\[em]
+d110 2
+a111 2
+.V= "main"
+\[em]
+@
+
+
+1.17
+log
+@-
+@
+text
+@d4 2
+a5 2
+.TITLE CMPS-012M Winter\~2013 Lab\~3 "RPN, Stacks, and ANSI C"
+.RCS "$Id: lab3c-scanf-arrays.mm,v 1.16 2013-01-22 17:53:37-08 - - $"
+d42 2
+a43 2
+.ALX 1 ()
+.GKLI
+d47 1
+a47 1
+.GKLI
+d57 1
+a57 1
+.GKLI
+d63 1
+a63 1
+.GKLI
+d67 1
+a67 1
+.GKLI
+d71 1
+a71 1
+.GKLI
+d77 2
+a78 2
+.ALX 1 ()
+.GKLI
+d82 1
+a82 1
+.GKLI
+d87 1
+a87 1
+.GKLI
+d95 1
+a95 1
+.GKLI
+d100 1
+a100 1
+.GKLI
+d104 1
+a104 1
+.GKLI
+d109 1
+a109 1
+.GKLI
+@
+
+
+1.16
+log
+@-
+@
+text
+@d5 1
+a5 1
+.RCS "$Id: lab3c-scanf-arrays.mm,v 1.15 2013-01-17 18:53:51-08 - - $"
+d115 1
+a115 1
+.H 1 "The \f[CB]code/\f[P] subdirectory"
+d130 5
+@
+
+
+1.15
+log
+@-
+@
+text
+@d5 1
+a5 1
+.RCS "$Id: lab3c-scanf-arrays.mm,v 1.14 2013-01-17 18:52:53-08 - - $"
+d155 4
+@
+
+
+1.14
+log
+@-
+@
+text
+@d5 1
+a5 1
+.RCS "$Id: lab3c-scanf-arrays.mm,v 1.13 2013-01-17 18:44:23-08 - - $"
+d156 1
+a156 1
+The script
+@
+
+
+1.13
+log
+@-
+@
+text
+@d5 1
+a5 1
+.RCS "$Id: lab3c-scanf-arrays.mm,v 1.12 2013-01-17 18:39:38-08 - - $"
+d115 15
+@
+
+
+1.12
+log
+@-
+@
+text
+@d5 1
+a5 1
+.RCS "$Id: lab3c-scanf-arrays.mm,v 1.11 2013-01-17 18:37:24-08 - - $"
+d17 1
+a17 4
+Reverse Polish notation\*F (RPN)
+.FS
+.V= http://en.wikipedia.org/wiki/Reverse_Polish_notation
+.FE
+d19 1
+a19 4
+Jan \[/L]ukasiewicz\*F
+.FS
+.V= http://en.wikipedia.org/wiki/Jan_%C5%81ukasiewicz
+.FE
+d28 6
+@
+
+
+1.11
+log
+@-
+@
+text
+@d5 1
+a5 1
+.RCS "$Id: lab3c-scanf-arrays.mm,v 1.10 2013-01-17 18:36:40-08 - - $"
+d17 4
+a20 1
+Reverse Polish notation (RPN)
+d22 12
+a33 1
+Jan \[/L]ukasiewicz 
+@
+
+
+1.10
+log
+@-
+@
+text
+@d5 1
+a5 1
+.RCS "$Id: lab3c-scanf-arrays.mm,v 1.9 2013-01-17 18:32:45-08 - - $"
+d19 1
+a19 1
+Jan \[L-]ukasiewicz 
+@
+
+
+1.9
+log
+@-
+@
+text
+@d5 1
+a5 1
+.RCS "$Id: lab3c-scanf-arrays.mm,v 1.8 2013-01-17 18:31:32-08 - - $"
+d16 4
+@
+
+
+1.8
+log
+@-
+@
+text
+@d5 1
+a5 1
+.RCS "$Id: lab3c-scanf-arrays.mm,v 1.7 2013-01-17 18:31:15-08 - - $"
+d109 3
+a111 7
+.B1
+.ft CB
+.nf
+#!/bin/sh
+# \[Do]Id\[Do]
+gcc -g -O0 -Wall -Wextra -std=gnu99 crpn.c -o crpn
+.B2
+d113 4
+@
+
+
+1.7
+log
+@-
+@
+text
+@d5 1
+a5 1
+.RCS "$Id: lab3c-scanf-arrays.mm,v 1.6 2013-01-17 18:30:55-08 - - $"
+d109 1
+d111 1
+a111 1
+.B1
+@
+
+
+1.6
+log
+@-
+@
+text
+@d5 1
+a5 1
+.RCS "$Id: lab3c-scanf-arrays.mm,v 1.5 2013-01-17 18:23:34-08 - - $"
+d110 1
+d114 1
+@
+
+
+1.5
+log
+@-
+@
+text
+@d5 1
+a5 1
+.RCS "$Id: lab3c-scanf-arrays.mm,v 1.4 2013-01-17 18:22:53-08 - - $"
+d44 1
+a44 1
+.V= \[Dq]%.15g\[Dq] .
+d97 30
+@
+
+
+1.4
+log
+@-
+@
+text
+@d5 1
+a5 1
+.RCS "$Id: lab3c-scanf-arrays.mm,v 1.3 2013-01-17 18:22:33-08 - - $"
+d62 1
+d66 1
+d71 1
+d79 1
+d84 1
+d88 1
+d93 1
+@
+
+
+1.3
+log
+@-
+@
+text
+@d5 1
+a5 1
+.RCS "$Id: lab3c-scanf-arrays.mm,v 1.2 2013-01-17 18:21:30-08 - - $"
+d24 1
+a24 1
+.ALX a ()
+d59 1
+a59 1
+.ALX a ()
+@
+
+
+1.2
+log
+@-
+@
+text
+@d5 1
+a5 1
+.RCS "$Id: lab3c-scanf-arrays.mm,v 1.1 2013-01-17 18:08:45-08 - - $"
+d25 1
+a25 1
+.LI
+d29 1
+a29 1
+.LI
+d39 1
+a39 1
+.LI
+d45 1
+a45 1
+.LI
+d49 1
+a49 1
+.LI
+d53 1
+a53 1
+.LI
+d60 2
+a61 1
+.V=LI "err_operator (operator)"
+d63 2
+a64 1
+.V=LI "push (stack, number)"
+d67 2
+a68 1
+.V=LI "do_binop (stack, operator)"
+d74 2
+a75 1
+.V=LI "do_print (stack)"
+d78 2
+a79 1
+.V=LI "do_clear (stack)"
+d81 2
+a82 1
+.V=LI "do_operator (stack, operator)"
+d85 2
+a86 1
+.V=LI "main"
+@
+
+
+1.1
+log
+@-
+@
+text
+@d5 1
+a5 1
+.RCS "$Id: lab3c-scanf-arrays.mm,v 1.27 2012-10-18 16:41:50-07 - - $"
+d15 68
+@

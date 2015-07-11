@@ -1,0 +1,40 @@
+head	1.1;
+access;
+symbols;
+locks;
+comment	@ * @;
+
+
+1.1
+date	2014.05.15.01.51.38;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@-
+@
+text
+@// $Id$
+
+#include "lab8lib.h"
+
+void swapm (void* this, void* that, size_t size) {
+   TRACE ("%p, %p, %zd", this, that, size);
+}
+
+void swapa (void* this, void* that, size_t size) {
+   TRACE ("%p, %p, %zd", this, that, size);
+}
+
+void process (void* base, size_t nelem, size_t size,
+              void (*function) (void*)) {
+   TRACE ("%p, %zd, %zd, %p", base, nelem, size, function);
+}
+
+@

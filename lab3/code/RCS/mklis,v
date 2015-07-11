@@ -1,0 +1,69 @@
+head	1.3;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.3
+date	2013.01.23.02.35.49;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2013.01.18.02.50.26;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2013.01.18.02.49.55;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@-
+@
+text
+@#!/bin/sh
+# $Id: mklis,v 1.2 2013-01-17 18:50:26-08 - - $
+cid $0 jrpn.java crpn.c
+mkc jrpn.java
+runprog -x jrpn.lis -0 ../.score/test1.rpn ./jrpn
+mkc crpn.c
+runprog -x crpn.lis -0 ../.score/test1.rpn ./crpn
+mkpspdf ../lab3c.code.ps jrpn.java* jrpn.lis* crpn.c* crpn.lis*
+@
+
+
+1.2
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: mklis,v 1.1 2013-01-17 18:49:55-08 - - $
+d4 5
+a8 1
+mkpspdf ../lab3c.code.ps jrpn.java crpn.c
+@
+
+
+1.1
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id$
+d4 1
+a4 1
+mklis ../lab3c.code.ps jrpn.java crpn.c
+@

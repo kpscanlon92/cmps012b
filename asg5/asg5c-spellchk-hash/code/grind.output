@@ -1,0 +1,107 @@
+==20412== Memcheck, a memory error detector
+==20412== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==20412== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==20412== Command: ./spellchk -n -d user.dict test3.in
+==20412== 
+spellchk: test3.in: eye
+spellchk: test3.in: halve
+spellchk: test3.in: a
+spellchk: test3.in: it
+spellchk: test3.in: came
+spellchk: test3.in: with
+spellchk: test3.in: my
+spellchk: test3.in: pea
+spellchk: test3.in: sea
+spellchk: test3.in: it
+spellchk: test3.in: four
+spellchk: test3.in: my
+spellchk: test3.in: miss
+spellchk: test3.in: eye
+spellchk: test3.in: kin
+spellchk: test3.in: knot
+spellchk: test3.in: sea
+spellchk: test3.in: eye
+spellchk: test3.in: strike
+spellchk: test3.in: a
+spellchk: test3.in: quay
+spellchk: test3.in: and
+spellchk: test3.in: type
+spellchk: test3.in: a
+spellchk: test3.in: word
+spellchk: test3.in: and
+spellchk: test3.in: weight
+spellchk: test3.in: four
+spellchk: test3.in: it
+spellchk: test3.in: two
+spellchk: test3.in: say
+spellchk: test3.in: weather
+spellchk: test3.in: eye
+spellchk: test3.in: am
+spellchk: test3.in: wrong
+spellchk: test3.in: oar
+spellchk: test3.in: rite
+spellchk: test3.in: it
+spellchk: test3.in: me
+spellchk: test3.in: strait
+spellchk: test3.in: a
+spellchk: test3.in: weigh
+spellchk: test3.in: as
+spellchk: test3.in: soon
+spellchk: test3.in: as
+spellchk: test3.in: a
+spellchk: test3.in: mist
+spellchk: test3.in: ache
+spellchk: test3.in: is
+spellchk: test3.in: maid
+spellchk: test3.in: it
+spellchk: test3.in: nose
+spellchk: test3.in: bee
+spellchk: test3.in: fore
+spellchk: test3.in: two
+spellchk: test3.in: long
+spellchk: test3.in: and
+spellchk: test3.in: eye
+spellchk: test3.in: can
+spellchk: test3.in: put
+spellchk: test3.in: the
+spellchk: test3.in: error
+spellchk: test3.in: rite
+spellchk: test3.in: rare
+spellchk: test3.in: lea
+spellchk: test3.in: wrong
+spellchk: test3.in: eye
+spellchk: test3.in: have
+spellchk: test3.in: run
+spellchk: test3.in: this
+spellchk: test3.in: poem
+spellchk: test3.in: threw
+spellchk: test3.in: it
+spellchk: test3.in: eye
+spellchk: test3.in: am
+spellchk: test3.in: shore
+spellchk: test3.in: your
+spellchk: test3.in: two
+spellchk: test3.in: no
+spellchk: test3.in: perfect
+spellchk: test3.in: all
+spellchk: test3.in: the
+spellchk: test3.in: weigh
+spellchk: test3.in: my
+spellchk: test3.in: me
+spellchk: test3.in: sew
+spellchk: test3.in: this
+spellchk: test3.in: word
+spellchk: test3.in: is
+spellchk: test3.in: but
+spellchk: test3.in: in
+spellchk: test3.in: the
+spellchk: test3.in: v
+==20412== 
+==20412== HEAP SUMMARY:
+==20412==     in use at exit: 0 bytes in 0 blocks
+==20412==   total heap usage: 361 allocs, 361 frees, 22,185 bytes allocated
+==20412== 
+==20412== All heap blocks were freed -- no leaks are possible
+==20412== 
+==20412== For counts of detected and suppressed errors, rerun with: -v
+==20412== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 6 from 6)

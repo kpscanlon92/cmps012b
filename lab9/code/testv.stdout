@@ -1,0 +1,21 @@
+100755     13941 May 30 23:36 l9stat
+100644      1655 May 30 23:36 l9stat.c
+100644     11024 May 30 23:36 l9stat.o
+100644       913 May 30 23:36 Makefile
+100644        19 May 30 23:36 Makefile.deps
+100700       246 May 30 23:36 mk.build
+100700       497 May 30 23:36 mk.test
+100644        53 May 30 23:36 README
+100600      2289 May 30 23:36 SCORE
+100644         9 May 30 23:36 test1.status
+100644         0 May 30 23:36 test1.stderr
+100644       154 May 30 23:36 test1.stdout
+100644         9 May 30 23:36 test2.status
+100644        92 May 30 23:36 test2.stderr
+100644        97 May 30 23:36 test2.stdout
+100644         9 May 30 23:36 test3.status
+100644         0 May 30 23:36 test3.stderr
+100644      2062 May 30 23:36 test3.stdout
+120755        81 May 30 23:36 testdir -> "/afs/cats.ucsc.edu/courses/cmps012b-wm/Labs-cmps012m/lab9c-unixprog-stat/testdata"
+100644       460 May 30 23:36 testv.stderr
+100644         0 May 30 23:36 testv.stdout

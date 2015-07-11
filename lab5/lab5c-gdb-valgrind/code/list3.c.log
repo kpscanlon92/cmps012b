@@ -1,0 +1,33 @@
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+list3.c
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+     1	// $Id: list3.c,v 1.13 2014-05-04 20:07:50-07 - - $
+     2	
+     3	#include <assert.h>
+     4	#include <stdio.h>
+     5	#include <stdlib.h>
+     6	
+     7	typedef struct node node;
+     8	struct node {
+     9	   char *word;
+    10	   node *link;
+    11	};
+    12	
+    13	int main (int argc, char **argv) {
+    14	   node *head = NULL;
+    15	   for (int argi = 1; argi < argc; ++argi) {
+    16	      node *node = malloc (sizeof (struct node));
+    17	      assert (node != NULL);
+    18	      node->word = argv[argi];
+    19	      node->link = head;
+    20	      head = node;
+    21	   }
+    22	   for (node *curr = head; curr != NULL; curr = curr->link) {
+    23	      printf ("%p->node {word=%p->[%s], link=%p}\n",
+    24	              curr, curr->word, curr->word, curr->link);
+    25	   }
+    26	   return 9;
+    27	}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Errors: gcc -g -O0 -Wall -Wextra -std=gnu99 list3.c -o list3
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

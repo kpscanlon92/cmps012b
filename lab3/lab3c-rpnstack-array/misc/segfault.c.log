@@ -1,0 +1,10 @@
+* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: starting segfault.c
+* segfault.c: $Id: segfault.c,v 1.11 2013-09-25 14:47:21-07 - - $
+* gcc -g -O0 -Wall -Wextra -std=gnu99 segfault.c -o segfault -lm
+* segfault.c: In function 'main':
+* segfault.c:7:15: warning: unused parameter 'argc'
+[-Wunused-parameter]
+*  int main (int argc, char **argv) {
+*                ^
+* rm -f segfault.o
+* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: finished segfault.c

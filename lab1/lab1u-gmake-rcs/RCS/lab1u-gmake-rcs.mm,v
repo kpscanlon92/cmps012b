@@ -1,0 +1,3743 @@
+head	1.120;
+access;
+symbols;
+locks;
+comment	@.\" @;
+
+
+1.120
+date	2014.03.28.00.49.47;	author -;	state -;
+branches;
+next	1.119;
+
+1.119
+date	2014.03.26.23.05.05;	author -;	state -;
+branches;
+next	1.118;
+
+1.118
+date	2014.03.26.23.04.31;	author -;	state -;
+branches;
+next	1.117;
+
+1.117
+date	2014.03.26.23.03.51;	author -;	state -;
+branches;
+next	1.116;
+
+1.116
+date	2014.03.26.22.54.31;	author -;	state -;
+branches;
+next	1.115;
+
+1.115
+date	2014.03.26.22.51.35;	author -;	state -;
+branches;
+next	1.114;
+
+1.114
+date	2014.03.25.00.31.04;	author -;	state -;
+branches;
+next	1.113;
+
+1.113
+date	2014.03.25.00.30.18;	author -;	state -;
+branches;
+next	1.112;
+
+1.112
+date	2014.03.25.00.29.47;	author -;	state -;
+branches;
+next	1.111;
+
+1.111
+date	2014.03.25.00.27.58;	author -;	state -;
+branches;
+next	1.110;
+
+1.110
+date	2014.03.25.00.27.40;	author -;	state -;
+branches;
+next	1.109;
+
+1.109
+date	2014.03.25.00.18.22;	author -;	state -;
+branches;
+next	1.108;
+
+1.108
+date	2014.03.25.00.15.22;	author -;	state -;
+branches;
+next	1.107;
+
+1.107
+date	2014.03.24.23.53.09;	author -;	state -;
+branches;
+next	1.106;
+
+1.106
+date	2014.01.04.02.02.35;	author -;	state -;
+branches;
+next	1.105;
+
+1.105
+date	2014.01.04.02.01.48;	author -;	state -;
+branches;
+next	1.104;
+
+1.104
+date	2014.01.04.02.01.20;	author -;	state -;
+branches;
+next	1.103;
+
+1.103
+date	2014.01.04.01.58.29;	author -;	state -;
+branches;
+next	1.102;
+
+1.102
+date	2014.01.04.01.53.49;	author -;	state -;
+branches;
+next	1.101;
+
+1.101
+date	2014.01.04.01.51.30;	author -;	state -;
+branches;
+next	1.100;
+
+1.100
+date	2014.01.03.02.19.24;	author -;	state -;
+branches;
+next	1.99;
+
+1.99
+date	2014.01.03.02.18.33;	author -;	state -;
+branches;
+next	1.98;
+
+1.98
+date	2014.01.03.02.18.18;	author -;	state -;
+branches;
+next	1.97;
+
+1.97
+date	2014.01.03.02.17.29;	author -;	state -;
+branches;
+next	1.96;
+
+1.96
+date	2014.01.03.02.16.15;	author -;	state -;
+branches;
+next	1.95;
+
+1.95
+date	2014.01.03.02.15.02;	author -;	state -;
+branches;
+next	1.94;
+
+1.94
+date	2013.10.16.00.29.53;	author -;	state -;
+branches;
+next	1.93;
+
+1.93
+date	2013.10.16.00.29.32;	author -;	state -;
+branches;
+next	1.92;
+
+1.92
+date	2013.09.28.01.44.53;	author -;	state -;
+branches;
+next	1.91;
+
+1.91
+date	2013.09.28.01.43.34;	author -;	state -;
+branches;
+next	1.90;
+
+1.90
+date	2013.09.21.00.48.17;	author -;	state -;
+branches;
+next	1.89;
+
+1.89
+date	2013.09.21.00.47.14;	author -;	state -;
+branches;
+next	1.88;
+
+1.88
+date	2013.09.21.00.46.51;	author -;	state -;
+branches;
+next	1.87;
+
+1.87
+date	2013.09.21.00.45.05;	author -;	state -;
+branches;
+next	1.86;
+
+1.86
+date	2013.09.21.00.44.26;	author -;	state -;
+branches;
+next	1.85;
+
+1.85
+date	2013.09.21.00.40.26;	author -;	state -;
+branches;
+next	1.84;
+
+1.84
+date	2013.09.21.00.27.23;	author -;	state -;
+branches;
+next	1.83;
+
+1.83
+date	2013.09.21.00.25.39;	author -;	state -;
+branches;
+next	1.82;
+
+1.82
+date	2013.09.21.00.24.32;	author -;	state -;
+branches;
+next	1.81;
+
+1.81
+date	2013.09.19.00.53.34;	author -;	state -;
+branches;
+next	1.80;
+
+1.80
+date	2013.04.04.00.38.02;	author -;	state -;
+branches;
+next	1.79;
+
+1.79
+date	2013.04.04.00.37.30;	author -;	state -;
+branches;
+next	1.78;
+
+1.78
+date	2013.03.30.01.24.21;	author -;	state -;
+branches;
+next	1.77;
+
+1.77
+date	2013.03.28.01.03.28;	author -;	state -;
+branches;
+next	1.76;
+
+1.76
+date	2013.03.28.01.03.11;	author -;	state -;
+branches;
+next	1.75;
+
+1.75
+date	2013.03.27.23.34.05;	author -;	state -;
+branches;
+next	1.74;
+
+1.74
+date	2013.03.27.23.11.05;	author -;	state -;
+branches;
+next	1.73;
+
+1.73
+date	2013.03.27.23.10.39;	author -;	state -;
+branches;
+next	1.72;
+
+1.72
+date	2013.03.27.23.09.34;	author -;	state -;
+branches;
+next	1.71;
+
+1.71
+date	2013.03.27.23.06.58;	author -;	state -;
+branches;
+next	1.70;
+
+1.70
+date	2013.03.27.21.01.07;	author -;	state -;
+branches;
+next	1.69;
+
+1.69
+date	2013.03.27.21.00.44;	author -;	state -;
+branches;
+next	1.68;
+
+1.68
+date	2013.03.27.20.59.48;	author -;	state -;
+branches;
+next	1.67;
+
+1.67
+date	2013.03.27.20.48.47;	author -;	state -;
+branches;
+next	1.66;
+
+1.66
+date	2013.03.27.20.47.32;	author -;	state -;
+branches;
+next	1.65;
+
+1.65
+date	2013.03.27.20.45.00;	author -;	state -;
+branches;
+next	1.64;
+
+1.64
+date	2013.03.27.19.38.19;	author -;	state -;
+branches;
+next	1.63;
+
+1.63
+date	2013.03.27.19.27.02;	author -;	state -;
+branches;
+next	1.62;
+
+1.62
+date	2013.03.27.01.26.02;	author -;	state -;
+branches;
+next	1.61;
+
+1.61
+date	2013.03.27.01.24.48;	author -;	state -;
+branches;
+next	1.60;
+
+1.60
+date	2013.03.27.01.23.23;	author -;	state -;
+branches;
+next	1.59;
+
+1.59
+date	2013.03.27.01.20.24;	author -;	state -;
+branches;
+next	1.58;
+
+1.58
+date	2013.03.27.01.06.59;	author -;	state -;
+branches;
+next	1.57;
+
+1.57
+date	2013.03.27.01.06.17;	author -;	state -;
+branches;
+next	1.56;
+
+1.56
+date	2013.03.27.01.05.40;	author -;	state -;
+branches;
+next	1.55;
+
+1.55
+date	2013.03.27.01.05.07;	author -;	state -;
+branches;
+next	1.54;
+
+1.54
+date	2013.03.27.01.03.23;	author -;	state -;
+branches;
+next	1.53;
+
+1.53
+date	2013.03.27.01.02.27;	author -;	state -;
+branches;
+next	1.52;
+
+1.52
+date	2013.03.27.00.53.19;	author -;	state -;
+branches;
+next	1.51;
+
+1.51
+date	2013.03.27.00.47.45;	author -;	state -;
+branches;
+next	1.50;
+
+1.50
+date	2013.03.27.00.46.09;	author -;	state -;
+branches;
+next	1.49;
+
+1.49
+date	2013.03.27.00.44.37;	author -;	state -;
+branches;
+next	1.48;
+
+1.48
+date	2013.03.27.00.40.59;	author -;	state -;
+branches;
+next	1.47;
+
+1.47
+date	2013.03.27.00.36.38;	author -;	state -;
+branches;
+next	1.46;
+
+1.46
+date	2013.03.27.00.34.34;	author -;	state -;
+branches;
+next	1.45;
+
+1.45
+date	2013.03.27.00.33.18;	author -;	state -;
+branches;
+next	1.44;
+
+1.44
+date	2013.03.27.00.27.40;	author -;	state -;
+branches;
+next	1.43;
+
+1.43
+date	2013.03.27.00.26.10;	author -;	state -;
+branches;
+next	1.42;
+
+1.42
+date	2013.03.27.00.24.56;	author -;	state -;
+branches;
+next	1.41;
+
+1.41
+date	2013.03.27.00.06.59;	author -;	state -;
+branches;
+next	1.40;
+
+1.40
+date	2013.03.26.23.57.25;	author -;	state -;
+branches;
+next	1.39;
+
+1.39
+date	2013.01.15.19.55.19;	author -;	state -;
+branches;
+next	1.38;
+
+1.38
+date	2013.01.14.20.41.40;	author -;	state -;
+branches;
+next	1.37;
+
+1.37
+date	2013.01.02.23.51.02;	author -;	state -;
+branches;
+next	1.36;
+
+1.36
+date	2013.01.02.23.50.39;	author -;	state -;
+branches;
+next	1.35;
+
+1.35
+date	2012.10.02.23.00.59;	author -;	state -;
+branches;
+next	1.34;
+
+1.34
+date	2012.10.02.00.27.44;	author -;	state -;
+branches;
+next	1.33;
+
+1.33
+date	2012.09.21.02.12.35;	author -;	state -;
+branches;
+next	1.32;
+
+1.32
+date	2012.09.21.00.57.47;	author -;	state -;
+branches;
+next	1.31;
+
+1.31
+date	2012.09.21.00.57.14;	author -;	state -;
+branches;
+next	1.30;
+
+1.30
+date	2012.09.21.00.56.52;	author -;	state -;
+branches;
+next	1.29;
+
+1.29
+date	2012.09.21.00.55.57;	author -;	state -;
+branches;
+next	1.28;
+
+1.28
+date	2012.09.21.00.55.32;	author -;	state -;
+branches;
+next	1.27;
+
+1.27
+date	2012.09.21.00.54.14;	author -;	state -;
+branches;
+next	1.26;
+
+1.26
+date	2012.09.21.00.53.39;	author -;	state -;
+branches;
+next	1.25;
+
+1.25
+date	2012.09.21.00.53.17;	author -;	state -;
+branches;
+next	1.24;
+
+1.24
+date	2012.09.21.00.52.00;	author -;	state -;
+branches;
+next	1.23;
+
+1.23
+date	2012.09.21.00.49.53;	author -;	state -;
+branches;
+next	1.22;
+
+1.22
+date	2012.09.21.00.49.11;	author -;	state -;
+branches;
+next	1.21;
+
+1.21
+date	2012.09.21.00.43.27;	author -;	state -;
+branches;
+next	1.20;
+
+1.20
+date	2012.09.21.00.42.40;	author -;	state -;
+branches;
+next	1.19;
+
+1.19
+date	2012.09.21.00.41.10;	author -;	state -;
+branches;
+next	1.18;
+
+1.18
+date	2012.09.21.00.39.35;	author -;	state -;
+branches;
+next	1.17;
+
+1.17
+date	2012.09.21.00.37.34;	author -;	state -;
+branches;
+next	1.16;
+
+1.16
+date	2012.09.21.00.34.06;	author -;	state -;
+branches;
+next	1.15;
+
+1.15
+date	2012.09.21.00.32.41;	author -;	state -;
+branches;
+next	1.14;
+
+1.14
+date	2011.12.21.05.43.17;	author -;	state -;
+branches;
+next	1.13;
+
+1.13
+date	2011.12.21.05.42.42;	author -;	state -;
+branches;
+next	1.12;
+
+1.12
+date	2011.12.21.05.39.42;	author -;	state -;
+branches;
+next	1.11;
+
+1.11
+date	2011.12.21.05.39.08;	author -;	state -;
+branches;
+next	1.10;
+
+1.10
+date	2011.09.29.23.43.11;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2011.09.29.23.36.53;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2011.09.29.23.36.33;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2011.09.29.23.34.48;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2011.09.29.23.34.10;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2011.09.29.23.14.54;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2011.09.29.23.13.38;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2011.09.26.21.26.32;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2011.08.19.01.45.50;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2011.08.19.01.44.37;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.120
+log
+@-
+@
+text
+@.so Tmac.mm-etc
+.if t .Newcentury-fonts
+.INITR* \n[.F]
+.SIZE 12 14
+.GETPN* HELLOJAVA Page_HELLOJAVA
+.GETPN* MAKEFILE Page_MAKEFILE
+.GETPN* BASHRC_SH Page_BASHRC_SH
+.GETST* HELLOJAVA Figure_HELLOJAVA
+.GETST* OUTPUT Figure_OUTPUT
+.GETST* MAKEFILE Figure_MAKEFILE
+.GETST* BASHRC_SH Figure_BASHRC_SH
+.TITLE CMPS-012M Spring\~2014 Lab\~1 \
+"Unix\(:) \f[CB]AFS gmake RCS \[Do]PATH\f[P]"
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.119 2014-03-26 16:05:05-07 - - $"
+.PWD
+.URL
+.ds SUBQUARTER cmps012b-wm.s14
+.ds SUBMITDIR /afs/cats.ucsc.edu/class/\*[SUBQUARTER]/lab1/\[Do]USER
+.ds COURSEDIR /afs/cats.ucsc.edu/courses/cmps012b-wm
+.ds BINDIR \*[COURSEDIR]/bin
+.nr HISTORY 0 1
+.ds PROMPT bash-\\n+[HISTORY]\[Do]
+.ds UNIXHOST unix.ucsc.edu
+.H 1 "Overview"
+This lab
+will introduce you to Unix if you are not already familiar with it,
+and show you how to compile and execute a Java program.
+It also helps you with a first pass at understanding\(::
+.ALX \[bu] 0 "" 0 0
+.LI
+.V= AFS ,
+the file system where your files are kept, and access control lists\(;;
+.LI
+.V= RCS ,
+the revision control system,
+which helps you keep backup copies of all of your work\(;;
+.LI
+.V= gmake ,
+which helps you with building executables from source code\(;;
+and
+.LI
+automatically setting the
+.V= \[Do]PATH
+variable by means of dot files in your home directory.
+.LE
+.H 1 "Directories and ACLs"
+Change directory to your home directory and create a subdirectory called
+.V= private .
+Then make a subdirectory of that called
+.V= cmps012m ,
+and a subdirectory of that called
+.V= lab1 .
+In the following, bolface is what you type, 
+and plain face is what is typed at you\(::
+.DS
+.TVCODE 1 "\*[PROMPT] " "cd"
+.TVCODE 1 "\*[PROMPT] " "mkdir private"
+.DE
+Make sure you protect the directory against other users\(::
+.DS
+.TVCODE 1 "\*[PROMPT] " "fs setacl private \[Do]USER all -clear"
+.TVCODE 1 "\*[PROMPT] " "fs listacl private"
+.TVCODE 1 "Access list for private is"
+.TVCODE 1 "Normal rights\(::"
+.TVCODE 1 "\0\0foobar rlidwka"
+.DE
+At this point, there should be only one ACL on your private
+directory, namely your own,
+where 
+.V= foobar
+is shown above should be shown your own username.
+The shell variable
+.V= \[Do]USER
+is your own username.
+You may wish to type it in explicitly instead.
+If there are any other ACLs on your private directory, 
+you must delete them.
+Note that you may also lock your home directory to all ACLs
+but your own.
+That means, however, that you may not have a web page.
+.P
+You must understand ACLs in order to protect your files.
+Some special ACL usernames are\(::
+.V= wwwadmin
+is the IC web server, which needs read permission on your 
+directory 
+.V= public_html ,
+if you have one, and list permission on your home directory.
+.V= system:authuser
+is anybody with a IC account.
+.V= system:anyuser
+is anybody anywhere in the world on any machine running AFS.
+Try 
+.V= "ls /afs" .
+.P
+You should have a separate directory for each course and each
+assignment.
+So create a directory using the following\(::
+.DS
+.TVCODE 1 "\*[PROMPT] " "cd \[Do]HOME/private"
+.TVCODE 1 "\*[PROMPT] " "mkdir -p cmps012b/lab1"
+.TVCODE 1 "\*[PROMPT] " "cd cmps012b/lab1"
+.DE
+The shell variable
+.V= \[Do]HOME
+may also be replaced by
+a tilde
+.=V ( \[ti] )
+as the name of your home directory.
+When you use
+.V= cd
+without an operand, it sets the current directory to your home
+directory.
+You may wish to use two separate course directories,
+one for your CMPS-012B work,
+and one for your CMPS-012M work,
+or you might want to use just one.
+You may, of course, call them anything you like.
+In order to organize your files,
+make a separate subdirectory for each course,
+and under that,
+a subdirectory for each project in each course.
+.H 1 "\f[CB]Hello.java\f[P]"
+Now begin work on lab\~1.
+Create a file called
+.V= hello.java ,
+as shown in Figure \*[Figure_HELLOJAVA] (page \*[Page_HELLOJAVA]).
+It is a slightly more complicated version of the standard ``Hello
+World'' program used to introduce programming languages.
+.P
+If you use the command
+.V= "ls -la"
+in my directory,
+you might notice a subdirectory containing that code.
+If you like,
+you may copy it into your lab directory instead of copying it in.
+Files beginning with a dot
+are not listed with
+.V= ls (1)
+unless the
+.V= \&-a
+flag is given.
+.H 1 "The \f[CB]\[Do]PATH\f[P] variable"
+There are some commands given in this lab which are not generally
+available Unix commands.
+These are
+.V= cid 
+and
+.V= checksource .
+You will notice that you get an error message when you use them\(::
+.DS
+.TVCODE 1 "\*[PROMPT] " "cid hello.java"
+.TVCODE 1 "bash: cid: command not found"
+.DE
+This is because they are not in your path.
+These commands, among many others, are in the directory
+.V= \*[BINDIR]/ .
+You should add this directory to your path.
+.P
+How this is done depends on which shell you are using.
+The file
+.V= /etc/shells
+lists all of the ones available\(::
+.V= /bin/bash ,
+.V= /bin/csh ,
+.V= /bin/ksh ,
+.V= /bin/mksh ,
+.V= /bin/sh ,
+.V= /bin/tcsh ,
+.V= /bin/zsh .
+We will discuss only
+.V= tcsh
+and
+.V= bash
+in this document and ignore the others.
+Since we are using Linux,
+.V= /bin/sh
+does not exist, and is a symbolic link to
+.V= /bin/bash .
+Also,
+.V= /bin/csh
+does not exist, and is a symbolic link to 
+.V= /bin/tcsh .
+To find out which shell is your default, use the command\(::
+.VTCODE* 1 "echo \[Do]SHELL" 
+.P
+Create or modify three files\(::
+.V= \[ti]/.cshrc ,
+.V= \[ti]/.bashrc ,
+and
+.V= \[ti]/.bash_profile .
+Modify your path for both shells as follows\(::
+.ALX a ()
+.LI
+For
+.V= tcsh ,
+add the following line to the end of your
+.V= \[ti]/.cshrc
+file\(::
+.VTCODE* 1 \
+"set path=(\[Do]path \*[BINDIR])"
+Then source it with the command\(::
+.VTCODE* 1 "source \[ti]/.cshrc"
+For this command to work,
+you must be interacting with
+.V= tcsh .
+.LI
+For
+.V= bash ,
+add the following line to the end of your
+.V= \[ti]/.bashrc
+file\(::
+.VTCODE* 1 \
+"export PATH=\[Do]PATH:\*[BINDIR]"
+Then source it with the command\(::
+.VTCODE* 1 "source \[ti]/.bashrc"
+For this command to work, you must be interacting with
+.V= bash .
+If your current shell is
+.V= tcsh ,
+type the command
+.V= bash
+before running the above command.
+Whenever you start 
+.V= bash
+as a subshell, it will automatically read the contents of
+.V= \&.bashrc .
+.P
+Since
+.V= bash
+differentiates between a login shell and a subshell,
+You should also have the file
+.V= \[ti]/.bash_profile
+source
+.V= \[ti]/.bashrc .
+This is done by putting the following line in your
+.V= \[ti]/.bash_profile
+file\(::
+.VTCODE* 1 "source \[ti]/.bashrc"
+.LE
+.P
+The sourcing command does not need to be typed in every time you
+log in.
+Shells source their start files automatically.
+Any command or alias you want executed automatically every time you
+log in should be placed in the appropriate startup file.
+The last two letters,
+.=V `` rc ''
+mean ``run commands''.
+.P
+If your shell is currently
+.V= tcsh
+and you want to use bash, just use the command
+.V= bash
+at the prompt.
+Or follow the instructions printed by the command
+.V= chsh
+if you want to make this permanent.
+.P
+When you log in using
+.V= tcsh ,
+the file
+.V= \[ti]/.cshrc
+is automatically sourced,
+followed by
+.V= \[ti]/.login ,
+which you probably may ignore.
+When you start
+.V= bash
+by typing in the command at the command line,
+the file
+.V= \[ti]/.bashrc
+is automatically sourced.
+But if 
+.V= bash
+is your login shell,
+then at login,
+.V= \[ti]/.bash_profile
+is automatically sourced.
+.P
+Submit your files
+.V= .cshrc ,
+.V= .bashrc ,
+and
+.V= .bash_profile ,
+using the command\(::
+.VTCODE* 1 "submit \*[SUBQUARTER] lab1 .cshrc .bashrc .bash_profile"
+This command must be done in your home directory.
+.H 1 "The script \f[CB]checksource\f[P]"
+Use the script
+.V= checksource
+to check on some basic formatting items.
+Edit your files so that it does not complain.
+If you run
+.V= checksource
+without filename operands,
+it will print out a text-format manual page.
+To check up on 
+.V= hello.java ,
+use the command\(::
+.DS
+.TVCODE 1 "\*[PROMPT] " "checksource hello.java"
+.DE
+.H 1 "The script \f[CB]cid\f[P]"
+An alternative to using
+.V= ci
+(see below)
+directly is the program
+.V= cid .
+It works just like
+.V= ci ,
+but automatically creates the
+.V= RCS
+subdirectory and does the correct locking.
+To fetch back a deleted file, use the
+.V= co
+command.
+You will find that the
+.V= cid
+command is much simpler to use,
+since it automatically sets up the
+.V= RCS
+subdirectory and appropriate file locking.
+.P
+In order to find where that script is, you can do the following\(::
+.DS
+.TVCODE 1 "\*[PROMPT] " "cd \*[COURSEDIR]"
+.TVCODE 1 "\*[PROMPT] " "find * -name cid -follow 2>/dev/null"
+.DE
+This says find all files whose name is
+.V= cid ,
+even if you have to follow symbolic links.
+Without the redirection
+.V= 2>/dev/null ,
+you will get lots of error messages because of directories that you
+don't have permission to access.
+With this redirection, error messages will be sent to
+.V= /dev/null ,
+the bit bucket.
+Try it both ways, with and without redirecting
+.V= stderr .
+This works if you use
+.V= bash
+or
+.V= sh
+as your shell,
+If you use 
+.V= csh ,
+you should instead use
+.DS
+.TVCODE 1 "csh-% " "sh -c 'find * -name cid -follow 2>/dev/null'"
+.DE
+which will pass the command to the Bourne shell to have it
+executed.
+There are many small differences between the shells.
+Inside of a
+.V= Makefile ,
+always use Bourne shell syntax, and never use the born-again shell
+syntax or 
+.V= csh
+syntax.
+Read
+.V= http://www.faqs.org/faqs/unix-faq/shell/ .
+You may find something of interest in 
+.V= http://www.faqs.org/faqs/unix-faq/shell/csh-whynot/ .
+.H 1 "Running the program"
+The output of running the program is shown in Figure \*[Figure_OUTPUT].
+The figure was actually generated from the
+.V= gmake
+process that created this document.
+A Unix pipe was used.
+If you don't want to type in the entire ``hello'' program,
+you may copy it from the hidden (or ``dot'') subdirectory.
+This directory will not show up if you are using a browser.
+Log into
+.V= \*[UNIXHOST]
+and find it with
+.V= ls\~-la .
+.DF
+.B1
+.SP
+.ft CR
+.nf
+.eo
+.pso cat -n .files/test.output | expand | perl -pe 's/.{74}/$&\n/'
+.ec
+.fi
+.ft R
+.SP
+.B2
+.FG "\f[CB].files/test.output\f[P]" "" 0 OUTPUT
+.DE
+.H 1 "\f[CB]Makefile\f[P]"
+Typing in all of these commands repeatedly is a hassle.
+To avoid that,
+we use a program called
+.V= gmake .
+Create a file called
+.V= Makefile ,
+as shown in Figure \*[Figure_MAKEFILE] (page \*[Page_MAKEFILE]).
+.P
+Make sure that indented commands in a
+.V= Makefile
+are indented with a TAB character, not spaces.
+If you mistakenly use spaces to indent commands in a
+.V= Makefile ,
+you will get an error message.
+Proper capitalization is also important.
+Now you can make, check in, and submit your program as follows\(::
+.DS
+.TVCODE 1 "\*[PROMPT] " "rm hello.class"
+.TVCODE 1 "\*[PROMPT] " "gmake ci"
+.TVCODE 1 "\*[PROMPT] " "gmake all"
+.TVCODE 1 "\*[PROMPT] " "gmake submit"
+.DE
+.P
+To submit files directly from the command line without using the
+.V= Makefile ,
+the following command may be used\(::
+.VTCODE* 1 "submit \*[SUBQUARTER] lab1 README Makefile hello.java
+If you are doing pair programming, also submit the file
+.V= PARTNER .
+The first argument to submit is the name of the class volume,
+the second argument is the name of the project,
+and the rest are names of files to be submitted.
+.H 1 "Verifying the submit"
+To check on the files you submitted,
+look in the directory
+.VCODE* 1 \*[SUBMITDIR] .
+You won't actually be able to read the files,
+but you can verify the filenames.
+Check to make sure that you have submitted all the files that
+should be submitted.
+.P
+In order to verify that your submit actually worked, 
+create a new directory in your personal file space,
+or choose an existing test submit directory and use
+.V= rm
+to delete any existing files in that.
+Then copy the files you submitted from your
+working directory into the new directory.
+Do not copy other files.
+Did everything work as expected\(??
+.P
+You may use any system to which you have access as your development
+system.
+However, you 
+.E= must
+test your program on one of the Linux servers or lab workstations
+prior to submitting it.
+.E= "Graders will only use
+.V= \*[UNIXHOST]
+to do the grading.
+.br
+.ne 5
+.H 1 "Automating checkin and submit"
+You will note that the
+.V= Makefile
+has two targets
+.V= ci
+and
+.V= submit .
+The purpose of
+.V= make
+is to automate routine boring tasks.
+So try checking in everything all at once
+and then submitting it\(::
+.DS
+.TVCODE 1 "\*[PROMPT] " "gmake ci"
+.TVCODE 1 "\*[PROMPT] " "gmake submit"
+.DE
+Note that when this is automated, you don't run the risk of
+forgetting a file when you submit.
+.H 1 "WARNING"
+The time to figure out how to do it is
+.E= NOT
+the day the first real assignment is due.
+Excuses sent late on the due date will be rejected and your
+assignment will score 
+.E= ZERO .
+There is no excuse for not knowing how to use submit and/or 
+the Unix workarounds if the script does not work.
+Assignments submitted via email will not be accepted.
+They only way an assignment will be submitted is via Unix
+on or before the due date.
+You may submit an assignment as many times as you want
+.E= BEFORE
+the due date in order to ensure that something is submitted
+if there are last minute problems.
+.H 1 "Miscellaneous"
+This section applies to 
+.E= all
+labs and programs submitted during the quarter.
+If you choose to do pair programming,
+read the requirements in the subdirectory of the syllabus.
+.P
+The
+.V= README
+file should contain your name and username,
+the name of the host you used to do the development,
+and any other necessary comments, such as the source of
+any code you did not write yourself.
+To find out the name of the host you are currently using,
+use the command
+.V= hostname .
+.P
+You must also follow some basic source code formatting requirements
+that are checked up on by the script
+.V= checksource .
+You can locate it in the same manner as you did
+.V= cid
+above.
+.E= "Reading assignment\(::"
+.V= \*[COURSEDIR]/Coding-style/ .
+.H 1 "Prerequisites\(:) Java and Unix"
+This course assumes you have had experience with Java and Unix.
+If not, you should read the first seven chapters of 
+.E= "Java by Dissection"
+.=V [ http://www.lulu.com/javabydissection ]
+and begin working with Unix
+(you need a Unix reference book).
+This paragraph is just a slight roadmap to bring up your Java
+skills if you have had a prerequisite course that used C or C++,
+or used some operating system other than Unix.
+.P
+UCSC has a subscription to Safari Books Online
+.=V [ http://proquest.safaribooksonline.com/ ],
+which is maintained by the O'Reilly publishers
+.=V [ http://oreilly.com/ ].
+You may read their books online for free,
+provided you use a UCSC computer.
+Recommended readings\(::
+.RI `` "Learning the Unix Operating System" '',
+.RI `` "Managing Projects with GNU Make" '',
+.RI `` "Java in a Nutshell" ''.
+.H 1 "Pair programming"
+If you are doing pair programming,
+carefully read over the summary in
+.V= cmps012b-wm/Syllabus/pair-programming .
+Note especially carefully the format of the
+.V= PARTNER
+file.
+Use the
+.V= partnercheck
+script to check your
+.V= PARTNER 
+file before submitting it.
+.H 1 "What to submit"
+Submit the files
+.V= \&.cshrc ,
+.V= \&.bashrc ,
+.V= \&.bash_profile ,
+.V= README ,
+.V= Makefile ,
+and
+.V= hello.java .
+.P
+There is a subdirectory called
+.V= \&.score
+which contains instructions to the grader.
+Note that because it begins with a dot,
+it is ``hidden'', and so will not show up as part of the output of the
+.V= ls
+command,
+unless the
+.V= -a
+option is used.
+Similarly,
+there is another directory called
+.V= \&.files ,
+which is also hidden.
+Neither of these show up if you are using a browser.
+.P
+Do
+.E= not
+submit any of the files generated by the script in this directory.
+However, you may want to do a pre-grade in a private directory
+of your own in order to guess at what score you might receive.
+Look for a similar directory in future labs and programs.
+.H 1 "More on \f[CB]rc\f[P] (dot) files"
+Figure \*[Figure_BASHRC_SH] (page \*[Page_BASHRC_SH])
+shows some commands that you might want to incorporate into your
+.V= \[ti]/.bashrc
+file.
+They show how to customize the environment,
+make new convenience commands available,
+customize the prompt, etc.
+The 
+.V= man (1)
+pages for
+.V= bash (1)
+and
+.V= tcsh (1)
+will provide more information and details.
+This section is informational only and is not part of
+this lab.
+.P
+If you are not sure which shell you prefer using,
+and your default is
+.V= /bin/tcsh ,
+you can switch to 
+.V= bash
+temporarily just by typing the command
+.V= bash
+at the command prompt.
+To permanently make the change,
+use the command
+.V= chsh .
+.P
+My suggestion is that you make 
+.V= bash
+your default shell,
+unless you have a strong preference for
+.V= tcsh .
+Shell scripts are almost exclusively written in 
+.V= bash
+or
+.V= sh ,
+and 
+.V= make
+always calls
+.V= /bin/sh
+to process its commands.
+So if your interactive shell is
+.V= bash ,
+you only need to know one shell.
+And there are a few things that are difficult to do in
+.V= tcsh .
+.P
+Refer to Tom Christiansen's article
+``Csh Programming Considered Harmful''\(::
+.VTCODE* 1 http://www.faqs.org/faqs/unix-faq/shell/csh-whynot/
+.H 1 "\f[CB]RCS\f[P]"
+It is a good idea to keep many backup copies of your work.
+.V= RCS
+is a good utility to keep track of backup copies.
+If you don't have backups,
+you will have to depend on the IT department
+to recover yesterday's copy.
+Murphy's law says that the most important changes won't be in
+that copy.
+The corollary also says that you will lose your files so close
+to the due date that IC won't get your backups back to you in time.
+In this case, 
+you will get a 0 on the assignment for not submitting anything.
+.P
+Note that the code above has a magic string in it\(::
+.V= \[Do]Id\[Do] \|.
+These track your development progress.
+For the initial checkin, do the following\(::
+.DS
+.TVCODE 1 "\*[PROMPT] " "mkdir RCS"
+.TVCODE 1 "\*[PROMPT] " "ci -zLT -s- -t- -m- -u hello.java"
+.TVCODE 1 "RCS/hello.java,v  <--  hello.java"
+.TVCODE 1 "initial revision: 1.1"
+.TVCODE 1 "done"
+.DE
+Now you have your initial version.
+Look at the 
+.V= man
+page for
+.V= ci
+for all of the options.
+You will also want to read the
+.V= co 
+page.
+The options were\(::
+.V= -zLT
+causes the time stamp to be in local time instead of UTC,
+.V= -s-
+sets the state to \-,
+.V= -t-
+suppresses the descriptive text,
+.V= -m-
+suppresses the log message,
+and
+.V= -u
+checks in the file unlocked, thus not destroying the source.
+.P
+.ne 7v
+Unfortunately, 
+the file is now read-only,
+so you may want to make locking non-strict\(::
+.DS
+.TVCODE 1 "\*[PROMPT] " "rcs -U hello.java
+.TVCODE 1 "RCS file: RCS/hello.java,v"
+.TVCODE 1 "done"
+.TVCODE 1 "\*[PROMPT] " "chmod u+w hello.java"
+.TVCODE 1 "\*[PROMPT] " "ls -la hello.java"
+.TVCODE 1 "-rw-r--r--  1 foobar  user  465 Sep 14 18:42 hello.java"
+.DE
+Oops, you forgot to put your name and username at the top of the file.
+Edit the comment on the first line to reflect your name and username.
+Every file you submit must have a comment on the first line
+with your name and username in it.
+Add in your name and username.
+Now check in another copy to make a backup.
+.DS
+.TVCODE 1 "\*[PROMPT] " "ci -zLT -s- -t- -m- -u hello.java"
+.TVCODE 1 "RCS/hello.java,v  <--  hello.java"
+.TVCODE 1 "new revision: 1.2; previous revision: 1.1"
+.TVCODE 1 "done"
+.DE
+Use 
+.V= cat
+to look at the new version of your file.
+.P
+There are some alternatives to
+.V= RCS \(::
+.V= SCCS
+(very old).
+.V= CVS
+(more flexible but more complicated).
+.V= SVN
+(some people like using this).
+There are also some others.
+.H 1 "Recovering lost files"
+If you are keeping files in an
+.V= RCS
+subdirectory,
+you may recover them using the
+.V= co
+command.
+For example
+.VTCODE* 1 "co -r1.9 hello.java"
+will recover version 1.9 of the file
+.V= hello.java
+from the archive.
+.P
+To see what versions of
+.V= hello.java
+you have in the archive, use the command
+.VTCODE* 1 "rlog hello.java"
+.P
+If you want to see the differences between, say, versions 1.7 and 1.11,
+use the command
+.VTCODE* 1 "rcsdiff -r1.7 -r1.11 hello.java"
+.P
+Whenever you create a new file, 
+either the first or last line should be a comment with the
+.V= \[Do]Id\[Do]
+code in it, as in
+.VTCODE* 1 "// \[Do]Id\[Do]"
+After doing this, a check-in will automatically edit it to something
+like
+.VTCODE* 1 \
+"// \[Do]Id: hello.java,v 1.12 2014-03-24 17:32:36-07 - - \[Do]"
+which shows the name of the file,
+the veersion,
+and the date and time of check-in.
+The ``-07'' at the end of the time indicates the number of
+hours west of Greenwich Mean Time (GMT), 
+aka Universal Time Co\[:o]rdinated (UTC).
+.DS
+\&
+.B1
+.SP
+.ft CR
+.nf
+.eo
+.pso cat -n .files/hello.java | expand
+.ec
+.fi
+.ft R
+.SP
+.B2
+.FG "\f[CB].files/hello.java\f[P]" "" 0 HELLOJAVA
+.DE
+.DS
+\&
+.B1
+.SP
+.ft CR
+.nf
+.eo
+.pso cat -n .files/Makefile | expand
+.ec
+.fi
+.ft R
+.SP
+.B2
+.FG "\f[CB].files/Makefile\f[R]" "" 0 MAKEFILE
+.DE
+.DS
+\&
+.B1
+.SP
+.ft CR
+.nf
+.eo
+.pso cat -n bashrc.sh | expand
+.ec
+.fi
+.ft R
+.SP
+.B2
+.FG "\f[CB]bashrc.sh\f[R]" "" 0 BASHRC_SH
+.DE
+.FINISH
+@
+
+
+1.119
+log
+@-
+@
+text
+@d14 1
+a14 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.118 2014-03-26 16:04:31-07 - - $"
+d746 2
+a747 1
+.VTCODE* 1 "\[Do]Id: hello.java,v 1.12 2014-03-24 17:32:36-07 - - \[Do]"
+@
+
+
+1.118
+log
+@-
+@
+text
+@d14 1
+a14 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.117 2014-03-26 16:03:51-07 - - $"
+d385 1
+a385 1
+.pso cat -n .files/test.output | expand | perl -pe 's/.{72}/$&\n/'
+@
+
+
+1.117
+log
+@-
+@
+text
+@d14 1
+a14 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.116 2014-03-26 15:54:31-07 - - $"
+d385 1
+a385 1
+.pso cat -n .files/test.output | expand | perl -pe 's/.{76}/$&\n/'
+@
+
+
+1.116
+log
+@-
+@
+text
+@d14 1
+a14 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.115 2014-03-26 15:51:35-07 - - $"
+d224 1
+a224 1
+Whenever you start a 
+d226 1
+a226 1
+shell, it will automatically read the contents of
+d634 1
+a634 2
+Although not required in future assignments, 
+it is a good idea to keep many backup copies of your work.
+d717 36
+@
+
+
+1.115
+log
+@-
+@
+text
+@d14 1
+a14 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.114 2014-03-24 17:31:04-07 - - $"
+a206 4
+The
+.V= source
+command does not need to be executed when you log in.
+It only updates the current session to the new environment.
+a223 4
+The
+.V= source 
+command updates the current environment and does not have
+to be typed every time you login.
+@
+
+
+1.114
+log
+@-
+@
+text
+@d14 1
+a14 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.113 2014-03-24 17:30:18-07 - - $"
+a142 88
+.H 1 "\f[CB]RCS\f[P]"
+Although not required in future assignments, 
+it is a good idea to keep many backup copies of your work.
+.V= RCS
+is a good utility to keep track of backup copies.
+Doing backups is like voting in Chicago\(::
+Do it early\(;;
+do it often.
+If you don't have backups,
+you will have to depend on the IT department
+to recover yesterday's copy.
+Murphy's law says that the most important changes won't be in
+that copy.
+The corollary also says that you will lose your files so close
+to the due date that IC won't get your backups back to you in time.
+In this case, 
+you will get a 0 on the assignment for not submitting anything.
+.P
+Note that the code above has a magic string in it\(::
+.V= \[Do]Id\[Do] \|.
+These track your development progress.
+For the initial checkin, do the following\(::
+.DS
+.TVCODE 1 "\*[PROMPT] " "mkdir RCS"
+.TVCODE 1 "\*[PROMPT] " "ci -zLT -s- -t- -m- -u hello.java"
+.TVCODE 1 "RCS/hello.java,v  <--  hello.java"
+.TVCODE 1 "initial revision: 1.1"
+.TVCODE 1 "done"
+.DE
+Now you have your initial version.
+Look at the 
+.V= man
+page for
+.V= ci
+for all of the options.
+You will also want to read the
+.V= co 
+page.
+The options were\(::
+.V= -zLT
+causes the time stamp to be in local time instead of UTC,
+.V= -s-
+sets the state to \-,
+.V= -t-
+suppresses the descriptive text,
+.V= -m-
+suppresses the log message,
+and
+.V= -u
+checks in the file unlocked, thus not destroying the source.
+.P
+.ne 7v
+Unfortunately, 
+the file is now read-only,
+so you may want to make locking non-strict\(::
+.DS
+.TVCODE 1 "\*[PROMPT] " "rcs -U hello.java
+.TVCODE 1 "RCS file: RCS/hello.java,v"
+.TVCODE 1 "done"
+.TVCODE 1 "\*[PROMPT] " "chmod u+w hello.java"
+.TVCODE 1 "\*[PROMPT] " "ls -la hello.java"
+.TVCODE 1 "-rw-r--r--  1 foobar  user  465 Sep 14 18:42 hello.java"
+.DE
+Oops, you forgot to put your name and username at the top of the file.
+Edit the comment on the first line to reflect your name and username.
+Every file you submit must have a comment on the first line
+with your name and username in it.
+Add in your name and username.
+Now check in another copy to make a backup.
+.DS
+.TVCODE 1 "\*[PROMPT] " "ci -zLT -s- -t- -m- -u hello.java"
+.TVCODE 1 "RCS/hello.java,v  <--  hello.java"
+.TVCODE 1 "new revision: 1.2; previous revision: 1.1"
+.TVCODE 1 "done"
+.DE
+Use 
+.V= cat
+to look at the new version of your file.
+.P
+There are some alternatives to
+.V= RCS \(::
+.V= SCCS
+(very old).
+.V= CVS
+(more flexible but more complicated).
+.V= SVN
+(some people like using this).
+There are also some others.
+d315 1
+d317 1
+a317 3
+.V= cid ,
+to be found in various locations in this directory structure.
+See the comments at the beginning for details.
+d641 85
+@
+
+
+1.113
+log
+@-
+@
+text
+@d14 1
+a14 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.112 2014-03-24 17:29:47-07 - - $"
+a729 1
+.bp
+@
+
+
+1.112
+log
+@-
+@
+text
+@d14 1
+a14 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.111 2014-03-24 17:27:58-07 - - $"
+d482 1
+a482 1
+.pso cat -n .files/test.output | expand | perl -pe 's/.{77}/$&\n/'
+@
+
+
+1.111
+log
+@-
+@
+text
+@d14 1
+a14 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.110 2014-03-24 17:27:40-07 - - $"
+d482 1
+a482 1
+.pso cat -n .files/test.output | expand | perl -pe 's/.{80}/$&\n/'
+@
+
+
+1.110
+log
+@-
+@
+text
+@d14 1
+a14 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.109 2014-03-24 17:18:22-07 - - $"
+d482 1
+a482 1
+.pso cat -n .files/test.output | expand | perl -pe 's/.{70}/$&\n/'
+@
+
+
+1.109
+log
+@-
+@
+text
+@d14 1
+a14 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.108 2014-03-24 17:15:22-07 - - $"
+d482 1
+a482 1
+.pso cat -n .files/test.output | expand
+d710 1
+a710 1
+unless you have a preference for
+@
+
+
+1.108
+log
+@-
+@
+text
+@d14 1
+a14 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.107 2014-03-24 16:53:09-07 - - $"
+d295 4
+d316 8
+@
+
+
+1.107
+log
+@-
+@
+text
+@a7 1
+.GETPN* CSHRC_CSH Page_CSHRC_CSH
+a11 1
+.GETST* CSHRC_CSH Figure_CSHRC_CSH
+d14 1
+a14 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.106 2014-01-03 18:02:35-08 - - $"
+a668 4
+file,
+and Figure \*[Figure_CSHRC_CSH] (page \*[Page_CSHRC_CSH])
+shows some commands that you might want to incorporate into your
+.V= \[ti]/.cshrc
+a763 15
+.DS
+\&
+.B1
+.SP
+.ft CR
+.nf
+.eo
+.pso cat -n cshrc.csh | expand
+.ec
+.fi
+.ft R
+.SP
+.B2
+.FG "\f[CB]cshrc.csh\f[R]" "" 0 CSHRC_CSH
+.DE
+@
+
+
+1.106
+log
+@-
+@
+text
+@d14 1
+a14 1
+.TITLE CMPS-012M Winter\~2014 Lab\~1 \
+d16 1
+a16 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.105 2014-01-03 18:01:48-08 - - $"
+d19 1
+a19 1
+.ds SUBQUARTER cmps012b-wm.w14
+d31 2
+d35 1
+d39 1
+d43 1
+d47 1
+@
+
+
+1.105
+log
+@-
+@
+text
+@d16 1
+a16 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.104 2014-01-03 18:01:20-08 - - $"
+d718 1
+a718 1
+.br
+@
+
+
+1.104
+log
+@-
+@
+text
+@d16 1
+a16 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.103 2014-01-03 17:58:29-08 - - $"
+d741 1
+a741 1
+.pso cat -n 3 .files/Makefile | expand
+@
+
+
+1.103
+log
+@-
+@
+text
+@d16 1
+a16 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.102 2014-01-03 17:53:49-08 - - $"
+d718 1
+@
+
+
+1.102
+log
+@-
+@
+text
+@d15 2
+a16 2
+"Unix \f[CB]AFS gmake RCS \[Do]PATH\f[P]"
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.101 2014-01-03 17:51:30-08 - - $"
+@
+
+
+1.101
+log
+@-
+@
+text
+@d16 1
+a16 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.100 2014-01-02 18:19:24-08 - - $"
+d466 1
+a466 1
+.pso expand -3 .files/test.output | sed 's/^/   /' | cat -n
+d725 1
+a725 1
+.pso expand -3 .files/hello.java | sed 's/^/   /' | cat -n
+d740 1
+a740 1
+.pso expand -3 .files/Makefile | sed 's/^/   /' | cat -n
+d755 1
+a755 1
+.pso expand -3 bashrc.sh | sed 's/^/   /' | cat -n
+d770 1
+a770 1
+.pso expand -3 cshrc.csh | sed 's/^/   /' | cat -n
+@
+
+
+1.100
+log
+@-
+@
+text
+@d16 1
+a16 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.99 2014-01-02 18:18:33-08 - - $"
+d466 1
+a466 1
+.pso expand .files/test.output | sed 's/^/   /' | cat -n
+d725 1
+a725 1
+.pso expand .files/hello.java | sed 's/^/   /' | cat -n
+d740 1
+a740 1
+.pso expand .files/Makefile | sed 's/^/   /' | cat -n
+d755 1
+a755 1
+.pso expand bashrc.sh | sed 's/^/   /' | cat -n
+d770 1
+a770 1
+.pso expand cshrc.csh | sed 's/^/   /' | cat -n
+@
+
+
+1.99
+log
+@-
+@
+text
+@d15 2
+a16 2
+"Unix\(:) \f[CB]gmake RCS \[Do]PATH\f[P]"
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.98 2014-01-02 18:18:18-08 - - $"
+@
+
+
+1.98
+log
+@-
+@
+text
+@d15 2
+a16 2
+"Command line\(:) \f[CB]gmake RCS \[Do]PATH\f[P]"
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.97 2014-01-02 18:17:29-08 - - $"
+@
+
+
+1.97
+log
+@-
+@
+text
+@d15 2
+a16 2
+"Command line\(;) \f[CB]gmake\f[P]\(;) \f[CB]RCS\f[P]"
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.96 2014-01-02 18:16:15-08 - - $"
+@
+
+
+1.96
+log
+@-
+@
+text
+@d15 2
+a16 2
+"Hello World in Java\(;) \f[CB]gmake\f[P]\(;) \f[CB]RCS\f[P]"
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.95 2014-01-02 18:15:02-08 - - $"
+@
+
+
+1.95
+log
+@-
+@
+text
+@d14 1
+a14 1
+.TITLE CMPS-012M Fall\~2013 Lab\~1 \
+d16 1
+a16 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.94 2013-10-15 17:29:53-07 - - $"
+d19 1
+a19 1
+.ds SUBQUARTER cmps012b-wm.f13
+@
+
+
+1.94
+log
+@-
+@
+text
+@d4 1
+d16 1
+a16 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.93 2013-10-15 17:29:32-07 - - $"
+@
+
+
+1.93
+log
+@-
+@
+text
+@a3 1
+.SIZE 12 14
+d15 1
+a15 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.92 2013-09-27 18:44:53-07 - - $"
+@
+
+
+1.92
+log
+@-
+@
+text
+@d4 1
+d16 1
+a16 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.91 2013-09-27 18:43:34-07 - - $"
+@
+
+
+1.91
+log
+@-
+@
+text
+@d15 1
+a15 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.90 2013-09-20 17:48:17-07 - - $"
+d503 3
+@
+
+
+1.90
+log
+@-
+@
+text
+@d15 1
+a15 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.89 2013-09-20 17:47:14-07 - - $"
+d496 7
+@
+
+
+1.89
+log
+@-
+@
+text
+@d15 1
+a15 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.88 2013-09-20 17:46:51-07 - - $"
+d698 3
+@
+
+
+1.88
+log
+@-
+@
+text
+@d15 1
+a15 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.87 2013-09-20 17:45:05-07 - - $"
+d702 1
+a702 1
+``Csh Programming Considered Harmful''.
+@
+
+
+1.87
+log
+@-
+@
+text
+@d15 1
+a15 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.86 2013-09-20 17:44:26-07 - - $"
+d701 3
+a703 2
+See
+.=V [ http://www.faqs.org/faqs/unix-faq/shell/csh-whynot/ ].
+@
+
+
+1.86
+log
+@-
+@
+text
+@d15 1
+a15 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.85 2013-09-20 17:40:26-07 - - $"
+d700 1
+d702 1
+a702 1
+.=v [ http://www.faqs.org/faqs/unix-faq/shell/csh-whynot/ ].
+@
+
+
+1.85
+log
+@-
+@
+text
+@d15 1
+a15 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.84 2013-09-20 17:27:23-07 - - $"
+d683 19
+@
+
+
+1.84
+log
+@-
+@
+text
+@d15 1
+a15 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.83 2013-09-20 17:25:39-07 - - $"
+a679 6
+You can semi-permanently switch to bash by putting the following
+to lines in your file
+.V= \[ti]/.cshrc \(::
+.VTCODE* 1 "setenv SHELL /bin/bash"
+.VTCODE* 1 "/bin/bash"
+which will automatically switch to bash when you log in.
+@
+
+
+1.83
+log
+@-
+@
+text
+@d15 1
+a15 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.82 2013-09-20 17:24:32-07 - - $"
+d299 1
+a299 1
+.VTCODE* 1 ". \[ti]/.bashrc"
+d318 1
+a318 1
+.VTCODE* 1 ". \[ti]/.bashrc"
+@
+
+
+1.82
+log
+@-
+@
+text
+@d15 1
+a15 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.81 2013-09-18 17:53:34-07 - - $"
+d24 1
+d456 1
+a456 1
+.V= unix.ic
+d522 1
+a522 1
+.V= unix.ic.ucsc.edu
+@
+
+
+1.81
+log
+@-
+@
+text
+@d15 1
+a15 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.80 2013-04-03 17:38:02-07 - - $"
+d18 1
+a18 1
+.ds SUBQUARTER cmps012b-wm.s13
+d498 1
+a498 1
+.V= \*[SUBMITDIR] .
+@
+
+
+1.80
+log
+@-
+@
+text
+@d13 1
+a13 1
+.TITLE CMPS-012M Spring\~2013 Lab\~1 \
+d15 1
+a15 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.79 2013-04-03 17:37:30-07 - - $"
+@
+
+
+1.79
+log
+@-
+@
+text
+@d15 1
+a15 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.78 2013-03-29 18:24:21-07 - - $"
+d306 1
+@
+
+
+1.78
+log
+@-
+@
+text
+@d15 1
+a15 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.77 2013-03-27 18:03:28-07 - - $"
+d286 3
+d299 7
+@
+
+
+1.77
+log
+@-
+@
+text
+@d15 1
+a15 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.76 2013-03-27 18:03:11-07 - - $"
+d459 1
+a459 1
+.FG "\f[CB]test.output\f[P]" "" 0 OUTPUT
+d690 1
+a690 1
+.FG "\f[CB]hello.java\f[P]" "" 0 HELLOJAVA
+d705 1
+a705 1
+.FG "\f[CB]Makefile\f[R]" "" 0 MAKEFILE
+@
+
+
+1.76
+log
+@-
+@
+text
+@d15 1
+a15 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.75 2013-03-27 16:34:05-07 - - $"
+a667 1
+.P
+@
+
+
+1.75
+log
+@-
+@
+text
+@d15 1
+a15 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.74 2013-03-27 16:11:05-07 - - $"
+d657 1
+a657 1
+This paragraph is informational only and is not part of
+d659 19
+@
+
+
+1.74
+log
+@-
+@
+text
+@d15 1
+a15 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.73 2013-03-27 16:10:39-07 - - $"
+d642 2
+a643 2
+file.
+Figure \*[Figure_CSHRC_CSH] (page \*[Page_CSHRC_CSH])
+d657 2
+@
+
+
+1.73
+log
+@-
+@
+text
+@d15 1
+a15 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.72 2013-03-27 16:09:34-07 - - $"
+d270 4
+a273 3
+.V= \[ti]/.cshrc
+.V= \[ti]/.bashrc
+.V= \[ti]/.bash_profile
+@
+
+
+1.72
+log
+@-
+@
+text
+@d15 1
+a15 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.71 2013-03-27 16:06:58-07 - - $"
+d269 4
+@
+
+
+1.71
+log
+@-
+@
+text
+@d15 1
+a15 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.70 2013-03-27 14:01:07-07 - - $"
+d266 1
+a266 1
+To find out which shell you are currently using, use the command\(::
+@
+
+
+1.70
+log
+@-
+@
+text
+@d15 1
+a15 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.69 2013-03-27 14:00:44-07 - - $"
+a284 1
+add this command to your 
+@
+
+
+1.69
+log
+@-
+@
+text
+@d15 1
+a15 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.68 2013-03-27 13:59:48-07 - - $"
+d654 1
+a654 1
+.SP
+d669 1
+a669 1
+.SP
+d684 1
+a684 1
+.SP
+d699 1
+a699 1
+.SP
+@
+
+
+1.68
+log
+@-
+@
+text
+@d15 1
+a15 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.67 2013-03-27 13:48:47-07 - - $"
+d654 1
+d669 1
+d684 1
+d699 1
+@
+
+
+1.67
+log
+@-
+@
+text
+@d6 2
+d11 2
+d15 1
+a15 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.66 2013-03-27 13:47:32-07 - - $"
+d634 19
+@
+
+
+1.66
+log
+@-
+@
+text
+@d11 1
+a11 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.65 2013-03-27 13:45:00-07 - - $"
+d685 1
+@
+
+
+1.65
+log
+@-
+@
+text
+@d11 1
+a11 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.64 2013-03-27 12:38:19-07 - - $"
+d658 27
+@
+
+
+1.64
+log
+@-
+@
+text
+@d11 1
+a11 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.63 2013-03-27 12:27:02-07 - - $"
+d644 1
+a644 1
+.DF
+@
+
+
+1.63
+log
+@-
+@
+text
+@d11 1
+a11 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.62 2013-03-26 18:26:02-07 - - $"
+a112 14
+.DF
+.B1
+.SP
+.ft CR
+.nf
+.eo
+.pso expand .files/hello.java | sed 's/^/   /' | cat -n
+.ec
+.fi
+.ft R
+.SP
+.B2
+.FG "\f[CB]hello.java\f[P]" "" 0 HELLOJAVA
+.DE
+a452 14
+.DF
+.B1
+.SP
+.ft CR
+.nf
+.eo
+.pso expand .files/Makefile | sed 's/^/   /' | cat -n
+.ec
+.fi
+.ft R
+.SP
+.B2
+.FG "\f[CB]Makefile\f[R]" "" 0 MAKEFILE
+.DE
+d630 28
+@
+
+
+1.62
+log
+@-
+@
+text
+@d11 1
+a11 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.61 2013-03-26 18:24:48-07 - - $"
+d119 1
+a119 1
+.pso expand .solution/hello.java | sed 's/^/   /' | cat -n
+d459 1
+a459 1
+.pso expand .solution/test.output | sed 's/^/   /' | cat -n
+d473 1
+a473 1
+.pso expand .solution/Makefile | sed 's/^/   /' | cat -n
+d648 1
+a648 1
+.V= \&.solution ,
+@
+
+
+1.61
+log
+@-
+@
+text
+@d11 1
+a11 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.60 2013-03-26 18:23:23-07 - - $"
+d19 1
+a19 1
+.ds PROMPT bash-\\n[+HISTORY]
+@
+
+
+1.60
+log
+@-
+@
+text
+@d11 1
+a11 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.59 2013-03-26 18:20:24-07 - - $"
+d19 1
+a19 3
+.de PROMPT
+.   nop bash-\n[+HISTORY]
+..
+@
+
+
+1.59
+log
+@-
+@
+text
+@d11 1
+a11 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.58 2013-03-26 18:06:59-07 - - $"
+d19 1
+a19 1
+.de BASH
+d48 2
+a49 2
+.TVCODE 1 "\*[BASH] " "cd"
+.TVCODE 1 "\*[BASH] " "mkdir private"
+d53 2
+a54 2
+.TVCODE 1 "\*[BASH] " "fs setacl private \[Do]USER all -clear"
+.TVCODE 1 "\*[BASH] " "fs listacl private"
+d92 3
+a94 3
+.TVCODE 1 "\*[BASH] " "cd \[Do]HOME/private"
+.TVCODE 1 "\*[BASH] " "mkdir -p cmps012b/lab1"
+.TVCODE 1 "\*[BASH] " "cd cmps012b/lab1"
+d172 2
+a173 2
+.TVCODE 1 "\*[BASH] " "mkdir RCS"
+.TVCODE 1 "\*[BASH] " "ci -zLT -s- -t- -m- -u hello.java"
+d205 1
+a205 1
+.TVCODE 1 "\*[BASH] " "rcs -U hello.java
+d208 2
+a209 2
+.TVCODE 1 "\*[BASH] " "chmod u+w hello.java"
+.TVCODE 1 "\*[BASH] " "ls -la hello.java"
+d219 1
+a219 1
+.TVCODE 1 "\*[BASH] " "ci -zLT -s- -t- -m- -u hello.java"
+d246 1
+a246 1
+.TVCODE 1 "\*[BASH] " "cid hello.java"
+d377 1
+a377 1
+.TVCODE 1 "\*[BASH] " "checksource hello.java"
+d403 2
+a404 2
+.TVCODE 1 "\*[BASH] " "cd \*[COURSEDIR]"
+.TVCODE 1 "\*[BASH] " "find * -name cid -follow 2>/dev/null"
+d501 4
+a504 4
+.TVCODE 1 "\*[BASH] " "rm hello.class"
+.TVCODE 1 "\*[BASH] " "gmake ci"
+.TVCODE 1 "\*[BASH] " "gmake all"
+.TVCODE 1 "\*[BASH] " "gmake submit"
+d549 2
+a550 2
+.TVCODE 1 "\*[BASH] " "gmake ci"
+.TVCODE 1 "\*[BASH] " "gmake submit"
+@
+
+
+1.58
+log
+@-
+@
+text
+@d11 1
+a11 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.57 2013-03-26 18:06:17-07 - - $"
+d18 4
+d48 2
+a49 2
+.TVCODE 1 "bash-% " "cd"
+.TVCODE 1 "bash-% " "mkdir private"
+d53 2
+a54 2
+.TVCODE 1 "bash-% " "fs setacl private \[Do]USER all -clear"
+.TVCODE 1 "bash-% " "fs listacl private"
+d92 3
+a94 3
+.TVCODE 1 "bash-% " "cd \[Do]HOME/private"
+.TVCODE 1 "bash-% " "mkdir -p cmps012b/lab1"
+.TVCODE 1 "bash-% " "cd cmps012b/lab1"
+d172 2
+a173 2
+.TVCODE 1 "bash-% " "mkdir RCS"
+.TVCODE 1 "bash-% " "ci -zLT -s- -t- -m- -u hello.java"
+d205 1
+a205 1
+.TVCODE 1 "bash-% " "rcs -U hello.java
+d208 2
+a209 2
+.TVCODE 1 "bash-% " "chmod u+w hello.java"
+.TVCODE 1 "bash-% " "ls -la hello.java"
+d219 1
+a219 1
+.TVCODE 1 "bash-% " "ci -zLT -s- -t- -m- -u hello.java"
+d246 1
+a246 1
+.TVCODE 1 "bash-% " "cid hello.java"
+d377 1
+a377 1
+.TVCODE 1 "bash-% " "checksource hello.java"
+d403 2
+a404 2
+.TVCODE 1 "bash-% " "cd \*[COURSEDIR]"
+.TVCODE 1 "bash-% " "find * -name cid -follow 2>/dev/null"
+d501 4
+a504 4
+.TVCODE 1 "bash-% " "rm hello.class"
+.TVCODE 1 "bash-% " "gmake ci"
+.TVCODE 1 "bash-% " "gmake all"
+.TVCODE 1 "bash-% " "gmake submit"
+d549 2
+a550 2
+.TVCODE 1 "bash-% " "gmake ci"
+.TVCODE 1 "bash-% " "gmake submit"
+@
+
+
+1.57
+log
+@-
+@
+text
+@d11 1
+a11 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.56 2013-03-26 18:05:40-07 - - $"
+d525 2
+a526 2
+test your program on one of the Cats Solaris machines prior to
+submitting it.
+@
+
+
+1.56
+log
+@-
+@
+text
+@d11 1
+a11 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.55 2013-03-26 18:05:07-07 - - $"
+d530 1
+@
+
+
+1.55
+log
+@-
+@
+text
+@d11 1
+a11 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.54 2013-03-26 18:03:23-07 - - $"
+d530 1
+@
+
+
+1.54
+log
+@-
+@
+text
+@d11 1
+a11 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.53 2013-03-26 18:02:27-07 - - $"
+d438 13
+a464 13
+.H 1 "Running the program"
+The output of running the program is shown in Figure \*[Figure_OUTPUT].
+The figure was actually generated from the
+.V= gmake
+process that created this document.
+A Unix pipe was used.
+If you don't want to type in the entire ``hello'' program,
+you may copy it from the hidden (or ``dot'') subdirectory.
+This directory will not show up if you are using a browser.
+Log into
+.V= unix.ic
+and find it with
+.V= ls\~-la .
+@
+
+
+1.53
+log
+@-
+@
+text
+@d11 1
+a11 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.52 2013-03-26 17:53:19-07 - - $"
+d335 4
+a338 1
+is automatically sourced.
+@
+
+
+1.52
+log
+@-
+@
+text
+@d11 1
+a11 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.51 2013-03-26 17:47:45-07 - - $"
+d331 18
+@
+
+
+1.51
+log
+@-
+@
+text
+@d11 1
+a11 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.50 2013-03-26 17:46:09-07 - - $"
+d275 1
+a275 1
+.VTCODE 1 "echo \[Do]SHELL" 
+d337 2
+a338 2
+.VTCODE 1 "submit \*[SUBQUARTER] lab1 .cshrc .bashrc .bash_profile"
+in your home directory.
+@
+
+
+1.50
+log
+@-
+@
+text
+@d11 1
+a11 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.49 2013-03-26 17:44:37-07 - - $"
+d154 2
+a155 1
+you will have to depend on IC to recover yesterday's copy.
+d444 14
+a632 14
+.DF
+.B1
+.SP
+.ft CR
+.nf
+.eo
+.pso expand .solution/Makefile | sed 's/^/   /' | cat -n
+.ec
+.fi
+.ft R
+.SP
+.B2
+.FG "\f[CB]Makefile\f[R]" "" 0 MAKEFILE
+.DE
+@
+
+
+1.49
+log
+@-
+@
+text
+@d11 1
+a11 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.48 2013-03-26 17:40:59-07 - - $"
+d274 1
+a274 1
+.VTCODE 1 "echo \[Do]SHELL" .
+a415 12
+.P
+You can also use the 
+.V= find (1)
+or the
+.V= du (1)
+command in order to locate the solution to this assignment in a
+subdirectory.
+In your 
+.V= README ,
+give a reason why you can not see that directory through the
+web interface.
+.P
+@
+
+
+1.48
+log
+@-
+@
+text
+@d11 1
+a11 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.47 2013-03-26 17:36:38-07 - - $"
+d332 1
+a332 1
+.v= .bashrc ,
+d334 4
+a337 1
+.V= .bash_profile .
+d600 3
+a603 1
+.V= Survey ,
+@
+
+
+1.47
+log
+@-
+@
+text
+@d11 1
+a11 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.46 2013-03-26 17:34:34-07 - - $"
+a298 1
+.P
+d311 24
+@
+
+
+1.46
+log
+@-
+@
+text
+@d11 1
+a11 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.45 2013-03-26 17:33:18-07 - - $"
+d268 2
+a269 2
+.V= /bin/bash ,
+and
+d271 1
+a271 1
+also does not exist, and is a symbolic link to 
+d273 2
+a274 2
+To find out which shell you are currently using, use the command
+.V= "echo \[Do]SHELL" .
+d286 2
+a287 2
+Then source it with the command
+.VTCODE* 1 ". \[ti]/.bashrc"
+d297 1
+a297 1
+Then source it with the command
+@
+
+
+1.45
+log
+@-
+@
+text
+@d11 1
+a11 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.44 2013-03-26 17:27:40-07 - - $"
+d280 1
+a280 1
+.V= csh ,
+d290 1
+a290 1
+.V= bash 
+@
+
+
+1.44
+log
+@-
+@
+text
+@d11 1
+a11 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.43 2013-03-26 17:26:10-07 - - $"
+d265 17
+a281 4
+.P
+To use
+.V= csh
+as your shell, add the following line to the end of your
+d288 2
+a289 2
+.P
+To use
+d291 1
+a291 1
+as your shell, add the following line to the end of your
+d311 1
+d402 1
+a402 1
+.DS
+@
+
+
+1.43
+log
+@-
+@
+text
+@d11 1
+a11 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.42 2013-03-26 17:24:56-07 - - $"
+a297 37
+
+
+
+
+
+
+
+Do this in one of two ways, dependong on the shell you use.
+To find out which shell you log in with, use the command\(::
+.VTCODE* 1 "echo \[Do]SHELL"
+.ALX a ()
+.LI
+If you use 
+.V= bash \(::
+Put the following line in 
+.V= \[ti]/.bashrc ,
+that is, a file in your home directory\(::
+.VTCODE* 1 "export PATH=\[Do]PATH:\*[BINDIR]
+.LI
+If you use 
+.V= tcsh 
+or
+.V= csh \(::
+Put the following line in 
+.V= \[ti]/.cshrc \(::
+.VTCODE* 1 "set path=(\[Do]path \*[BINDIR])"
+Then source it with\(::
+.VTCODE* 1 "source \[ti]/.cshrc
+.LE
+
+
+
+
+
+
+
+
+@
+
+
+1.42
+log
+@-
+@
+text
+@d11 1
+a11 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.41 2013-03-26 17:06:59-07 - - $"
+d222 10
+a423 8
+.H 1 "Alternatives to RCS"
+.V= SCCS
+(very old).
+.V= CVS
+(more flexible but more complicated).
+.V= SVN
+(some people like using this).
+There are also some others.
+@
+
+
+1.41
+log
+@-
+@
+text
+@a8 1
+.ds SUBQUARTER cmps012b-wm.s13
+d11 1
+a11 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.40 2013-03-26 16:57:25-07 - - $"
+d14 4
+d229 5
+a233 2
+You will notice that you get an error message when you use them.
+.P
+d236 1
+a236 1
+.V= /afs/cats.ucsc.edu/courses/cmps012b-wm/bin/ .
+d238 19
+a256 1
+If you use
+d258 1
+a258 1
+as your shell, this is done by adding the following line to your
+d262 7
+a268 3
+"set path=(\[Do]path /afs/cats.ucsc.edu/courses/cmps012b-wm/bin/)"
+If you use
+.V= bash ,
+d273 4
+a276 1
+"export PATH=\[Do]PATH:/afs/cats.ucsc.edu/courses/cmps012b-wm/bin/"
+d288 7
+a294 5
+You should put the directory
+.V= /afs/cats.ucsc.edu/courses/cmps012b-wm/bin/
+in your
+.V= \[Do]PATH
+variable.
+a304 1
+.ds BINDIR /afs/cats.ucsc.edu/courses/cmps012b-wm/bin
+a305 2
+Then source it with the command\(::
+.VTCODE* 1 ". \[ti]/.bashrc"
+d317 8
+d364 1
+a364 1
+.TVCODE 1 "bash-% " "cd /afs/cats.ucsc.edu/courses/cmps012b-wm/"
+d476 1
+a476 2
+.ds SUBMITDIR /afs/cats.ucsc.edu/class/\*[SUBQUARTER]/lab1/\[Do]USER .
+.V= \*[SUBMITDIR]
+d559 1
+a559 1
+.V= /afs/cats.ucsc.edu/courses/cmps012b-wm/Coding-style/ .
+a566 11
+You might also want to look in the subdirectories of
+.V= /afs/cats.ucsc.edu/courses/cmps012a-wm/ ,
+specifically
+.V= Assignments/asg[1-4]*
+and
+.V= Labs-cmps012l/lab[0-4]* ,
+which are a source of review material indicating what you are expected
+to know.
+Do not submit any of this work,
+although you might want to discuss it with the TA during the
+first week of labs.
+@
+
+
+1.40
+log
+@-
+@
+text
+@d9 2
+a10 2
+.ds SUBQUARTER cmps012b-wm.w13
+.TITLE CMPS-012M Winter\~2013 Lab\~1 \
+d12 1
+a12 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.39 2013-01-15 11:55:19-08 - - $"
+d219 38
+a256 1
+.H 1 "The script \f[CB]checksource\f[P]"
+d287 1
+a287 1
+.P
+a434 11
+.H 1 "Prerequisite survey"
+Please create a file called
+.V= Survey ,
+and enter one of the following lines,
+depending on which UCSC course you used as a prerequisite for this
+course\(::
+.TVCODE* 1 CMPS-012A
+.TVCODE* 1 CMPS-011
+.TVCODE* 1 CMPE-013
+If you took the course elsewhere, 
+indicate where you earned the prerequisite.
+a554 39
+.H 1 "The \f[CB]\[Do]PATH\f[P] variable"
+There are some commands given in this lab which are not generally
+available Unix commands.
+These are
+.V= cid ,
+.V= testsubmit ,
+and
+.V= checksource .
+You have noticed that you get an error message when you use them.
+.P
+This is because they are not in your path.
+These commands, among others, are in the directory
+.V= /afs/cats.ucsc.edu/courses/cmps012b-wm/bin/ .
+You should add this directory to your path.
+If you use
+.V= csh
+as your shell, this is done by adding the following line to your
+.V= \[ti]/.cshrc
+file\(::
+.VTCODE* 1 \
+"set path=(\[Do]path /afs/cats.ucsc.edu/courses/cmps012b-wm/bin/)"
+If you use
+.V= bash ,
+add this command to your 
+.V= \[ti]/.bashrc
+file\(::
+.VTCODE* 1 \
+"export PATH=\[Do]PATH:/afs/cats.ucsc.edu/courses/cmps012b-wm/bin/"
+Since
+.V= bash
+differentiates between a login shell and a subshell,
+You should also have the file
+.V= \[ti]/.bash_profile
+source
+.V= \[ti]/.bashrc .
+This is done by putting the following line in your
+.V= \[ti]/.bash_profile
+file\(::
+.VTCODE* 1 ". \[ti]/.bashrc"
+@
+
+
+1.39
+log
+@-
+@
+text
+@d12 1
+a12 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.38 2013-01-14 12:41:40-08 - - $"
+d25 2
+d28 5
+a32 4
+.V= gmake ,
+which helps you with building executables from source code.
+.H 1 "\f[CB]Hello.java\f[P]"
+Chdir to your home directory and create a subdirectory called
+d104 19
+d127 15
+d610 1
+a610 17
+.DS
+\&
+.B1
+.SP
+.ft CR
+.nf
+.eo
+.pso expand .solution/hello.java | sed 's/^/   /' | cat -n
+.ec
+.fi
+.ft R
+.SP
+.B2
+.FG "\f[CB]hello.java\f[P]" "" 0 HELLOJAVA
+.DE
+.bp
+.DS
+@
+
+
+1.38
+log
+@-
+@
+text
+@d12 1
+a12 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.37 2013-01-02 15:51:02-08 - - $"
+d182 1
+a182 1
+.H 1 "The Perl script \f[CB]checksource\f[P]"
+d228 1
+a228 1
+.H 1 "The Perl script \f[CB]cid\f[P]"
+d231 1
+a231 1
+directly is the Perl program
+@
+
+
+1.37
+log
+@-
+@
+text
+@d9 1
+a9 1
+.ds SUBQUARTER cmps012b-wm.s13
+d12 1
+a12 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.36 2013-01-02 15:50:39-08 - - $"
+@
+
+
+1.36
+log
+@-
+@
+text
+@d12 1
+a12 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.35 2013-10-02 16:00:59-07 - - $"
+d20 1
+a20 1
+.V= afs ,
+@
+
+
+1.35
+log
+@-
+@
+text
+@d9 2
+a10 2
+.ds SUBQUARTER cmps012b-wm.f12
+.TITLE CMPS-012M Fall\~2012 Lab\~1 \
+d12 1
+a12 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.34 2012-10-01 17:27:44-07 - - $"
+@
+
+
+1.34
+log
+@-
+@
+text
+@d12 1
+a12 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.33 2012-09-20 19:12:35-07 - - $"
+a380 7
+Use the command\(::
+.VCODE* 1 "ls -la \*[SUBMITDIR] | tee ls-files"
+This will display all of the files you submitted as well as archiving
+their names in a file called
+.V= ls-files .
+Note that each version of each file you submit will be there,
+prefixed with a sequence number.
+a390 7
+You might want to use the script
+.V= testsubmit ,
+which automates this, and must be run immediately after, not before,
+you run the real
+.V= submit .
+It's operands are exactly the same as the operands to
+.V= submit.
+a546 1
+.V= ls-files ,
+a549 4
+You can submit
+.V= ls-files
+with the command\(::
+.VTCODE* 1 "submit \*[SUBQUARTER] lab1 ls-files Survey"
+@
+
+
+1.33
+log
+@-
+@
+text
+@d12 1
+a12 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.32 2012-09-20 17:57:47-07 - - $"
+a432 7
+Now, demonstrate to the grader that you can use RCS.
+Use
+.V= cd
+to go into the submit directory itself and then type
+.V= "gmake ci" .
+Check that files were actually then put in the RCS subdirectory.
+Do not build the class or jar files.
+@
+
+
+1.32
+log
+@-
+@
+text
+@d12 1
+a12 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.31 2012-09-20 17:57:14-07 - - $"
+d14 1
+@
+
+
+1.31
+log
+@-
+@
+text
+@d12 1
+a12 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.30 2012-09-20 17:56:52-07 - - $"
+a599 1
+.SP
+d613 1
+a613 1
+.ne 100
+@
+
+
+1.30
+log
+@-
+@
+text
+@d12 1
+a12 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.29 2012-09-20 17:55:57-07 - - $"
+a597 1
+.ne 100
+d599 1
+@
+
+
+1.29
+log
+@-
+@
+text
+@d12 1
+a12 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.28 2012-09-20 17:55:32-07 - - $"
+d598 1
+a598 1
+.bp
+d614 1
+a614 1
+.bp
+@
+
+
+1.28
+log
+@-
+@
+text
+@d12 1
+a12 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.27 2012-09-20 17:54:14-07 - - $"
+d598 1
+a614 1
+\&
+@
+
+
+1.27
+log
+@-
+@
+text
+@d12 1
+a12 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.26 2012-09-20 17:53:39-07 - - $"
+d598 1
+a598 1
+\&
+a599 1
+.DS
+a614 1
+.SP
+@
+
+
+1.26
+log
+@-
+@
+text
+@d12 1
+a12 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.25 2012-09-20 17:53:17-07 - - $"
+a597 1
+.bp
+d599 1
+d616 1
+@
+
+
+1.25
+log
+@-
+@
+text
+@d12 1
+a12 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.24 2012-09-20 17:52:00-07 - - $"
+d598 1
+@
+
+
+1.24
+log
+@-
+@
+text
+@d12 1
+a12 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.23 2012-09-20 17:49:53-07 - - $"
+d598 1
+d613 2
+@
+
+
+1.23
+log
+@-
+@
+text
+@d4 2
+d12 1
+a12 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.22 2012-09-20 17:49:11-07 - - $"
+d344 1
+a344 1
+as shown in Figure \*[Figure_MAKEFILE] (\*[Page_MAKEFILE]).
+@
+
+
+1.22
+log
+@-
+@
+text
+@d10 1
+a10 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.21 2012-09-20 17:43:27-07 - - $"
+d101 1
+a101 1
+as shown in Figure \*[Figure_HELLOJAVA] (page \*[Page_HELLOJAVA].
+d342 1
+a342 1
+as shown in Figure \*[Figure_MAKEFILE] (\*[Page_MAKEFILE).
+@
+
+
+1.21
+log
+@-
+@
+text
+@d10 1
+a10 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.20 2012-09-20 17:42:40-07 - - $"
+d101 1
+a101 1
+as shown in Figure \*[Figure_HELLOJAVA].
+d342 1
+a342 1
+as shown in Figure \*[Figure_MAKEFILE].
+@
+
+
+1.20
+log
+@-
+@
+text
+@d10 1
+a10 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.19 2012-09-20 17:41:10-07 - - $"
+d308 1
+a308 2
+.nr Df 0
+.DF L
+@
+
+
+1.19
+log
+@-
+@
+text
+@d7 1
+a7 1
+.ds SUBQUARTER cmps012b-wm.w12
+d10 1
+a10 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.18 2012-09-20 17:39:35-07 - - $"
+@
+
+
+1.18
+log
+@-
+@
+text
+@d10 1
+a10 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.17 2012-09-20 17:37:34-07 - - $"
+a118 1
+.ne 8
+a335 15
+.P
+.DF L
+.B1
+.SP
+.ft CR
+.nf
+.eo
+.pso expand .solution/Makefile | sed 's/^/   /' | cat -n
+.ec
+.fi
+.ft R
+.SP
+.B2
+.FG "\f[CB]Makefile\f[R]" "" 0 MAKEFILE
+.DE
+d611 14
+@
+
+
+1.17
+log
+@-
+@
+text
+@d10 1
+a10 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.15 2012-09-20 17:32:41-07 - - $"
+a24 15
+.P
+.DF L
+.B1
+.SP
+.ft CR
+.nf
+.eo
+.pso expand .solution/hello.java | sed 's/^/   /' | cat -n
+.ec
+.fi
+.ft R
+.SP
+.B2
+.FG "\f[CB]hello.java\f[P]" "" 0 HELLOJAVA
+.DE
+d613 14
+@
+
+
+1.16
+log
+@-
+@
+text
+@d134 1
+a134 1
+.ne 6
+d324 1
+@
+
+
+1.15
+log
+@-
+@
+text
+@d10 1
+a10 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.14 2011-12-20 21:43:17-08 - - $"
+d134 1
+@
+
+
+1.14
+log
+@-
+@
+text
+@d8 1
+a8 1
+.TITLE CMPS-012M Winter\~2012 Lab\~1 \
+d10 1
+a10 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.13 2011-12-20 21:42:42-08 - - $"
+@
+
+
+1.13
+log
+@-
+@
+text
+@d10 1
+a10 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.12 2011-12-20 21:39:42-08 - - $"
+d602 1
+a602 1
+.VTCODE* 1 "submit \*[SUBQUARTER] lab1 ls-files"
+@
+
+
+1.12
+log
+@-
+@
+text
+@d10 1
+a10 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.11 2011-12-20 21:39:08-08 - - $"
+d605 1
+a605 1
+.V= \.score
+d607 13
+@
+
+
+1.11
+log
+@-
+@
+text
+@d9 2
+a10 2
+"Hello World in Java\(;) gmake\(;) RCS"
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.10 2011-09-29 16:43:11-07 - - $"
+@
+
+
+1.10
+log
+@-
+@
+text
+@d7 2
+a8 2
+.ds SUBQUARTER cmps012b-wm.f11
+.TITLE CMPS-012M Fall\~2011 Lab\~1 \
+d10 1
+a10 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.9 2011-09-29 16:36:53-07 - - $"
+@
+
+
+1.9
+log
+@-
+@
+text
+@d10 1
+a10 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.8 2011-09-29 16:36:33-07 - - $"
+d201 2
+@
+
+
+1.8
+log
+@-
+@
+text
+@d10 1
+a10 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.7 2011-09-29 16:34:48-07 - - $"
+d200 1
+a200 1
+Do this on one of two ways, dependong on the shell you use.
+@
+
+
+1.7
+log
+@-
+@
+text
+@d10 1
+a10 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.6 2011-09-29 16:34:10-07 - - $"
+d200 23
+d234 1
+a234 1
+use the command
+@
+
+
+1.6
+log
+@-
+@
+text
+@d10 1
+a10 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.5 2011-09-29 16:14:54-07 - - $"
+d205 5
+a209 1
+For example, to check up on 
+a214 4
+If you run
+.V= checksource
+without filename operands,
+it will print out a text-format manual page.
+@
+
+
+1.5
+log
+@-
+@
+text
+@d10 1
+a10 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.4 2011-09-29 16:13:38-07 - - $"
+d195 6
+d211 3
+a213 6
+You should put the directory
+.V= /afs/cats.ucsc.edu/courses/cmps012b-wm/bin/
+in your
+.V= \[Do]PATH
+variable.
+If you run checksource without filename operands,
+@
+
+
+1.4
+log
+@-
+@
+text
+@d7 1
+d10 1
+a10 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.3 2011-09-26 14:26:32-07 - - $"
+d374 1
+a374 1
+.ds SUBMITDIR /afs/cats.ucsc.edu/class/cmps012b-wm.f11/lab1/\[Do]USER .
+d573 2
+a574 2
+with the command
+.VTCODE* 1 "submit cmps012b-wm.f11 lab1 ls-files"
+@
+
+
+1.3
+log
+@-
+@
+text
+@d9 1
+a9 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.2 2011-08-18 18:45:50-07 - - $"
+d570 4
+@
+
+
+1.2
+log
+@-
+@
+text
+@d9 1
+a9 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.1 2011-08-18 18:44:37-07 - - $"
+d373 1
+a373 1
+.ds SUBMITDIR /afs/cats.ucsc.edu/class/cmps012b-wm.s11/lab1/\[Do]USER .
+@
+
+
+1.1
+log
+@-
+@
+text
+@d9 1
+a9 1
+.RCS "$Id: lab1u-gmake-rcs.mm,v 1.44 2011-04-04 12:50:19-07 - - $"
+a579 20
+.H 1 "Using \f[CB]Xephyr\f[P]"
+In order to ensure that your environment on your personal computer
+is identical to that you have in BE-105,
+you might want to use
+.V= Xephyr .
+If you are running Linux,
+you can install it directly.
+If you are running OSX, you need to make sure that X11 is installed
+first.
+A command such as
+.VTCODE* 1 "Xephyr :2 -kb -screen 1440x900 -query unix.ic.ucsc.edu &"
+will bring up a new window with a virtual BE-105 workstation 
+inside of your X-session.
+Ctrl+shift toggles between your real workstation's X11 and
+the virtual workstation.
+.P
+It has been suggested that Windoze users should use
+.V= Xming .
+But why would anyone use Windoze\(??
+.Cato.maior
+@

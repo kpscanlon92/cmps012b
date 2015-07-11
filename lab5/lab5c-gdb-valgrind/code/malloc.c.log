@@ -1,0 +1,33 @@
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+malloc.c
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+     1	// $Id: malloc.c,v 1.2 2013-02-08 18:01:12-08 - - $
+     2	
+     3	#include <stdio.h>
+     4	#include <stdlib.h>
+     5	
+     6	typedef struct node node;
+     7	struct node {
+     8	   int value;
+     9	   node *link;
+    10	};
+    11	
+    12	int main (int argc, char **argv) {
+    13	   node *ptr = malloc (sizeof (struct node));
+    14	   ptr = malloc (sizeof (node));
+    15	   ptr->value = 6;
+    16	   ptr->link = NULL;
+    17	   printf ("%p-> {%d, %p}\n", ptr, ptr->value, ptr->link);
+    18	   free (ptr);
+    19	   return EXIT_SUCCESS;
+    20	}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Errors: gcc -g -O0 -Wall -Wextra -std=gnu99 malloc.c -o malloc
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+malloc.c: In function ‘main’:
+malloc.c:12:15: warning: unused parameter ‘argc’ [-Wunused-parameter]
+ int main (int argc, char **argv) {
+               ^
+malloc.c:12:28: warning: unused parameter ‘argv’ [-Wunused-parameter]
+ int main (int argc, char **argv) {
+                            ^

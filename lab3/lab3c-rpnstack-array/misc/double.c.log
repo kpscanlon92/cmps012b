@@ -1,0 +1,5 @@
+* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: starting double.c
+* double.c: $Id: double.c,v 1.24 2013-09-25 14:25:32-07 - - $
+* gcc -g -O0 -Wall -Wextra -std=gnu99 double.c -o double -lm
+* rm -f double.o
+* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: finished double.c

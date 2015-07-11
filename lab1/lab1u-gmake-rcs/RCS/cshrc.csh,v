@@ -1,0 +1,301 @@
+head	1.13;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.13
+date	2014.01.04.02.00.52;	author -;	state -;
+branches;
+next	1.12;
+
+1.12
+date	2014.01.04.01.57.55;	author -;	state -;
+branches;
+next	1.11;
+
+1.11
+date	2013.03.28.00.38.17;	author -;	state -;
+branches;
+next	1.10;
+
+1.10
+date	2013.03.27.23.37.18;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2013.03.27.23.36.22;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2013.03.27.23.09.33;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2013.03.27.23.04.05;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2013.03.27.22.54.29;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2013.03.27.22.08.06;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2013.03.27.22.05.50;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2013.03.27.21.51.14;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2013.03.27.21.50.30;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2013.03.27.20.36.27;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.13
+log
+@-
+@
+text
+@#!/bin/tcsh
+# $Id: cshrc.csh,v 1.12 2014-01-03 17:57:55-08 - - $
+
+setenv EDITOR vim
+setenv MANPAGER more
+setenv MANWIDTH 72
+setenv SHELL /bin/tcsh
+setenv VISUAL vim
+
+setenv cmps012b /afs/cats.ucsc.edu/courses/cmps012b-wm
+set path=($path $cmps012b/bin)
+
+set hardpaths
+set ignoreeof
+set noclobber
+set prompt=$SHELL:t'-%\!%# '
+unset savehist
+
+alias cp 'cp -i'
+alias grind 'valgrind --leak-check=full --show-reachable=yes'
+alias m 'more'
+alias mv 'mv -i'
+alias rm 'rm -i'
+
+alias 0 'cd $cmps012b'
+alias 0a 'cd $cmps012b/Assignments'
+alias 0m 'cd $cmps012b/Labs-cmps012m'
+
+alias la 'ls -la'
+alias lf 'ls -Fa'
+alias ll 'ls -goa'
+alias llc 'ls -goa \!* | cut -c1-80'
+alias llh 'ls -goah'
+alias llr 'ls -goaR'
+alias lls 'ls -goaSr'
+alias llt 'ls -goatr'
+unalias ls
+
+@
+
+
+1.12
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: cshrc.csh,v 1.11 2013-03-27 17:38:17-07 - - $
+a24 3
+alias , 'date; echo `tty` `uname -mors`; echo $USER@@`hostname`; pwd'
+alias ,, '[ -r README.cat ] && cat README.cat'
+alias .. 'cd ..'
+@
+
+
+1.11
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: cshrc.csh,v 1.10 2013-03-27 16:37:18-07 - - $
+a4 5
+setenv LANG en_US.ISO8859-1
+setenv LC_COLLATE C
+setenv LC_CTYPE en_US.ISO8859-1
+setenv LC_MESSAGES C
+setenv LC_TIME C
+@
+
+
+1.10
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: cshrc.csh,v 1.9 2013-03-27 16:36:22-07 - - $
+d14 1
+d16 1
+@
+
+
+1.9
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: cshrc.csh,v 1.8 2013-03-27 16:09:33-07 - - $
+d29 1
+a29 1
+alias ,, '[ -r README.cat ] && cat -n README.cat'
+@
+
+
+1.8
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: cshrc.csh,v 1.7 2013-03-27 16:04:05-07 - - $
+d29 1
+@
+
+
+1.7
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: cshrc.csh,v 1.6 2013-03-27 15:54:29-07 - - $
+d12 1
+@
+
+
+1.6
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: cshrc.csh,v 1.5 2013-03-27 15:08:06-07 - - $
+d37 3
+a39 1
+alias lls 'ls -goa \!* | sort -n -k3'
+@
+
+
+1.5
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: cshrc.csh,v 1.4 2013-03-27 15:05:50-07 - - $
+d38 1
+@
+
+
+1.4
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: cshrc.csh,v 1.3 2013-03-27 14:51:14-07 - - $
+d27 1
+a27 1
+alias , 'date; echo `tty` `uname -mo`; echo $USER@@`hostname`; pwd'
+@
+
+
+1.3
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: cshrc.csh,v 1.2 2013-03-27 14:50:30-07 - - $
+d18 1
+a18 1
+set prompt=$SHELL'-%\!%# '
+d27 1
+a27 1
+alias . 'date; echo $USER@@`hostname`; pwd'
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 2
+a2 2
+#!/bin/csh
+# $Id: cshrc.csh,v 1.1 2013-03-27 13:36:27-07 - - $
+@
+
+
+1.1
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id$
+d18 1
+a18 1
+set prompt="$SHELL-%\!%# "
+d21 17
+a37 12
+alias .. "cd .."
+alias 0 "cd $cmps012b"
+alias 0a "cd $cmps012b/Assignments"
+alias 0m "cd $cmps012b/Labs-cmps012m"
+alias cp "cp -i"
+alias grind "valgrind --leak-check=full --show-reachable=yes"
+alias la "ls -la"
+alias lf "ls -Fa"
+alias ll "ls -goa"
+alias m "more"
+alias mv "mv -i"
+alias rm "rm -i"
+@

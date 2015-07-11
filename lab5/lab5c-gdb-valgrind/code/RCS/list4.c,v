@@ -1,0 +1,102 @@
+head	1.3;
+access;
+symbols;
+locks;
+comment	@ * @;
+
+
+1.3
+date	2014.05.08.04.42.09;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2014.05.05.03.09.25;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2014.05.05.02.42.38;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@-
+@
+text
+@// $Id: list4.c,v 1.2 2014-05-04 20:09:25-07 - - $
+
+#include <assert.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct node node;
+struct node {
+   char *word;
+   node *link;
+};
+
+int main (int argc, char **argv) {
+   node *head = NULL;
+   for (int argi = 1; argi < argc; ++argi) {
+      node *node = malloc (sizeof (struct node));
+      assert (node != NULL);
+      node->word = argv[argi];
+      node->link = head;
+      head = node;
+   }
+   for (node *curr = head; curr != NULL; curr = curr->link) {
+      printf ("%p->node {word=%p->[%s], link=%p}\n",
+              curr, curr->word, curr->word, curr->link);
+   }
+   node *curr = head;
+   while (curr != NULL) {
+      node *tmp = curr;
+      curr = curr->link;
+      free (tmp);
+   }
+   head = NULL;
+   return EXIT_SUCCESS;
+} 
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.1 2014-05-04 19:42:38-07 - - $
+d33 1
+a33 1
+   return 0;
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list3.c,v 1.5 2014-05-04 19:19:21-07 - - $
+d14 2
+a15 2
+   node *head;
+   for (int argi = 0; argi < argc; ++argi) {
+d22 1
+a22 1
+   for (node *curr = head; curr->link != NULL; curr = curr->link) {
+d34 1
+a34 1
+}
+@

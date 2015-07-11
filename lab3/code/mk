@@ -1,0 +1,7 @@
+#!/bin/sh
+# $Id: mk,v 1.6 2014-04-20 18:49:22-07 - - $
+
+#Name: Kelly Scanlon
+#User: kpscanlo
+
+gcc -g -O0 -Wall -Wextra -std=gnu99 crpn.c -o crpn

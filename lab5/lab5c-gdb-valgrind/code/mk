@@ -1,0 +1,51 @@
+#!/bin/sh
+# $Id: mk,v 1.8 2014-04-23 21:26:13-07 - - $
+#
+# This script takes the names of C source files and compiles them
+# into executable images.  Each source must be a complete program.
+#
+
+export PATH=$PATH:/afs/cats.ucsc.edu/courses/cmps012b-wm/bin
+GCC='gcc -g -O0 -Wall -Wextra -std=gnu99'
+
+function label() {
+   echo ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   echo "$@"
+   echo ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+}
+
+function catnv() {
+   for arg in $*
+   do
+      if [ "$arg" = "-f" ]
+      then
+         echo -e '\f'
+      else
+         label $arg
+         cat -nv $arg
+      fi
+   done
+}
+
+for CSOURCE in *.c
+do
+   EXECBIN=${CSOURCE%.c}
+   if [ "$CSOURCE" == "$EXECBIN" ]
+   then
+      echo $0: $CSOURCE: is not a C source file
+   else
+      echo CSOURCE=$CSOURCE EXECBIN=$EXECBIN
+      set -x
+      cid + $CSOURCE
+      checksource $CSOURCE
+      catnv $CSOURCE >$CSOURCE.log
+      label "Errors: $GCC $CSOURCE -o $EXECBIN" >>$CSOURCE.log
+      $GCC $CSOURCE -o $EXECBIN -lm >>$CSOURCE.log 2>&1
+      cat $CSOURCE.log
+      set +x
+      echo ============================================================
+   fi
+done
+
+mkpspdf Listing.ps $0 *.log
+

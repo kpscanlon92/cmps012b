@@ -1,0 +1,42 @@
+head	1.1;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.1
+date	2014.05.26.04.01.27;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@-
+@
+text
+@Name: Kelly Scanlon
+User: kpscanlo
+
+Assignment #4 Arbitrary Precision Math
+
+To Compile and Run:
+-Check that Makefile is in your directory
+-Run make or gmake
+-To run, type in mydc
+-Use stdin to input numbers and opperands
+
+Operations:
++ Pop two numbers and push their sum
+- Pop two numbers and push their difference
+* Pop two numbers and push their product
+p Print the top number
+c Clear the stack
+f Print the stack
+
+@

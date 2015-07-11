@@ -1,0 +1,42 @@
+nsort: 0xb73190-> node {
+    number= -inf
+    link= 0xb73130}
+nsort: 0xb73130-> node {
+    number= -8.2e+45
+    link= 0xb730f0}
+nsort: 0xb730f0-> node {
+    number= -1e+38
+    link= 0xb73110}
+nsort: 0xb73110-> node {
+    number= -8.2e-43
+    link= 0xb73170}
+nsort: 0xb73170-> node {
+    number= 0
+    link= 0xb731b0}
+nsort: 0xb731b0-> node {
+    number= -0
+    link= 0xb730b0}
+nsort: 0xb730b0-> node {
+    number= 0.30103
+    link= 0xb730d0}
+nsort: 0xb730d0-> node {
+    number= 1.41421
+    link= 0xb73090}
+nsort: 0xb73090-> node {
+    number= 2.71828
+    link= 0xb73070}
+nsort: 0xb73070-> node {
+    number= 3.14159
+    link= 0xb73010}
+nsort: 0xb73010-> node {
+    number= 6.8
+    link= 0xb73030}
+nsort: 0xb73030-> node {
+    number= 7.3
+    link= 0xb73050}
+nsort: 0xb73050-> node {
+    number= 6.02e+23
+    link= 0xb73150}
+nsort: 0xb73150-> node {
+    number= inf
+    link= (nil)}

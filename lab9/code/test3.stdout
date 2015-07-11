@@ -1,0 +1,35 @@
+100700      9999 May 30 23:36 testdir/futuretimes
+100600      1040 May 30 23:36 testdir/futuretimes.c
+100600       310 May 30 23:36 testdir/futuretimes.c.log
+100600      2028 May 30 23:36 testdir/futuretimes.lis
+100600     28265 May 30 23:36 testdir/futuretimes.pdf
+100600     20943 May 30 23:36 testdir/futuretimes.ps
+100600       567 May 30 23:36 testdir/HEADER.html
+100700       586 May 30 23:36 testdir/l9stat.perl
+100700     12925 May 30 23:36 testdir/mktimestamp
+100600      1875 May 30 23:36 testdir/mktimestamp.c
+100600       309 May 30 23:36 testdir/mktimestamp.c.log
+100600      2329 May 30 23:36 testdir/mktimestamp.lis
+100600     34575 May 30 23:36 testdir/mktimestamp.pdf
+100600     25813 May 30 23:36 testdir/mktimestamp.ps
+100700      9167 May 30 23:36 testdir/now
+100600       381 May 30 23:36 testdir/now.c
+100600       253 May 30 23:36 testdir/now.c.log
+ 40700      2048 May 30 23:36 testdir/RCS
+100700     10944 May 30 23:36 testdir/showlink
+100600      1601 May 30 23:36 testdir/showlink.c
+100600       288 May 30 23:36 testdir/showlink.c.log
+100600       192 May 30 23:36 testdir/showlink.lis
+100600     27001 May 30 23:36 testdir/showlink.pdf
+100600     19428 May 30 23:36 testdir/showlink.ps
+120755        81 May 30 23:36 testdir/testdata -> "/afs/cats.ucsc.edu/courses/cmps012b-wm/Labs-cmps012m/lab8c-unixprog-stat/testdata"
+120755        11 May 30 23:36 testdir/this-is-a-symlink -> "l8stat.perl"
+100600        58 May 30 2014 testdir/timestamp.0000000000000000
+100600        58 May 30 2014 testdir/timestamp.000000005272E346
+100600        58 May 30 23:36 testdir/timestamp.00000000537A8F46
+100600        58 May 30 23:36 testdir/timestamp.0000000054823B46
+100600        58 May 30 23:36 testdir/timestamp.000000007FFFFFFF
+100600        58 May 30 2014 testdir/timestamp.00000000FFFFFFFF
+100600        60 May 30 2014 testdir/timestamp.000000FFFFFFFFFF
+100600        58 May 30 2014 testdir/timestamp.FFFFFFFF80000000
+120755        81 May 30 23:36 testdir -> "/afs/cats.ucsc.edu/courses/cmps012b-wm/Labs-cmps012m/lab9c-unixprog-stat/testdata"

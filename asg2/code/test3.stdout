@@ -1,0 +1,23 @@
+6 lines read 
+edfile: wnewfile.output
+6 lines written to newfile.output
+edfile: rreading.test
+6 lines read from reading.test
+edfile: *
+     0 This is an input test file.
+     1 Its name is used on the command line.
+     2 It should be read in at the beginning
+     3 of execution
+     4 when its name appears on the command line.
+     5 $Id: input.test,v 1.1 2013-04-11 18:53:26-07 - - $
+     6 reading: This is an input test file.
+     7 reading: Its name is used on the command line.
+     8 reading: It should be read in at the beginning
+     9 reading: of execution
+    10 reading: when its name appears on the command line.
+    11 reading: $Id: reading.test,v 1.1 2013-04-11 18:53:26-07 - - $
+edfile: wwriting.test
+12 lines written to writing.test
+edfile: # Testing reading and writing
+edfile: # $Id: test3.edf,v 1.1 2013-04-11 18:53:26-07 - - $
+edfile: ^D

@@ -1,0 +1,5 @@
+# $Id: test.in,v 1.1 2013-04-11 18:53:50-07 - - $
+This is an input test file.
+It contains a few lines of data.
+It will be written out again.
+Look at the typescript logs for an example.

@@ -1,0 +1,1112 @@
+%!PS-Adobe-3.0
+%%BoundingBox: 38 24 574 768
+%%Title: Listing.test.ps
+%%For: Kelly Pearl Scanlon
+%%Creator: GNU enscript 1.6.4
+%%CreationDate: Sun Apr 27 11:35:30 2014
+%%Orientation: Portrait
+%%Pages: (atend)
+%%DocumentMedia: Letter 612 792 0 () ()
+%%DocumentNeededResources: (atend)
+%%EndComments
+%%BeginProlog
+%%BeginResource: procset Enscript-Prolog 1.6 4
+%
+% Procedures.
+%
+
+/_S {	% save current state
+  /_s save def
+} def
+/_R {	% restore from saved state
+  _s restore
+} def
+
+/S {	% showpage protecting gstate
+  gsave
+  showpage
+  grestore
+} bind def
+
+/MF {	% fontname newfontname -> -	make a new encoded font
+  /newfontname exch def
+  /fontname exch def
+
+  /fontdict fontname findfont def
+  /newfont fontdict maxlength dict def
+
+  fontdict {
+    exch
+    dup /FID eq {
+      % skip FID pair
+      pop pop
+    } {
+      % copy to the new font dictionary
+      exch newfont 3 1 roll put
+    } ifelse
+  } forall
+
+  newfont /FontName newfontname put
+
+  % insert only valid encoding vectors
+  encoding_vector length 256 eq {
+    newfont /Encoding encoding_vector put
+  } if
+
+  newfontname newfont definefont pop
+} def
+
+/MF_PS { % fontname newfontname -> -	make a new font preserving its enc
+  /newfontname exch def
+  /fontname exch def
+
+  /fontdict fontname findfont def
+  /newfont fontdict maxlength dict def
+
+  fontdict {
+    exch
+    dup /FID eq {
+      % skip FID pair
+      pop pop
+    } {
+      % copy to the new font dictionary
+      exch newfont 3 1 roll put
+    } ifelse
+  } forall
+
+  newfont /FontName newfontname put
+
+  newfontname newfont definefont pop
+} def
+
+/SF { % fontname width height -> -	set a new font
+  /height exch def
+  /width exch def
+
+  findfont
+  [width 0 0 height 0 0] makefont setfont
+} def
+
+/SUF { % fontname width height -> -	set a new user font
+  /height exch def
+  /width exch def
+
+  /F-gs-user-font MF
+  /F-gs-user-font width height SF
+} def
+
+/SUF_PS { % fontname width height -> -	set a new user font preserving its enc
+  /height exch def
+  /width exch def
+
+  /F-gs-user-font MF_PS
+  /F-gs-user-font width height SF
+} def
+
+/M {moveto} bind def
+/s {show} bind def
+
+/Box {	% x y w h -> -			define box path
+  /d_h exch def /d_w exch def /d_y exch def /d_x exch def
+  d_x d_y  moveto
+  d_w 0 rlineto
+  0 d_h rlineto
+  d_w neg 0 rlineto
+  closepath
+} def
+
+/bgs {	% x y height blskip gray str -> -	show string with bg color
+  /str exch def
+  /gray exch def
+  /blskip exch def
+  /height exch def
+  /y exch def
+  /x exch def
+
+  gsave
+    x y blskip sub str stringwidth pop height Box
+    gray setgray
+    fill
+  grestore
+  x y M str s
+} def
+
+/bgcs { % x y height blskip red green blue str -> -  show string with bg color
+  /str exch def
+  /blue exch def
+  /green exch def
+  /red exch def
+  /blskip exch def
+  /height exch def
+  /y exch def
+  /x exch def
+
+  gsave
+    x y blskip sub str stringwidth pop height Box
+    red green blue setrgbcolor
+    fill
+  grestore
+  x y M str s
+} def
+
+% Highlight bars.
+/highlight_bars {	% nlines lineheight output_y_margin gray -> -
+  gsave
+    setgray
+    /ymarg exch def
+    /lineheight exch def
+    /nlines exch def
+
+    % This 2 is just a magic number to sync highlight lines to text.
+    0 d_header_y ymarg sub 2 sub translate
+
+    /cw d_output_w cols div def
+    /nrows d_output_h ymarg 2 mul sub lineheight div cvi def
+
+    % for each column
+    0 1 cols 1 sub {
+      cw mul /xp exch def
+
+      % for each rows
+      0 1 nrows 1 sub {
+        /rn exch def
+        rn lineheight mul neg /yp exch def
+        rn nlines idiv 2 mod 0 eq {
+	  % Draw highlight bar.  4 is just a magic indentation.
+	  xp 4 add yp cw 8 sub lineheight neg Box fill
+	} if
+      } for
+    } for
+
+  grestore
+} def
+
+% Line highlight bar.
+/line_highlight {	% x y width height gray -> -
+  gsave
+    /gray exch def
+    Box gray setgray fill
+  grestore
+} def
+
+% Column separator lines.
+/column_lines {
+  gsave
+    .1 setlinewidth
+    0 d_footer_h translate
+    /cw d_output_w cols div def
+    1 1 cols 1 sub {
+      cw mul 0 moveto
+      0 d_output_h rlineto stroke
+    } for
+  grestore
+} def
+
+% Column borders.
+/column_borders {
+  gsave
+    .1 setlinewidth
+    0 d_footer_h moveto
+    0 d_output_h rlineto
+    d_output_w 0 rlineto
+    0 d_output_h neg rlineto
+    closepath stroke
+  grestore
+} def
+
+% Do the actual underlay drawing
+/draw_underlay {
+  ul_style 0 eq {
+    ul_str true charpath stroke
+  } {
+    ul_str show
+  } ifelse
+} def
+
+% Underlay
+/underlay {	% - -> -
+  gsave
+    0 d_page_h translate
+    d_page_h neg d_page_w atan rotate
+
+    ul_gray setgray
+    ul_font setfont
+    /dw d_page_h dup mul d_page_w dup mul add sqrt def
+    ul_str stringwidth pop dw exch sub 2 div ul_h_ptsize -2 div moveto
+    draw_underlay
+  grestore
+} def
+
+/user_underlay {	% - -> -
+  gsave
+    ul_x ul_y translate
+    ul_angle rotate
+    ul_gray setgray
+    ul_font setfont
+    0 0 ul_h_ptsize 2 div sub moveto
+    draw_underlay
+  grestore
+} def
+
+% Page prefeed
+/page_prefeed {		% bool -> -
+  statusdict /prefeed known {
+    statusdict exch /prefeed exch put
+  } {
+    pop
+  } ifelse
+} def
+
+% Wrapped line markers
+/wrapped_line_mark {	% x y charwith charheight type -> -
+  /type exch def
+  /h exch def
+  /w exch def
+  /y exch def
+  /x exch def
+
+  type 2 eq {
+    % Black boxes (like TeX does)
+    gsave
+      0 setlinewidth
+      x w 4 div add y M
+      0 h rlineto w 2 div 0 rlineto 0 h neg rlineto
+      closepath fill
+    grestore
+  } {
+    type 3 eq {
+      % Small arrows
+      gsave
+        .2 setlinewidth
+        x w 2 div add y h 2 div add M
+        w 4 div 0 rlineto
+        x w 4 div add y lineto stroke
+
+        x w 4 div add w 8 div add y h 4 div add M
+        x w 4 div add y lineto
+	w 4 div h 8 div rlineto stroke
+      grestore
+    } {
+      % do nothing
+    } ifelse
+  } ifelse
+} def
+
+% EPSF import.
+
+/BeginEPSF {
+  /b4_Inc_state save def    		% Save state for cleanup
+  /dict_count countdictstack def	% Count objects on dict stack
+  /op_count count 1 sub def		% Count objects on operand stack
+  userdict begin
+  /showpage { } def
+  0 setgray 0 setlinecap
+  1 setlinewidth 0 setlinejoin
+  10 setmiterlimit [ ] 0 setdash newpath
+  /languagelevel where {
+    pop languagelevel
+    1 ne {
+      false setstrokeadjust false setoverprint
+    } if
+  } if
+} bind def
+
+/EndEPSF {
+  count op_count sub { pos } repeat	% Clean up stacks
+  countdictstack dict_count sub { end } repeat
+  b4_Inc_state restore
+} bind def
+
+% Check PostScript language level.
+/languagelevel where {
+  pop /gs_languagelevel languagelevel def
+} {
+  /gs_languagelevel 1 def
+} ifelse
+%%EndResource
+%%BeginResource: procset Enscript-Encoding-88591 1.6 4
+/encoding_vector [
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/space        	/exclam       	/quotedbl     	/numbersign   	
+/dollar       	/percent      	/ampersand    	/quoteright   	
+/parenleft    	/parenright   	/asterisk     	/plus         	
+/comma        	/hyphen       	/period       	/slash        	
+/zero         	/one          	/two          	/three        	
+/four         	/five         	/six          	/seven        	
+/eight        	/nine         	/colon        	/semicolon    	
+/less         	/equal        	/greater      	/question     	
+/at           	/A            	/B            	/C            	
+/D            	/E            	/F            	/G            	
+/H            	/I            	/J            	/K            	
+/L            	/M            	/N            	/O            	
+/P            	/Q            	/R            	/S            	
+/T            	/U            	/V            	/W            	
+/X            	/Y            	/Z            	/bracketleft  	
+/backslash    	/bracketright 	/asciicircum  	/underscore   	
+/quoteleft    	/a            	/b            	/c            	
+/d            	/e            	/f            	/g            	
+/h            	/i            	/j            	/k            	
+/l            	/m            	/n            	/o            	
+/p            	/q            	/r            	/s            	
+/t            	/u            	/v            	/w            	
+/x            	/y            	/z            	/braceleft    	
+/bar          	/braceright   	/tilde        	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/.notdef      	/.notdef      	/.notdef      	/.notdef      	
+/space        	/exclamdown   	/cent         	/sterling     	
+/currency     	/yen          	/brokenbar    	/section      	
+/dieresis     	/copyright    	/ordfeminine  	/guillemotleft	
+/logicalnot   	/hyphen       	/registered   	/macron       	
+/degree       	/plusminus    	/twosuperior  	/threesuperior	
+/acute        	/mu           	/paragraph    	/bullet       	
+/cedilla      	/onesuperior  	/ordmasculine 	/guillemotright	
+/onequarter   	/onehalf      	/threequarters	/questiondown 	
+/Agrave       	/Aacute       	/Acircumflex  	/Atilde       	
+/Adieresis    	/Aring        	/AE           	/Ccedilla     	
+/Egrave       	/Eacute       	/Ecircumflex  	/Edieresis    	
+/Igrave       	/Iacute       	/Icircumflex  	/Idieresis    	
+/Eth          	/Ntilde       	/Ograve       	/Oacute       	
+/Ocircumflex  	/Otilde       	/Odieresis    	/multiply     	
+/Oslash       	/Ugrave       	/Uacute       	/Ucircumflex  	
+/Udieresis    	/Yacute       	/Thorn        	/germandbls   	
+/agrave       	/aacute       	/acircumflex  	/atilde       	
+/adieresis    	/aring        	/ae           	/ccedilla     	
+/egrave       	/eacute       	/ecircumflex  	/edieresis    	
+/igrave       	/iacute       	/icircumflex  	/idieresis    	
+/eth          	/ntilde       	/ograve       	/oacute       	
+/ocircumflex  	/otilde       	/odieresis    	/divide       	
+/oslash       	/ugrave       	/uacute       	/ucircumflex  	
+/udieresis    	/yacute       	/thorn        	/ydieresis    	
+] def
+%%EndResource
+%%EndProlog
+%%BeginSetup
+%%IncludeResource: font Courier-Bold
+/HFpt_w 10 def
+/HFpt_h 10 def
+/Courier-Bold /HF-gs-font MF
+/HF /HF-gs-font findfont [HFpt_w 0 0 HFpt_h 0 0] makefont def
+/Courier-Bold /F-gs-font MF
+/F-gs-font 11 11 SF
+/#copies 1 def
+% Pagedevice definitions:
+gs_languagelevel 1 gt {
+  <<
+    /PageSize [612 792] 
+  >> setpagedevice
+} if
+%%BeginResource: procset Enscript-Header-enscript 1.6 4
+%%IncludeResource: font Times-Bold
+%%IncludeResource: font Times-Roman
+
+% Fonts.
+/Times-Bold /HeaderFont-Bold MF
+/HeaderDateF /HeaderFont-Bold findfont 12 scalefont def
+
+/Times-Roman /HeaderFont-Times MF
+/HeaderHDRF /HeaderFont-Times findfont 14 scalefont def
+
+/HeaderPageNumF /Helvetica-Bold findfont 28.8 scalefont def
+
+/do_header {	% print enscript header
+  gsave
+    d_header_x d_header_y translate
+
+    % light bar
+    0 0 d_header_w d_header_h 2 div Box
+    .95 setgray fill
+
+    % dark gray boxes
+    /dbw d_header_h 2 mul def	% dark box width
+    /dbc .7 def			% dark box color
+
+    % left dark box.
+    0 0 dbw d_header_h Box
+    dbc setgray fill
+
+    0 setgray 
+    HeaderDateF setfont
+    moddatestr dup stringwidth pop dbw exch sub 2 div 
+    d_header_h 2 div 2 add moveto show
+    modtimestr dup stringwidth pop dbw exch sub 2 div 
+    d_header_h 5 div moveto show
+
+    % right dark box
+    d_header_w dbw sub 0 dbw d_header_h Box
+    dbc setgray fill
+
+    HeaderPageNumF setfont
+    1 setgray
+    pagenumstr dup
+    stringwidth pop dbw exch sub 2 div d_header_w dbw sub add
+    d_header_h .2 mul moveto show
+
+    % filename
+    0 setgray 
+    HeaderHDRF setfont
+    d_header_w fname stringwidth pop sub 2 div d_header_h 8 div moveto
+    fname show
+
+    % user supplied header string.
+    user_header_p {
+      /h d_header_h 8 div 5 mul def
+
+      % Implement strict enscript compatibility.
+      user_header_center_str () eq user_header_right_str () eq and {
+        d_header_w user_header_left_str stringwidth pop sub 2 div 
+        h moveto user_header_left_str show
+      } {
+        dbw 5 add h moveto user_header_left_str show
+
+        d_header_w user_header_center_str stringwidth pop sub 2 div 
+        h moveto user_header_center_str show
+
+	d_header_w dbw sub 5 sub user_header_right_str stringwidth pop
+	sub h moveto user_header_right_str show
+      } ifelse
+    } if
+
+  grestore
+} def
+%%EndResource
+/d_page_w 536 def
+/d_page_h 744 def
+/d_header_x 0 def
+/d_header_y 708 def
+/d_header_w 536 def
+/d_header_h 36 def
+/d_footer_x 0 def
+/d_footer_y 0 def
+/d_footer_w 536 def
+/d_footer_h 0 def
+/d_output_w 536 def
+/d_output_h 708 def
+/cols 1 def
+%%EndSetup
+%%Page: (1) 1
+%%BeginPageSetup
+_S
+38 24 translate
+/pagenum 1 def
+/fname (edfile.perl) def
+/fdir () def
+/ftail (edfile.perl) def
+% User defined strings:
+/pagenumstr (1) def
+/moddatestr (04/27/14) def
+/modtimestr (11:35:30) def
+/user_header_p true def
+/user_header_left_str (/afs/cats.ucsc.edu/users/x/kpscanlo/private/cmps012b/asg2/asg2j-edfile-dllist/misc/) def
+/user_header_center_str () def
+/user_header_right_str () def
+/user_footer_p false def
+%%EndPageSetup
+column_borders
+do_header
+32.4 694 M (1:) s
+52.2 694 M
+(#!/usr/local/bin/perl -w) s
+32.4 682 M (2:) s
+52.2 682 M
+(# $Id: edfile.perl,v 1.1 2013-04-11 18:53:50-07 - - $) s
+32.4 670 M (3:) s
+52.2 670 M
+(# See the listedit utility man page for specifications.) s
+32.4 658 M (4:) s
+32.4 646 M (5:) s
+52.2 646 M
+(use strict;) s
+32.4 634 M (6:) s
+52.2 634 M
+(use warnings;) s
+32.4 622 M (7:) s
+52.2 622 M
+(use Getopt::Std;) s
+32.4 610 M (8:) s
+52.2 610 M
+(use IO::Handle;) s
+32.4 598 M (9:) s
+25.8 586 M (10:) s
+52.2 586 M
+($0 =~ s|^\(.*/\)?\([^/]+\)/*$|$2|;) s
+25.8 574 M (11:) s
+52.2 574 M
+(my $exit_status = 0;) s
+25.8 562 M (12:) s
+52.2 562 M
+(END{ exit $exit_status; }) s
+25.8 550 M (13:) s
+52.2 550 M
+(sub note\(@\){ print STDERR "$0: @_"; };) s
+25.8 538 M (14:) s
+52.2 538 M
+($SIG{'__WARN__'} = sub{ note @_; $exit_status = 1; };) s
+25.8 526 M (15:) s
+52.2 526 M
+($SIG{'__DIE__'} = sub{ warn @_; exit; };) s
+25.8 514 M (16:) s
+25.8 502 M (17:) s
+52.2 502 M
+(autoflush STDOUT 1;) s
+25.8 490 M (18:) s
+52.2 490 M
+(autoflush STDERR 1;) s
+25.8 478 M (19:) s
+52.2 478 M
+(my \($dotline, @buffer\);) s
+25.8 466 M (20:) s
+25.8 454 M (21:) s
+52.2 454 M
+(sub readfile\($\) {) s
+25.8 442 M (22:) s
+52.2 442 M
+(   my \($filename\) = @_;) s
+25.8 430 M (23:) s
+52.2 430 M
+(   warn "$filename: $!\\n" and return unless open my $file, "<$filename";) s
+25.8 418 M (24:) s
+52.2 418 M
+(   my @input = <$file>;) s
+25.8 406 M (25:) s
+52.2 406 M
+(   close $file;) s
+25.8 394 M (26:) s
+52.2 394 M
+(   printf "%d lines read from $filename\\n", scalar @input;) s
+25.8 382 M (27:) s
+52.2 382 M
+(   splice @buffer, $dotline + 1, 0, @input;) s
+25.8 370 M (28:) s
+52.2 370 M
+(   $dotline += @input;) s
+25.8 358 M (29:) s
+52.2 358 M
+(}) s
+25.8 346 M (30:) s
+25.8 334 M (31:) s
+52.2 334 M
+(sub writefile\($\) {) s
+25.8 322 M (32:) s
+52.2 322 M
+(   my \($filename\) = @_;) s
+25.8 310 M (33:) s
+52.2 310 M
+(   warn "$filename: $!\\n" and return unless open my $file, ">$filename";) s
+25.8 298 M (34:) s
+52.2 298 M
+(   print $file @buffer;) s
+25.8 286 M (35:) s
+52.2 286 M
+(   close $file;) s
+25.8 274 M (36:) s
+52.2 274 M
+(   $dotline = $#buffer;) s
+25.8 262 M (37:) s
+52.2 262 M
+(   printf "%d lines written to $filename\\n", scalar @buffer;) s
+25.8 250 M (38:) s
+52.2 250 M
+(}) s
+25.8 238 M (39:) s
+25.8 226 M (40:) s
+52.2 226 M
+(sub printcurr\(\) {) s
+25.8 214 M (41:) s
+52.2 214 M
+(   print "no lines in file\\n" and return unless $dotline >= 0;) s
+25.8 202 M (42:) s
+52.2 202 M
+(   printf "%6d  %s", $dotline, $buffer[$dotline]) s
+25.8 190 M (43:) s
+52.2 190 M
+(}) s
+25.8 178 M (44:) s
+25.8 166 M (45:) s
+52.2 166 M
+(my %switch = \() s
+25.8 154 M (46:) s
+52.2 154 M
+(   #ch => [hasopnd, printcurr, sub]) s
+25.8 142 M (47:) s
+52.2 142 M
+(   '#' => [1, 0, sub {}],) s
+25.8 130 M (48:) s
+52.2 130 M
+(   '$' => [0, 1, sub {$dotline = $#buffer}],) s
+25.8 118 M (49:) s
+52.2 118 M
+(   '*' => [0, 0, sub {$dotline = $_, printcurr for 0..$#buffer}],) s
+25.8 106 M (50:) s
+52.2 106 M
+(   '.' => [0, 1, sub {}],) s
+25.8 94 M (51:) s
+52.2 94 M
+(   '0' => [0, 1, sub {$dotline = 0}],) s
+25.8 82 M (52:) s
+52.2 82 M
+(   '<' => [0, 1, sub {--$dotline}],) s
+25.8 70 M (53:) s
+52.2 70 M
+(   '>' => [0, 1, sub {++$dotline}],) s
+25.8 58 M (54:) s
+52.2 58 M
+(   'a' => [1, 1, sub {splice @buffer, ++$dotline, 0, "$_[0]\\n"}],) s
+25.8 46 M (55:) s
+52.2 46 M
+(   'd' => [0, 1, sub {splice @buffer, $dotline, 1 if @buffer}],) s
+25.8 34 M (56:) s
+52.2 34 M
+(   'i' => [1, 1, sub {if \($dotline < 0\) {@buffer = "$_[0]\\n"}) s
+25.8 22 M (57:) s
+52.2 22 M
+(                      else {splice @buffer, $dotline, 0, "$_[0]\\n"}}],) s
+25.8 10 M (58:) s
+52.2 10 M
+(   'r' => [1, 0, sub {readfile $_[0]}],) s
+_R
+S
+%%Page: (2) 2
+%%BeginPageSetup
+_S
+38 24 translate
+/pagenum 2 def
+/fname (edfile.perl) def
+/fdir () def
+/ftail (edfile.perl) def
+% User defined strings:
+/pagenumstr (2) def
+/moddatestr (04/27/14) def
+/modtimestr (11:35:30) def
+/user_header_p true def
+/user_header_left_str (/afs/cats.ucsc.edu/users/x/kpscanlo/private/cmps012b/asg2/asg2j-edfile-dllist/misc/) def
+/user_header_center_str () def
+/user_header_right_str () def
+/user_footer_p false def
+%%EndPageSetup
+column_borders
+do_header
+25.8 694 M (59:) s
+52.2 694 M
+(   'w' => [1, 0, sub {writefile $_[0]}],) s
+25.8 682 M (60:) s
+25.8 670 M (61:) s
+52.2 670 M
+(\);) s
+25.8 658 M (62:) s
+25.8 646 M (63:) s
+52.2 646 M
+(my $wantecho = ! \(-t STDIN && -t STDOUT\);) s
+25.8 634 M (64:) s
+52.2 634 M
+(for my $filename \(@ARGV\) {) s
+25.8 622 M (65:) s
+52.2 622 M
+(   open FILE, "<$filename" or warn "$filename: $!\\n" and next;) s
+25.8 610 M (66:) s
+52.2 610 M
+(   push @buffer, <FILE>;) s
+25.8 598 M (67:) s
+52.2 598 M
+(   close FILE;) s
+25.8 586 M (68:) s
+52.2 586 M
+(}) s
+25.8 574 M (69:) s
+52.2 574 M
+($dotline = $#buffer;) s
+25.8 562 M (70:) s
+52.2 562 M
+(printf "%d lines read\\n", scalar @buffer if @buffer;) s
+25.8 550 M (71:) s
+25.8 538 M (72:) s
+52.2 538 M
+(for\(;;\) {) s
+25.8 526 M (73:) s
+52.2 526 M
+(   print "$0: ";) s
+25.8 514 M (74:) s
+52.2 514 M
+(   last unless defined \(my $line = <STDIN>\);) s
+25.8 502 M (75:) s
+52.2 502 M
+(   print $line if $wantecho;) s
+25.8 490 M (76:) s
+52.2 490 M
+(   chomp $line;) s
+25.8 478 M (77:) s
+52.2 478 M
+(   next if $line =~ m/^\\s*$/;) s
+25.8 466 M (78:) s
+52.2 466 M
+(   my \($key, $operand\) = $line =~ m/\(.\)\(.*\)/;) s
+25.8 454 M (79:) s
+52.2 454 M
+(   my \($hasopnd, $printcurr, $sub\) = @{$switch{$key} || []};) s
+25.8 442 M (80:) s
+52.2 442 M
+(   warn "invalid command: $line\\n" and next) s
+25.8 430 M (81:) s
+52.2 430 M
+(        unless length $key and defined $sub) s
+25.8 418 M (82:) s
+52.2 418 M
+(           and \($hasopnd or \(length $operand\) == 0\);) s
+25.8 406 M (83:) s
+52.2 406 M
+(   $sub->\($operand\);) s
+25.8 394 M (84:) s
+52.2 394 M
+(   $dotline = 0 if $dotline < 0;) s
+25.8 382 M (85:) s
+52.2 382 M
+(   $dotline = $#buffer if $dotline > $#buffer;) s
+25.8 370 M (86:) s
+52.2 370 M
+(   printcurr if $printcurr;) s
+25.8 358 M (87:) s
+52.2 358 M
+(}) s
+25.8 346 M (88:) s
+25.8 334 M (89:) s
+52.2 334 M
+(print "^D" if $wantecho;) s
+25.8 322 M (90:) s
+52.2 322 M
+(print "\\n";) s
+25.8 310 M (91:) s
+_R
+S
+%%Page: (1) 3
+%%BeginPageSetup
+_S
+38 24 translate
+/pagenum 1 def
+/fname (edscript) def
+/fdir () def
+/ftail (edscript) def
+% User defined strings:
+/pagenumstr (1) def
+/moddatestr (04/27/14) def
+/modtimestr (11:35:30) def
+/user_header_p true def
+/user_header_left_str (/afs/cats.ucsc.edu/users/x/kpscanlo/private/cmps012b/asg2/asg2j-edfile-dllist/misc/) def
+/user_header_center_str () def
+/user_header_right_str () def
+/user_footer_p false def
+%%EndPageSetup
+column_borders
+do_header
+32.4 694 M (1:) s
+52.2 694 M
+(# $Id: edscript,v 1.1 2013-04-11 18:53:54-07 - - $) s
+32.4 682 M (2:) s
+52.2 682 M
+(rtest.in) s
+32.4 670 M (3:) s
+52.2 670 M
+(*) s
+32.4 658 M (4:) s
+52.2 658 M
+(aanother line) s
+32.4 646 M (5:) s
+52.2 646 M
+(ianother line) s
+32.4 634 M (6:) s
+52.2 634 M
+(*) s
+32.4 622 M (7:) s
+52.2 622 M
+(<) s
+32.4 610 M (8:) s
+52.2 610 M
+(<) s
+32.4 598 M (9:) s
+52.2 598 M
+(d) s
+25.8 586 M (10:) s
+52.2 586 M
+(<) s
+25.8 574 M (11:) s
+52.2 574 M
+(d) s
+25.8 562 M (12:) s
+52.2 562 M
+(*) s
+25.8 550 M (13:) s
+52.2 550 M
+(wscript.out) s
+_R
+S
+%%Page: (1) 4
+%%BeginPageSetup
+_S
+38 24 translate
+/pagenum 1 def
+/fname (mk) def
+/fdir () def
+/ftail (mk) def
+% User defined strings:
+/pagenumstr (1) def
+/moddatestr (04/27/14) def
+/modtimestr (11:35:30) def
+/user_header_p true def
+/user_header_left_str (/afs/cats.ucsc.edu/users/x/kpscanlo/private/cmps012b/asg2/asg2j-edfile-dllist/misc/) def
+/user_header_center_str () def
+/user_header_right_str () def
+/user_footer_p false def
+%%EndPageSetup
+column_borders
+do_header
+32.4 694 M (1:) s
+52.2 694 M
+(#!/bin/sh -x) s
+32.4 682 M (2:) s
+52.2 682 M
+(# $Id: mk,v 1.2 2014-04-15 19:25:40-07 - - $) s
+32.4 670 M (3:) s
+52.2 670 M
+(FILES="edfile.perl edscript mk test.in") s
+32.4 658 M (4:) s
+52.2 658 M
+(cid + $FILES) s
+32.4 646 M (5:) s
+52.2 646 M
+(edfile.perl <edscript 2>&1 | tee edscript.log) s
+32.4 634 M (6:) s
+52.2 634 M
+(mkpspdf Listing.test.ps $FILES *.out *.log) s
+_R
+S
+%%Page: (1) 5
+%%BeginPageSetup
+_S
+38 24 translate
+/pagenum 1 def
+/fname (test.in) def
+/fdir () def
+/ftail (test.in) def
+% User defined strings:
+/pagenumstr (1) def
+/moddatestr (04/27/14) def
+/modtimestr (11:35:30) def
+/user_header_p true def
+/user_header_left_str (/afs/cats.ucsc.edu/users/x/kpscanlo/private/cmps012b/asg2/asg2j-edfile-dllist/misc/) def
+/user_header_center_str () def
+/user_header_right_str () def
+/user_footer_p false def
+%%EndPageSetup
+column_borders
+do_header
+32.4 694 M (1:) s
+52.2 694 M
+(# $Id: test.in,v 1.1 2013-04-11 18:53:50-07 - - $) s
+32.4 682 M (2:) s
+52.2 682 M
+(This is an input test file.) s
+32.4 670 M (3:) s
+52.2 670 M
+(It contains a few lines of data.) s
+32.4 658 M (4:) s
+52.2 658 M
+(It will be written out again.) s
+32.4 646 M (5:) s
+52.2 646 M
+(Look at the typescript logs for an example.) s
+_R
+S
+%%Page: (1) 6
+%%BeginPageSetup
+_S
+38 24 translate
+/pagenum 1 def
+/fname (script.out) def
+/fdir () def
+/ftail (script.out) def
+% User defined strings:
+/pagenumstr (1) def
+/moddatestr (04/27/14) def
+/modtimestr (11:35:30) def
+/user_header_p true def
+/user_header_left_str (/afs/cats.ucsc.edu/users/x/kpscanlo/private/cmps012b/asg2/asg2j-edfile-dllist/misc/) def
+/user_header_center_str () def
+/user_header_right_str () def
+/user_footer_p false def
+%%EndPageSetup
+column_borders
+do_header
+32.4 694 M (1:) s
+52.2 694 M
+(# $Id: test.in,v 1.1 2013-04-11 18:53:50-07 - - $) s
+32.4 682 M (2:) s
+52.2 682 M
+(This is an input test file.) s
+32.4 670 M (3:) s
+52.2 670 M
+(It contains a few lines of data.) s
+32.4 658 M (4:) s
+52.2 658 M
+(another line) s
+32.4 646 M (5:) s
+52.2 646 M
+(another line) s
+_R
+S
+%%Page: (1) 7
+%%BeginPageSetup
+_S
+38 24 translate
+/pagenum 1 def
+/fname (edscript.log) def
+/fdir () def
+/ftail (edscript.log) def
+% User defined strings:
+/pagenumstr (1) def
+/moddatestr (04/27/14) def
+/modtimestr (11:35:30) def
+/user_header_p true def
+/user_header_left_str (/afs/cats.ucsc.edu/users/x/kpscanlo/private/cmps012b/asg2/asg2j-edfile-dllist/misc/) def
+/user_header_center_str () def
+/user_header_right_str () def
+/user_footer_p false def
+%%EndPageSetup
+column_borders
+do_header
+32.4 694 M (1:) s
+52.2 694 M
+(edfile.perl: # $Id: edscript,v 1.1 2013-04-11 18:53:54-07 - - $) s
+32.4 682 M (2:) s
+52.2 682 M
+(edfile.perl: rtest.in) s
+32.4 670 M (3:) s
+52.2 670 M
+(5 lines read from test.in) s
+32.4 658 M (4:) s
+52.2 658 M
+(edfile.perl: *) s
+32.4 646 M (5:) s
+52.2 646 M
+(     0  # $Id: test.in,v 1.1 2013-04-11 18:53:50-07 - - $) s
+32.4 634 M (6:) s
+52.2 634 M
+(     1  This is an input test file.) s
+32.4 622 M (7:) s
+52.2 622 M
+(     2  It contains a few lines of data.) s
+32.4 610 M (8:) s
+52.2 610 M
+(     3  It will be written out again.) s
+32.4 598 M (9:) s
+52.2 598 M
+(     4  Look at the typescript logs for an example.) s
+25.8 586 M (10:) s
+52.2 586 M
+(edfile.perl: aanother line) s
+25.8 574 M (11:) s
+52.2 574 M
+(     5  another line) s
+25.8 562 M (12:) s
+52.2 562 M
+(edfile.perl: ianother line) s
+25.8 550 M (13:) s
+52.2 550 M
+(     5  another line) s
+25.8 538 M (14:) s
+52.2 538 M
+(edfile.perl: *) s
+25.8 526 M (15:) s
+52.2 526 M
+(     0  # $Id: test.in,v 1.1 2013-04-11 18:53:50-07 - - $) s
+25.8 514 M (16:) s
+52.2 514 M
+(     1  This is an input test file.) s
+25.8 502 M (17:) s
+52.2 502 M
+(     2  It contains a few lines of data.) s
+25.8 490 M (18:) s
+52.2 490 M
+(     3  It will be written out again.) s
+25.8 478 M (19:) s
+52.2 478 M
+(     4  Look at the typescript logs for an example.) s
+25.8 466 M (20:) s
+52.2 466 M
+(     5  another line) s
+25.8 454 M (21:) s
+52.2 454 M
+(     6  another line) s
+25.8 442 M (22:) s
+52.2 442 M
+(edfile.perl: <) s
+25.8 430 M (23:) s
+52.2 430 M
+(     5  another line) s
+25.8 418 M (24:) s
+52.2 418 M
+(edfile.perl: <) s
+25.8 406 M (25:) s
+52.2 406 M
+(     4  Look at the typescript logs for an example.) s
+25.8 394 M (26:) s
+52.2 394 M
+(edfile.perl: d) s
+25.8 382 M (27:) s
+52.2 382 M
+(     4  another line) s
+25.8 370 M (28:) s
+52.2 370 M
+(edfile.perl: <) s
+25.8 358 M (29:) s
+52.2 358 M
+(     3  It will be written out again.) s
+25.8 346 M (30:) s
+52.2 346 M
+(edfile.perl: d) s
+25.8 334 M (31:) s
+52.2 334 M
+(     3  another line) s
+25.8 322 M (32:) s
+52.2 322 M
+(edfile.perl: *) s
+25.8 310 M (33:) s
+52.2 310 M
+(     0  # $Id: test.in,v 1.1 2013-04-11 18:53:50-07 - - $) s
+25.8 298 M (34:) s
+52.2 298 M
+(     1  This is an input test file.) s
+25.8 286 M (35:) s
+52.2 286 M
+(     2  It contains a few lines of data.) s
+25.8 274 M (36:) s
+52.2 274 M
+(     3  another line) s
+25.8 262 M (37:) s
+52.2 262 M
+(     4  another line) s
+25.8 250 M (38:) s
+52.2 250 M
+(edfile.perl: wscript.out) s
+25.8 238 M (39:) s
+52.2 238 M
+(5 lines written to script.out) s
+25.8 226 M (40:) s
+52.2 226 M
+(edfile.perl: ^D) s
+_R
+S
+%%Trailer
+%%Pages: 7
+%%DocumentNeededResources: font Times-Roman Courier-Bold Times-Bold 
+%%EOF
